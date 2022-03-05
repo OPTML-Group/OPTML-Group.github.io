@@ -1,5 +1,5 @@
 ---
-title: "Joining the Borglab"
+title: "Joining the OTML Group"
 layout: textlay
 excerpt: "Openings"
 sitemap: false

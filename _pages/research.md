@@ -1,7 +1,7 @@
 ---
-title: "Borglab - Research"
+title: "OTML - Research"
 layout: textlay
-excerpt: "Borglab -- Research"
+excerpt: "OTML -- Research"
 sitemap: false
 permalink: /research/
 ---

@@ -5,4 +5,4 @@ excerpt: "Borglab -- Pictures"
 permalink: /pictures/
 ---
 
-# Coming Soon!
+# Beautiful Campus of MSU! Go Green!
