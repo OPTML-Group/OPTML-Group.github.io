@@ -1,0 +1,119 @@
+- name: Frank Dellaert
+  photo: Frank.jpg
+  info: Professor, started Aug 2001
+  email: dellaert@gmail.com
+  url: https://dellaert.github.io/
+  number_educ: 3
+  education1: Ph.D. Computer Science, Carnegie Mellon University, 2001
+  education2: M.Sc. in ECE, Case Western reserve University, 1995
+  education3: EE, KU Leuven, 1989
+  
+- name: Mandy Xie
+  photo: Mandy.jpg
+  info: Ph.D. student, Computer Science, Georgia Institute of Technology, started Aug 2018
+  email: mandyxie1993@gmail.com
+  url: https://mandyxie.github.io/
+  number_educ: 2
+  education1: M.Sc. in Aerospace Engineering, Georgia Institute of Technology, 2014-2015
+  education2: Bachelor in Mechanical Engineering, Huazhong University of Science and Technology, 2009-2013
+  
+- name: Varun Agrawal
+  photo: Varun.jpg
+  info: PhD student, started August 2017
+  email: varunagrawal@gatech.edu
+  url: https://varunagrawal.github.io/
+  number_educ: 2
+  education1: M.Sc. Computer Science, Georgia Institute of Technology, 2019
+  education2: B.Tech CSE, NIT Surat, 2013
+
+- name: John Lambert
+  photo: JohnL.jpg
+  info: PhD Student, started Aug 2018
+  email: johnlambert@gatech.edu
+  url: https://johnwlambert.github.io/
+  number_educ: 2
+  education1: M.Sc. in CS, Stanford University, 2018
+  education2: B.S. in CS, Stanford University, 2018
+
+- name: Yetong Zhang
+  photo: Yetong.jpg
+  info: Ph.D student, started Aug 2018
+  email: yetong@gatech.com
+  url: https://yetongumich.github.io/
+  number_educ: 3
+  education1: B.S. Computer Engineering, University of Michigan, 2018
+  education2: B.S. Mechanical Engineering, Shanghai Jiao Tong University, 2018
+  education3: Ph.D. Computer Science, Georgia Institute of Technology, in progress
+    
+- name: Carter Price
+  photo: Carter.jpg
+  info: Ph.D student, started Aug 2018
+  email: carterprice2@gmail.com
+  url: https://carterprice2.github.io/
+  number_educ: 3
+  education1: M.Sc. Computer Science, Georgia Institute of Technology, 2020
+  education2: B.S. Mechanical Engineering, California Polytechnic State University, 2016
+  
+- name: Gerry Chen
+  photo: Gerry.jpg
+  info: PhD Student, started Aug 2019
+  email: gerry.chen2015@gmail.com
+  url: https://gerry-chen.com/
+  number_educ: 1
+  education1: B.S.E. in ECE + ME, Duke University, 2019
+  
+- name: Fan Jiang
+  photo: Fan.jpg
+  info: PhD Student, started Sep 2019
+  email: fan.jiang@gatech.edu
+  url: https://fanjiang.me/
+  number_educ: 1
+  education1: B.E. in BME, Southern University of Science and Technology (SUSTech), 2017
+  
+- name: Ayush Baid
+  photo: Ayush.jpg
+  info: M.S. student
+  email: abaid@gatech.edu
+  url: https://ayushbaid.github.io/
+  number_educ: 2
+  education1: B.Tech. Electrical Engineering, IIT Bombay, 2017
+  education2: M.S. Computer Science, Georgia Institute of Technology, in progress
+  
+- name: Yoonwoo Kim
+  photo: Yoonwoo.jpg
+  info: M.Sc. student
+  email: ykim742@gatech.edu
+  number_educ: 1
+  education1: B.S. Computer Science, Georgia Institute of Technology, 2020
+
+- name: Sen Wang
+  photo: Sen.jpg
+  info: M.Sc. student
+  email: sen.wang@gatech.edu
+  number_educ: 1
+  education1: B.S. in Automation, Northeastern University (China), 2018
+  
+- name: Sushmita Warrier
+  photo: Sushmita.jpg
+  info: M.Sc. Student, ECE
+  email: swarrier6@gatech.edu
+  number_educ: 1
+  education1: BTech ECE, Charusat University, 2016
+
+- name: Jing Wu
+  photo: JingW.jpg
+  info: M.S. student, Computer Science, started Aug 2019
+  email: wujing2951@gmail.com
+  url: https://jingwuouo.github.io/
+  number_educ: 2
+  education1: B.S. in Physics, Fudan University, 2017
+  education1: M.S. in CS, Georgia Institute of Technology, in progress
+      
+- name: Alejandro Escontrela
+  photo: Alejandro.jpg
+  info: B.S. student, started Aug 2017
+  email: aescontrela@gatech.edu
+  url: https://escontrela.com
+  number_educ: 1
+  education1: B.S. Aerospace Engineering, Georgia Institute of Technology, in progress
+
