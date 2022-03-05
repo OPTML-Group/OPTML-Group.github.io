@@ -6,7 +6,9 @@ sitemap: false
 permalink: /vacancies
 ---
 
-# Open positions
+# Open positions - Join Us!
+
+![]({{ site.url }}{{ site.baseurl }}/images/openpic/title.png){: style="width: 1000px; float: center; margin: 0px 0px"}
 
 ### Applications for PhD positions
 
