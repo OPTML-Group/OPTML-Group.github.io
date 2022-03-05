@@ -1,7 +1,7 @@
 ---
-title: "Borglab - Home"
+title: "OTML - Home"
 layout: homelay
-excerpt: "Borglab at Georgia Tech."
+excerpt: "OTML Group at Michigan State University."
 sitemap: false
 permalink: /
 ---
