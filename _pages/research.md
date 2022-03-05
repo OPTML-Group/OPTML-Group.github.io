@@ -13,7 +13,7 @@ As AI moves from the lab into the real world (e.g., autonomous vehicles), ensuri
 
 In short, trustworthy machine leanring (ML) and scalable ML are two main research directions investigated in my group.
 
-T**rustworthy ML**
+**Trustworthy ML**
 * Adversarial robustness of deep neural networks (DNNs)
 * Deep model explanation
 * Fairness in ML

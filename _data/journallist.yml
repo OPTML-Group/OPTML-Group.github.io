@@ -1,0 +1,150 @@
+- title: "Improved Linear Convergence of Training CNNs With Generalizability Guarantees: A One-Hidden-Layer Case"
+  image: dummy.png
+  description: ""
+  authors: S. Zhang, M. Wang, J. Xiong, S. Liu, P.-Y. Chen
+  link:
+    url: https://ieeexplore.ieee.org/document/9152147
+    display: IEEE Transactions on Neural Networks and Learning Systems, 2020
+  highlight: 0
+  news2: 
+
+- title: "A Primer on Zeroth-Order Optimization in Signal Processing and Machine Learning"
+  image: dummy.png
+  description: ""
+  authors: S. Liu, P.-Y. Chen, B. Kailkhura, G. Zhang, A. O. Hero, P. K. Varshney
+  link:
+    url: https://www.sciencedirect.com/science/article/abs/pii/S001623612031200X
+    display: Fuel, Elsevier, 2020
+  highlight: 0
+  news2: 
+
+- title: "Genome Architecture Leads a Bifurcation in Cell Identity"
+  image: dummy.png
+  description: ""
+  authors: S. Liu, H. Chen, S. Ronquist, L. Seaman, N. Ceglia, W. Meixner, L. A. Muir, P.-Y. Chen, G. Higgins, P. Baldi, S. Smale, A. O. Hero, I. Rajapakse
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S2589004218301147
+    display: iScience , Cell, 2018
+  highlight: 0
+  news2: 
+
+- title: "Optimal Sensor Collaboration for Parameter Tracking Using Energy Harvesting Sensors"
+  image: dummy.png
+  description: ""
+  authors: S. Zhang, S. Liu, V. Sharma, P. K. Varshney
+  link:
+    url: https://arxiv.org/pdf/1803.01885.pdf
+    display: IEEE Transactions on Signal Processing, 2018
+  highlight: 0
+  news2: 
+
+- title: "Memristor-Based Optimization Framework for AI Applications"
+  image: dummy.png
+  description: ""
+  authors: S. Liu, Y. Wang, M. Fardad, and P. K. Varshney
+  link:
+    url: https://lsjxjtu.github.io/A
+    display: IEEE Circuits and Systems Magazine, 2018
+  highlight: 0
+  news2: 
+
+- title: "Distributed Dual Averaging over Evolving Networks of Growing Connectivity"
+  image: dummy.png
+  description: ""
+  authors: S. Liu, P.-Y. Chen, and A. O. Hero
+  link:
+    url: https://lsjxjtu.github.io/Accelerated
+    display: IEEE Transactions on Signal Processing, 2018
+  highlight: 0
+  news2: 
+
+- title: "P.-Y. Chen, S. Liu"
+  image: dummy.png
+  description: "Tradeoff of Graph Laplacian Smoothing Regularizer"
+  authors: 
+  link:
+    url: https://lsjxjtu.github.io/Bias-Variance
+    display: IEEE Signal Process. Lett., 2017
+  highlight: 0
+  news2: 
+
+- title: "conformation and gene expression patterns differ profoundly in human fibroblasts grown in spheroids versus monolayers"
+  image: dummy.png
+  description: ""
+  authors: H. Chen, L. Seaman, S. Liu, T. Ried, I. Rajapakse
+  link:
+    url: https://lsjxjtu.github.io/Chromosome
+    display: Nucleus, 2017
+  highlight: 0
+  news2: 
+
+- title: "Optimized Sensor Collaboration for Estimation of Temporally Correlated Parameters"
+  image: dummy.png
+  description: ""
+  authors: S. Liu, S. Kar, M. Fardad, P. K. Varshney
+  link:
+    url: https://ieeexplore.ieee.org/document/8288635
+    display: IEEE Transactions on Signal Processing, 2017
+  highlight: 0
+  news2: 
+
+- title: "Measurement Matrix Design for Compressive Detection with Secrecy Guarantees"
+  image: dummy.png
+  description: ""
+  authors: B. Kailkhura, S. Liu, T. Wimalajeewa, P. K. Varshney
+  link:
+    url: https://arxiv.org/pdf/1506.00238.pdf
+    display: IEEE Wireless Communications Letters, 2016
+  highlight: 0
+  news2: 
+
+- title: "Sensor Selection for Estimation with Correlated Measurement Noise"
+  image: dummy.png
+  description: "Sensor Selection for Estimation with Correlated Measurement Noise"
+  authors: S. Liu, S. P. Chepuri, M. Fardad, E. Masazade, G. Leus, P. K. Varshney
+  link:
+    url: https://arxiv.org/pdf/1508.03690.pdf
+    display: IEEE Transactions on Signal Processing, 2016
+  highlight: 0
+  news2: 
+
+- title: "Sparsity-Aware Sensor Collaboration for Linear Coherent Estimation"
+  image: dummy.png
+  description: ""
+  authors: S. Liu, S. Kar, M. Fardad, and P. K. Varshney
+  link:
+    url: https://arxiv.org/pdf/1408.6566.pdf
+    display: IEEE Transactions on Signal Processing, 2015
+  highlight: 0
+  news2: 
+
+- title: "Energy-Aware Sensor Selection in Field Reconstruction"
+  image: dummy.png
+  description: ""
+  authors: S. Liu, A. Vempaty, M. Fardad, E. Masazade, and P. K. Varshney
+  link:
+    url: https://ieeexplore.ieee.org/document/6867304
+    display: IEEE Signal Processing Letters, 2014
+  highlight: 0
+  news2: 
+
+- title: "Sensor Selection for Nonlinear Systems in Large Sensor Networks"
+  image: dummy.png
+  description: ""
+  authors: X. Shen, S. Liu, and P. K. Varshney
+  link:
+    url: https://ieeexplore.ieee.org/document/6978870
+    display: IEEE Transactions on Aerospace and Electronic Systems, 2014
+  highlight: 0
+  news2: 
+
+- title: "Optimal Periodic Sensor Scheduling in Networks of Dynamical Systems"
+  image: dummy.png
+  description: ""
+  authors: S. Liu, M. Fardad, E. Masazade and P. K. Varshney
+  link:
+    url: https://ieeexplore.ieee.org/document/6805223
+    display: IEEE Transactions on Signal Processing, 2014
+  highlight: 0
+  news2: 
+
