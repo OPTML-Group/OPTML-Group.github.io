@@ -9,4 +9,11 @@
 #  education4:
 
   # Current students add yourself to team_members.yml instead
-  
+- name: Yangru Zhou
+  photo: yangru.png
+  info: M.S. student, Computer Science, Michigan State University (Spring 2022 - current)
+  email: zhouya31@msu.edu
+  url: https://www.linkedin.com/in/yangru-zhou-a3223a17a/
+  number_educ: 2
+  education1: M.S. Biomedical Engineer, University of Florida
+  education2: B.S. Bioinformatics, Huazhong Agricultural University, China
