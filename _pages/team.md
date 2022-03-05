@@ -1,7 +1,7 @@
 ---
-title: "Borglab - Team"
+title: "OTML - Team"
 layout: gridlay
-excerpt: "Borglab: Team members"
+excerpt: "OTML: Team members"
 sitemap: false
 permalink: /team/
 ---
