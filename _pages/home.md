@@ -24,10 +24,10 @@ We are an active research group at [Michigan State University](https://www.msu.e
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/QPI_Rh.jpg" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/logo.png" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/SmartTipSide.jpg" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/msu.jpeg" alt="Slide 2" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/SaphireSTM2.jpg" alt="Slide 3" />
@@ -52,12 +52,9 @@ We are an active research group at [Michigan State University](https://www.msu.e
   </a>
 </div>
 
-
 As AI moves from the lab into the real world (e.g., autonomous vehicles), ensuring its safety becomes a paramount requirement prior to its deployment. Moreover, as datasets, ML/DL models, and learning tasks become increasingly complex, getting ML/DL to scale calls for new advances in learning algorithm design. More broadly, the study towards robust and scalable AI could make a significant impact on machine learning theories, and induce more promising applications in, e.g., automated ML, meta-learning, privacy and security, hardware design, and big data analysis. We seek a new learning frontier when the current learning algorithms become infeasible, and formalize foundations of secure learning.
 
-<!-- We are located at Michigan State University, the birthplace of superconductivity and home to Kamerlingh Onnes, Lorentz, Huygens, Einstein, de Sitter, and others (see e.g. [the wall of signatures from Ehrenfest lecturers](https://www.lorentz.leidenuniv.nl/history/colloquium/muur_heel.html)). We exchange ideas and work with our neighbors from [Quantum Matter & Optics](http://www.physics.leidenuniv.nl/qo-home), as well as with the colleagues from our [world-class theory section](https://www.lorentz.leidenuniv.nl). -->
-
- **We always look for passionate students to join the team iterms of RA/TA/externship/internship/visiting students.** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+ **We always look for passionate students to join the team iterms of RA/TA/externship/internship/visiting students** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
 
 We are grateful for funding from Michigan State University, [MIT-IGM Watson AI Lab](https://mitibmwatsonailab.mit.edu/) and [DARPA](https://beta.sam.gov/opp/f108cad02f824285af5ca85e1f7481f4/view).
