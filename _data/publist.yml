@@ -97,6 +97,28 @@
   highlight: 0
   news2: 
 
+- title: "Why Lottery Ticket Wins? A Theoretical Perspective of Sample Complexity on Sparse Neural Networks"
+  image: dummy.png
+  description: ""
+  authors: 
+    S. Zhang, M. Wang, S. Liu, P.-Y. Chen, J. Xiong.
+  link:
+    url: https://openreview.net/pdf?id=UAjh00C0BhT
+    display: NeurIPS’21
+  highlight: 0
+  news2: 
+
+- title: "Lottery Ticket Preserves Weight Correlation: Is It Desirable or Not?"
+  image: dummy.png
+  description: ""
+  authors: 
+    N. Liu, G. Yuan, Z. Che, X. Shen, X. Ma, Q. Jin, J. Ren, J. Tang, S. Liu, Y. Wang,
+  link:
+    url: http://proceedings.mlr.press/v139/liu21aa/liu21aa.pdf
+    display: ICML’21
+  highlight: 0
+  news2: 
+
 - title: "NPAS: A compiler-aware framework of unified network pruning and architecture search for beyond real-time mobile acceleration"
   image: dummy.png
   description: ""
