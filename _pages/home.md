@@ -74,8 +74,10 @@ As AI moves from the lab into the real world (e.g., autonomous vehicles), ensuri
 
 We are grateful for funding from [Michigan State University](https://msu.edu), [MIT-IGM Watson AI Lab](https://mitibmwatsonailab.mit.edu/) and [DARPA](https://www.darpa.mil/).
 
+<center>
 <figure class="fourth">
 <!--   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_MSU.png" style="width: 180px"> -->
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ibm.png" style="width: 30%">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_DARPA.jpeg" style="width: 30%">
 </figure>
+</center>
