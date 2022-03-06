@@ -22,9 +22,6 @@ We are an active research group at [Michigan State University](https://www.msu.e
         <li data-target="#carousel" data-slide-to="7"></li>
         <li data-target="#carousel" data-slide-to="8"></li>
         <li data-target="#carousel" data-slide-to="9"></li>
-        <li data-target="#carousel" data-slide-to="10"></li>
-        <li data-target="#carousel" data-slide-to="11"></li>
-        <li data-target="#carousel" data-slide-to="12"></li>
     </ol>
 
     <!-- Items -->
@@ -33,19 +30,31 @@ We are an active research group at [Michigan State University](https://www.msu.e
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/logo.png" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/tshirt.png" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus4.jpeg" alt="Slide 2" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/ZO.png" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus3.jpeg" alt="Slide 3" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/net_inter.jpg" alt="Slide 4" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus5.jpeg" alt="Slide 4" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/Fig_Science_Web.jpg" alt="Slide 5" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus1.jpeg" alt="Slide 5" />
         </div>       
-         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/msu.jpeg" alt="Slide 6" />
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus2.jpeg" alt="Slide 6" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus7.jpeg" alt="Slide 7" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus8.jpeg" alt="Slide 8" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus9.jpeg" alt="Slide 9" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus10.jpeg" alt="Slide 10" />
         </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
