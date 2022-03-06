@@ -33,7 +33,7 @@ Here are some directions that we currently work on:
 
 **Adversarial Robustness of Deep Neural Networks**
 It has been widely known that deep neural networks (DNNs) are vulnerable to adversarial attacks that appear not only in the digital world but also in the physical world. Along this direction, we highlight two of our achievements.
-![]({{ site.url }}{{ site.baseurl }}/images/respic/adv_shirt.png){: style="width: 400px; float: right; margin: 0px 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/respic/adv_shirt.png){: style="width: 40%; float: right; margin: 0% 5%"}
 * First, our ECCV’20 work designed 'Adversarial T-shirt’ ([paper](https://arxiv.org/pdf/1910.11099.pdf), [demo](https://drive.google.com/file/d/1S9P56hdnQWC_Rffj1VQsHF-FcazQs2Xy/view?usp=sharing), over 200 media coverage on the web), a robust physical adversarial example for evading person detectors even if it could undergo non-rigid deformation due to a moving person’s pose changes. We have shown that the adversarial T-shirt achieves 74% and 57% attack success rates in the digital and physical worlds respectively against YOLOv2. In contrast, the state-of-the-art physical attack method to fool a person detector only achieves 18% attack success rate.
 
 * Second, our ICLR’21 work ([paper](https://openreview.net/pdf?id=PH5PH9ZO_4), [code](https://github.com/ALFA-group/adversarial-code-generation), [MIT-News](https://news.mit.edu/2021/toward-deep-learning-models-that-can-reason-about-code-like-humans-0415)) designed ‘Adversarial Program’, a method for finding and fixing weaknesses in automated programming tools. We have found that code-processing models can be deceived simply by renaming a variable, inserting a bogus print statement, or introducing other cosmetic operations into programs the model tries to process. These subtly altered programs function normally, but dupe the model into processing them incorrectly, rendering the wrong decision. We show that our best attack proposal achieves a 52% improvement over a state-of-the-art attack generation approach for programs trained on a SEQ2SEQ model. We also show that the proposed adversarial programs can be further exploited to train a program languaging model robust against prediction-evasion attacks.
@@ -57,7 +57,7 @@ It has been widely known that deep neural networks (DNNs) are vulnerable to adve
 ZO optimization (learning without gradients) is increasingly embraced for solving many machine learning (ML) problems, where explicit expressions of the gradients are difficult or infeasible to obtain. Appealing applications include, e.g., robustness evaluation of black-box deep neural networks (DNNs), hyper-parameter optimization for automated ML, meta-learning, DNN diagnosis and explanation, and scientific discovery using black-box simulators. An illustrative example of ZO optimization versus first-order optimization is shown below.(see [Tutorial](https://ieeexplore.ieee.org/document/9186148) work on IEEE Signal Processing Magazine)
 
 Two of our achievements are highlighted below.
-![]({{ site.url }}{{ site.baseurl }}/images/respic/ZO.png){: style="width: 400px; float: left; margin: 0px 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/respic/ZO.png){: style="width: 40%; float: left; margin: 0% 10%"}
 
 * First, we have developed a series of theoretically-grounded ZO learning algorithms ranging from convex, nonconvex to min-max problems.
 
