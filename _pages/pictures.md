@@ -11,7 +11,7 @@ Jump to: [Adversarial T-shirt](#adversarial-t-shirt)
 ## Adversarial T-shirt
 
 #### 
-<iframe width="560" height="315" src="https://youtu.be/8GCN7xQkaa0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=8GCN7xQkaa0" frameborder="0" allowfullscreen></iframe>
 
 ## Beautiful Campus of MSU! Go Green!
 
@@ -52,3 +52,6 @@ Jump to: [Adversarial T-shirt](#adversarial-t-shirt)
 {% endif %}
 
 <p> &nbsp; </p>
+
+Cute Dr. Squirrel on compus!
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=scQs0zwvrfk" frameborder="0" allowfullscreen></iframe>
