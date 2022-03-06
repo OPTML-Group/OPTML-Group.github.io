@@ -352,3 +352,91 @@
     display: ICLR’22
   highlight: 1
   news2: 
+
+- title: "How unlabeled data improve generalization in self-training? A one-hidden-layer theoretical analysis"
+  image: dummy.png
+  description: ""
+  authors: 
+    S. Zhang, M. Wang, S. Liu, P.-Y. Chen, J. Xiong
+  link:
+    url: https://openreview.net/forum?id=qiMXBIf4NfB
+    display: ICLR’22 (spotlight, acceptance rate 5%)
+  highlight: 1
+  news2: 
+
+- title: "Optimizer Amalgamation"
+  image: dummy.png
+  description: ""
+  authors: 
+    T. Huang, T. Chen, S. Liu, S. Chang, L. Amini, Z. Wang
+  link:
+    url: https://openreview.net/forum?id=VqzXzA9hjaX
+    display: ICLR’22
+  highlight: 0
+  news2: 
+
+- title: "Decentralized Learning for Overparameterized Problems: A Multi-Agent Kernel Approximation Approach"
+  image: dummy.png
+  description: ""
+  authors: 
+    P. Khanduri, H. Yang, M. Hong, J. Liu, H.T. Wai, S. Liu
+  link:
+    url: https://openreview.net/forum?id=oj2yn1Q4Ett
+    display: ICLR’22
+  highlight: 0
+  news2: 
+
+- title: "Sign-MAML: Efficient Model-Agnostic Meta-Learning by SignSGD"
+  image: dummy.png
+  description: ""
+  authors: 
+    C. Fan, P. Ram and S. Liu
+  link:
+    url: https://arxiv.org/pdf/2109.07497.pdf
+    display: NeurIPS Workshop MetaLearn, 2021
+  highlight: 0
+  news2: 
+
+- title: "Sanity Checks for Lottery Tickets: Does Your Winning Ticket Really Win the Jackpot?"
+  image: dummy.png
+  description: ""
+  authors: 
+    X. Ma, G. Yuan, X. Shen, T. Chen, X. Chen, X. Chen, N. Liu, M. Qin, S. Liu, Z. Wang, Y. Wang.
+  link:
+    url: https://arxiv.org/pdf/2107.00166.pdf
+    display: NeurIPS’21
+  highlight: 0
+  news2: 
+
+- title: "When does Contrastive Learning Preserve Adversarial Robustness from Pretraining to Finetuning?"
+  image: dummy.png
+  description: ""
+  authors: 
+    L. Fan, S. Liu, P.-Y. Chen, G. Zhang, C. Gan.
+  link:
+    url: https://arxiv.org/pdf/2111.01124.pdf
+    display: NeurIPS’21
+  highlight: 0
+  news2: [TechTalks](https://bdtechtalks.com/2021/11/18/contrastive-learning-adversarial-attacks/)
+
+- title: "MEST: Accurate and Fast Memory-Economic Sparse Training Framework on the Edge"
+  image: dummy.png
+  description: ""
+  authors: 
+    G. Yuan, X. Ma, W. Niu, Z. Li, Z. Kong, N. Liu, Y. Gong, Z. Zhan, C. He, Q. Jin, S. Wang, M. Qin, B. Ren, Y. Wang, S. Liu, X. Lin.
+  link:
+    url: https://arxiv.org/pdf/2110.14032.pdf
+    display: NeurIPS’21 (Spotlight)
+  highlight: 0
+  news2: 
+
+- title: "Adversarial Attack Generation Empowered by Min-Max Optimization"
+  image: dummy.png
+  description: ""
+  authors: 
+    J. Wang, T. Zhang, S. Liu, P.-Y. Chen, J. Xu, M. Fardad, B. Li.
+  link:
+    url: https://arxiv.org/pdf/1906.03563.pdf
+    display: NeurIPS’21
+  highlight: 0
+  news2: 
