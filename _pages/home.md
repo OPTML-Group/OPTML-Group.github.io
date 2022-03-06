@@ -80,8 +80,9 @@ We are grateful for funding from [Michigan State University](https://msu.edu), [
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ibm.png" style="width: 30%" padding="5% 5% 5% 5%">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_DARPA.jpeg" style="width: 30%" padding="5% 5% 5% 5%">
 </figure>
+
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=U9-73z6vbyyszkVRwGPjh9KybQ9E6FyIYJXCSyMrvRU" width="10%"></script>
+
 </center>
 
-            <!-- <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=zP5RUg_lbda1vEJcVf6Y2wExCgt16XQuzyNJY2frl-I"></script> -->
 
-<!-- <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=U9-73z6vbyyszkVRwGPjh9KybQ9E6FyIYJXCSyMrvRU"></script> -->
