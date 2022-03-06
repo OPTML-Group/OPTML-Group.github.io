@@ -10,7 +10,7 @@ Jump to: [Adversarial T-shirt](#adversarial-t-shirt), [MSU Campus](#beautiful-ca
 
 ## Adversarial T-shirt
 #### K. Xu, G. Zhang, S. Liu, Q. Fan, M. Sun, H. Chen, P.-Y. Chen, Y. Wang, X. Lin, [Adversarial T-shirt! Evading Person Detectors in A Physical World](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500647.pdf), ECCV’20
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8GCN7xQkaa0" frameborder="0" allowfullscreen></iframe>
+<iframe width="60%" height="50%" src="https://www.youtube.com/embed/8GCN7xQkaa0" frameborder="0" display="block" allowfullscreen></iframe>
 
 ## Beautiful Campus of MSU! Go Green!
 
