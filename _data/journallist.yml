@@ -58,10 +58,10 @@
   highlight: 0
   news2: 
 
-- title: "P.-Y. Chen, S. Liu"
+- title: "Tradeoff of Graph Laplacian Smoothing Regularizer"
   image: dummy.png
-  description: "Tradeoff of Graph Laplacian Smoothing Regularizer"
-  authors: 
+  description: ""
+  authors: P.-Y. Chen, S. Liu
   link:
     url: https://lsjxjtu.github.io/Bias-Variance
     display: IEEE Signal Process. Lett., 2017
