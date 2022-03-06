@@ -10,7 +10,7 @@ Jump to: [Adversarial T-shirt](#adversarial-t-shirt), [MSU Campus](#beautiful-ca
 
 ## Adversarial T-shirt
 #### K. Xu, G. Zhang, S. Liu, Q. Fan, M. Sun, H. Chen, P.-Y. Chen, Y. Wang, X. Lin, [Adversarial T-shirt! Evading Person Detectors in A Physical World](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500647.pdf), ECCV’20
-<center> <iframe width="60%" src="https://www.youtube.com/embed/8GCN7xQkaa0" frameborder="0" display="block" allowfullscreen></iframe> </center>
+<center> <iframe width="90%" src="https://www.youtube.com/embed/8GCN7xQkaa0" frameborder="0" display="block" allowfullscreen></iframe> </center>
 
 ## Beautiful Campus of MSU! Go Green!
 
@@ -53,7 +53,7 @@ Jump to: [Adversarial T-shirt](#adversarial-t-shirt), [MSU Campus](#beautiful-ca
 <p> &nbsp; </p>
 
 #### Cute Dr. Squirrel on compus!
-<center> <iframe width="60%" src="https://www.youtube.com/embed/scQs0zwvrfk" frameborder="0" allowfullscreen></iframe> </center>
+<center> <iframe width="90%" src="https://www.youtube.com/embed/scQs0zwvrfk" frameborder="0" allowfullscreen></iframe> </center>
 
 ## Group Logos
 #### group logo
