@@ -83,6 +83,7 @@ We are grateful for funding from [Michigan State University](https://msu.edu), [
 </center>
 
 <div id="clustrmaps-widget" style="width:10%">
-            <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=U9-73z6vbyyszkVRwGPjh9KybQ9E6FyIYJXCSyMrvRU"></script>
+            <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=zP5RUg_lbda1vEJcVf6Y2wExCgt16XQuzyNJY2frl-I"></script>
 </div>
 
+<!-- <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=U9-73z6vbyyszkVRwGPjh9KybQ9E6FyIYJXCSyMrvRU"></script> -->
