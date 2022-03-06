@@ -77,7 +77,7 @@ We are grateful for funding from [Michigan State University](https://msu.edu), [
 <center>
 <figure class="fourth">
 <!--   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_MSU.png" style="width: 180px"> -->
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ibm.png" style="width: 30%">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_DARPA.jpeg" style="width: 30%">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ibm.png" style="width: 30%" padding="5%">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_DARPA.jpeg" style="width: 30%" padding="5%">
 </figure>
 </center>
