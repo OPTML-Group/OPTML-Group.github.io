@@ -1,7 +1,7 @@
 ---
-title: "Borglab - Pictures"
+title: "OTML - Pictures"
 layout: piclay
-excerpt: "Borglab -- Pictures"
+excerpt: "OTML -- Pictures"
 permalink: /pictures/
 ---
 
