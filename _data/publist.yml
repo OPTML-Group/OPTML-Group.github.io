@@ -1,11 +1,22 @@
 - title: "Reverse Engineering of Imperceptible Adversarial Image Perturbations"
-  image: dummy.png
-  description: ""
+  image: RED.png
+  description: "In this paper, we study the problem of Reverse Engineering of Deceptions (RED), with the goal to recover the attack toolchain signatures (e.g. adversarial perturbations and adversary salience image regions) from an adversarial instance. Our work makes a solid step towards formalizing the RED problem and developing a systematic RED pipeline, covering not only a solution method but also a complete set of evaluation metrics."
   authors: 
     Y. Gong*, Y. Yao*, Y. Li, Y. Zhang, X. Liu, X. Lin, S. Liu
   link:
     url: https://openreview.net/forum?id=gpp7cf0xdfN
     display: ICLR’22
+  highlight: 1
+  news2: 
+
+- title: "How to Robustify Black-Box ML Models? A Zeroth-Order Optimization Perspective"
+  image: black_box.png
+  description: "In this paper, we study the problem of black-box defense, aiming to secure black-box models against adversarial attacks using only input-output model queries. We integrate denoised smoothing (DS) with ZO (zerothorder) optimization to build a feasible black-box defense framework. We further propose ZO-AE-DS, which leverages autoencoder (AE) to bridge the gap between FO and ZO optimization."
+  authors: 
+    Y. Zhang, Y. Yao, J. Jia, J. Yi, M. Hong, S. Chang, S. Liu
+  link:
+    url: https://openreview.net/forum?id=W9G_ImpHlQd
+    display: ICLR’22 (spotlight, acceptance rate 5%)
   highlight: 1
   news2: 
 
@@ -16,8 +27,8 @@
     S. Zhang, M. Wang, S. Liu, P.-Y. Chen, J. Xiong
   link:
     url: https://openreview.net/forum?id=qiMXBIf4NfB
-    display: ICLR’22 (spotlight, acceptance rate 5%)
-  highlight: 1
+    display: ICLR’22
+  highlight: 0
   news2: 
 
 - title: "Optimizer Amalgamation"
