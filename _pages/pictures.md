@@ -53,7 +53,7 @@ Jump to: [Adversarial T-shirt](#adversarial-t-shirt), [MSU Campus](#beautiful-ca
 <p> &nbsp; </p>
 
 #### Cute Dr. Squirrel on compus!
-<center> <iframe width="60%" height="100%" src="https://www.youtube.com/embed/scQs0zwvrfk" frameborder="0" allowfullscreen></iframe> </center>
+<center> <iframe width="60%" height="315" src="https://www.youtube.com/embed/scQs0zwvrfk" frameborder="0" allowfullscreen></iframe> </center>
 
 ## Group Logos
 #### group logo
