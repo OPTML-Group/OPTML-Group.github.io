@@ -10,7 +10,7 @@ Jump to: [Adversarial T-shirt](#adversarial-t-shirt), [MSU Campus](#beautiful-ca
 
 ## Adversarial T-shirt
 #### K. Xu, G. Zhang, S. Liu, Q. Fan, M. Sun, H. Chen, P.-Y. Chen, Y. Wang, X. Lin, [Adversarial T-shirt! Evading Person Detectors in A Physical World](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500647.pdf), ECCV’20
-<center> <iframe src="https://www.youtube.com/embed/8GCN7xQkaa0" frameborder="0" allowfullscreen></iframe> </center>
+<center> <iframe height="100%" src="https://www.youtube.com/embed/8GCN7xQkaa0" frameborder="0" allowfullscreen></iframe> </center>
 
 ## Beautiful Campus of MSU! Go Green!
 
@@ -57,31 +57,43 @@ Jump to: [Adversarial T-shirt](#adversarial-t-shirt), [MSU Campus](#beautiful-ca
 
 ## Group Logos
 #### group logo
+<center>
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/logo.png" width="60%">
 </figure>
+</center>
 
 #### group logo - black
+<center>
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/logo_black.png" width="60%">
 </figure>
+</center>
 
 #### group logo - white
+<center>
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/logo_white.png" width="60%">
 </figure>
+</center>
 
 #### group T-shirt
+<center>
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_tshirt.png" width="60%">
 </figure>
+</center>
 
 #### group sign
+<center>
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_sign.png" width="60%">
 </figure>
+</center>
 
 #### group icon
+<center>
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_icon.png" width="60%">
 </figure>
+</	center>
