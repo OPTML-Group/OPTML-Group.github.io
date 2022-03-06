@@ -396,3 +396,26 @@
     display: NeurIPS Workshop MetaLearn, 2021
   highlight: 0
   news2: 
+
+- title: "Sanity Checks for Lottery Tickets: Does Your Winning Ticket Really Win the Jackpot?"
+  image: dummy.png
+  description: ""
+  authors: 
+    X. Ma, G. Yuan, X. Shen, T. Chen, X. Chen, X. Chen, N. Liu, M. Qin, S. Liu, Z. Wang, Y. Wang.
+  link:
+    url: https://arxiv.org/pdf/2107.00166.pdf
+    display: NeurIPS’21
+  highlight: 0
+  news2: 
+
+- title: "When does Contrastive Learning Preserve Adversarial Robustness from Pretraining to Finetuning?"
+  image: dummy.png
+  description: ""
+  authors: 
+    L. Fan, S. Liu, P.-Y. Chen, G. Zhang, C. Gan.
+  link:
+    url: https://arxiv.org/pdf/2111.01124.pdf
+    display: NeurIPS’21
+  highlight: 0
+  news2: 
+
