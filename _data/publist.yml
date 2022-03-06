@@ -112,7 +112,7 @@
   image: dummy.png
   description: ""
   authors: 
-    N. Liu, G. Yuan, Z. Che, X. Shen, X. Ma, Q. Jin, J. Ren, J. Tang, S. Liu, Y. Wang,
+    N. Liu, G. Yuan, Z. Che, X. Shen, X. Ma, Q. Jin, J. Ren, J. Tang, S. Liu, Y. Wang.
   link:
     url: http://proceedings.mlr.press/v139/liu21aa/liu21aa.pdf
     display: ICML’21
@@ -250,3 +250,80 @@
     display: NeurIPS’20
   highlight: 0
   news2: <a href="https://news.mit.edu/2020/neural-model-language-1201">MIT News</a>
+
+- title: "Training Stronger Baselines for Learning to Optimize"
+  image: dummy.png
+  description: ""
+  authors: 
+    T. Chen, W. Zhang, J. Zhou, S. Chang, S. Liu, L. Amini, Z. Wang
+  link:
+    url: https://arxiv.org/pdf/2010.09089.pdf
+    display: NeurIPS’20 (spotlight, acceptance rate 3%)
+  highlight: 0
+  news2: 
+
+- title: "Higher-Order Certification For Randomized Smoothing"
+  image: dummy.png
+  description: ""
+  authors: 
+    J. Mohapatra, C.-Y. Ko, L. Weng, P.-Y. Chen, S. Liu, L. Daniel
+  link:
+    url: https://arxiv.org/pdf/2010.06651.pdf
+    display: NeurIPS’20 (spotlight, acceptance rate 3%)
+  highlight: 0
+  news2: 
+
+- title: "Adversarial T-shirt! Evading Person Detectors in A Physical World"
+  image: dummy.png
+  description: ""
+  authors: 
+    K. Xu, G. Zhang, S. Liu, Q. Fan, M. Sun, H. Chen, P.-Y. Chen, Y. Wang, X. Lin
+  link:
+    url: https://arxiv.org/pdf/1910.11099.pdf
+    display: ECCV’20 (spotlight, acceptance rate 5%)
+  highlight: 0
+  news2: 
+
+- title: "Practical Detection of Trojan Neural Networks: Data-Limited and Data-Free Cases"
+  image: dummy.png
+  description: ""
+  authors: 
+    R. Wang, G. Zhang, S. Liu, P.-Y. Chen, J. Xiong, M. Wang
+  link:
+    url: https://arxiv.org/pdf/2007.15802.pdf
+    display: ECCV’20
+  highlight: 0
+  news2: 
+
+- title: "An Image Enhancing Pattern-based Sparsity for Real-time Inference on Mobile Devices"
+  image: dummy.png
+  description: ""
+  authors: 
+    X. Ma, W. Niu, T. Zhang, S. Liu, S. Lin, H. Li, W. Wen, X. Chen, J. Tang, K. Ma, B. Ren, Y. Wang
+  link:
+    url: https://arxiv.org/pdf/2001.07710.pdf
+    display: ECCV’20
+  highlight: 0
+  news2: 
+
+- title: "Fast Learning of Graph Neural Networks with Guaranteed Generalizability: One-hidden-layer Case"
+  image: dummy.png
+  description: ""
+  authors: 
+    S. Zhang, M. Wang, S. Liu, P.-Y. Chen, J. Xiong
+  link:
+    url: https://arxiv.org/pdf/2006.14117.pdf
+    display: ICML’20
+  highlight: 0
+  news2: 
+
+- title: "Is There a Trade-Off Between Fairness and Accuracy? A Perspective Using Mismatched Hypothesis Testing"
+  image: dummy.png
+  description: ""
+  authors: 
+    S. Dutta, D. Wei, H. Yueksel, P.-Y. Chen, S. Liu, K. R. Varshney
+  link:
+    url: https://arxiv.org/pdf/1910.07870.pdf
+    display: ICML’20
+  highlight: 0
+  news2: 
