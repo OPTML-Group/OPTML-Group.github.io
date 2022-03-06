@@ -327,3 +327,210 @@
     display: ICML’20
   highlight: 0
   news2: 
+
+- title: "Proper Network Interpretability Helps Adversarial Robustness in Classification"
+  image: dummy.png
+  description: ""
+  authors: 
+    A. Boopathy, S. Liu, G. Zhang, C. Liu, P.-Y. Chen, S. Chang, L. Daniel
+  link:
+    url: https://arxiv.org/pdf/2006.14748.pdf
+    display: ICML’20
+  highlight: 0
+  news2: 
+
+- title: "Min-Max Optimization without Gradients: Convergence and Applications to Adversarial ML"
+  image: dummy.png
+  description: ""
+  authors: 
+    S. Liu*, S. Lu*, X. Chen*, Y. Feng*, K. Xu*, A. Al-Dujaili*, M. Hong, U.-M. O'Reilly
+  link:
+    url: https://arxiv.org/pdf/1909.13806.pdf
+    display: ICML’20  
+  highlight: 0
+  news2: 
+
+- title: "Adversarial Robustness: From Self-Supervised Pretraining to Fine-Tuning"
+  image: dummy.png
+  description: ""
+  authors: 
+    T. Chen, S. Liu, S. Chang, Y. Cheng, L. Amini, Z. Wang
+  link:
+    url: https://arxiv.org/pdf/2003.12862.pdf
+    display: CVPR’20
+  highlight: 0
+  news2: 
+
+- title: "Towards Verifying Robustness of Neural Networks against Semantic Perturbations"
+  image: dummy.png
+  description: ""
+  authors: 
+    J. Mohapatra, L. Weng, P.-Y. Chen, S. Liu, L. Daniel
+  link:
+    url: https://arxiv.org/pdf/1912.09533.pdf
+    display: CVPR’20 (oral)
+  highlight: 0
+  news2: 
+
+- title: "Sign-OPT: A Query-Efficient Hard-label Adversarial Attack"
+  image: dummy.png
+  description: ""
+  authors: 
+    M. Cheng, S. Singh, P.-Y. Chen, S. Liu, C.-J. Hsieh
+  link:
+    url: https://arxiv.org/pdf/1909.10773.pdf
+    display: ICLR’20
+  highlight: 0
+  news2: 
+
+- title: "An ADMM Based Framework for AutoML Pipeline Configuration"
+  image: dummy.png
+  description: ""
+  authors: 
+    S. Liu*, P. Ram*, D. Vijaykeerthy, D. Bouneffouf, G. Bramble, H. Samulowitz, D. Wang, A. Conn, A. Gray
+  link:
+    url: https://arxiv.org/pdf/1905.00424.pdf
+    display: AAAI’20
+  highlight: 0
+  news2: 
+
+- title: "Towards Certificated Model Robustness Against Weight Perturbations"
+  image: dummy.png
+  description: ""
+  authors: 
+    L. Weng*, P. Zhao*, S. Liu, P.-Y. Chen, X. Lin, L. Daniel
+  link:
+    url: https://ojs.aaai.org//index.php/AAAI/article/view/6105
+    display: AAAI’20
+  highlight: 0
+  news2: 
+
+- title: "ZO-AdaMM: Zeroth-Order Adaptive Momentum Method for Black-Box Optimization"
+  image: dummy.png
+  description: ""
+  authors: X. Chen*, S. Liu*, K. Xu*, X. Li*, X. Lin, M. Hong, D. Cox
+  link:
+    url: https://arxiv.org/pdf/1910.06513.pdf
+    display: NeurIPS’19
+  highlight: 0
+  news2: 
+
+- title: "Generation of Low Distortion Adversarial Attacks via Convex Programming"
+  image: dummy.png
+  description: ""
+  authors: T. Zhang, S. Liu, Y. Wang, M. Fardad
+  link:
+    url: https://ieeexplore.ieee.org/document/8970743
+    display: ICDM’19
+  highlight: 0
+  news2: 
+
+- title: "On the Design of Black-box Adversarial Examples by Leveraging Gradient-free Optimization and Operator Splitting Method"
+  image: dummy.png
+  description: ""
+  authors: P. Zhao, S. Liu, P.-Y. Chen, N. Hoang, K. Xu, B. Kailkhura, X. Lin,
+  link:
+    url: https://arxiv.org/pdf/1907.11684.pdf
+    display: ICCV’19
+  highlight: 0
+  news2: 
+
+- title: "Adversarial Robustness vs. Model Compression, or Both?"
+  image: dummy.png
+  description: ""
+  authors: S. Ye*, K. Xu*, S. Liu, H. Cheng, J.-H. Lambrechts, H. Zhang, A. Zhou, K. Ma, Y. Wang, X. Lin
+  link:
+    url: https://openaccess.thecvf.com/content_ICCV_2019/papers/Ye_Adversarial_Robustness_vs._Model_Compression_or_Both_ICCV_2019_paper.pdf
+    display: ICCV’19
+  highlight: 0
+  news2: 
+
+- title: "Topology Attack and Defense for Graph Neural Networks: An Optimization Perspective"
+  image: dummy.png
+  description: ""
+  authors: K. Xu*, H. Chen*, S. Liu, P.-Y. Chen, T.-W. Wen, M. Hong, X. Lin
+  link:
+    url: https://arxiv.org/pdf/1906.04214.pdf
+    display: IJCAI’19
+  highlight: 0
+  news2: 
+
+- title: "Fast Incremental von Neumann Graph Entropy Computation: Theory, Algorithm, and Applications"
+  image: dummy.png
+  description: ""
+  authors: P.-Y. Chen, L. Wu, S. Liu, I. Rajapakse
+  link:
+    url: https://arxiv.org/pdf/1805.11769.pdf
+    display: ICML’19
+  highlight: 0
+  news2: 
+
+- title: "signSGD via Zeroth-Order Oracle"
+  image: dummy.png
+  description: ""
+  authors: S. Liu, P.-Y. Chen, X. Chen, M. Hong
+  link:
+    url: https://openreview.net/pdf?id=BJe-DsC5Fm
+    display: ICLR’19
+  highlight: 0
+  news2: 
+
+- title: "Structured Adversarial Attack: Towards General Implementation and Better Interpretability"
+  image: dummy.png
+  description: ""
+  authors: K. Xu*, S. Liu*, P. Zhao, P.-Y. Chen, H. Zhang, D. Erdogmus, Y. Wang, X. Lin
+  link:
+    url: https://openreview.net/pdf?id=BkgzniCqY7
+    display: ICLR’19
+  highlight: 0
+  news2: 
+
+- title: "On the Convergence of A Class of Adam-Type Algorithms for Non-Convex Optimization"
+  image: dummy.png
+  description: ""
+  authors: X. Chen, S. Liu, R. Sun, M. Hong
+  link:
+    url: https://openreview.net/pdf?id=H1x-x309tm
+    display: ICLR’19
+  highlight: 0
+  news2: 
+
+- title: "CNN-Cert: An Efficient Framework for Certifying Robustness of Convolutional Neural Networks"
+  image: dummy.png
+  description: ""
+  authors: A. Boopathy, L. Weng, P.-Y. Chen, S. Liu, L. Daniel
+  link:
+    url: https://arxiv.org/pdf/1811.12395.pdf
+    display: AAAI’19
+  highlight: 0
+  news2: 
+
+- title: "AutoZOOM: Autoencoder-based Zeroth Order Optimization Method for Attacking Black-box Neural Networks"
+  image: dummy.png
+  description: ""
+  authors: C.-C. Tu*, P. Ting*, P.-Y. Chen*, S. Liu, H. Zhang, J. Yi, C.-J. Hsieh, S.-M. Cheng
+  link:
+    url: https://arxiv.org/pdf/1805.11770.pdf
+    display: AAAI’19
+  highlight: 0
+  news2: 
+
+- title: "Zeroth-Order Stochastic Variance Reduction for Nonconvex Optimization"
+  image: dummy.png
+  description: ""
+  authors: S. Liu, B. Kailkhura, P.-Y. Chen, P. Ting, S. Chang, L. Amini
+  link:
+    url: https://arxiv.org/pdf/1805.10367.pdf
+    display: NeurIPS’18
+  highlight: 0
+  news2: 
+
+- title: "Ultra-Fast Robust Compressive Sensing Based on Memristor Crossbars"
+  image: dummy.png
+  description: ""
+  authors: S. Liu, A. Ren, Y. Wang, P. K. Varshney
+  link:
+    url: https://ieeexplore.ieee.org/abstract/document/7952333
+    display: ICASSP’17 (Best Student Paper Award, Third Place)
+  highlight: 0
+  news2: 
