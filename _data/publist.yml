@@ -75,6 +75,28 @@
   highlight: 0
   news2: <a href="https://bdtechtalks.com/2021/11/18/contrastive-learning-adversarial-attacks/">TechTalks</a>
 
+- title: "MEST: Accurate and Fast Memory-Economic Sparse Training Framework on the Edge"
+  image: dummy.png
+  description: ""
+  authors: 
+    G. Yuan, X. Ma, W. Niu, Z. Li, Z. Kong, N. Liu, Y. Gong, Z. Zhan, C. He, Q. Jin, S. Wang, M. Qin, B. Ren, Y. Wang, S. Liu, X. Lin.
+  link:
+    url: https://arxiv.org/pdf/2110.14032.pdf
+    display: NeurIPS’21 (Spotlight)
+  highlight: 0
+  news2: 
+
+- title: "Adversarial Attack Generation Empowered by Min-Max Optimization"
+  image: dummy.png
+  description: ""
+  authors: 
+    J. Wang, T. Zhang, S. Liu, P.-Y. Chen, J. Xu, M. Fardad, B. Li.
+  link:
+    url: https://arxiv.org/pdf/1906.03563.pdf
+    display: NeurIPS’21
+  highlight: 0
+  news2: 
+
 - title: "NPAS: A compiler-aware framework of unified network pruning and architecture search for beyond real-time mobile acceleration"
   image: dummy.png
   description: ""
