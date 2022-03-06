@@ -11,6 +11,8 @@ permalink: /research/
 
 As AI moves from the lab into the real world (e.g., autonomous vehicles), ensuring its safety becomes a paramount requirement prior to its deployment. Moreover, as datasets, ML/DL models, and learning tasks become increasingly complex, getting ML/DL to scale calls for new advances in learning algorithm design. More broadly, the study towards robust and scalable AI could make a significant impact on machine learning theories, and induce more promising applications in, e.g., automated ML, meta-learning, privacy and security, hardware design, and big data analysis. We seek a new learning frontier when the current learning algorithms become infeasible, and formalize foundations of secure learning.
 
+(For research highlights please click [Research Highlights](#research-highlight). Tutorials and workshops can be accessed through [Talk](#talks).
+
 In short, trustworthy machine leanring (ML) and scalable ML are two main research directions investigated in my group.
 
 **Trustworthy ML**
@@ -71,4 +73,15 @@ Two of our achievements are highlighted below.
 	6. M. Cheng, S. Singh, P.-Y. Chen, **S. Liu**, C.-J. Hsieh, [Sign-OPT: A Query-Efficient Hard-label Adversarial Attack](https://arxiv.org/pdf/1909.10773.pdf), ICLR’20
 	7. **S. Liu**, S. Lu, X. Chen, Y. Feng, K. Xu, A. Al-Dujaili, M. Hong, U.-M. O'Reilly, [Min-Max Optimization without Gradients: Convergence and Applications to Adversarial ML](https://arxiv.org/pdf/1909.13806.pdf), ICML’20
 
-### ... and more.
+## Talks
+
+### Tutorial Talks
+
+* [Zeroth Order Optimization: Theory and Applications to Deep Learning](https://sites.google.com/umich.edu/cvpr-2020-zoo), CVPR’20
+
+* [Recent Progress in Zeroth Order Optimization and Its Applications to Adversarial Robustness in Data Mining and Machine Learning](https://sites.google.com/view/adv-robustness-zoopt), KDD'19
+
+### Workshops
+
+* [Adversarial Learning Methods for Machine Learning and Data Mining], KDD'21
+
