@@ -365,7 +365,7 @@
   image: dummy.png
   description: ""
   authors: 
-    "<span style='color:blue'>S. Liu</span>*, S. Lu*, X. Chen*, Y. Feng*, K. Xu*, A. Al-Dujaili*, M. Hong, U.-M. O'Reilly"
+    "<span style='color:blue'>S. Liu</span>*, <span style='color:black'>S. Lu*</span>, <span style='color:black'>X. Chen*</span>, <span style='color:black'>Y. Feng*</span>, <span style='color:black'>K. Xu*</span>, <span style='color:black'>A. Al-Dujaili*</span>, M. Hong, U.-M. O'Reilly"
   link:
     url: https://arxiv.org/pdf/1909.13806.pdf
     display: ICML’20  
@@ -409,7 +409,7 @@
   image: dummy.png
   description: ""
   authors: 
-    <span style='color:blue'>S. Liu\*</span>, P. Ram*, D. Vijaykeerthy, D. Bouneffouf, G. Bramble, H. Samulowitz, D. Wang, A. Conn, A. Gray
+    "<span style='color:blue'>S. Liu\*</span>, <span style='color:black'>P. Ram*</span>, D. Vijaykeerthy, D. Bouneffouf, G. Bramble, H. Samulowitz, D. Wang, A. Conn, A. Gray"
   link:
     url: https://arxiv.org/pdf/1905.00424.pdf
     display: AAAI’20
@@ -420,7 +420,7 @@
   image: dummy.png
   description: ""
   authors: 
-    L. Weng*, P. Zhao*, <span style='color:blue'>S. Liu</span>, P.-Y. Chen, X. Lin, L. Daniel
+    "<span style='color:black'>L. Weng*</span>, <span style='color:black'>P. Zhao*</span>, <span style='color:blue'>S. Liu</span>, P.-Y. Chen, X. Lin, L. Daniel"
   link:
     url: https://ojs.aaai.org//index.php/AAAI/article/view/6105
     display: AAAI’20
@@ -430,7 +430,8 @@
 - title: "ZO-AdaMM: Zeroth-Order Adaptive Momentum Method for Black-Box Optimization"
   image: dummy.png
   description: ""
-  authors: X. Chen*, <span style='color:blue'>S. Liu</span>*, K. Xu*, X. Li*, X. Lin, M. Hong, D. Cox
+  authors: 
+    "<span style='color:black'>X. Chen*</span>, <span style='color:blue'>S. Liu*</span>, <span style='color:black'>K. Xu*</span>, <span style='color:black'>X. Li*</span>, X. Lin, M. Hong, D. Cox"
   link:
     url: https://arxiv.org/pdf/1910.06513.pdf
     display: NeurIPS’19
@@ -460,7 +461,7 @@
 - title: "Adversarial Robustness vs. Model Compression, or Both?"
   image: dummy.png
   description: ""
-  authors: S. Ye*, K. Xu*, <span style='color:blue'>S. Liu</span>, H. Cheng, J.-H. Lambrechts, H. Zhang, A. Zhou, K. Ma, Y. Wang, X. Lin
+  authors: <span style='color:black'>S. Ye*</span>, <span style='color:black'>K. Xu*</span>, <span style='color:blue'>S. Liu</span>, H. Cheng, J.-H. Lambrechts, H. Zhang, A. Zhou, K. Ma, Y. Wang, X. Lin
   link:
     url: https://openaccess.thecvf.com/content_ICCV_2019/papers/Ye_Adversarial_Robustness_vs._Model_Compression_or_Both_ICCV_2019_paper.pdf
     display: ICCV’19
@@ -470,7 +471,7 @@
 - title: "Topology Attack and Defense for Graph Neural Networks: An Optimization Perspective"
   image: dummy.png
   description: ""
-  authors: K. Xu*, H. Chen*, <span style='color:blue'>S. Liu</span>, P.-Y. Chen, T.-W. Wen, M. Hong, X. Lin
+  authors: <span style='color:black'>K. Xu*</span>, <span style='color:black'>H. Chen*</span>, <span style='color:blue'>S. Liu</span>, P.-Y. Chen, T.-W. Wen, M. Hong, X. Lin
   link:
     url: https://arxiv.org/pdf/1906.04214.pdf
     display: IJCAI’19
@@ -500,7 +501,7 @@
 - title: "Structured Adversarial Attack: Towards General Implementation and Better Interpretability"
   image: dummy.png
   description: ""
-  authors: K. Xu*, <span style='color:blue'>S. Liu</span>*, P. Zhao, P.-Y. Chen, H. Zhang, D. Erdogmus, Y. Wang, X. Lin
+  authors: <span style='color:black'>K. Xu*</span>, <span style='color:blue'>S. Liu*</span>, P. Zhao, P.-Y. Chen, H. Zhang, D. Erdogmus, Y. Wang, X. Lin
   link:
     url: https://openreview.net/pdf?id=BkgzniCqY7
     display: ICLR’19
@@ -530,7 +531,7 @@
 - title: "AutoZOOM: Autoencoder-based Zeroth Order Optimization Method for Attacking Black-box Neural Networks"
   image: dummy.png
   description: ""
-  authors: C.-C. Tu*, P. Ting*, P.-Y. Chen*, <span style='color:blue'>S. Liu</span>, H. Zhang, J. Yi, C.-J. Hsieh, S.-M. Cheng
+  authors: <span style='color:black'>C.-C. Tu*</span>, <span style='color:black'>P. Ting*</span>, <span style='color:black'>P.-Y. Chen*</span>, <span style='color:blue'>S. Liu</span>, H. Zhang, J. Yi, C.-J. Hsieh, S.-M. Cheng
   link:
     url: https://arxiv.org/pdf/1805.11770.pdf
     display: AAAI’19
