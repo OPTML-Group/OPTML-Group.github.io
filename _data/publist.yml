@@ -35,7 +35,7 @@
   image: dummy.png
   description: ""
   authors: 
-    S. Zhang, M. Wang, <span style='color:blue'>S. Liu</span>, P.-Y. Chen, J. Xiong
+    "S. Zhang, M. Wang, <span style='color:blue'>S. Liu</span>, P.-Y. Chen, J. Xiong"
   link:
     url: https://openreview.net/forum?id=qiMXBIf4NfB
     display: ICLR’22
@@ -46,7 +46,7 @@
   image: dummy.png
   description: ""
   authors: 
-    T. Huang, T. Chen, <span style='color:blue'>S. Liu</span>, S. Chang, L. Amini, Z. Wang
+    "T. Huang, T. Chen, <span style='color:blue'>S. Liu</span>, S. Chang, L. Amini, Z. Wang"
   link:
     url: https://openreview.net/forum?id=VqzXzA9hjaX
     display: ICLR’22
@@ -57,7 +57,7 @@
   image: dummy.png
   description: ""
   authors: 
-    P. Khanduri, H. Yang, M. Hong, J. Liu, H.T. Wai, <span style='color:blue'>S. Liu</span>
+    "P. Khanduri, H. Yang, M. Hong, J. Liu, H.T. Wai, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://openreview.net/forum?id=oj2yn1Q4Ett
     display: ICLR’22
@@ -68,7 +68,7 @@
   image: dummy.png
   description: ""
   authors: 
-    C. Fan, P. Ram and <span style='color:blue'>S. Liu</span>
+    "C. Fan, P. Ram and <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/pdf/2109.07497.pdf
     display: NeurIPS Workshop MetaLearn, 2021
@@ -79,7 +79,7 @@
   image: dummy.png
   description: ""
   authors: 
-    X. Ma, G. Yuan, X. Shen, T. Chen, X. Chen, X. Chen, N. Liu, M. Qin, <span style='color:blue'>S. Liu</span>, Z. Wang, Y. Wang.
+    "X. Ma, G. Yuan, X. Shen, T. Chen, X. Chen, X. Chen, N. Liu, M. Qin, <span style='color:blue'>S. Liu</span>, Z. Wang, Y. Wang."
   link:
     url: https://arxiv.org/pdf/2107.00166.pdf
     display: NeurIPS’21
@@ -90,7 +90,7 @@
   image: dummy.png
   description: ""
   authors: 
-    L. Fan, <span style='color:blue'>S. Liu</span>, P.-Y. Chen, G. Zhang, C. Gan.
+    "L. Fan, <span style='color:blue'>S. Liu</span>, P.-Y. Chen, G. Zhang, C. Gan."
   link:
     url: https://arxiv.org/pdf/2111.01124.pdf
     display: NeurIPS’21
@@ -101,7 +101,7 @@
   image: dummy.png
   description: ""
   authors: 
-    G. Yuan, X. Ma, W. Niu, Z. Li, Z. Kong, N. Liu, Y. Gong, Z. Zhan, C. He, Q. Jin, S. Wang, M. Qin, B. Ren, Y. Wang, <span style='color:blue'>S. Liu</span>, X. Lin.
+    "G. Yuan, X. Ma, W. Niu, Z. Li, Z. Kong, N. Liu, Y. Gong, Z. Zhan, C. He, Q. Jin, S. Wang, M. Qin, B. Ren, Y. Wang, <span style='color:blue'>S. Liu</span>, X. Lin."
   link:
     url: https://arxiv.org/pdf/2110.14032.pdf
     display: NeurIPS’21 (Spotlight)
@@ -112,7 +112,7 @@
   image: dummy.png
   description: ""
   authors: 
-    J. Wang, T. Zhang, <span style='color:blue'>S. Liu</span>, P.-Y. Chen, J. Xu, M. Fardad, B. Li.
+    "J. Wang, T. Zhang, <span style='color:blue'>S. Liu</span>, P.-Y. Chen, J. Xu, M. Fardad, B. Li."
   link:
     url: https://arxiv.org/pdf/1906.03563.pdf
     display: NeurIPS’21
@@ -409,7 +409,7 @@
   image: dummy.png
   description: ""
   authors: 
-    "<span style='color:blue'>S. Liu\*</span>, <span style='color:black'>P. Ram*</span>, D. Vijaykeerthy, D. Bouneffouf, G. Bramble, H. Samulowitz, D. Wang, A. Conn, A. Gray"
+    "<span style='color:blue'>S. Liu*</span>, <span style='color:black'>P. Ram*</span>, D. Vijaykeerthy, D. Bouneffouf, G. Bramble, H. Samulowitz, D. Wang, A. Conn, A. Gray"
   link:
     url: https://arxiv.org/pdf/1905.00424.pdf
     display: AAAI’20
@@ -441,7 +441,8 @@
 - title: "Generation of Low Distortion Adversarial Attacks via Convex Programming"
   image: dummy.png
   description: ""
-  authors: T. Zhang, <span style='color:blue'>S. Liu</span>, Y. Wang, M. Fardad
+  authors: 
+    "T. Zhang, <span style='color:blue'>S. Liu</span>, Y. Wang, M. Fardad"
   link:
     url: https://ieeexplore.ieee.org/document/8970743
     display: ICDM’19
@@ -451,7 +452,8 @@
 - title: "On the Design of Black-box Adversarial Examples by Leveraging Gradient-free Optimization and Operator Splitting Method"
   image: dummy.png
   description: ""
-  authors: P. Zhao, <span style='color:blue'>S. Liu</span>, P.-Y. Chen, N. Hoang, K. Xu, B. Kailkhura, X. Lin,
+  authors: 
+    "P. Zhao, <span style='color:blue'>S. Liu</span>, P.-Y. Chen, N. Hoang, K. Xu, B. Kailkhura, X. Lin"
   link:
     url: https://arxiv.org/pdf/1907.11684.pdf
     display: ICCV’19
@@ -461,7 +463,8 @@
 - title: "Adversarial Robustness vs. Model Compression, or Both?"
   image: dummy.png
   description: ""
-  authors: <span style='color:black'>S. Ye*</span>, <span style='color:black'>K. Xu*</span>, <span style='color:blue'>S. Liu</span>, H. Cheng, J.-H. Lambrechts, H. Zhang, A. Zhou, K. Ma, Y. Wang, X. Lin
+  authors: 
+    "<span style='color:black'>S. Ye*</span>, <span style='color:black'>K. Xu*</span>, <span style='color:blue'>S. Liu</span>, H. Cheng, J.-H. Lambrechts, H. Zhang, A. Zhou, K. Ma, Y. Wang, X. Lin"
   link:
     url: https://openaccess.thecvf.com/content_ICCV_2019/papers/Ye_Adversarial_Robustness_vs._Model_Compression_or_Both_ICCV_2019_paper.pdf
     display: ICCV’19
@@ -471,7 +474,8 @@
 - title: "Topology Attack and Defense for Graph Neural Networks: An Optimization Perspective"
   image: dummy.png
   description: ""
-  authors: <span style='color:black'>K. Xu*</span>, <span style='color:black'>H. Chen*</span>, <span style='color:blue'>S. Liu</span>, P.-Y. Chen, T.-W. Wen, M. Hong, X. Lin
+  authors: 
+    "<span style='color:black'>K. Xu*</span>, <span style='color:black'>H. Chen*</span>, <span style='color:blue'>S. Liu</span>, P.-Y. Chen, T.-W. Wen, M. Hong, X. Lin"
   link:
     url: https://arxiv.org/pdf/1906.04214.pdf
     display: IJCAI’19
@@ -481,7 +485,8 @@
 - title: "Fast Incremental von Neumann Graph Entropy Computation: Theory, Algorithm, and Applications"
   image: dummy.png
   description: ""
-  authors: P.-Y. Chen, L. Wu, <span style='color:blue'>S. Liu</span>, I. Rajapakse
+  authors: 
+    "P.-Y. Chen, L. Wu, <span style='color:blue'>S. Liu</span>, I. Rajapakse"
   link:
     url: https://arxiv.org/pdf/1805.11769.pdf
     display: ICML’19
@@ -491,7 +496,8 @@
 - title: "signSGD via Zeroth-Order Oracle"
   image: dummy.png
   description: ""
-  authors: <span style='color:blue'>S. Liu</span>, P.-Y. Chen, X. Chen, M. Hong
+  authors: 
+    "<span style='color:blue'>S. Liu</span>, P.-Y. Chen, X. Chen, M. Hong"
   link:
     url: https://openreview.net/pdf?id=BJe-DsC5Fm
     display: ICLR’19
@@ -501,7 +507,8 @@
 - title: "Structured Adversarial Attack: Towards General Implementation and Better Interpretability"
   image: dummy.png
   description: ""
-  authors: <span style='color:black'>K. Xu*</span>, <span style='color:blue'>S. Liu*</span>, P. Zhao, P.-Y. Chen, H. Zhang, D. Erdogmus, Y. Wang, X. Lin
+  authors: 
+    "<span style='color:black'>K. Xu*</span>, <span style='color:blue'>S. Liu*</span>, P. Zhao, P.-Y. Chen, H. Zhang, D. Erdogmus, Y. Wang, X. Lin"
   link:
     url: https://openreview.net/pdf?id=BkgzniCqY7
     display: ICLR’19
@@ -511,7 +518,8 @@
 - title: "On the Convergence of A Class of Adam-Type Algorithms for Non-Convex Optimization"
   image: dummy.png
   description: ""
-  authors: X. Chen, <span style='color:blue'>S. Liu</span>, R. Sun, M. Hong
+  authors: 
+    "X. Chen, <span style='color:blue'>S. Liu</span>, R. Sun, M. Hong"
   link:
     url: https://openreview.net/pdf?id=H1x-x309tm
     display: ICLR’19
@@ -521,7 +529,8 @@
 - title: "CNN-Cert: An Efficient Framework for Certifying Robustness of Convolutional Neural Networks"
   image: dummy.png
   description: ""
-  authors: A. Boopathy, L. Weng, P.-Y. Chen, <span style='color:blue'>S. Liu</span>, L. Daniel
+  authors: 
+    "A. Boopathy, L. Weng, P.-Y. Chen, <span style='color:blue'>S. Liu</span>, L. Daniel"
   link:
     url: https://arxiv.org/pdf/1811.12395.pdf
     display: AAAI’19
@@ -531,7 +540,8 @@
 - title: "AutoZOOM: Autoencoder-based Zeroth Order Optimization Method for Attacking Black-box Neural Networks"
   image: dummy.png
   description: ""
-  authors: <span style='color:black'>C.-C. Tu*</span>, <span style='color:black'>P. Ting*</span>, <span style='color:black'>P.-Y. Chen*</span>, <span style='color:blue'>S. Liu</span>, H. Zhang, J. Yi, C.-J. Hsieh, S.-M. Cheng
+  authors: 
+    "<span style='color:black'>C.-C. Tu*</span>, <span style='color:black'>P. Ting*</span>, <span style='color:black'>P.-Y. Chen*</span>, <span style='color:blue'>S. Liu</span>, H. Zhang, J. Yi, C.-J. Hsieh, S.-M. Cheng"
   link:
     url: https://arxiv.org/pdf/1805.11770.pdf
     display: AAAI’19
@@ -541,7 +551,8 @@
 - title: "Zeroth-Order Stochastic Variance Reduction for Nonconvex Optimization"
   image: dummy.png
   description: ""
-  authors: <span style='color:blue'>S. Liu</span>, B. Kailkhura, P.-Y. Chen, P. Ting, S. Chang, L. Amini
+  authors: 
+    "<span style='color:blue'>S. Liu</span>, B. Kailkhura, P.-Y. Chen, P. Ting, S. Chang, L. Amini"
   link:
     url: https://arxiv.org/pdf/1805.10367.pdf
     display: NeurIPS’18
@@ -551,7 +562,8 @@
 - title: "Ultra-Fast Robust Compressive Sensing Based on Memristor Crossbars"
   image: dummy.png
   description: ""
-  authors: <span style='color:blue'>S. Liu</span>, A. Ren, Y. Wang, P. K. Varshney
+  authors: 
+    "<span style='color:blue'>S. Liu</span>, A. Ren, Y. Wang, P. K. Varshney"
   link:
     url: https://ieeexplore.ieee.org/abstract/document/7952333
     display: ICASSP’17 (Best Student Paper Award, Third Place)
