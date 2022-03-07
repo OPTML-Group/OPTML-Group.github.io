@@ -1,3 +1,14 @@
+- title: "Quarantine: Sparsity Can Uncover the Trojan Attack Trigger for Free"
+  image: dummy.png
+  description:
+  authors: 
+    "T. Chen*, Z. Zhang*, <span style='color:blue'>Y. Zhang*</span>, S. Chang, <span style='color:blue'>S. Liu</span>, Z. Wang"
+  link:
+    url: 
+    display: CVPR’22
+  highlight: 0
+  news2:
+
 - title: "Reverse Engineering of Imperceptible Adversarial Image Perturbations"
   image: RED.png
   description: "In this paper, we study the problem of Reverse Engineering of Deceptions (RED), with the goal to recover the attack toolchain signatures (e.g. adversarial perturbations and adversary salience image regions) from an adversarial instance. Our work makes a solid step towards formalizing the RED problem and developing a systematic RED pipeline, covering not only a solution method but also a complete set of evaluation metrics."
