@@ -3,12 +3,13 @@ title: "OTML - Research"
 layout: textlay
 excerpt: "OTML -- Research"
 sitemap: false
-permalink: /research/
+permalink: /research
 ---
 
 
 # Research
 Jump to: [Research Highlights](#research-highlights), [Talks](#talks)
+For full publication list, please visit [this page](({{ site.url }}{{ site.baseurl }}/publications)).
 
 As AI moves from the lab into the real world (e.g., autonomous vehicles), ensuring its safety becomes a paramount requirement prior to its deployment. Moreover, as datasets, ML/DL models, and learning tasks become increasingly complex, getting ML/DL to scale calls for new advances in learning algorithm design. More broadly, the study towards robust and scalable AI could make a significant impact on machine learning theories, and induce more promising applications in, e.g., automated ML, meta-learning, privacy and security, hardware design, and big data analysis. We seek a new learning frontier when the current learning algorithms become infeasible, and formalize foundations of secure learning.
 
