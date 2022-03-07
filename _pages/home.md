@@ -1,7 +1,7 @@
 ---
-title: "OTPML - Home"
+title: "OPTML - Home"
 layout: homelay
-excerpt: "OTPML Group at Michigan State University."
+excerpt: "OPTML Group at Michigan State University."
 sitemap: false
 permalink: /
 ---
