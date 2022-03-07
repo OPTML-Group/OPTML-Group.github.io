@@ -398,7 +398,7 @@
   image: dummy.png
   description: ""
   authors: 
-    "<span style='color:blue'>S. Liu*</span>, P. Ram*, D. Vijaykeerthy, D. Bouneffouf, G. Bramble, H. Samulowitz, D. Wang, A. Conn, A. Gray"
+    <span style='color:blue'>S. Liu*</span>, P. Ram*, D. Vijaykeerthy, D. Bouneffouf, G. Bramble, H. Samulowitz, D. Wang, A. Conn, A. Gray
   link:
     url: https://arxiv.org/pdf/1905.00424.pdf
     display: AAAI’20
