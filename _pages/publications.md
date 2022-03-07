@@ -1,7 +1,7 @@
 ---
-title: "OTML Group - Publications"
+title: "OPTML Group - Publications"
 layout: gridlay
-excerpt: "OTML Group -- Publications."
+excerpt: "OPTML Group -- Publications."
 sitemap: false
 permalink: /publications
 ---
