@@ -9,7 +9,7 @@ permalink: /publications
 
 # Publications
 
-Authors marked in <span style="color:blue">blue</span> indicate our group members, and "\*" indicates equal contribution.
+Authors marked in <span style="color:blue">blue</span> indicate our group members, and "\*" indicates equal contribution.<br />
 Jump: [Conference Papers](#highlighted-conference-papers) and [Journal Papers](#journal-papers)
 
 <!-- ## Group highlights
