@@ -3,11 +3,13 @@ title: "OTML Group - Publications"
 layout: gridlay
 excerpt: "OTML Group -- Publications."
 sitemap: false
-permalink: /publications/
+permalink: /publications
 ---
 
 
 # Publications
+
+Authors marked in <span style="color:blue"> indicate our group members, and "\*" indicates equal contribution.
 
 Jump: [Conference Papers](#highlighted-conference-papers) and [Journal Papers](#journal-papers)
 
