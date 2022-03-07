@@ -2,7 +2,7 @@
   image: RED.png
   description: "In this paper, we study the problem of Reverse Engineering of Deceptions (RED), with the goal to recover the attack toolchain signatures (e.g. adversarial perturbations and adversary salience image regions) from an adversarial instance. Our work makes a solid step towards formalizing the RED problem and developing a systematic RED pipeline, covering not only a solution method but also a complete set of evaluation metrics."
   authors: 
-    Y. Gong*, Y. Yao*, Y. Li, Y. Zhang, X. Liu, X. Lin, S. Liu
+    "Y. Gong*, <b>Y. Yao</b>*, Y. Li, Y. Zhang, X. Liu, X. Lin, <b>S. Liu</b>"
   link:
     url: https://openreview.net/forum?id=gpp7cf0xdfN
     display: ICLR’22
@@ -13,7 +13,7 @@
   image: black_box.png
   description: "In this paper, we study the problem of black-box defense, aiming to secure black-box models against adversarial attacks using only input-output model queries. We integrate denoised smoothing (DS) with ZO (zerothorder) optimization to build a feasible black-box defense framework. We further propose ZO-AE-DS, which leverages autoencoder (AE) to bridge the gap between FO and ZO optimization."
   authors: 
-    Y. Zhang, Y. Yao, J. Jia, J. Yi, M. Hong, S. Chang, S. Liu
+    "<b>Y. Zhang</b>, <b>Y. Yao</b>, <b>J. Jia</b>, J. Yi, M. Hong, S. Chang, <b>S. Liu</b>"
   link:
     url: https://openreview.net/forum?id=W9G_ImpHlQd
     display: ICLR’22 (spotlight, acceptance rate 5%)
@@ -24,7 +24,7 @@
   image: dummy.png
   description: ""
   authors: 
-    S. Zhang, M. Wang, S. Liu, P.-Y. Chen, J. Xiong
+    S. Zhang, M. Wang, <b>S. Liu</b>, P.-Y. Chen, J. Xiong
   link:
     url: https://openreview.net/forum?id=qiMXBIf4NfB
     display: ICLR’22
@@ -35,7 +35,7 @@
   image: dummy.png
   description: ""
   authors: 
-    T. Huang, T. Chen, S. Liu, S. Chang, L. Amini, Z. Wang
+    T. Huang, T. Chen, <b>S. Liu</b>, S. Chang, L. Amini, Z. Wang
   link:
     url: https://openreview.net/forum?id=VqzXzA9hjaX
     display: ICLR’22
@@ -46,7 +46,7 @@
   image: dummy.png
   description: ""
   authors: 
-    P. Khanduri, H. Yang, M. Hong, J. Liu, H.T. Wai, S. Liu
+    P. Khanduri, H. Yang, M. Hong, J. Liu, H.T. Wai, <b>S. Liu</b>
   link:
     url: https://openreview.net/forum?id=oj2yn1Q4Ett
     display: ICLR’22
@@ -57,7 +57,7 @@
   image: dummy.png
   description: ""
   authors: 
-    C. Fan, P. Ram and S. Liu
+    C. Fan, P. Ram and <b>S. Liu</b>
   link:
     url: https://arxiv.org/pdf/2109.07497.pdf
     display: NeurIPS Workshop MetaLearn, 2021
@@ -68,7 +68,7 @@
   image: dummy.png
   description: ""
   authors: 
-    X. Ma, G. Yuan, X. Shen, T. Chen, X. Chen, X. Chen, N. Liu, M. Qin, S. Liu, Z. Wang, Y. Wang.
+    X. Ma, G. Yuan, X. Shen, T. Chen, X. Chen, X. Chen, N. Liu, M. Qin, <b>S. Liu</b>, Z. Wang, Y. Wang.
   link:
     url: https://arxiv.org/pdf/2107.00166.pdf
     display: NeurIPS’21
@@ -79,7 +79,7 @@
   image: dummy.png
   description: ""
   authors: 
-    L. Fan, S. Liu, P.-Y. Chen, G. Zhang, C. Gan.
+    L. Fan, <b>S. Liu</b>, P.-Y. Chen, G. Zhang, C. Gan.
   link:
     url: https://arxiv.org/pdf/2111.01124.pdf
     display: NeurIPS’21
@@ -90,7 +90,7 @@
   image: dummy.png
   description: ""
   authors: 
-    G. Yuan, X. Ma, W. Niu, Z. Li, Z. Kong, N. Liu, Y. Gong, Z. Zhan, C. He, Q. Jin, S. Wang, M. Qin, B. Ren, Y. Wang, S. Liu, X. Lin.
+    G. Yuan, X. Ma, W. Niu, Z. Li, Z. Kong, N. Liu, Y. Gong, Z. Zhan, C. He, Q. Jin, S. Wang, M. Qin, B. Ren, Y. Wang, <b>S. Liu</b>, X. Lin.
   link:
     url: https://arxiv.org/pdf/2110.14032.pdf
     display: NeurIPS’21 (Spotlight)
@@ -101,7 +101,7 @@
   image: dummy.png
   description: ""
   authors: 
-    J. Wang, T. Zhang, S. Liu, P.-Y. Chen, J. Xu, M. Fardad, B. Li.
+    J. Wang, T. Zhang, <b>S. Liu</b>, P.-Y. Chen, J. Xu, M. Fardad, B. Li.
   link:
     url: https://arxiv.org/pdf/1906.03563.pdf
     display: NeurIPS’21
@@ -112,7 +112,7 @@
   image: dummy.png
   description: ""
   authors: 
-    S. Zhang, M. Wang, S. Liu, P.-Y. Chen, J. Xiong.
+    S. Zhang, M. Wang, <b>S. Liu</b>, P.-Y. Chen, J. Xiong.
   link:
     url: https://openreview.net/pdf?id=UAjh00C0BhT
     display: NeurIPS’21
@@ -123,7 +123,7 @@
   image: dummy.png
   description: ""
   authors: 
-    N. Liu, G. Yuan, Z. Che, X. Shen, X. Ma, Q. Jin, J. Ren, J. Tang, S. Liu, Y. Wang.
+    N. Liu, G. Yuan, Z. Che, X. Shen, X. Ma, Q. Jin, J. Ren, J. Tang, <b>S. Liu</b>, Y. Wang.
   link:
     url: http://proceedings.mlr.press/v139/liu21aa/liu21aa.pdf
     display: ICML’21
@@ -134,7 +134,7 @@
   image: dummy.png
   description: ""
   authors: 
-    Z. Li, G. Yuan, W. Niu, Y. Li, P. Zhao, Y. Cai, X. Shen, Z. Zhan, Z. Kong, Q. Jin, Z. Chen, S. Liu, K. Yang, Y. Wang, B. Ren, and X. Lin.
+    Z. Li, G. Yuan, W. Niu, Y. Li, P. Zhao, Y. Cai, X. Shen, Z. Zhan, Z. Kong, Q. Jin, Z. Chen, <b>S. Liu</b>, K. Yang, Y. Wang, B. Ren, and X. Lin.
   link:
     url: https://arxiv.org/pdf/2012.00596.pdf
     display: CVPR’21 (Oral)
@@ -145,7 +145,7 @@
   image: dummy.png
   description: ""
   authors: 
-    T. Chen, J. Frankle, S. Chang, S. Liu, Y. Zhang, M. Carbin, and Z. Wang.
+    T. Chen, J. Frankle, S. Chang, <b>S. Liu</b>, Y. Zhang, M. Carbin, and Z. Wang.
   link:
     url: https://arxiv.org/pdf/2012.06908.pdf
     display: CVPR’21
@@ -156,7 +156,7 @@
   image: dummy.png
   description: ""
   authors: 
-    J. Mohapatra, C.-Y. Ko, L. Weng, P.-Y. Chen, S. Liu, L. Daniel
+    J. Mohapatra, C.-Y. Ko, L. Weng, P.-Y. Chen, <b>S. Liu</b>, L. Daniel
   link:
     url: https://lsjxjtu.github.io/null
     display: AISTATS’21
@@ -167,7 +167,7 @@
   image: dummy.png
   description: ""
   authors: 
-    Z. Li, P.-Y. Chen, S. Liu, S. Lu, Y. Xu
+    Z. Li, P.-Y. Chen, <b>S. Liu</b>, S. Lu, Y. Xu
   link:
     url: https://arxiv.org/pdf/2007.01284.pdf
     display: AISTATS’21
@@ -178,7 +178,7 @@
   image: dummy.png
   description: ""
   authors: 
-    R. Wang, K. Xu, S. Liu, P.-Y. Chen, T.-W. Weng, C. Gan, M. Wang
+    R. Wang, K. Xu, <b>S. Liu</b>, P.-Y. Chen, T.-W. Weng, C. Gan, M. Wang
   link:
     url: https://openreview.net/pdf?id=o81ZyBCojoA
     display: ICLR’21
@@ -189,7 +189,7 @@
   image: dummy.png
   description: ""
   authors: 
-    T. Chen, Z. Zhang, S. Liu, S. Chang, and Z. Wang
+    T. Chen, Z. Zhang, <b>S. Liu</b>, S. Chang, and Z. Wang
   link:
     url: https://openreview.net/pdf?id=qZzy5urZw9
     display: ICLR’21
@@ -200,7 +200,7 @@
   image: dummy.png
   description: ""
   authors: 
-    T. Chen, Z. Zhang, S. Liu, S. Chang, and Z. Wang,
+    T. Chen, Z. Zhang, <b>S. Liu</b>, S. Chang, and Z. Wang,
   link:
     url: https://openreview.net/pdf?id=LXMSvPmsm0g
     display:  ICLR’21
@@ -211,7 +211,7 @@
   image: dummy.png
   description: ""
   authors: 
-    S. Srikant, S. Liu, T. Mitrovska, S. Chang, Q. Fan, G. Zhang, U.-M. O'Reilly
+    S. Srikant, <b>S. Liu</b>, T. Mitrovska, S. Chang, Q. Fan, G. Zhang, U.-M. O'Reilly
   link:
     url: https://openreview.net/pdf?id=PH5PH9ZO_4
     display: ICLR’21
@@ -222,7 +222,7 @@
   image: dummy.png
   description: ""
   authors: 
-    A. Boopathy, L. Weng, S. Liu, P.-Y. Chen, G. Zhang, L. Daniel
+    A. Boopathy, L. Weng, <b>S. Liu</b>, P.-Y. Chen, G. Zhang, L. Daniel
   link:
     url: 
     display: AAAI’21
@@ -233,7 +233,7 @@
   image: dummy.png
   description: ""
   authors: 
-    M. Cheng, P.-Y. Chen, S. Liu, S. Chang, C.-J. Hsieh, P. Das
+    M. Cheng, P.-Y. Chen, <b>S. Liu</b>, S. Chang, C.-J. Hsieh, P. Das
   link:
     url: 
     display: AAAI’21
@@ -244,7 +244,7 @@
   image: dummy.png
   description: ""
   authors: 
-    W. Niu, M. Sun, Z. Li, J.-A. Chen, J. Guan, X. Shen, Y. Wang, S. Liu, X. Lin, B. Ren
+    W. Niu, M. Sun, Z. Li, J.-A. Chen, J. Guan, X. Shen, Y. Wang, <b>S. Liu</b>, X. Lin, B. Ren
   link:
     url: 
     display: AAAI’21
@@ -255,7 +255,7 @@
   image: dummy.png
   description: ""
   authors: 
-    T. Chen, J. Frankle, S. Chang, S. Liu, Y. Zhang, Z. Wang, M. Carbin
+    T. Chen, J. Frankle, S. Chang, <b>S. Liu</b>, Y. Zhang, Z. Wang, M. Carbin
   link:
     url: https://arxiv.org/pdf/2007.12223.pdf
     display: NeurIPS’20
@@ -266,7 +266,7 @@
   image: dummy.png
   description: ""
   authors: 
-    T. Chen, W. Zhang, J. Zhou, S. Chang, S. Liu, L. Amini, Z. Wang
+    T. Chen, W. Zhang, J. Zhou, S. Chang, <b>S. Liu</b>, L. Amini, Z. Wang
   link:
     url: https://arxiv.org/pdf/2010.09089.pdf
     display: NeurIPS’20 (spotlight, acceptance rate 3%)
@@ -277,7 +277,7 @@
   image: dummy.png
   description: ""
   authors: 
-    J. Mohapatra, C.-Y. Ko, L. Weng, P.-Y. Chen, S. Liu, L. Daniel
+    J. Mohapatra, C.-Y. Ko, L. Weng, P.-Y. Chen, <b>S. Liu</b>, L. Daniel
   link:
     url: https://arxiv.org/pdf/2010.06651.pdf
     display: NeurIPS’20 (spotlight, acceptance rate 3%)
@@ -288,7 +288,7 @@
   image: dummy.png
   description: ""
   authors: 
-    K. Xu, G. Zhang, S. Liu, Q. Fan, M. Sun, H. Chen, P.-Y. Chen, Y. Wang, X. Lin
+    K. Xu, G. Zhang, <b>S. Liu</b>, Q. Fan, M. Sun, H. Chen, P.-Y. Chen, Y. Wang, X. Lin
   link:
     url: https://arxiv.org/pdf/1910.11099.pdf
     display: ECCV’20 (spotlight, acceptance rate 5%)
@@ -299,7 +299,7 @@
   image: dummy.png
   description: ""
   authors: 
-    R. Wang, G. Zhang, S. Liu, P.-Y. Chen, J. Xiong, M. Wang
+    R. Wang, G. Zhang, <b>S. Liu</b>, P.-Y. Chen, J. Xiong, M. Wang
   link:
     url: https://arxiv.org/pdf/2007.15802.pdf
     display: ECCV’20
@@ -310,7 +310,7 @@
   image: dummy.png
   description: ""
   authors: 
-    X. Ma, W. Niu, T. Zhang, S. Liu, S. Lin, H. Li, W. Wen, X. Chen, J. Tang, K. Ma, B. Ren, Y. Wang
+    X. Ma, W. Niu, T. Zhang, <b>S. Liu</b>, S. Lin, H. Li, W. Wen, X. Chen, J. Tang, K. Ma, B. Ren, Y. Wang
   link:
     url: https://arxiv.org/pdf/2001.07710.pdf
     display: ECCV’20
@@ -321,7 +321,7 @@
   image: dummy.png
   description: ""
   authors: 
-    S. Zhang, M. Wang, S. Liu, P.-Y. Chen, J. Xiong
+    S. Zhang, M. Wang, <b>S. Liu</b>, P.-Y. Chen, J. Xiong
   link:
     url: https://arxiv.org/pdf/2006.14117.pdf
     display: ICML’20
@@ -332,7 +332,7 @@
   image: dummy.png
   description: ""
   authors: 
-    S. Dutta, D. Wei, H. Yueksel, P.-Y. Chen, S. Liu, K. R. Varshney
+    S. Dutta, D. Wei, H. Yueksel, P.-Y. Chen, <b>S. Liu</b>, K. R. Varshney
   link:
     url: https://arxiv.org/pdf/1910.07870.pdf
     display: ICML’20
@@ -343,7 +343,7 @@
   image: dummy.png
   description: ""
   authors: 
-    A. Boopathy, S. Liu, G. Zhang, C. Liu, P.-Y. Chen, S. Chang, L. Daniel
+    A. Boopathy, <b>S. Liu</b>, G. Zhang, C. Liu, P.-Y. Chen, S. Chang, L. Daniel
   link:
     url: https://arxiv.org/pdf/2006.14748.pdf
     display: ICML’20
@@ -354,7 +354,7 @@
   image: dummy.png
   description: ""
   authors: 
-    S. Liu*, S. Lu*, X. Chen*, Y. Feng*, K. Xu*, A. Al-Dujaili*, M. Hong, U.-M. O'Reilly
+    "<b>S. Liu</b>*, S. Lu*, X. Chen*, Y. Feng*, K. Xu*, A. Al-Dujaili*, M. Hong, U.-M. O'Reilly"
   link:
     url: https://arxiv.org/pdf/1909.13806.pdf
     display: ICML’20  
@@ -365,7 +365,7 @@
   image: dummy.png
   description: ""
   authors: 
-    T. Chen, S. Liu, S. Chang, Y. Cheng, L. Amini, Z. Wang
+    T. Chen, <b>S. Liu</b>, S. Chang, Y. Cheng, L. Amini, Z. Wang
   link:
     url: https://arxiv.org/pdf/2003.12862.pdf
     display: CVPR’20
@@ -376,7 +376,7 @@
   image: dummy.png
   description: ""
   authors: 
-    J. Mohapatra, L. Weng, P.-Y. Chen, S. Liu, L. Daniel
+    J. Mohapatra, L. Weng, P.-Y. Chen, <b>S. Liu</b>, L. Daniel
   link:
     url: https://arxiv.org/pdf/1912.09533.pdf
     display: CVPR’20 (oral)
@@ -387,7 +387,7 @@
   image: dummy.png
   description: ""
   authors: 
-    M. Cheng, S. Singh, P.-Y. Chen, S. Liu, C.-J. Hsieh
+    M. Cheng, S. Singh, P.-Y. Chen, <b>S. Liu</b>, C.-J. Hsieh
   link:
     url: https://arxiv.org/pdf/1909.10773.pdf
     display: ICLR’20
@@ -398,7 +398,7 @@
   image: dummy.png
   description: ""
   authors: 
-    S. Liu*, P. Ram*, D. Vijaykeerthy, D. Bouneffouf, G. Bramble, H. Samulowitz, D. Wang, A. Conn, A. Gray
+    <b>S. Liu</b>*, P. Ram*, D. Vijaykeerthy, D. Bouneffouf, G. Bramble, H. Samulowitz, D. Wang, A. Conn, A. Gray
   link:
     url: https://arxiv.org/pdf/1905.00424.pdf
     display: AAAI’20
@@ -409,7 +409,7 @@
   image: dummy.png
   description: ""
   authors: 
-    L. Weng*, P. Zhao*, S. Liu, P.-Y. Chen, X. Lin, L. Daniel
+    L. Weng*, P. Zhao*, <b>S. Liu</b>, P.-Y. Chen, X. Lin, L. Daniel
   link:
     url: https://ojs.aaai.org//index.php/AAAI/article/view/6105
     display: AAAI’20
@@ -419,7 +419,7 @@
 - title: "ZO-AdaMM: Zeroth-Order Adaptive Momentum Method for Black-Box Optimization"
   image: dummy.png
   description: ""
-  authors: X. Chen*, S. Liu*, K. Xu*, X. Li*, X. Lin, M. Hong, D. Cox
+  authors: X. Chen*, <b>S. Liu</b>*, K. Xu*, X. Li*, X. Lin, M. Hong, D. Cox
   link:
     url: https://arxiv.org/pdf/1910.06513.pdf
     display: NeurIPS’19
@@ -429,7 +429,7 @@
 - title: "Generation of Low Distortion Adversarial Attacks via Convex Programming"
   image: dummy.png
   description: ""
-  authors: T. Zhang, S. Liu, Y. Wang, M. Fardad
+  authors: T. Zhang, <b>S. Liu</b>, Y. Wang, M. Fardad
   link:
     url: https://ieeexplore.ieee.org/document/8970743
     display: ICDM’19
@@ -439,7 +439,7 @@
 - title: "On the Design of Black-box Adversarial Examples by Leveraging Gradient-free Optimization and Operator Splitting Method"
   image: dummy.png
   description: ""
-  authors: P. Zhao, S. Liu, P.-Y. Chen, N. Hoang, K. Xu, B. Kailkhura, X. Lin,
+  authors: P. Zhao, <b>S. Liu</b>, P.-Y. Chen, N. Hoang, K. Xu, B. Kailkhura, X. Lin,
   link:
     url: https://arxiv.org/pdf/1907.11684.pdf
     display: ICCV’19
@@ -449,7 +449,7 @@
 - title: "Adversarial Robustness vs. Model Compression, or Both?"
   image: dummy.png
   description: ""
-  authors: S. Ye*, K. Xu*, S. Liu, H. Cheng, J.-H. Lambrechts, H. Zhang, A. Zhou, K. Ma, Y. Wang, X. Lin
+  authors: S. Ye*, K. Xu*, <b>S. Liu</b>, H. Cheng, J.-H. Lambrechts, H. Zhang, A. Zhou, K. Ma, Y. Wang, X. Lin
   link:
     url: https://openaccess.thecvf.com/content_ICCV_2019/papers/Ye_Adversarial_Robustness_vs._Model_Compression_or_Both_ICCV_2019_paper.pdf
     display: ICCV’19
@@ -459,7 +459,7 @@
 - title: "Topology Attack and Defense for Graph Neural Networks: An Optimization Perspective"
   image: dummy.png
   description: ""
-  authors: K. Xu*, H. Chen*, S. Liu, P.-Y. Chen, T.-W. Wen, M. Hong, X. Lin
+  authors: K. Xu*, H. Chen*, <b>S. Liu</b>, P.-Y. Chen, T.-W. Wen, M. Hong, X. Lin
   link:
     url: https://arxiv.org/pdf/1906.04214.pdf
     display: IJCAI’19
@@ -469,7 +469,7 @@
 - title: "Fast Incremental von Neumann Graph Entropy Computation: Theory, Algorithm, and Applications"
   image: dummy.png
   description: ""
-  authors: P.-Y. Chen, L. Wu, S. Liu, I. Rajapakse
+  authors: P.-Y. Chen, L. Wu, <b>S. Liu</b>, I. Rajapakse
   link:
     url: https://arxiv.org/pdf/1805.11769.pdf
     display: ICML’19
@@ -479,7 +479,7 @@
 - title: "signSGD via Zeroth-Order Oracle"
   image: dummy.png
   description: ""
-  authors: S. Liu, P.-Y. Chen, X. Chen, M. Hong
+  authors: <b>S. Liu</b>, P.-Y. Chen, X. Chen, M. Hong
   link:
     url: https://openreview.net/pdf?id=BJe-DsC5Fm
     display: ICLR’19
@@ -489,7 +489,7 @@
 - title: "Structured Adversarial Attack: Towards General Implementation and Better Interpretability"
   image: dummy.png
   description: ""
-  authors: K. Xu*, S. Liu*, P. Zhao, P.-Y. Chen, H. Zhang, D. Erdogmus, Y. Wang, X. Lin
+  authors: K. Xu*, <b>S. Liu</b>*, P. Zhao, P.-Y. Chen, H. Zhang, D. Erdogmus, Y. Wang, X. Lin
   link:
     url: https://openreview.net/pdf?id=BkgzniCqY7
     display: ICLR’19
@@ -499,7 +499,7 @@
 - title: "On the Convergence of A Class of Adam-Type Algorithms for Non-Convex Optimization"
   image: dummy.png
   description: ""
-  authors: X. Chen, S. Liu, R. Sun, M. Hong
+  authors: X. Chen, <b>S. Liu</b>, R. Sun, M. Hong
   link:
     url: https://openreview.net/pdf?id=H1x-x309tm
     display: ICLR’19
@@ -509,7 +509,7 @@
 - title: "CNN-Cert: An Efficient Framework for Certifying Robustness of Convolutional Neural Networks"
   image: dummy.png
   description: ""
-  authors: A. Boopathy, L. Weng, P.-Y. Chen, S. Liu, L. Daniel
+  authors: A. Boopathy, L. Weng, P.-Y. Chen, <b>S. Liu</b>, L. Daniel
   link:
     url: https://arxiv.org/pdf/1811.12395.pdf
     display: AAAI’19
@@ -519,7 +519,7 @@
 - title: "AutoZOOM: Autoencoder-based Zeroth Order Optimization Method for Attacking Black-box Neural Networks"
   image: dummy.png
   description: ""
-  authors: C.-C. Tu*, P. Ting*, P.-Y. Chen*, S. Liu, H. Zhang, J. Yi, C.-J. Hsieh, S.-M. Cheng
+  authors: C.-C. Tu*, P. Ting*, P.-Y. Chen*, <b>S. Liu</b>, H. Zhang, J. Yi, C.-J. Hsieh, S.-M. Cheng
   link:
     url: https://arxiv.org/pdf/1805.11770.pdf
     display: AAAI’19
@@ -529,7 +529,7 @@
 - title: "Zeroth-Order Stochastic Variance Reduction for Nonconvex Optimization"
   image: dummy.png
   description: ""
-  authors: S. Liu, B. Kailkhura, P.-Y. Chen, P. Ting, S. Chang, L. Amini
+  authors: <b>S. Liu</b>, B. Kailkhura, P.-Y. Chen, P. Ting, S. Chang, L. Amini
   link:
     url: https://arxiv.org/pdf/1805.10367.pdf
     display: NeurIPS’18
@@ -539,7 +539,7 @@
 - title: "Ultra-Fast Robust Compressive Sensing Based on Memristor Crossbars"
   image: dummy.png
   description: ""
-  authors: S. Liu, A. Ren, Y. Wang, P. K. Varshney
+  authors: <b>S. Liu</b>, A. Ren, Y. Wang, P. K. Varshney
   link:
     url: https://ieeexplore.ieee.org/abstract/document/7952333
     display: ICASSP’17 (Best Student Paper Award, Third Place)
