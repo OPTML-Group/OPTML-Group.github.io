@@ -2,7 +2,7 @@
   image: dummy.png
   description:
   authors: 
-    "T. Chen*, Z. Zhang*, <span style='color:blue'>Y. Zhang*</span>, S. Chang, <span style='color:blue'>S. Liu</span>, Z. Wang"
+    "<span style='color:black'>T. Chen*</span>, <span style='color:black'>Z. Zhang*</span>, <span style='color:blue'>Y. Zhang*</span>, S. Chang, <span style='color:blue'>S. Liu</span>, Z. Wang"
   link:
     url: 
     display: CVPR’22
