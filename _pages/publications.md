@@ -9,7 +9,9 @@ permalink: /publications/
 
 # Publications
 
-## Group highlights
+Jump: [Conference Papers](#highlighted-conference-papers) and [Journal Papers](#journal-papers)
+
+<!-- ## Group highlights
 
 (For a full list of publications and patents see [below](#full-list-of-publications) or go to [Google Scholar](https://scholar.google.com/citations?user=C7dO_UgAAAAJ&hl=en).
 
@@ -49,23 +51,30 @@ permalink: /publications/
 </div>
 {% endif %}
 
-<p> &nbsp; </p>
+<p> &nbsp; </p> -->
 
-## Full List of Publications
+<!-- ## Full List of Publications -->
 
-### Journal Papers
-{% for publi in site.data.journallist %}
+## Highlighted Conference Papers
 
-  {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-
-{% endfor %}
-
-### Highlighted Conference Papers
+**Back to [Top](#publications)**
 
 {% for publi in site.data.publist %}
 
-  {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+  <a href="{{ publi.link.url }}"><b>{{ publi.title }}</b></a> <br />
+  <em>{{ publi.authors }} </em><br />
+  {{ publi.link.display }}
+
+{% endfor %}
+
+## Journal Papers
+
+**Back to [Top](#publications)**
+
+{% for publi in site.data.journallist %}
+
+  <a href="{{ publi.link.url }}"><b>{{ publi.title }}</b></a> <br />
+  <em>{{ publi.authors }} </em><br />
+  {{ publi.link.display }}
 
 {% endfor %}
