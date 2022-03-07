@@ -77,7 +77,7 @@ Jump to: [Adversarial T-shirt](#adversarial-t-shirt), [MSU Campus](#beautiful-ca
 </figure>
 </center>
 
-#### group T-shirt
+<!-- #### group T-shirt
 <center>
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_tshirt.png" width="60%">
@@ -96,4 +96,4 @@ Jump to: [Adversarial T-shirt](#adversarial-t-shirt), [MSU Campus](#beautiful-ca
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_icon.png" width="60%">
 </figure>
-</center>
+</center> -->
