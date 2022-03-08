@@ -86,5 +86,5 @@ We are grateful for funding from [Michigan State University](https://msu.edu), [
 <br/> 
 
 <center>
-    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?w=150&d=dadct-jkTnCrT4yl1P89xiJzjTWb2o95Lfer0L6JQ1E"></script>
+    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?w=150&d=TYai0XCoTewd2PjwgwCME3t_ufoIcL1VJH0Y31jPsAA"></script>
 </center>
