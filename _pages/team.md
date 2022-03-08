@@ -173,6 +173,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
   <ul style="overflow: hidden">
   <li> Visiting Time: {{ member.visiting  }} </li>
   <li> Research Project: {{ member.research }} </li>
+  </ul>
 {% endfor %}
 </div>
 
