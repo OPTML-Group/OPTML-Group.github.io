@@ -163,7 +163,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 <!-- ## Former visitors, BSc/ MSc students -->
 ## Former Visitors
-<div class="row">
+<!-- <div class="row"> -->
 
 <div class="col-sm-6 clearfix">
 <!-- <h4>Visiting Students</h4> -->
@@ -190,5 +190,5 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 {% endfor %}
 </div> -->
 
-</div>
+<!-- </div> -->
 
