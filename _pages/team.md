@@ -163,19 +163,37 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 <!-- ## Former visitors, BSc/ MSc students -->
 ## Former Visitors
-<!-- <div class="row"> -->
+{% assign number_printed = 0 %}
+{% for member in site.data.alumni_visitors %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
 
 <div class="col-sm-6 clearfix">
-<!-- <h4>Visiting Students</h4> -->
-{% for member in site.data.alumni_visitors %}
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}</i>
   <ul style="overflow: hidden">
   <li> Visiting Time: {{ member.visiting  }} </li>
   <li> Research Project: {{ member.research }} </li>
   </ul>
-{% endfor %}
 </div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
 
 <!-- <div class="col-sm-4 clearfix">
 <h4>Master students</h4>
