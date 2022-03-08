@@ -1,0 +1,8 @@
+- name: Chen Fan
+  info: Graduate student, UMass Amherst, USA
+  visiting: May 2021 - Sept. 2021
+  research: "Sign-MAML [<a href='https://arxiv.org/pdf/2109.07497.pdf'>Paper</a> at NeurIPS MetaLearn’21]"
+- name: Vardaan Taneja
+  info: Undergraduate student, Indian Institute Of Technology, India
+  visiting: May 2021 - Sept. 2021
+  research: "Backdoor for image reconstruction [Paper at ICASSP’22]"

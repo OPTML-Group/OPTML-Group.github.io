@@ -161,17 +161,22 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </div>
 {% endif %}
 
-## Former visitors, BSc/ MSc students
+<!-- ## Former visitors, BSc/ MSc students -->
+## Former Visitors
 <div class="row">
 
-<div class="col-sm-4 clearfix">
-<h4>Visitors</h4>
+<div class="col-sm-6 clearfix">
+<!-- <h4>Visiting Students</h4> -->
 {% for member in site.data.alumni_visitors %}
-{{ member.name }}
+  <h4>{{ member.name }}</h4>
+  <i>{{ member.info }}</i>
+  <ul style="overflow: hidden">
+  <li> Visiting Time: {{ member.visiting  }} </li>
+  <li> Research Project: {{ member.research }} </li>
 {% endfor %}
 </div>
 
-<div class="col-sm-4 clearfix">
+<!-- <div class="col-sm-4 clearfix">
 <h4>Master students</h4>
 {% for member in site.data.alumni_msc %}
 {{ member.name }}
@@ -183,7 +188,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 {% for member in site.data.alumni_bsc %}
 {{ member.name }}
 {% endfor %}
-</div>
+</div> -->
 
 </div>
 
