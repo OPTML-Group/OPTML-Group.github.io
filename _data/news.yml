@@ -1,3 +1,6 @@
+- date: 11. March 2022
+  headline: Dr. Sijia Liu is grateful to receive a gift funding from Cisco Research as the PI.
+
 - date: 4. March 2022
   headline: Two papers accepted in <a href="https://cvpr2022.thecvf.com/">CVPR 2022</a>. Congratulations to <a href="http://www.yihua-zhang.com">Yihua Zhang</a> for his first CVPR paper!
 
@@ -5,7 +8,7 @@
   headline: Aochuan(Arthur) Chen will join us in Fall 2022 -- welcome Arthur!
 
 - date: 21. January 2022
-  headline: "Five papers in ICLR 2022, <a href='https://openreview.net/pdf?id=gpp7cf0xdfN'>Reverse Engineering of Adversaries</a>, <a href='https://openreview.net/pdf?id=W9G_ImpHlQd'>Black-Box Defense(spotlight)</a>, <a href='https://openreview.net/pdf?id=VqzXzA9hjaX'>Learning to Optimize</a>, <a href='https://openreview.net/pdf?id=qiMXBIf4NfB'>Self-Training Theory</a>, <a href='https://openreview.net/pdf?id=oj2yn1Q4Ett'>Distributed Learning</a>. Congratulations to Yimeng Zhang, Yuguang Yao, Jianghan Jia for their first ICLR papers!"
+  headline: "Five accepted papers in ICLR 2022, <a href='https://openreview.net/pdf?id=gpp7cf0xdfN'>Reverse Engineering of Adversaries</a>, <a href='https://openreview.net/pdf?id=W9G_ImpHlQd'>Black-Box Defense(spotlight)</a>, <a href='https://openreview.net/pdf?id=VqzXzA9hjaX'>Learning to Optimize</a>, <a href='https://openreview.net/pdf?id=qiMXBIf4NfB'>Self-Training Theory</a>, <a href='https://openreview.net/pdf?id=oj2yn1Q4Ett'>Distributed Learning</a>. Congratulations to Yimeng Zhang, Yuguang Yao, Jianghan Jia for their first ICLR papers!"
 
 - date: 15. January 2022
   headline: "Our work on <a href='https://arxiv.org/pdf/2112.12376.pdf'>interpreting and advancing adversarial training via bi-level optimization</a> is now available on arXiv; equally contributed by Yihua Zhang (MSU) and Guanhua Zhang (UCSB)."
