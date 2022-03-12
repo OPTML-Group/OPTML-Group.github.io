@@ -72,7 +72,7 @@ As AI moves from the lab into the real world (e.g., autonomous vehicles), ensuri
  **We always look for passionate students to join the team in terms of RA/TA/externship/internship/visiting students** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
 
-We are grateful for funding from [Michigan State University](https://msu.edu), [MIT-IBM Watson AI Lab](https://mitibmwatsonailab.mit.edu/), [DARPA](https://www.darpa.mil/), and [Cisco](https://www.cisco.com/).
+We are grateful for funding from [Michigan State University](https://msu.edu), [MIT-IBM Watson AI Lab](https://mitibmwatsonailab.mit.edu/), [DARPA](https://www.darpa.mil/), and [Cisco](https://research.cisco.com/).
 
 <center>
 <figure class="fourth">
