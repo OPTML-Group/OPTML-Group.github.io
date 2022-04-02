@@ -1,3 +1,14 @@
+- title: "Proactive Image Manipulation Detection"
+  image: dummy.png
+  description:
+  authors: 
+    "V. Asnani, X. Yin, T. Hassner, <span style='color:blue'>S. Liu</span>, X. Liu"
+  link:
+    url: 
+    display: CVPR’22
+  highlight: 0
+  news2:
+
 - title: "Quarantine: Sparsity Can Uncover the Trojan Attack Trigger for Free"
   image: dummy.png
   description:
