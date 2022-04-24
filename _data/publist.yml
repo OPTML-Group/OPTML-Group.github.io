@@ -1,3 +1,14 @@
+- title: "Learning to Generate Image Source-Agnostic Universal Adversarial Perturbations"
+  image: dummy.png
+  description:
+  authors: 
+    "P. Zhao, P. Ram, S. Lu, Y. Yao, D. Bouneffouf, X. Lin, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: 
+    display: IJCAI’22
+  highlight: 0
+  news2:
+
 - title: "Proactive Image Manipulation Detection"
   image: dummy.png
   description:
