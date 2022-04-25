@@ -2,7 +2,7 @@
   image: dummy.png
   description:
   authors: 
-    "P. Zhao, P. Ram, S. Lu, Y. Yao, D. Bouneffouf, X. Lin, <span style='color:blue'>S. Liu</span>"
+    "P. Zhao, P. Ram, S. Lu, <span style='color:blue'>Y. Yao</span>, D. Bouneffouf, X. Lin, <span style='color:blue'>S. Liu</span>"
   link:
     url: 
     display: IJCAI’22
