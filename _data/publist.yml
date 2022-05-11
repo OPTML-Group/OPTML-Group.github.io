@@ -1,3 +1,14 @@
+- title: "A Word is Worth A Thousand Dollars: Adversarial Attack on Tweets Fools Stock Prediction"
+  image: dummy.png
+  description:
+  authors: 
+    "Y. Xie, D. Wang, P. Chen, J. Xiong, <span style='color:blue'>S. Liu</span>, S. Koyejo,"
+  link:
+    url: 
+    display: NAACL'22.
+  highlight: 0
+  news2:
+
 - title: "Learning to Generate Image Source-Agnostic Universal Adversarial Perturbations"
   image: dummy.png
   description:
