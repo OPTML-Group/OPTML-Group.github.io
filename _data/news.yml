@@ -1,5 +1,11 @@
+- data: 16. May 2022
+  headline: One paper accepted in <a href="https://www.auai.org/uai2022/">UAI'22</a>.
+
+- date: 15. May 2022
+  headline: Five papers accepted in <a href="https://icml.cc/">ICML'22</a>.
+
 - date: 20. April 2022
-  headline: One Paper accepted to <a href="https://ijcai-22.org/">IJCAI'22</a>.
+  headline: One paper accepted in <a href="https://ijcai-22.org/">IJCAI'22</a>.
 
 - date: 1. April 2022
   headline: "CFP: The 1st Workshop on New Frontiers in Adversarial Machine Learning at ICML'22 (<a href='https://advml-frontier.github.io/'>AdvML-Frontiers@ICML'22</a>)."
@@ -8,13 +14,13 @@
   headline: "Dr. Sijia Liu is grateful to receive a gift funding from <a href='https://research.cisco.com/'>Cisco Research</a> as the PI."
 
 - date: 4. March 2022
-  headline: Two papers accepted in <a href="https://cvpr2022.thecvf.com/">CVPR 2022</a>. Congratulations to <a href="http://www.yihua-zhang.com">Yihua Zhang</a> for his first CVPR paper!
+  headline: Two papers accepted in <a href="https://cvpr2022.thecvf.com/">CVPR'22</a>. Congratulations to <a href="http://www.yihua-zhang.com">Yihua Zhang</a> for his first CVPR paper!
 
 - date: 28. February 2022
   headline: Aochuan(Arthur) Chen will join us in Fall 2022 -- welcome Arthur!
 
 - date: 21. January 2022
-  headline: "Five accepted papers in ICLR 2022, <a href='https://openreview.net/pdf?id=gpp7cf0xdfN'>Reverse Engineering of Adversaries</a>, <a href='https://openreview.net/pdf?id=W9G_ImpHlQd'>Black-Box Defense(spotlight)</a>, <a href='https://openreview.net/pdf?id=VqzXzA9hjaX'>Learning to Optimize</a>, <a href='https://openreview.net/pdf?id=qiMXBIf4NfB'>Self-Training Theory</a>, <a href='https://openreview.net/pdf?id=oj2yn1Q4Ett'>Distributed Learning</a>. Congratulations to Yimeng Zhang, Yuguang Yao, Jianghan Jia for their first ICLR papers!"
+  headline: "Five accepted papers in ICLR'22, <a href='https://openreview.net/pdf?id=gpp7cf0xdfN'>Reverse Engineering of Adversaries</a>, <a href='https://openreview.net/pdf?id=W9G_ImpHlQd'>Black-Box Defense(spotlight)</a>, <a href='https://openreview.net/pdf?id=VqzXzA9hjaX'>Learning to Optimize</a>, <a href='https://openreview.net/pdf?id=qiMXBIf4NfB'>Self-Training Theory</a>, <a href='https://openreview.net/pdf?id=oj2yn1Q4Ett'>Distributed Learning</a>. Congratulations to Yimeng Zhang, Yuguang Yao, Jianghan Jia for their first ICLR papers!"
 
 - date: 15. January 2022
   headline: "Our work on <a href='https://arxiv.org/pdf/2112.12376.pdf'>interpreting and advancing adversarial training via bi-level optimization</a> is now available on arXiv; equally contributed by Yihua Zhang (MSU) and Guanhua Zhang (UCSB)."
@@ -23,10 +29,10 @@
   headline: Dr. Sijia Liu receives a DARPA IP2 AIE Grant as a Co-PI.
 
 - date: 28. September 2021
-  headline: "Five papers in <a href='https://nips.cc/'>NeurIPS 2021</a>."
+  headline: "Five papers accepted in <a href='https://nips.cc/'>NeurIPS'21</a>."
 
 - date: 19. May 2021
   headline: "Our MSU-NEU team (with PI <a href='https://www.cse.msu.edu/~liuxm/index2.html'>Xiaoming Liu</a> and co-PI <a href='https://web.northeastern.edu/xuelin/?page_id=60'>Xue Lin</a>) entered the Phase 2 of DARPA AIE RED."
 
 - date: 13. May 2021
-  headline: "One paper accepted in <a href='https://icml.cc'>ICML 2021</a>"
+  headline: "One paper accepted in <a href='https://icml.cc'>ICML'21</a>"
