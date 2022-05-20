@@ -41,16 +41,7 @@
   url: https://www.yihua-zhang.com
   number_educ: 1
   education1: B.Eng. Mechanical Engineering, Huazhong University of Science and Technology, China
-    
-- name: Jaturong Kongmanee
-  photo: kongmanee.png
-  info: Ph.D student, Computer Science, Michigan State University (Spring 2021 - current)
-  email: kongmane@msu.edu
-  url: https://scholar.google.co.th/citations?user=UyiC8TQAAAAJ&hl=en
-  number_educ: 2
-  education1: M.Sc. Computer Science, Texas Tech University, USA
-  education2: B.S. Computer Science, King Mongkut's University of Technology Thonburi, Thailand
-  
+     
 - name: Aochuan(Arthur) Chen
   photo: aochuan.png
   info: PhD Student, Computer Science, Michigan State University (Incoming)
