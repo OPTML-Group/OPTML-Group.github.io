@@ -1,8 +1,63 @@
+- title: "Distributed Adversarial Training to Robustify Deep Neural Networks at Scale"
+  image: dummy.png
+  description:
+  authors:
+    "G. Zhang*, S. Lu*, <span style='color:blue'>Y. Zhang*</span>, X. Chen, P. Chen, Q. Fan, L. Martie, L. Horesh, M. Hong, and <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/pdf/2206.06257.pdf
+    display: UAI’22 (<span style='color:red'>Oral, acceptance rate 5%</span>)
+  highlight: 0
+  news2: 
+
+- title: "Revisiting and Advancing Fast Adversarial Training through the Lens of Bi-level Optimization"
+  image: dummy.png
+  description:
+  authors:
+    "<span style='color:blue'>Y. Zhang*</span>, G. Zhang*, P. Khanduri, M. Hong, S. Chang, and <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/pdf/2112.12376.pdf
+    display: ICML'22.
+  highlight: 0
+  news2:
+
+- title: "Data-Efficient Double-Win Lottery Tickets from Robust Pre-training."
+  image: dummy.png
+  description:
+  authors:
+    "T. Chen*, H. Zhang*, Z. Zhang, S. Chang, <span style='color:blue'>S. Liu</span>, P. Chen, and Z. Wang"
+  link:
+    url: https://arxiv.org/pdf/2206.04762.pdf
+    display: ICML'22.
+  highlight: 0
+  news2:
+
+- title: "Revisiting Contrastive Learning through the Lens of Neighborhood Component Analysis: an Integrated Framework"
+  image: dummy.png
+  description:
+  authors: 
+    "C. Ko, J. Mohapatra, <span style='color:blue'>S. Liu</span>, P. Chen, L. Daniel, and L. Weng"
+  link:
+    url: https://arxiv.org/pdf/2112.04468.pdf
+    display: ICML'22.
+  highlight: 0
+  news2:
+
+- title: "Generalization Guarantee of Training Graph Convolutional Networks with Graph Topology Sampling"
+  image: dummy.png
+  description:
+  authors: 
+    "H. Li, M. Weng, <span style='color:blue'>S. Liu</span>, P. Chen, and J. Xiong"
+  link:
+    url: 
+    display: ICML'22.
+  highlight: 0
+  news2:
+
 - title: "A Word is Worth A Thousand Dollars: Adversarial Attack on Tweets Fools Stock Prediction"
   image: dummy.png
   description:
   authors: 
-    "Y. Xie, D. Wang, P. Chen, J. Xiong, <span style='color:blue'>S. Liu</span>, S. Koyejo,"
+    "Y. Xie, D. Wang, P. Chen, J. Xiong, <span style='color:blue'>S. Liu</span>, S. Koyejo"
   link:
     url: 
     display: NAACL'22.
