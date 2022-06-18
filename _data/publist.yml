@@ -13,7 +13,7 @@
   image: dummy.png
   description:
   authors:
-    "<span style='color:blue'>Y. Zhang</span>*, G. Zhang*, P. Khanduri, M. Hong, S. Chang, and <span style='color:blue'>S. Liu</span>"
+    "<span style='color:blue'>Y. Zhang*</span>, <span style='color:black'>G. Zhang*</span>, P. Khanduri, M. Hong, S. Chang, and <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/pdf/2112.12376.pdf
     display: ICML'22.
