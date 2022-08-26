@@ -9,6 +9,6 @@ sitemap: false
 ---
 
 
-# How to Robustify Black-Box ML Models? A Zeroth-Order Optimization Perspective
+## How to Robustify Black-Box ML Models?
 
 In this paper, we study the problem of black-box defense, aiming to secure black-box models against adversarial attacks using only input-output model queries. We integrate denoised smoothing (DS) with ZO (zerothorder) optimization to build a feasible black-box defense framework. We further propose ZO-AE-DS, which leverages autoencoder (AE) to bridge the gap between FO and ZO optimization.
