@@ -14,7 +14,9 @@ poster: https://drive.google.com/file/d/1VnnC06NBoRCfSjw2RT91dKCeZ8iDEXCY/view?u
 As models usually learn "too well" during training - so much that make various types of attacks possible, backdoor attack (or Trojan Attack) has become a real-life threat to the AI model deployed in the real world. At the same time, extensive research work on model pruning has shown that the weights of an overparameterized model (e.g., DNN) can be pruned without hampering its generalization ability. Combining both lines of research, our story begins with the following question:
 
 <center>
-**How does the model sparsity relate to its train-time robustness against Trojan attacks?**
+<b>
+How does the model sparsity relate to its train-time robustness against Trojan attacks?
+</b>
 </center>
 
 <center>
