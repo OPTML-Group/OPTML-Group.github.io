@@ -106,7 +106,8 @@
     url: https://openreview.net/forum?id=gpp7cf0xdfN
     display: ICLR’22
   highlight: 1
-  news2: 
+  news2:
+  post: 
 
 - title: "How to Robustify Black-Box ML Models? A Zeroth-Order Optimization Perspective"
   image: black_box.png
@@ -118,6 +119,7 @@
     display: "ICLR’22 (<span style='color:red'>spotlight, acceptance rate 5%</span>)"
   highlight: 1
   news2: 
+  post: template.md
 
 - title: "How unlabeled data improve generalization in self-training? A one-hidden-layer theoretical analysis"
   image: dummy.png
