@@ -106,7 +106,7 @@
   link:
     url: https://openreview.net/forum?id=gpp7cf0xdfN
     display: ICLR’22
-  highlight: 0
+  highlight: 1
   news2:
   post: 
 
@@ -118,9 +118,9 @@
   link:
     url: https://openreview.net/forum?id=W9G_ImpHlQd
     display: "ICLR’22 (<span style='color:red'>spotlight, acceptance rate 5%</span>)"
-  highlight: 0
+  highlight: 1
   news2: 
-  post: template
+  post:
 
 - title: "How unlabeled data improve generalization in self-training? A one-hidden-layer theoretical analysis"
   image: dummy.png
