@@ -76,7 +76,7 @@
   news2:
 
 - title: "Proactive Image Manipulation Detection"
-  image: backdoor_cvpr22.png
+  image: dummy.png
   description:
   authors: 
     "V. Asnani, X. Yin, T. Hassner, <span style='color:blue'>S. Liu</span>, X. Liu"
@@ -87,7 +87,7 @@
   news2:
 
 - title: "Quarantine: Sparsity Can Uncover the Trojan Attack Trigger for Free"
-  image: dummy.png
+  image: backdoor_cvpr22.png
   description: "This paper revealed that for a backdoored model, Trojan features learned are more stable against pruning than benign features! We further observed the existence of the 'winning Trojan ticket' which preserves the Trojan attack performance while retaining chance-level performance on clean inputs. Further, we propose a clean data-free algorithm to detect and reverse engineer the Trojan attacks."
   authors: 
     "<span style='color:black'>T. Chen*</span>, <span style='color:black'>Z. Zhang*</span>, <span style='color:blue'>Y. Zhang*</span>, S. Chang, <span style='color:blue'>S. Liu</span>, Z. Wang"
@@ -96,7 +96,7 @@
     display: CVPR’22
   highlight: 1
   news2:
-  post: backdoor_cvpr2022
+  post: backdoor_cvpr22
 
 - title: "Reverse Engineering of Imperceptible Adversarial Image Perturbations"
   image: RED.png
