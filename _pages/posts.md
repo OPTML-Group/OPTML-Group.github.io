@@ -32,7 +32,7 @@ Authors marked in <span style="color:blue">blue</span> indicate our group member
   <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
   <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
   <p> {{ publi.news2 }}</p>
-  <p><a href="{{ site.url }}{{ site.baseurl }}/posts/{{ publi.post }}">Click here to see the article on this paper.</a></p>
+  <p><a href="{{ site.url }}{{ site.baseurl }}/posts/{{ publi.post }}">Click here to read the full article.</a></p>
  </div>
 </div>
 
