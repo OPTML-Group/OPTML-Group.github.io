@@ -15,7 +15,7 @@ sitemap: false
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
-    color: #999; font-size:15px；
+    color: #999; font-size:18px；
     padding: 2px;">Research Achievements At-A-Glance</div>
 </center>
 
