@@ -119,7 +119,7 @@
     display: "ICLR’22 (<span style='color:red'>spotlight, acceptance rate 5%</span>)"
   highlight: 1
   news2: 
-  post: template.md
+  post: template
 
 - title: "How unlabeled data improve generalization in self-training? A one-hidden-layer theoretical analysis"
   image: dummy.png

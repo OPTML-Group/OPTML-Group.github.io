@@ -1,5 +1,5 @@
 ---
-title: "OPTML Group - How to Robustify Black-Box ML Models? A Zeroth-Order Optimization Perspective"
+title: "How to Robustify Black-Box ML Models? A Zeroth-Order Optimization Perspective"
 date: 2022-08-22
 author: Yihua Zhang
 layout: post
