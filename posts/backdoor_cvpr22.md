@@ -111,7 +111,7 @@ A sparse network with the peak Trojan Score maintains the highest ASR in the ext
 ```
 @inproceedings{chen2022quarantine,
   title = {Quarantine: Sparsity Can Uncover the Trojan Attack Trigger for Free},
-  author = {Chen*, Tianlong and Zhang*, Zhenyu and Zhang*, Yihua and Chang, Shiyu and Liu, Sijia and Wang, Zhangyang},
+  author = {Chen, Tianlong and Zhang, Zhenyu and Zhang, Yihua and Chang, Shiyu and Liu, Sijia and Wang, Zhangyang},
   booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   pages = {598--609},
   year = {2022}
