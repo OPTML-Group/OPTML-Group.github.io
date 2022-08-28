@@ -79,7 +79,7 @@ A sparse network with the peak Trojan Score maintains the highest ASR in the ext
 
 ---
 
-## Trigger Reverse Engineer across Different Datasets, Models, and Trojan Types
+## Backdoor Trigger Reverse Engineering
 
 <center>
     <img style="border-radius: 0.3125em;
