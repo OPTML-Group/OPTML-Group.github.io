@@ -6,7 +6,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#086acc">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/css/paper.css?v=' | append: site.github.build_revision | relative_url }}">
     <script type="text/javascript" async
@@ -15,7 +14,6 @@
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
-
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title }}</h1>
       <h2 class="project-tagline" style="color:white">{{ page.author }}</h2>
@@ -36,12 +34,19 @@
 
     <main id="content" class="main-content" role="main">
       {{ content }}
+
+      <footer class="site-footer">
+        <center>
+            {% if page.maintainer %}
+            <span class="site-footer-credits">This page is maintained by @{{page.maintainer}}. &copy; Copyright 2022 OPTML</span>
+            {% endif %}
+            <br>
+            <br>
+              <center>
+                <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?w=150&d=TYai0XCoTewd2PjwgwCME3t_ufoIcL1VJH0Y31jPsAA"></script>
+              </center>
+        </center>
+      </footer>
     </main>
   </body>
-
-  <foot>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </foot>
 </html>

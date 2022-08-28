@@ -2,11 +2,18 @@
 layout: paper
 title:  "[CVPR22]Quarantine: Sparsity Can Uncover the Trojan Attack Trigger for Free"
 date: 2022-06-21 21:00:00
-author: "Tianlong Chen<sup>[1]</sup>*, Zhenyu Zhang<sup>[1]</sup>*, Yihua Zhang<sup>[2]</sup>*, Shiyu Chang<sup>[3]</sup>, Sijia Liu<sup>[2,4]</sup>, Zhangyang Wang<sup>[1]</sup>"
+author: "<a style='color: #dfebf7' href='https://tianlong-chen.github.io/'>Tianlong Chen</a><sup>[1]</sup>*, 
+         <a style='color: #dfebf7' href='https://scholar.google.com/citations?user=ZLyJRxoAAAAJ&hl=zh-CN'>Zhenyu Zhang</a><sup>[1]</sup>*, 
+         <a style='color: #dfebf7' href='https://www.yihua-zhang.com/'>Yihua Zhang</a><sup>[2]</sup>*, 
+         <a style='color: #dfebf7' href='https://code-terminator.github.io/'>Shiyu Chang</a><sup>[3]</sup>, 
+         <a style='color: #dfebf7' href='https://lsjxjtu.github.io/'>Sijia Liu</a><sup>[2,4]</sup>, 
+         <a style='color: #dfebf7' href='https://vita-group.github.io/'>Zhangyang Wang</a><sup>[1]</sup>"
+maintainer: "<a href='https://www.yihua-zhang.com'>Yihua Zhang</a>"
 affiliation: "<sup>[1]</sup>University of Texas at Austin, <sup>[2]</sup>Michigan State University, <sup>[3]</sup>University of California, Santa Barbara, <sup>[4]</sup>MIT-IBM Watson AI Lab"
 code: "https://github.com/VITA-Group/Backdoor-LTH"
 poster: "https://drive.google.com/file/d/1VnnC06NBoRCfSjw2RT91dKCeZ8iDEXCY/view?usp=sharing"
 paper: "https://www.google.com"
+# slides: ""
 ---
 
 ## Motivation
@@ -44,7 +51,7 @@ Thus, the existence of the 'winning Trojan Ticket' could serve as an indicator o
 
 ---
 
-#### Trojan Score: Linear Mode Connectivity-based Trojan Indicator
+## Trojan Score: Linear Mode Connectivity-based Trojan Indicator
 
 We adopt Linear Mode Connectivity [\[2\]](#refer-anchor-2) (LMC) to measure the stability of the Trojan ticket
 
@@ -52,6 +59,18 @@ $$
     \mathcal{S}_{Trojan} = \max_{\alpha \in [0, 1]} \mathcal{E} (\alpha \phi - (1 - \alpha)\phi_{k}) - \frac{\mathcal{\phi} - \mathcal{\phi_k}}{2}
 $$
 
+
+## Citation
+
+```
+@inproceedings{chen2022quarantine,
+  title = {Quarantine: Sparsity Can Uncover the Trojan Attack Trigger for Free},
+  author = {Chen*, Tianlong and Zhang*, Zhenyu and Zhang*, Yihua and Chang, Shiyu and Liu, Sijia and Wang, Zhangyang},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages = {598--609},
+  year = {2022}
+}
+```
 
 
 #### Reference
