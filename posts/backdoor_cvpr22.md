@@ -37,9 +37,9 @@ Trojan features learned by backdoored attacks are significantly more stable agai
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="{{ site.url }}{{ site.baseurl }}/images/postpic/backdoor_cvpr22/overview.png" width="600">
     <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    <div style="color:orange;
     display: inline-block;
-    color: #999; font-size:18px；
+    color: #999; font-size:16px；
     padding: 2px;">Figure 1. An overview of our proposal: Weight pruning identifies the ‘winning Trojan ticket’, which can be used for Trojan detection and recovery.</div>
 </center>
 
@@ -69,17 +69,15 @@ A sparse network with the peak Trojan Score maintains the highest ASR in the ext
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/backdoor_cvpr22/pruning_dynamic.png" width="400">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/backdoor_cvpr22/pruning_dynamic.png" width="600">
     <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    <div style="color:orange;
     display: inline-block;
-    color: #999; font-size:18px；
+    color: #999; font-size:16px；
     padding: 2px;">Figure 2. The pruning dynamics of Trojan ticket (dash line) and 10-step finetuned ticket (solid line) on CIFAR-10 with ResNet-20 and gray-scale backdoor trigger. For comparison, the Trojan score is also reported.</div>
 </center>
 
-
 ---
-
 
 ## Trigger Reverse Engineer across Different Datasets, Models, and Trojan Types
 
@@ -90,10 +88,9 @@ A sparse network with the peak Trojan Score maintains the highest ASR in the ext
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
-    color: #999; font-size:18px；
-    padding: 2px;">Figure 3. The $$\ell_1$$ norm values of recovered Trojan triggers for all labels. The plot title signifies network architecture, trigger type, and the images for reverse engineering on CIFAR-10. Class “1” is the true target label for Trojan attacks. Green check or red cross indicates whether the detected label (with the least l! norm matches the true target label).</div>
+    color: #999; font-size:16px；
+    padding: 2px;">Figure 3. The $\ell_1$ norm values of recovered Trojan triggers for all labels. The plot title signifies network architecture, trigger type, and the images for reverse engineering on CIFAR-10. Class “1” is the true target label for Trojan attacks. Green check or red cross indicates whether the detected label (with the least l! norm matches the true target label).</div>
 </center>
-
 
 ---
 
@@ -102,14 +99,12 @@ A sparse network with the peak Trojan Score maintains the highest ASR in the ext
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/backdoor_cvpr22/recover_trigger_poster.png" width="800">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/backdoor_cvpr22/recover_trigger_poster.png" width="600">
     <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999; font-size:18px；
-    padding: 2px;">Figure 4. Visualization of recovered Trojan trigger patterns from dense Trojan models (baseline) and winning Trojan tickets. ResNet-20s on CIFAR-10 with RGB triggers are used. The first column shows the random seed images used for trigger recovery.</div>
+    <div style="color:orange; display: inline-block; color: #999; font-size:16px；padding: 2px;">Figure 4. Visualization of recovered Trojan trigger patterns from dense Trojan models (baseline) and winning Trojan tickets. ResNet-20s on CIFAR-10 with RGB triggers are used. The first column shows the random seed images used for trigger recovery.</div>
 </center>
 
+---
 
 ## Citation
 
@@ -122,7 +117,7 @@ A sparse network with the peak Trojan Score maintains the highest ASR in the ext
   year = {2022}
 }
 ```
-
+---
 
 ## Reference
 
