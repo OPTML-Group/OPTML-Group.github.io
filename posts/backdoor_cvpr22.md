@@ -89,7 +89,7 @@ A sparse network with the peak Trojan Score maintains the highest ASR in the ext
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999; font-size:16px；
-    padding: 2px;">Figure 3. The $$\ell_1$$ norm values of recovered Trojan triggers for all labels. The plot title signifies network architecture, trigger type, and the images for reverse engineering on CIFAR-10. Class “1” is the true target label for Trojan attacks. Green check or red cross indicates whether the detected label (with the least $$\ell_1$$ norm matches the true target label).</div>
+    padding: 2px;">Figure 3. The \(\ell_1\) norm values of recovered Trojan triggers for all labels. The plot title signifies network architecture, trigger type, and the images for reverse engineering on CIFAR-10. Class “1” is the true target label for Trojan attacks. Green check or red cross indicates whether the detected label (with the least \(\ell_1\) norm matches the true target label).</div>
 </center>
 
 ---
