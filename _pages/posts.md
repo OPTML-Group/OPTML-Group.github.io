@@ -1,17 +1,14 @@
 ---
-title: "OPTML Group - Posts"
+title: "OPTML Group - Projects"
 layout: gridlay
-excerpt: "OPTML Group -- Posts."
+excerpt: "OPTML Group -- Projects"
 sitemap: false
 permalink: /posts
 ---
 
-
-# Posts Overview
+# Group projects highlights
 
 Authors marked in <span style="color:blue">blue</span> indicate our group members, and "\*" indicates equal contribution.<br />
-
-## Group highlights
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
