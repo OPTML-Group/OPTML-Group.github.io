@@ -10,15 +10,16 @@
   news2: 
 
 - title: "Revisiting and Advancing Fast Adversarial Training through the Lens of Bi-level Optimization"
-  image: dummy.png
-  description:
+  image: fastbat_icml22.png
+  description: This work reformulates the problem of adversarial training (AT) to a bi-level optimization problem (BLO). BLO advances the optimization foundations of AT. We first show that the commonly-used Fast-AT is equivalent to using a stochastic gradient algorithm to solve a linearized BLO problem involving a sign operation. However, the discrete nature of the sign operation makes it difficult to understand the algorithm performance. Inspired by BLO, we design and analyze a new set of robust training algorithms termed Fast Bi-level AT (Fast-BAT), which effectively defends sign-based projected gradient descent (PGD) attacks without using any gradient sign method or explicit robust regularization. In practice, we show that our method yields substantial robustness improvements over multiple baselines across multiple models and datasets.
   authors:
     "<span style='color:blue'>Y. Zhang*</span>, <span style='color:black'>G. Zhang*</span>, P. Khanduri, M. Hong, S. Chang, and <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/pdf/2112.12376.pdf
     display: ICML'22.
-  highlight: 0
+  highlight: 1
   news2:
+  post: fastbat_icml22
 
 - title: "Data-Efficient Double-Win Lottery Tickets from Robust Pre-training."
   image: dummy.png

@@ -1,34 +1,50 @@
 ---
 layout: paper
-title:  "[CVPR22]Quarantine: Sparsity Can Uncover the Trojan Attack Trigger for Free"
-date: 2022-06-21 21:00:00
-author: "<a style='color: #dfebf7' href='https://tianlong-chen.github.io/'>Tianlong Chen</a><sup>[1]</sup>*, 
-         <a style='color: #dfebf7' href='https://scholar.google.com/citations?user=ZLyJRxoAAAAJ&hl=zh-CN'>Zhenyu Zhang</a><sup>[1]</sup>*, 
-         <a style='color: #dfebf7' href='https://www.yihua-zhang.com/'>Yihua Zhang</a><sup>[2]</sup>*, 
-         <a style='color: #dfebf7' href='https://code-terminator.github.io/'>Shiyu Chang</a><sup>[3]</sup>, 
-         <a style='color: #dfebf7' href='https://lsjxjtu.github.io/'>Sijia Liu</a><sup>[2,4]</sup>, 
-         <a style='color: #dfebf7' href='https://vita-group.github.io/'>Zhangyang Wang</a><sup>[1]</sup>"
+title:  "[ICML22]Revisiting and Advancing Fast Adversarial Training Through The Lens of Bi-Level Optimization"
+date: 2022-07-28 21:00:00
+author: "<a style='color: #dfebf7' href='https://www.yihua-zhang.com/'>Yihua Zhang</a><sup>[1]</sup>*,
+         <a style='color: #dfebf7' href='https://https://ghzhang233.github.io/'>Guanhua Zhang</a><sup>[2]</sup>*,
+         <a style='color: #dfebf7' href='https://sites.google.com/view/khanduri-prashant/home'>Prashant Khanduri</a><sup>[3]</sup>*,
+         <a style='color: #dfebf7' href='https://people.ece.umn.edu/~mhong/mingyi.html'>Mingyi Hong</a><sup>[3]</sup>, 
+         <a style='color: #dfebf7' href='https://code-terminator.github.io/'>Shiyu Chang</a><sup>[1]</sup>
+         <a style='color: #dfebf7' href='https://lsjxjtu.github.io/'>Sijia Liu</a><sup>[2,4]</sup>"
 maintainer: "<a href='https://www.yihua-zhang.com'>Yihua Zhang</a>"
-affiliation: "<sup>[1]</sup>University of Texas at Austin, <sup>[2]</sup>Michigan State University, <sup>[3]</sup>University of California, Santa Barbara, <sup>[4]</sup>MIT-IBM Watson AI Lab"
-code: "https://github.com/VITA-Group/Backdoor-LTH"
-poster: "https://drive.google.com/file/d/1VnnC06NBoRCfSjw2RT91dKCeZ8iDEXCY/view?usp=sharing"
-paper: "https://arxiv.org/pdf/2205.11819.pdf"
-# slides: ""
+affiliation: "<sup>[1]</sup>Michigan State University, <sup>[2]</sup>University of California, Santa Barbara, <sup>[3]University of Minnesota</sup>, <sup>[4]</sup>MIT-IBM Watson AI Lab"
+code: "https://github.com/OPTML-Group/Fast-BAT"
+poster: "https://drive.google.com/file/d/1hPXqvVt-nXymYK8Rc3bk-mFYmVbEEard/view?usp=sharing"
+paper: "https://proceedings.mlr.press/v162/zhang22ak/zhang22ak.pdf"
+slides: "https://drive.google.com/file/d/13uI2Uzl_yLNdx2o1QqjGiQWFmL8RLaCn/view?usp=sharing"
 ---
 
 ## Motivation
 
-As models usually learn "too well" during training - so much that make various types of attacks possible, backdoor attack (or Trojan Attack) has become a real-life threat to the AI model deployed in the real world. At the same time, extensive research work on model pruning has shown that the weights of an overparameterized model (e.g., DNN) can be pruned without hampering its generalization ability. Combining both lines of research, our story begins with the following question:
+Adversarial training (AT) is a widely recognized defense mechanism to gain the robustness of deep neural networks against adversarial attacks. However, the conventional MMO method makes AT hard to scale. Thus, Fast-AT and other recent algorithms attempt to simplify MMO by replacing its maximization step with the single gradient sign-based attack generation step. Although easy to implement, FAST-AT lacks theoretical guarantees, and its empirical performance is unsatisfactory due to the issue of robust catastrophic overfitting when training with strong adversaries.  Moreover, there has been no theoretical guarantee for the optimization algorithms used in FAST-AT. Given the limitations, we ask:
 
 <center>
 <b>
 
-How does the model sparsity relate to its train-time robustness against Trojan attacks?
+How to design a ‘fast’ AT with improved stability,
+mitigated catastrophic overfitting,
+and theoretical guarantees?
 
 </b>
 </center>
 
-## The Discovery of 'Winning Trojan Ticket'
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/fastbat_icml22/overview.png" width="600">
+    <br>
+    <div style="color:orange;
+    display: inline-block;
+    color: #999; font-size:16px；
+    padding: 2px;">Figure 1. An overview of our proposal: Adversarial training through bi-level optimization (BLO). The </div>
+</center>
+
+
+## Fast Robust Training: Not Enough!
+
+
 
 Trojan features learned by backdoored attacks are significantly more stable against pruning than benign features. Therefore, Trojan attacks can be uncovered through the pruning dynamics of the Trojan model.
 
