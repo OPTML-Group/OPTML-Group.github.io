@@ -72,17 +72,17 @@ As AI moves from the lab into the real world (e.g., autonomous vehicles), ensuri
  **We always look for passionate students to join the team in terms of RA/TA/externship/internship/visiting students** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
 
-We are grateful for funding from [Michigan State University](https://msu.edu), [MIT-IBM Watson AI Lab](https://mitibmwatsonailab.mit.edu/), [DARPA](https://www.darpa.mil/), and [Cisco Research](https://research.cisco.com/).
+We are grateful for funding from [Michigan State University](https://msu.edu), [MIT-IBM Watson AI Lab](https://mitibmwatsonailab.mit.edu/), [DARPA](https://www.darpa.mil/), [Cisco Research](https://research.cisco.com/) and [NSF](https://www.nsf.gov/).
 
 <center>
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ibm.png" style="width: 40%" padding="5% 5% 5% 5%">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_DARPA.jpeg" style="width: 40%" padding="5% 5% 5% 5%">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ibm.png" style="width: 30%" padding="5% 5% 5% 5%">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_DARPA.jpeg" style="width: 30%" padding="5% 5% 5% 5%">
 </figure>
 
 <figure class="fourth">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Cisco.png" style="width: 40%" padding="5% 5% 5% 5%">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NSF.png" style="width: 40%" padding="5% 5% 5% 5%">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Cisco.png" style="width: 30%" padding="5% 5% 5% 5%">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NSF.png" style="width: 30%" padding="5% 5% 5% 5%">
 </figure>
 
 </center>
