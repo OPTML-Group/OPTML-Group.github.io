@@ -1,3 +1,15 @@
+- title: "Fairness Reprogramming"
+  image: dummy.png
+  description:
+  authors:
+    "G. Zhang*, <span style='color:blue'>Y. Zhang*</span>, Y. Zhang, W. Fan, Q. Li, <span style='color:blue'>S. Liu</span>, S. Chang"
+  link:
+    url: https://arxiv.org/abs/2209.10222.pdf
+    display: NeurIPS’22
+  highlight: 0
+  news2: 
+
+
 - title: "Distributed Adversarial Training to Robustify Deep Neural Networks at Scale"
   image: dummy.png
   description:
