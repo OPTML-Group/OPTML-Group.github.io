@@ -1,3 +1,15 @@
+- title: "Advancing Model Pruning via Bi-level Optimization"
+  image: dummy.png
+  description:
+  authors:
+    "<span style='color:blue'>Y. Zhang*</span>, <span style='color:blue'>Y. Yao*</span>, P. Ram, P. Zhao, T. Chen, M. Hong, Y. Wang, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: 
+    display: NeurIPS’22
+  highlight: 0
+  news2: 
+
+
 - title: "Fairness Reprogramming"
   image: dummy.png
   description:
