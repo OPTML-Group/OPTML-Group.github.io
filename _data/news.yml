@@ -1,8 +1,11 @@
+- date: 12. October 2022
+  headline: "Tutorial on <a href='https://sites.google.com/view/neurips2022-frfm-turotial/'>Foundational Robustness of Foundation Models</a> will be given in <a href='https://nips.cc'>NeurIPS'22</a>."
+
 - date: 11. October 2022
-  headline: "Tutorial on Bi-level Machine Learning will be given in <a href='https://aaai.org/Conferences/AAAI-23/aaai23tutorials/'>AAAI'23</a>"
+  headline: "Tutorial on Bi-level Machine Learning will be given in <a href='https://aaai.org/Conferences/AAAI-23/aaai23tutorials/'>AAAI'23</a>."
 
 - date: 14. September 2022
-  headline: "Two papers accpeted in <a href='https://nips.cc'>NeurIPS'22</a>"
+  headline: "Two papers accpeted in <a href='https://nips.cc'>NeurIPS'22</a>."
 
 - date: 2. September 2022
   headline: "<a href='https://scholar.google.de/citations?user=laq9cq0AAAAJ&hl=en'>Francesco Croce</a> will give an invited talk on test-time defense on Sept. 7th."
