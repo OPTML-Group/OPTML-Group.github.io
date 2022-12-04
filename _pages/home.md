@@ -72,6 +72,35 @@ As AI moves from the lab into the real world (e.g., autonomous vehicles), ensuri
  **We always look for passionate students to join the team in terms of RA/TA/externship/internship/visiting students** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
 
+### Representative Publications
+
+Authors marked in <span style="color:blue">blue</span> indicate our group members, and "\*" indicates equal contribution.<br />
+
+**Trustworthy AI: Robustness, fairness, and model explanation**
+
+* Revisiting and advancing fast adversarial training through the lens of bi-level optimization
+    <span style='color:blue'>Y. Zhang\*</span>, G. Zhang\*, P. Khanduri, M. Hong, S. Chang, <span style='color:blue'>S. Liu</span>
+    ICML’22 
+
+* Reverse Engineering of Imperceptible Adversarial Image Perturbations
+    Y. Gong\*, <span style='color:blue'>Y. Yao\*</span>, Y. Li, Y. Zhang, X. Liu, X. Lin, <span style='color:blue'>S. Liu</span>
+    ICLR’22  
+
+* How to Robustify Black-Box ML Models? A Zeroth-Order Optimization Perspective
+    <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>Y. Yao</span>, <span style='color:blue'>J. Jia</span>, J. Yi, M. Hong, S. Chang, <span style='color:blue'>S. Liu</span>
+    ICLR’22
+
+* Fairness reprogramming [https://arxiv.org/pdf/2209.10222.pdf]
+    G. Zhang\*, <span style='color:blue'>Y. Zhang\*</span>, Y. Zhang, W. Fan, Q. Li, <span style='color:blue'>S. Liu</span>, S. Chang
+    NeurIPS'22
+
+* Proper Network Interpretability Helps Adversarial Robustness in Classification
+    A. Boopathy, <span style='color:blue'>S. Liu</span>, G. Zhang, C. Liu, P.-Y. Chen, S. Chang, L. Daniel
+    ICML’20
+
+
+
+
 We are grateful for funding from [Michigan State University](https://msu.edu), [MIT-IBM Watson AI Lab](https://mitibmwatsonailab.mit.edu/), [DARPA](https://www.darpa.mil/), [Cisco Research](https://research.cisco.com/) and [NSF](https://www.nsf.gov/).
 
 <center>
