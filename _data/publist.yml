@@ -12,15 +12,15 @@
 
 
 - title: "Fairness Reprogramming"
-  image: dummy.png
-  description:
+  image: fairness_neurips22.png
+  description: Despite a surge of recent advances in promoting machine Learning (ML) fairness, the existing mainstream approaches mostly require retraining or finetuning the entire weights of the neural network to meet the fairness criteria. However, this is often infeasible in practice for those large-scale trained models due to large computational and storage costs, low data efficiency, and model privacy issues. In this paper, we propose a new generic fairness learning paradigm, called FairnessReprogram, which incorporates the model reprogramming technique. Specifically, FairnessReprogram considers the case where models can not be changed and appends to the input a set of perturbations, called the fairness trigger, which is tuned towards the fairness criteria under a min-max formulation. We further introduce an information-theoretic framework that explains why and under what conditions fairness goals can be achieved using the fairness trigger. Extensive experiments on both NLP and CV datasets demonstrate that our method can achieve better fairness improvements than retraining-based methods with far less data dependency under two widely-used fairness criteria. 
   authors:
     "G. Zhang*, <span style='color:blue'>Y. Zhang*</span>, Y. Zhang, W. Fan, Q. Li, <span style='color:blue'>S. Liu</span>, S. Chang"
   link:
     url: https://arxiv.org/abs/2209.10222.pdf
     display: NeurIPS’22
-  highlight: 0
-  news2: 
+  highlight: 1
+  news2: fairness_neurips22
 
 
 - title: "Distributed Adversarial Training to Robustify Deep Neural Networks at Scale"

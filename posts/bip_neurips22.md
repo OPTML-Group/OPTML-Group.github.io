@@ -153,7 +153,7 @@ In Figure 6 below, we show the unstructured pruning trajectory (given by test ac
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/bip_nips22/exp_unstructured_pruning.png" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/bip_nips22/exp_unstructured_pruning.png" width="800">
     <br>
     <div style="color:orange;
     display: inline-block;
@@ -168,7 +168,7 @@ A similar phenomenon can be observed in the structured pruning setting as well.
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/bip_nips22/exp_structured_pruning.png" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/bip_nips22/exp_structured_pruning.png" width="800">
     <br>
     <div style="color:orange;
     display: inline-block;
@@ -183,7 +183,7 @@ Next, we show the high efficiency of BiP compared to the state-of-the-art IMP me
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/bip_nips22/exp_time.png" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/bip_nips22/exp_time.png" width="400">
     <br>
     <div style="color:orange;
     display: inline-block;
@@ -199,7 +199,7 @@ find matching subnetworks. Recall that rewinding is a strategy used in Lottery T
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/bip_nips22/no_rewinding.png" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/bip_nips22/no_rewinding.png" width="800">
     <br>
     <div style="color:orange;
     display: inline-block;
