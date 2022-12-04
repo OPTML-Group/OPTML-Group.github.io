@@ -172,7 +172,7 @@ In our paper, we both theoretically prove and empirically demonstrate why a *glo
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/bip_nips22/why_works.png" width="800">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/fairness_nips22/why_works.png" width="800">
     <br>
     <div style="color:orange;
     display: inline-block;
@@ -189,12 +189,12 @@ Figure 8 presents the input saliency maps on two input images with respect to th
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/bip_nips22/gradcam.png" width="800">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/fairness_nips22/gradcam.png" width="800">
     <br>
     <div style="color:orange;
     display: inline-block;
     color: #999; font-size:16px；
-    padding: 2px;">Figure 8. Gradient-based saliency map visualized with GradCam [\[1\]](#refer-anchor-1) of different methods. The highlighted zones (marked in red) depicting regions exerting major influence on the predicted labels (non-blond hair v.s. blond hair) in each row, which also depict the attention of the model on the input image.</div>
+    padding: 2px;">Figure 8. Gradient-based saliency map visualized with GradCam [1](#refer-anchor-1) of different methods. The highlighted zones (marked in red) depicting regions exerting major influence on the predicted labels (non-blond hair v.s. blond hair) in each row, which also depict the attention of the model on the input image.</div>
 </center>
 
 In Figure 9, our fairness trigger consists of a lot of religion-related words (e.g., diocesan, hebrew, parish). Meanwhile, the predicted toxicity score of the benign text starting from ‘muslims’ significantly reduces. These observations verify our theoretical hypothesis that the fairness trigger is strongly indicative of a certain demographic group to prevent the classifier from using the true demographic information.
@@ -202,12 +202,12 @@ In Figure 9, our fairness trigger consists of a lot of religion-related words (e
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/bip_nips22/integrated_grad.png" width="800">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/fairness_nips22/integrated_grad.png" width="800">
     <br>
     <div style="color:orange;
     display: inline-block;
     color: #999; font-size:16px；
-    padding: 2px;">Figure 9. A text example from Civil Comments with Integrated Gradient [\[2,3\]](#refer-anchor-2) highlighting important words that influence ERM model predictions. The text is concatenated with three triggers generated with different adversary weights. Green highlights the words that lean toward toxic predictions and red highlights non-toxic leaning words. The model prediction tends to be correct after adding the triggers.</div>
+    padding: 2px;">Figure 9. A text example from Civil Comments with Integrated Gradient [2,3](#refer-anchor-2) highlighting important words that influence ERM model predictions. The text is concatenated with three triggers generated with different adversary weights. Green highlights the words that lean toward toxic predictions and red highlights non-toxic leaning words. The model prediction tends to be correct after adding the triggers.</div>
 </center>
 
 To further verify that the triggers encode demographic information, we trained a demographic classifier to predict the demographics from the input (texts or images). We use the demographic classifier to predict the demographic information of a null image/text with the trigger. We see that the demographic classifier gives confident outputs on the triggers, indicating that they found triggers are highly indicative of demographics.
@@ -215,7 +215,7 @@ To further verify that the triggers encode demographic information, we trained a
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/bip_nips22/demographic_info_trigger.png" width="800">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/fairness_nips22/demographic_info_trigger.png" width="800">
     <br>
     <div style="color:orange;
     display: inline-block;

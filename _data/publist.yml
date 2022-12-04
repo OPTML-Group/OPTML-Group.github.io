@@ -20,7 +20,8 @@
     url: https://arxiv.org/abs/2209.10222.pdf
     display: NeurIPS’22
   highlight: 1
-  news2: fairness_neurips22
+  news2: 
+  post: fairness_neurips22
 
 
 - title: "Distributed Adversarial Training to Robustify Deep Neural Networks at Scale"
