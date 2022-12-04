@@ -6,6 +6,8 @@ sitemap: false
 permalink: /
 ---
 
+### About Us
+ 
 **OP**timization and **T**rustworthy **M**achine **L**earning (OPTML) group is an active research group at [Michigan State University](https://www.msu.edu). Our research interests span the areas of machine learning (ML)/ deep learning (DL), optimization, computer vision, security, signal processing and data science, with a focus on developing learning algorithms and theory, as well as robust and explainable artificial intelligence (AI). These research themes provide a solid foundation for reaching the long-term research objective: __Making AI systems scalable and trustworthy__.
 
 
@@ -78,49 +80,49 @@ Authors marked in **bold** indicate our group members, and "\*" indicates equal 
 
 **Trustworthy AI: Robustness, fairness, and model explanation**
 
-* Revisiting and advancing fast adversarial training through the lens of bi-level optimization
+* <a href="https://arxiv.org/pdf/2112.12376.pdf">Revisiting and advancing fast adversarial training through the lens of bi-level optimization</a>
     **Y. Zhang\***, G. Zhang\*, P. Khanduri, M. Hong, S. Chang, **S. Liu**<br>
     ICML’22 
 
-* Reverse Engineering of Imperceptible Adversarial Image Perturbations
+* <a href="https://openreview.net/pdf?id=gpp7cf0xdfN">Reverse Engineering of Imperceptible Adversarial Image Perturbations</a>
     Y. Gong\*, **Y. Yao\***, Y. Li, Y. Zhang, X. Liu, X. Lin, **S. Liu**<br>
     ICLR’22  
 
-* How to Robustify Black-Box ML Models? A Zeroth-Order Optimization Perspective
+* <a href="https://openreview.net/pdf?id=W9G_ImpHlQd">How to Robustify Black-Box ML Models? A Zeroth-Order Optimization Perspective</a>
     **Y. Zhang**, **Y. Yao**, **J. Jia**, J. Yi, M. Hong, S. Chang, **S. Liu**<br>
     ICLR’22
 
-* Fairness reprogramming [https://arxiv.org/pdf/2209.10222.pdf]
+* <a href="https://arxiv.org/pdf/2209.10222.pdf">Fairness reprogramming</a>
     G. Zhang\*, **Y. Zhang\***, Y. Zhang, W. Fan, Q. Li, **S. Liu**, S. Chang<br>
     NeurIPS'22
 
-* Proper Network Interpretability Helps Adversarial Robustness in Classification
+* <a href="https://arxiv.org/pdf/2006.14748.pdf">Proper Network Interpretability Helps Adversarial Robustness in Classification</a>
     A. Boopathy, **S. Liu**, G. Zhang, C. Liu, P.-Y. Chen, S. Chang, L. Daniel<br>
     ICML’20
 
 **Scalable AI: Model compression, distributed learning, black-box optimization, and automated ML**
 
-* Advancing Model Pruning via Bi-level Optimization
+* <a href="https://arxiv.org/pdf/2210.04092.pdf">Advancing Model Pruning via Bi-level Optimization</a>
     **Y. Zhang\***, **Y. Yao\***, P. Ram, P. Zhao, T. Chen, M. Hong, Y. Wang, **S. Liu**<br>
     NeurIPS’22
 
-* Distributed Adversarial Training to Robustify Deep Neural Networks at Scale
+* <a href="https://arxiv.org/pdf/2206.06257.pdf">Distributed Adversarial Training to Robustify Deep Neural Networks at Scale</a>
     G. Zhang\*, S. Lu\*, **Y. Zhang**, X. Chen, P.-Y. Chen, Q. Fan, L. Martie, L. Horesh, M. Hong, **S. Liu**<br>
-    UAI’22 <span style="color:red">(Best Paper Runner-Up Award)</span>
+    UAI’22 **<span style="color:red">(Best Paper Runner-Up Award)</span>**
 
-* Min-Max Optimization without Gradients: Convergence and Applications to Adversarial ML
+* <a href="https://arxiv.org/pdf/1909.13806.pdf">Min-Max Optimization without Gradients: Convergence and Applications to Adversarial ML</a>
     **S. Liu**, S. Lu, X. Chen, Y. Feng, K. Xu, A. Al-Dujaili, M. Hong, U.-M. O'Reilly<br>
     ICML’20
 
-* A Primer on Zeroth-Order Optimization in Signal Processing and Machine Learning
+* <a href="https://arxiv.org/pdf/2006.06224.pdf">A Primer on Zeroth-Order Optimization in Signal Processing and Machine Learning</a>
     **S. Liu**, P.-Y. Chen, B. Kailkhura, G. Zhang, A. O. Hero, P. K. Varshney<br>
     IEEE Signal Processing Magazine, 2020
 
-* An ADMM Based Framework for AutoML Pipeline Configuration
+* <a href="https://arxiv.org/pdf/1905.00424.pdf">An ADMM Based Framework for AutoML Pipeline Configuration</a>
     **S. Liu\***, P. Ram\*, D. Vijaykeerthy, D. Bouneffouf, G. Bramble, H. Samulowitz, D. Wang, A. Conn, A. Gray, <br>
     AAAI’20
 
-
+### Sponsors
 
 We are grateful for funding from [Michigan State University](https://msu.edu), [MIT-IBM Watson AI Lab](https://mitibmwatsonailab.mit.edu/), [DARPA](https://www.darpa.mil/), [Cisco Research](https://research.cisco.com/) and [NSF](https://www.nsf.gov/).
 
