@@ -74,30 +74,51 @@ As AI moves from the lab into the real world (e.g., autonomous vehicles), ensuri
 
 ### Representative Publications
 
-Authors marked in <span style="color:blue">blue</span> indicate our group members, and "\*" indicates equal contribution.<br />
+Authors marked in **bold** indicate our group members, and "\*" indicates equal contribution.<br />
 
 **Trustworthy AI: Robustness, fairness, and model explanation**
 
 * Revisiting and advancing fast adversarial training through the lens of bi-level optimization
-    <span style='color:blue'>Y. Zhang\*</span>, G. Zhang\*, P. Khanduri, M. Hong, S. Chang, <span style='color:blue'>S. Liu</span>
+    **Y. Zhang\***, G. Zhang\*, P. Khanduri, M. Hong, S. Chang, **S. Liu**<br>
     ICML’22 
 
 * Reverse Engineering of Imperceptible Adversarial Image Perturbations
-    Y. Gong\*, <span style='color:blue'>Y. Yao\*</span>, Y. Li, Y. Zhang, X. Liu, X. Lin, <span style='color:blue'>S. Liu</span>
+    Y. Gong\*, **Y. Yao\***, Y. Li, Y. Zhang, X. Liu, X. Lin, **S. Liu**<br>
     ICLR’22  
 
 * How to Robustify Black-Box ML Models? A Zeroth-Order Optimization Perspective
-    <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>Y. Yao</span>, <span style='color:blue'>J. Jia</span>, J. Yi, M. Hong, S. Chang, <span style='color:blue'>S. Liu</span>
+    **Y. Zhang**, **Y. Yao**, **J. Jia**, J. Yi, M. Hong, S. Chang, **S. Liu**<br>
     ICLR’22
 
 * Fairness reprogramming [https://arxiv.org/pdf/2209.10222.pdf]
-    G. Zhang\*, <span style='color:blue'>Y. Zhang\*</span>, Y. Zhang, W. Fan, Q. Li, <span style='color:blue'>S. Liu</span>, S. Chang
+    G. Zhang\*, **Y. Zhang\***, Y. Zhang, W. Fan, Q. Li, **S. Liu**, S. Chang<br>
     NeurIPS'22
 
 * Proper Network Interpretability Helps Adversarial Robustness in Classification
-    A. Boopathy, <span style='color:blue'>S. Liu</span>, G. Zhang, C. Liu, P.-Y. Chen, S. Chang, L. Daniel
+    A. Boopathy, **S. Liu**, G. Zhang, C. Liu, P.-Y. Chen, S. Chang, L. Daniel<br>
     ICML’20
 
+**Scalable AI: Model compression, distributed learning, black-box optimization, and automated ML**
+
+* Advancing Model Pruning via Bi-level Optimization
+    **Y. Zhang\***, **Y. Yao\***, P. Ram, P. Zhao, T. Chen, M. Hong, Y. Wang, **S. Liu**<br>
+    NeurIPS’22
+
+* Distributed Adversarial Training to Robustify Deep Neural Networks at Scale
+    G. Zhang\*, S. Lu\*, **Y. Zhang**, X. Chen, P.-Y. Chen, Q. Fan, L. Martie, L. Horesh, M. Hong, **S. Liu**<br>
+    UAI’22 <span style="color:red">(Best Paper Runner-Up Award)</span>
+
+* Min-Max Optimization without Gradients: Convergence and Applications to Adversarial ML
+    **S. Liu**, S. Lu, X. Chen, Y. Feng, K. Xu, A. Al-Dujaili, M. Hong, U.-M. O'Reilly<br>
+    ICML’20
+
+* A Primer on Zeroth-Order Optimization in Signal Processing and Machine Learning
+    **S. Liu**, P.-Y. Chen, B. Kailkhura, G. Zhang, A. O. Hero, P. K. Varshney<br>
+    IEEE Signal Processing Magazine, 2020
+
+* An ADMM Based Framework for AutoML Pipeline Configuration
+    **S. Liu\***, P. Ram\*, D. Vijaykeerthy, D. Bouneffouf, G. Bramble, H. Samulowitz, D. Wang, A. Conn, A. Gray, <br>
+    AAAI’20
 
 
 
