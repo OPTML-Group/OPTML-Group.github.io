@@ -108,7 +108,7 @@ For the upper level, as the mask is supposed to contain either 0 or 1, represent
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/bip_nips22/bip_overview.png" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/bip_nips22/overview.png" width="600">
     <br>
     <div style="color:orange;
     display: inline-block;
