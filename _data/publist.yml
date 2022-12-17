@@ -2,7 +2,7 @@
   image: dummy.png
   description:
   authors:
-    "<span style='color:blue'>Y. Zhang*</span>, A. K. Kamath*, Q. Wu*, Z. Fan*, W., Z. Wang, S. Chang, <span style='color:blue'>S. Liu</span>, C. Hao"
+    "<span style='color:blue'>Y. Zhang*</span>, <span style='color:black'>A. K. Kamath*</span>, Q. Wu*, Z. Fan*, W., Z. Wang, S. Chang, <span style='color:blue'>S. Liu</span>, C. Hao"
   link:
     url: https://arxiv.org/abs/2210.08578
     display: ASPDAC'23
@@ -14,7 +14,7 @@
   image: dummy.png
   description:
   authors:
-    "<span style='color:blue'>J. Jia*</span>, S. Srikant*, T. Mitrovska, C. Gan, S. Chang, <span style='color:blue'>S. Liu</span>, U-M O'Reilly"
+    "<span style='color:blue'>J. Jia*</span>, <span style='color:black'>S. Srikant*</span>, T. Mitrovska, C. Gan, S. Chang, <span style='color:blue'>S. Liu</span>, U-M O'Reilly"
   link:
     url: https://arxiv.org/abs/2211.11711
     display: SANER'23
