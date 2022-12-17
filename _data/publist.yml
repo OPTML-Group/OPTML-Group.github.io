@@ -1,3 +1,15 @@
+- title: "Towards Both Robust and Accurate Code Models"
+  image: dummy.png
+  description:
+  authors:
+    "<span style='color:blue'>J. Jia*</span>, <span style='color:blue'>S. Srikant*</span>, T. Mitrovska, C. Gan, S. Chang, <span style='color:blue'>S. Liu</span>, U-M O'Reilly"
+  link:
+    url: https://arxiv.org/abs/2211.11711
+    display: SANER'23
+  highlight: 0
+  news2: 
+  post:
+
 - title: "Advancing Model Pruning via Bi-level Optimization"
   image: bip_neurips22.png
   description: In this work, we advance the optimization foundations of the pruning problem and close the gap between pruning accuracy and pruning efficiency. we formulate the pruning problem from a fresh and novel viewpoint, bi-level optimization (BLO). We show that the BLO interpretation provides a technically-grounded optimization base for an efficient implementation of the pruning-retraining learning paradigm used in IMP. We also show that the proposed bi-level optimization-oriented pruning method (termed BIP) is a special class of BLO problems with a bi-linear problem structure. Through thorough experiments on various datasets and model architectures, we demonstrate that BiP can achieve the state-of-the-art pruning accuray in both structured and unstructured pruning setting. and is  computationally as efficient as the one-shot pruning schemes, demonstrating an 2~7 times speed up over the current SOTA pruning baseline (IMP) for the same level of model accuracy and sparsity.
