@@ -2,8 +2,6 @@
   image: dummy.png
   description:
   authors:
-    "<span style='color:blue'>J. Jia*</span>, S. Srikant*, T. Mitrovska, C. Gan, S. Chang, <span style='color:blue'>S. Liu</span>, U-M O'Reilly"
-
     "<span style='color:blue'>Y. Zhang*</span>, A. K. Kamath*, Q. Wu*, Z. Fan*, W., Z. Wang, S. Chang, <span style='color:blue'>S. Liu</span>, C. Hao"
   link:
     url: https://arxiv.org/abs/2210.08578
