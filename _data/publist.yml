@@ -2,7 +2,7 @@
   image: dummy.png
   description:
   authors:
-    "<span style='color:blue'>Y. Zhang*</span>, <span style='color:black'>A. K. Kamath*</span>, <span style='color:black'>Q. Wu*</span>, <span style='color:black'>Z. Fan</span>, W., Z. Wang, S. Chang, <span style='color:blue'>S. Liu</span>, C. Hao"
+    "<span style='color:blue'>Y. Zhang*</span>, <span style='color:black'>A. K. Kamath*</span>, <span style='color:black'>Q. Wu*</span>, <span style='color:black'>Z. Fan*</span>, W., Z. Wang, S. Chang, <span style='color:blue'>S. Liu</span>, C. Hao"
   link:
     url: https://arxiv.org/abs/2210.08578
     display: ASPDAC'23
