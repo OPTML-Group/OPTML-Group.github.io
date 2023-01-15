@@ -13,7 +13,7 @@ permalink: /team/
 
 <!-- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni). -->
 
-## Professor
+## PI
 {% assign number_printed = 0 %}
 {% for member in site.data.professor %}
 
@@ -76,7 +76,7 @@ permalink: /team/
 {% endif %}
 
 
-## Current Students
+## Student Members
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
