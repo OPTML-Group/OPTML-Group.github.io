@@ -6,3 +6,15 @@
   info: Undergraduate student, Indian Institute Of Technology, India
   visiting: May 2021 - Sept. 2021
   research: "Backdoor for image reconstruction [Paper at ICASSP’22]"
+- name: "<a href='https://scholar.google.ca/citations?user=c2VU-_4AAAAJ&hl=en'>Soumyadeep Pal</a>"
+  info: Master student, University of Alberta, Canada
+  visiting: May 2022 - Sept. 2022
+  research: "Towards understanding how self training tolerates data backdoor poisoning [Best Paper Award Finalist, <a href='https://safeai.webs.upv.es/index.php/best-paper-award/?'>SafeAI Workshop@AAAI'23</a>]"
+- name: "<a href='https://scholar.google.at/citations?user=sb4hPQMAAAAJ&hl=en'>Peter Lorenz</a>"
+  info: Undergraduate student, Fraunhofer Center of Machine Learning, Germany
+  visiting: May 2022 - Sept. 2022
+  research: "<a href='https://scholar.google.at/citations?view_op=view_citation&hl=en&user=sb4hPQMAAAAJ&sortby=pubdate&citation_for_view=sb4hPQMAAAAJ:W7OEmFMy1HYC'>Visual Prompting for Adversarial Robustness</a> [Paper at ICASSP’23]"
+- name: Hui Li
+  info: Undergraduate student, Huazhong University of Science and Technology, China
+  visiting: May 2022 - Sept. 2022
+  research: "SMUG: Towards robust MRI reconstruction by smoothed unrolling [Paper at ICASSP’23]"
