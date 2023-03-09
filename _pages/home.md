@@ -135,6 +135,7 @@ We are grateful for funding from [Michigan State University](https://msu.edu), [
 <figure class="fourth">
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Cisco.png" style="width: 30%" padding="5% 5% 5% 5%">
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NSF.png" style="width: 30%" padding="5% 5% 5% 5%">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_DSO.png" style="width: 30%" padding="5% 5% 5% 5%">
 </figure>
 
 </center>
