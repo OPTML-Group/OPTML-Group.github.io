@@ -124,7 +124,7 @@ Authors marked in **bold** indicate our group members, and "\*" indicates equal 
 
 ### Sponsors
 
-We are grateful for funding from [Michigan State University](https://msu.edu), [MIT-IBM Watson AI Lab](https://mitibmwatsonailab.mit.edu/), [DARPA](https://www.darpa.mil/), [Cisco Research](https://research.cisco.com/) and [NSF](https://www.nsf.gov/).
+We are grateful for funding from [Michigan State University](https://msu.edu), [MIT-IBM Watson AI Lab](https://mitibmwatsonailab.mit.edu/), [DARPA](https://www.darpa.mil/), [Cisco Research](https://research.cisco.com/), [NSF](https://www.nsf.gov/), and [DSO National Laboratories](https://www.dso.org.sg/).
 
 <center>
 <figure class="fourth">
