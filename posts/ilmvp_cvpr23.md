@@ -23,7 +23,7 @@ Therefore, existing pruning methods have reached a dilemma over choosing between
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/bip_nips22/overview.png" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/ilmvp_cvpr23/overview.png" width="600">
     <br>
     <div style="color:orange;
     display: inline-block;
@@ -36,7 +36,7 @@ Therefore, existing pruning methods have reached a dilemma over choosing between
 
 <center>
 <b>
-Given the source model $f_{\theta_s}$ , how to build a mapping from the source label space $\mathcal{Y}_s$ to the target label space $\mathcal{Y}_t$ so that the model’s prediction directs to the correct target label?
+Given the source model, how to build a mapping from the source label space to the target label space so that the model’s prediction directs to the correct target label?
 </b>
 <br>
 </center>
