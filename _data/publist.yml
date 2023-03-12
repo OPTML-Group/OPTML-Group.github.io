@@ -1,3 +1,75 @@
+- title: "Understanding and Improving Visual Prompting: A Label-Mapping Perspective"
+  image: dummy.png
+  description:
+  authors:
+    "<span style='color:blue'>A. Chen</span>, <span style='color:blue'>Y. Yao</span>, P. Chen, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2211.11635
+    display: CVPR'23
+  highlight: 0
+  news2: 
+  post:
+
+- title: "Text-Visual Prompting for Efficient 2D Temporal Video Grounding"
+  image: dummy.png
+  description:
+  authors:
+    "<span style='color:blue'>Y. Zhang</span>, X. Chen, <span style='color:blue'>J. Jia</span>, <span style='color:blue'>S. Liu</span>, K. Ding"
+  link:
+    url:
+    display: CVPR'23
+  highlight: 0
+  news2: 
+  post:
+
+- title: "What Is Missing in IRM Training and Evaluation? Challenges and Solutions"
+  image: dummy.png
+  description:
+  authors:
+    "<span style='color:blue'>Y. Zhang</span>, P. Sharma, P. Ram, M. Hong, K. R. Varshney, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/pdf/2303.02343
+    display: ICLR'23
+  highlight: 0
+  news2: 
+  post:
+
+- title: "Joint Edge-Model Sparse Learning is Provably Efficient for Graph Neural Networks"
+  image: dummy.png
+  description:
+  authors:
+    "S. Zhang, M. Wang, P. Chen, <span style='color:blue'>S. Liu</span>, S. Lu, M. Liu"
+  link:
+    url: https://openreview.net/forum?id=4UldFtZ_CVF
+    display: ICLR'23
+  highlight: 0
+  news2: 
+  post:
+
+- title: "A Theoretical Understanding of Shallow Vision Transformers: Learning, Generalization, and Sample Complexity"
+  image: dummy.png
+  description:
+  authors:
+    "H. Li, M. Wang, <span style='color:blue'>S. Liu</span>, P. Chen"
+  link:
+    url: https://openreview.net/forum?id=jClGv3Qjhb
+    display: ICLR'23
+  highlight: 0
+  news2: 
+  post:
+
+- title: "TextGrad: Advancing Robustness Evaluation in {NLP} by Gradient-Driven Optimization"
+  image: dummy.png
+  description:
+  authors:
+    "B. Hou, <span style='color:blue'>J. Jia*</span>, <span style='color:blue'>Y. Zhang*</span>, <span style='color:black'>G. Zhang*</span>, <span style='color:black'>Y. Zhang</span>, <span style='color:blue'>S. Liu</span>, S. Chang"
+  link:
+    url: https://openreview.net/forum?id=5tKXUZil3X
+    display: ICLR'23
+  highlight: 0
+  news2: 
+  post:
+
 - title: "Data-Model-Circuit Tri-Design for Ultra-Light Video Intelligence on Edge Devices"
   image: dummy.png
   description:
