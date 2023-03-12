@@ -1,6 +1,6 @@
 ---
 layout: paper
-title:  "[CVPR22]Quarantine: Sparsity Can Uncover the Trojan Attack Trigger for Free"
+title:  "[CVPR23]Understanding and Improving Visual Prompting: A Label-Mapping Perspective"
 date: 2023-02-27 21:00:00
 author: "<a style='color: #dfebf7' href='https://cse.msu.edu/~chenaoch/'>Aochuan Chen</a><sup>[1]</sup>, 
          <a style='color: #dfebf7' href='https://cse.msu.edu/~yaoyugua/'>Yuguang Yao</a><sup>[1]</sup>, 
