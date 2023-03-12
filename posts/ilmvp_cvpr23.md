@@ -10,7 +10,7 @@ author: "<a style='color: #dfebf7' href='https://cse.msu.edu/~chenaoch/'>Aochuan
 maintainer: "<a style='color: #dfebf7' href='https://cse.msu.edu/~chenaoch/'>Aochuan Chen</a>"
 affiliation: "<sup>[1]</sup>Michigan State University, <sup>[2]</sup>MIT-IBM Watson AI Lab, IBM Research"
 code: "https://github.com/OPTML-Group/ILM-VP"
-poster: ""
+# poster: ""
 paper: "https://arxiv.org/abs/2211.11635"
 # slides: ""
 ---
