@@ -15,10 +15,11 @@ paper: "https://arxiv.org/abs/2211.11635"
 # slides: ""
 ---
 
-## Label Mapping: ?
+## Overview
 
-Among the many powerful pruning methods, Iterative Magnitude Pruning (IMP) is one of the most significant and popular methods, which prunes the model in an iterative manner and can reach an extremely sparse level without any performance loss. However, it often consumes much more than training a dense model from scratch. In contrast, efficient one-shot pruning methods can not deliver a high-quality sparse subnetwork, as shown in Figure 1.
-Therefore, existing pruning methods have reached a dilemma over choosing between the effective method and the efficient method.
+In this paper, we revisit and advance visual prompting (VP) from the perspective of label mapping (LM). we show that when reprogramming an ImageNet-pretrained ResNet-18 to 13 target tasks, our method (ILM-VP) outperforms baselines by a substantial margin, e.g., 7.9% and 6.7% accuracy improvements in transfer learning to the target Flowers102 and CIFAR100 datasets. Besides, our proposal on CLIP-based VP provides 13.7% and 7.1% accuracy improvements on Flowers102 and DTD respectively.
+
+Beyond the significant accuracy gain, we also show the interpretability brought by our method: The mapped source labels share similar visual features with the target labels. 
 
 <center>
     <img style="border-radius: 0.3125em;
@@ -28,9 +29,8 @@ Therefore, existing pruning methods have reached a dilemma over choosing between
     <div style="color:orange;
     display: inline-block;
     color: #999; font-size:16px；
-    padding: 2px;">Figure 1. The dilemma in model pruning: Powerful pruning methods (e.g., IMP) suffer from high computational overhead.</div>
+    padding: 2px;">Figure 1. An example of fairness reprogramming in CV and NLP tasks. The input agnostic trigger can promote fairness without altering the pretrained model.</div>
 </center>
-
 
 ---
 
