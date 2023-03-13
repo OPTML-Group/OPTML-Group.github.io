@@ -108,5 +108,17 @@ where the visual prompt $$\boldsymbol \delta$$  denotes the upper-level variable
     <div style="color:orange;
     display: inline-block;
     color: #999; font-size:16px；
-    padding: 2px;">Figure 3. Performance overview of our ILM-VP, prompt baseline methods (RLM-VP and FLM-VP), and finetuning methods (LP and FF) over 13 target image classification datasets using 3 pretrained source models (ResNet-18 on ImageNet-1K, ResNet-50 on ImageNet-1K, and ResNeXt-101-32x8d on Instagram). Each cell refers to the mean and standard deviation of target task accuracies (%) over 3 indepedent trials. The highest accuracy across VP-based methods is marked in bold. 'Parameter Size' refers to the number of trainable parameters in input prompt or model finetuning.</div>
+    padding: 2px;">Table 1. Performance overview of our ILM-VP, prompt baseline methods (RLM-VP and FLM-VP), and finetuning methods (LP and FF) over 13 target image classification datasets using 3 pretrained source models (ResNet-18 on ImageNet-1K, ResNet-50 on ImageNet-1K, and ResNeXt-101-32x8d on Instagram). Each cell refers to the mean and standard deviation of target task accuracies (%) over 3 indepedent trials. The highest accuracy across VP-based methods is marked in bold. 'Parameter Size' refers to the number of trainable parameters in input prompt or model finetuning.</div>
+</center>
+
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/ilmvp_cvpr23/ilm_convergence.png" width="800">
+    <br>
+    <div style="color:orange;
+    display: inline-block;
+    color: #999; font-size:16px；
+    padding: 2px;">Figure 3. ILM-VP training dynamics from epoch 0 to 200. Rows show: (1) VP pattern vs. epoch number; (2-4) Learned source label mapping with respect to target label 'Marigold', 'White Lily', 'Tree Poppy', together with EBE-identified source training examples to explain each re-purposed target label; (5) Convergence of training loss and LM difference between adjacent epochs measured by Hamming distance.</div>
 </center>
