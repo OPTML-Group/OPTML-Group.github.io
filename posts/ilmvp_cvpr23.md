@@ -34,7 +34,7 @@ Beyond the significant accuracy gain, we also show the better interpretability b
 
 ## Background
 
-The technology of VP addresses the problem of how to adapt a pre-trained source model $f_{\mathbf{\theta}_s}$ (e.g., the ImageNet-1K-pre-trained ResNet-18) to a target downstream task (e.g., flower classification over the Flowers102 dataset) without any task-specific model modification (e.g., finetuning). Throughout the paper, we focus on input-based VP (also known as model reprogramming), which incorporates a carefully-designed universal perturbation pattern to the raw target images so as to enforce the transferability of the source model to the target domain. Although the input prompting operation converts the original image to the source dimension-aligned datapoint that the source model can use, the successful realization of VP needs to map the source model's prediction (in the source label space $\mathcal{Y}_s$ with $K_s$ classes) to the target task's data label (in the target label space $\mathcal{Y}_t$ with $K_t$ classes). Therefore, we ask:
+The technology of VP addresses the problem of how to adapt a pre-trained source model $$f_{\boldsymbol{\theta}_s}$$ (e.g., the ImageNet-1K-pre-trained ResNet-18) to a target downstream task (e.g., flower classification over the Flowers102 dataset) without any task-specific model modification (e.g., finetuning). Throughout the paper, we focus on input-based VP (also known as model reprogramming), which incorporates a carefully-designed universal perturbation pattern to the raw target images so as to enforce the transferability of the source model to the target domain. Although the input prompting operation converts the original image to the source dimension-aligned datapoint that the source model can use, the successful realization of VP needs to map the source model's prediction (in the source label space $$\mathcal{Y}_s$$ with $$K_s$$ classes) to the target task's data label (in the target label space $$\mathcal{Y}_t$$ with $$K_t$$ classes). Therefore, we ask:
 
 ---
 
@@ -52,13 +52,13 @@ Given the source model, how to build a mapping from the source label space to th
 ### Random label mapping (RLM)
 RLM does not use any prior knowledge or source model information to guide the LM process. The mapped source labels (to the target domain) could be even random. For example, in the case of 'ImageNet (source) + CIFAR-10 (target)', existing VP  methods coded CIFAR-10 labels using the top 10 ImageNet indices, despite the lack of interpretation. 
 ### Frequency-based label mapping (FLM)
-FLM matches target labels to source labels based on the source model's prediction frequencies on zero-padded target datapoints, i.e., $$f_{\mathbf{\theta}_s} ( \mathbf{x}' (\mathbf{\delta}))$$ with $$\mathbf{\delta} = \mathbf{0}$$. More concretely, a target label $$y_t$$ is mapped to the source label $$y_s^*$$ following
+FLM matches target labels to source labels based on the source model's prediction frequencies on zero-padded target datapoints, i.e., $$f_{\boldsymbol{\theta}_s} ( \mathbf{x}' (\boldsymbol{\delta}))$$ with $$\boldsymbol{\delta} = \mathbf{0}$$. More concretely, a target label $$y_t$$ is mapped to the source label $$y_s^*$$ following
 
 $$
-y_s^* (y_t) = \mathrm{argmax}_{y_s} \mathrm{Pr} \{\text{Top-1 prediction of }f_{\mathbf{\theta}_s}(\mathbf{x}' (\mathbf{0})) \text{ is } y_s | \forall \mathbf{x}_t\in \mathcal{T}_{y_t} \}
+y_s^* (y_t) = \mathrm{argmax}_{y_s} \mathrm{Pr} \{\text{Top-1 prediction of }f_{\boldsymbol{\theta}_s}(\mathbf{x}' (\mathbf{0})) \text{ is } y_s | \forall \mathbf{x}_t\in \mathcal{T}_{y_t} \}
 $$
 
-where $$y_s^* (y_t)$$ explicitly expresses the dependence of the mapped source label on the target label, $$\mathcal T_{y_t}$$ denotes the  target data set in the class $$y_t$$, and $$\mathrm{Pr}\{ \cdot \}$$ is the probability of the event that the top-1 prediction of $$f_{\mathbf{\theta}_s}$$ is  the source class $y_s$ under the zero-padded target data points in $$\mathcal{T}_{y_t}$$.
+where $$y_s^* (y_t)$$ explicitly expresses the dependence of the mapped source label on the target label, $$\mathcal T_{y_t}$$ denotes the  target data set in the class $$y_t$$, and $$\mathrm{Pr}\{ \cdot \}$$ is the probability of the event that the top-1 prediction of $$f_{\boldsymbol{\theta}_s}$$ is  the source class $y_s$ under the zero-padded target data points in $$\mathcal{T}_{y_t}$$.
 
 As shown in Figure 2, FLM results in a mapping scheme different from that of RLM. However, it is still difficult to interpret the obtained LM results and remains elusive how the quality of LM impacts the performance of VP. 
 
@@ -72,3 +72,23 @@ As shown in Figure 2, FLM results in a mapping scheme different from that of RLM
     color: #999; font-size:16px；
     padding: 2px;">Figure 2. Results of RLM and FLM.</div>
 </center>
+
+## Our Proposal: ILM-VP
+
+### The 'Missing' Dynamics of LM in The Source Domain
+
+A prompt learning pipeline mainly involves three steps: (A1) input prompt modeling, (A2) LM (from the source label set $$\mathcal{Y}_s$$ to the target label set $$\mathcal{Y}_t$$), and (A3) prompt generation. The prior art follows the pipeline (A1) $$\to$$ (A2) $$\to$$(A3) to generate the desired prompt $$\boldsymbol{\delta}^*$$, which drives the source model to accomplish target tasks. However, in the viewpoint of the source domain, the prompt updating from $$\boldsymbol{\delta} = \mathbf{0}$$ to $$\boldsymbol{\delta}^*$$   induces the prediction dynamics of the source model $$f_{\boldsymbol{\theta}_s}$$. That is,
+$$
+f_{\boldsymbol{\theta}_s}(\mathbf{x}'(\mathbf{0})) \to f_{\boldsymbol{\theta}_s}(\mathbf{x}'(\boldsymbol{\delta}^*)).
+$$
+The dynamics of LM inspires us to re-think the optimality of the current VP pipeline: 
+(A1) $$\to$$ (A2) $$\to$$ (A3). To improve it, we propose to take the LM dynamics into the prompt learning process. This modifies the conventional VP pipeline to (A1) $$\to$$ (A2)$$\rightleftarrows$$ (A3), where LM and prompt generation is in a closed loop. 
+
+We formally present ILM-VP through the lens of bi-level optimization (BLO). In the context of ILM-VP, we regard the prompt generation problem as the upper-level optimization task and the LM problem as the lower-level problem. This yields
+
+$$
+\underbrace{\mathrm{minimize}_{\boldsymbol{\delta}} \,\,\, \mathbb{E}_{(\mathbf{x}_t, y_t ) \in \mathcal{T}_{\mathrm{tr}}} \, [ \ell( f_{\boldsymbol{\theta}_s} (  \mathbf{x}'  (\boldsymbol \delta)), y_s^*(y_t)  ) ] }_\text{Upper-level prompt optimization}  \\
+  \mathrm{subject\,to} \,\,\, \underbrace{y_s^*(y_t) \text{ is obtained by FLM at (non-zero) prompt }\boldsymbol{\delta}
+ }_{\text{Lower-level LM design at current prompt }\boldsymbol \delta\text{ for every target label $y_t$}}
+$$
+where the visual prompt $$\boldsymbol \delta$$  denotes the upper-level variable, $$\ell$$ is the cross-entropy loss,  and the mapped source label $$y_s$$ is a lower-level variable for each given target label $$y_t$$ at the current prompt $$\boldsymbol \delta$$.
