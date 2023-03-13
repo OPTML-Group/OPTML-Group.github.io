@@ -120,5 +120,16 @@ where the visual prompt $$\boldsymbol \delta$$  denotes the upper-level variable
     <div style="color:orange;
     display: inline-block;
     color: #999; font-size:16px；
-    padding: 2px;">Figure 3. ILM-VP training dynamics from epoch 0 to 200. Rows show: (1) VP pattern vs. epoch number; (2-4) Learned source label mapping with respect to target label 'Marigold', 'White Lily', 'Tree Poppy', together with EBE-identified source training examples to explain each re-purposed target label; (5) Convergence of training loss and LM difference between adjacent epochs measured by Hamming distance.</div>
+    padding: 2px;">Figure 3. ILM-VP training dynamics from epoch 0 to 200. Rows show: (1) VP pattern vs. epoch number; (2-4) Learned source label mapping with respect to target label 'Marigold', 'White Lily', together with EBE-identified source training examples to explain each re-purposed target label; (5) Convergence of training loss and LM difference between adjacent epochs measured by Hamming distance.</div>
+</center>
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/ilmvp_cvpr23/ebe.png" width="800">
+    <br>
+    <div style="color:orange;
+    display: inline-block;
+    color: #999; font-size:16px；
+    padding: 2px;">Figure 4. LM method comparison: FLM vs ILM, by visualization of the target dataset (1) FLowers102, (2) OxfordPets, (3) DTD, and (4) Food101 with the source dataset ImageNet-1K using pretrained ResNet-18. ILM consistently finds more interpretable LM than FLM, in terms of colors, scenes, shapes, and textures. The four datasets are chosen due to the resolution for visualization and the accuracy improvement by our method compared to the prior art.</div>
 </center>
