@@ -144,3 +144,15 @@ where the visual prompt $$\boldsymbol \delta$$  denotes the upper-level variable
     color: #999; font-size:16px；
     padding: 2px;">Figure 5. Label mapping results of our proposed VP method for CLIP. The presented two datasets 'Flowers102' and 'DTD' enjoy the most significant accuracy gain using label mapping.</div>
 </center>
+
+---
+## Citation
+```
+@article{chen2022understanding,
+  title={Understanding and Improving Visual Prompting: A Label-Mapping Perspective},
+  author={Chen, Aochuan and Yao, Yuguang and Chen, Pin-Yu and Zhang, Yihua and Liu, Sijia},
+  journal={arXiv preprint arXiv:2211.11635},
+  year={2022}
+}
+```
+---
