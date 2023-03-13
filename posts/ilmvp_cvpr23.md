@@ -133,3 +133,14 @@ where the visual prompt $$\boldsymbol \delta$$  denotes the upper-level variable
     color: #999; font-size:16px；
     padding: 2px;">Figure 4. LM method comparison: FLM vs ILM, by visualization of the target dataset (1) FLowers102, (2) OxfordPets, (3) DTD, and (4) Food101 with the source dataset ImageNet-1K using pretrained ResNet-18. ILM consistently finds more interpretable LM than FLM, in terms of colors, scenes, shapes, and textures. The four datasets are chosen due to the resolution for visualization and the accuracy improvement by our method compared to the prior art.</div>
 </center>
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/ilmvp_cvpr23/clip_interpretability.png" width="800">
+    <br>
+    <div style="color:orange;
+    display: inline-block;
+    color: #999; font-size:16px；
+    padding: 2px;">Figure 5. Label mapping results of our proposed VP method for CLIP. The presented two datasets 'Flowers102' and 'DTD' enjoy the most significant accuracy gain using label mapping.</div>
+</center>
