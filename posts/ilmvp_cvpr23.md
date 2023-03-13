@@ -97,3 +97,16 @@ $$
 $$
 
 where the visual prompt $$\boldsymbol \delta$$  denotes the upper-level variable, $$\ell$$ is the cross-entropy loss, and the mapped source label $$y_s$$ is a lower-level variable for each target label $$y_t$$ at the current prompt $$\boldsymbol \delta$$.
+
+## Experiments
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/ilmvp_cvpr23/main_table.png" width="800">
+    <br>
+    <div style="color:orange;
+    display: inline-block;
+    color: #999; font-size:16px；
+    padding: 2px;">Figure 3. Performance overview of our ILM-VP, prompt baseline methods (RLM-VP and FLM-VP), and finetuning methods (LP and FF) over 13 target image classification datasets using 3 pretrained source models (ResNet-18 on ImageNet-1K, ResNet-50 on ImageNet-1K, and ResNeXt-101-32x8d on Instagram).  In each cell, $$a\pm b$$ refers to the mean and standard deviation of target task accuracies (%) over 3 indepedent trials. The highest accuracy across VP-based methods is marked in bold. 'Parameter Size' refers to the number of trainable parameters in input prompt or model finetuning.</div>
+</center>
