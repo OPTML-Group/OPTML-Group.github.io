@@ -83,6 +83,8 @@ $$
 f_{\boldsymbol{\theta}_s}(\mathbf{x}'(\mathbf{0})) \to f_{\boldsymbol{\theta}_s}(\mathbf{x}'(\boldsymbol{\delta}^*)).
 $$
 
+### Formulation of ILM-VP
+
 The dynamics of LM inspires us to re-think the optimality of the current VP pipeline: 
 (A1) $$\to$$ (A2) $$\to$$ (A3). To improve it, we propose to take the LM dynamics into the prompt learning process. This modifies the conventional VP pipeline to (A1) $$\to$$ (A2)$$\rightleftarrows$$ (A3), where LM and prompt generation is in a closed loop. 
 
@@ -94,4 +96,4 @@ $$
  }_{\text{Lower-level LM design at current prompt }\boldsymbol \delta\text{ for every target label $y_t$}}
 $$
 
-where the visual prompt $$\boldsymbol \delta$$  denotes the upper-level variable, $$\ell$$ is the cross-entropy loss,  and the mapped source label $$y_s$$ is a lower-level variable for each given target label $$y_t$$ at the current prompt $$\boldsymbol \delta$$.
+where the visual prompt $$\boldsymbol \delta$$  denotes the upper-level variable, $$\ell$$ is the cross-entropy loss, and the mapped source label $$y_s$$ is a lower-level variable for each target label $$y_t$$ at the current prompt $$\boldsymbol \delta$$.
