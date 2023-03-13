@@ -52,11 +52,13 @@ Given the source model, how to build a mapping from the source label space to th
 ### Random label mapping (RLM)
 RLM does not use any prior knowledge or source model information to guide the LM process. The mapped source labels (to the target domain) could be even random. For example, in the case of 'ImageNet (source) + CIFAR-10 (target)', existing VP  methods coded CIFAR-10 labels using the top 10 ImageNet indices, despite the lack of interpretation. 
 ### Frequency-based label mapping (FLM)
-FLM matches target labels to source labels based on the source model's prediction frequencies on zero-padded target datapoints, i.e., $f_{\mathbf{\theta}_s} ( \mathbf{x}' (\mathbf{\delta}))$ with $\mathbf{\delta} = \mathbf{0}$. More concretely, a target label $y_t$ is mapped to the source label $y_s^*$ following
+FLM matches target labels to source labels based on the source model's prediction frequencies on zero-padded target datapoints, i.e., $$f_{\mathbf{\theta}_s} ( \mathbf{x}' (\mathbf{\delta}))$$ with $$\mathbf{\delta} = \mathbf{0}$$. More concretely, a target label $$y_t$$ is mapped to the source label $$y_s^*$$ following
+
 $$
 y_s^* (y_t) = \mathrm{argmax}_{y_s} \mathrm{Pr} \{\text{Top-1 prediction of }f_{\mathbf{\theta}_s}(\mathbf{x}' (\mathbf{0})) \text{ is } y_s | \forall \mathbf{x}_t\in \mathcal{T}_{y_t} \}
 $$
-where $y_s^* (y_t)$ explicitly expresses the dependence of the mapped source label on the target label, $\mathcal T_{y_t}$ denotes the  target data set in the class $y_t$, and $\mathrm{Pr}\{ \cdot \} $ is the probability of the event that the top-1 prediction of $f_{\mathbf{\theta}_s} $ is  the source class $y_s$ under the zero-padded target data points in $\mathcal{T}_{y_t}$.
+
+where $$y_s^* (y_t)$$ explicitly expresses the dependence of the mapped source label on the target label, $$\mathcal T_{y_t}$$ denotes the  target data set in the class $$y_t$$, and $$\mathrm{Pr}\{ \cdot \}$$ is the probability of the event that the top-1 prediction of $$f_{\mathbf{\theta}_s}$$ is  the source class $y_s$ under the zero-padded target data points in $$\mathcal{T}_{y_t}$$.
 
 As shown in Figure 2, FLM results in a mapping scheme different from that of RLM. However, it is still difficult to interpret the obtained LM results and remains elusive how the quality of LM impacts the performance of VP. 
 
