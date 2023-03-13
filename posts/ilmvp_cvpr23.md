@@ -78,9 +78,11 @@ As shown in Figure 2, FLM results in a mapping scheme different from that of RLM
 ### The 'Missing' Dynamics of LM in The Source Domain
 
 A prompt learning pipeline mainly involves three steps: (A1) input prompt modeling, (A2) LM (from the source label set $$\mathcal{Y}_s$$ to the target label set $$\mathcal{Y}_t$$), and (A3) prompt generation. The prior art follows the pipeline (A1) $$\to$$ (A2) $$\to$$(A3) to generate the desired prompt $$\boldsymbol{\delta}^*$$, which drives the source model to accomplish target tasks. However, in the viewpoint of the source domain, the prompt updating from $$\boldsymbol{\delta} = \mathbf{0}$$ to $$\boldsymbol{\delta}^*$$   induces the prediction dynamics of the source model $$f_{\boldsymbol{\theta}_s}$$. That is,
+
 $$
 f_{\boldsymbol{\theta}_s}(\mathbf{x}'(\mathbf{0})) \to f_{\boldsymbol{\theta}_s}(\mathbf{x}'(\boldsymbol{\delta}^*)).
 $$
+
 The dynamics of LM inspires us to re-think the optimality of the current VP pipeline: 
 (A1) $$\to$$ (A2) $$\to$$ (A3). To improve it, we propose to take the LM dynamics into the prompt learning process. This modifies the conventional VP pipeline to (A1) $$\to$$ (A2)$$\rightleftarrows$$ (A3), where LM and prompt generation is in a closed loop. 
 
@@ -91,4 +93,5 @@ $$
   \mathrm{subject\,to} \,\,\, \underbrace{y_s^*(y_t) \text{ is obtained by FLM at (non-zero) prompt }\boldsymbol{\delta}
  }_{\text{Lower-level LM design at current prompt }\boldsymbol \delta\text{ for every target label $y_t$}}
 $$
+
 where the visual prompt $$\boldsymbol \delta$$  denotes the upper-level variable, $$\ell$$ is the cross-entropy loss,  and the mapped source label $$y_s$$ is a lower-level variable for each given target label $$y_t$$ at the current prompt $$\boldsymbol \delta$$.
