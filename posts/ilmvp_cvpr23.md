@@ -63,7 +63,7 @@ As shown in Figure 2, FLM results in a mapping scheme different from that of RLM
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/ilmvp_cvpr23/rlm_flm.png" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/ilmvp_cvpr23/rlm_flm.png" width="800">
     <br>
     <div style="color:orange;
     display: inline-block;
