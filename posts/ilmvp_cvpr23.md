@@ -31,11 +31,25 @@ We revisit and advance visual prompting (VP), an input prompting technique for v
 
 ---
 
-## Discussion
+## Interpretability
+
+Our method unveils source-target label pairs that share similar features in the vision domain.
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/ilmvp_cvpr23/ebe.png" width="1200">
+</center>
 
 ---
 
 ## Video
+
+---
+
+## Acknowledgements
+
+The work of A. Chen, Y. Yao, Y. Zhang, and S. Liu was supported by the DARPA RED program and National Science Foundation (NSF) Grant IIS-2207052.
 
 ---
 ## Citation
@@ -47,4 +61,3 @@ We revisit and advance visual prompting (VP), an input prompting technique for v
   year={2022}
 }
 ```
----
