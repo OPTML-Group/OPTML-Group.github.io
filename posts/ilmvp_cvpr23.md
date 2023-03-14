@@ -24,11 +24,11 @@ Beyond the significant accuracy gain, we also show the better interpretability b
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/ilmvp_cvpr23/overview.png" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/ilmvp_cvpr23/overview.png" width="1200">
     <br>
     <div style="color:orange;
     display: inline-block;
-    color: #999; font-size:16px；
+    color: #999; font-size:12px；
     padding: 2px;">Figure 1. The method of this work and the prior art.</div>
 </center>
 
@@ -103,7 +103,7 @@ where the visual prompt $$\boldsymbol \delta$$  denotes the upper-level variable
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/ilmvp_cvpr23/main_table.png" width="1600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/ilmvp_cvpr23/main_table.png" width="600">
     <br>
     <div style="color:orange;
     display: inline-block;
