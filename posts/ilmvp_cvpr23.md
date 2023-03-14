@@ -21,6 +21,8 @@ paper: "https://arxiv.org/abs/2211.11635"
     src="{{ site.url }}{{ site.baseurl }}/images/postpic/ilmvp_cvpr23/overview.png" width="1200">
 </center>
 
+Existing label mapping methods seem ruleless? We intertwine the VP dynamic and the label mapping to boost the performance and interpretability of VP.
+
 ---
 
 ## Abstract
