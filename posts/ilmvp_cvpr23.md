@@ -103,11 +103,11 @@ where the visual prompt $$\boldsymbol \delta$$  denotes the upper-level variable
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/ilmvp_cvpr23/main_table.png" width="1200">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/ilmvp_cvpr23/main_table.png" width="1600">
     <br>
     <div style="color:orange;
     display: inline-block;
-    color: #999; font-size:16px；
+    color: #999; font-size:12px；
     padding: 2px;">Table 1. Performance overview of our ILM-VP, prompt baseline methods (RLM-VP and FLM-VP), and finetuning methods (LP and FF) over 13 target image classification datasets using 3 pretrained source models (ResNet-18 on ImageNet-1K, ResNet-50 on ImageNet-1K, and ResNeXt-101-32x8d on Instagram). Each cell refers to the mean and standard deviation of target task accuracies (%) over 3 indepedent trials. The highest accuracy across VP-based methods is marked in bold. 'Parameter Size' refers to the number of trainable parameters in input prompt or model finetuning.</div>
 </center>
 
