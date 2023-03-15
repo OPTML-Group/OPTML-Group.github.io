@@ -37,7 +37,7 @@ VP is an emerging technique for transfer learning which needs an input perturbat
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/ilmvp_cvpr23/rlm_flm.png" width="800">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/ilmvp_cvpr23/rlm_flm.png" width="1200">
     <br>
     <div style="color:orange;
     display: inline-block;
@@ -48,10 +48,29 @@ VP is an emerging technique for transfer learning which needs an input perturbat
 ---
 
 ## Our Proposal: ILM-VP
+We propose to take the LM dynamics into the prompt learning process. Namely, we alternatively optimize the VP pattern and the LM strategy.
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/ilmvp_cvpr23/alg.png" width="600">
+    <br>
+    <div style="color:orange;
+    display: inline-block;
+    color: #999; font-size:2px；
+    padding: 2px;">ILM-VP algorithm.</div>
+</center>
 
 ---
 
 ## Performance Boost
+Our method yields substantial accuracy improvement on multiple datasets.
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/ilmvp_cvpr23/main_table.png" width="1200">
+</center>
 
 ---
 
