@@ -1,6 +1,6 @@
 ---
 layout: paper
-title:  "[CVPR23]Understanding and Improving Visual Prompting: A Label-Mapping Perspective"
+title:  "[CVPR23] Understanding and Improving Visual Prompting: A Label-Mapping Perspective"
 date: 2023-02-27 21:00:00
 author: "<a style='color: #dfebf7' href='https://cse.msu.edu/~chenaoch/'>Aochuan Chen</a><sup>[1]</sup>, 
          <a style='color: #dfebf7' href='https://cse.msu.edu/~yaoyugua/'>Yuguang Yao</a><sup>[1]</sup>, 
@@ -31,7 +31,31 @@ We revisit and advance visual prompting (VP), an input prompting technique for v
 
 ---
 
-## Interpretability
+## Why Label Mapping Matters?
+VP is an emerging technique for transfer learning which needs an input perturbation pattern and a label mapping strategy. However, although the SOTA label mapping method (frequency label mapping, FLM) improves performance over the random label mapping (RLM) method, it fails to deliver clear interpretability. It is worth noting that the updating of VP pattern induces prediction dynamics, which leads to the inconsistency between pre- and post-prompt prediction frequency.
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/ilmvp_cvpr23/rlm_flm.png" width="800">
+    <br>
+    <div style="color:orange;
+    display: inline-block;
+    color: #999; font-size:8px；
+    padding: 2px;">Visualizations of RLM and FLM. In FLM, the pre-prompt label mapping using (3) selects source labels different from FLM. Yet, the post-prompt label mapping shows many newly-selected source labels, indicating the dynamics of LM in the source domain, and the pre-promp LM is sub-optimal (i.e., mis-selecting the best-matching label) after VP training.</div>
+</center>
+
+---
+
+## Our Proposal: ILM-VP
+
+---
+
+## Performance Boost
+
+---
+
+## Interpretability Merit
 
 Our method unveils source-target label pairs that share similar features in the vision domain.
 
