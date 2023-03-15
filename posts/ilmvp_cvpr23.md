@@ -42,7 +42,7 @@ VP is an emerging technique for transfer learning which needs an input perturbat
     <div style="color:orange;
     display: inline-block;
     color: #999; font-size:2px；
-    padding: 2px;">Visualizations of RLM and FLM. In FLM, the pre-prompt label mapping using (3) selects source labels different from FLM. Yet, the post-prompt label mapping shows many newly-selected source labels, indicating the dynamics of LM in the source domain, and the pre-promp LM is sub-optimal (i.e., mis-selecting the best-matching label) after VP training.</div>
+    padding: 2px;">Visualizations of RLM and FLM. In FLM, the post-prompt label mapping shows many newly-selected source labels, indicating the dynamics of LM in the source domain, and the pre-prompt LM is sub-optimal (i.e., mis-selecting the best-matching label) after VP training.</div>
 </center>
 
 ---
