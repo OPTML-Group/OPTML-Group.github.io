@@ -86,9 +86,9 @@ Our method unveils source-target label pairs that share similar features in the 
 
 ---
 
-## Video
+% ## Video
 
----
+% ---
 
 ## Acknowledgement
 
