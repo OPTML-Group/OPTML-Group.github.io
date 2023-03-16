@@ -90,7 +90,7 @@ Our method unveils source-target label pairs that share similar features in the 
 
 ---
 
-## Acknowledgements
+## Acknowledgement
 
 The work of A. Chen, Y. Yao, Y. Zhang, and S. Liu was supported by the DARPA RED program and National Science Foundation (NSF) Grant IIS-2207052.
 
