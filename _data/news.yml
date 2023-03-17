@@ -1,4 +1,7 @@
 - date: 17. March 2023
+  headline: "A new arXiv paper is released: Adversarial attacks can be parsed to reveal victim model information! [<a href='https://arxiv.org/pdf/2303.07474.pdf'>Paper</a>] and [<a href='https://github.com/OPTML-Group/RED-adv'>Code</a>]"
+
+- date: 17. March 2023
   headline: "The 2nd Workshop on <a href='https://advml-frontier.github.io/'>New Frontiers in Adversarial Machine Learning</a> has been accepted by ICML'23"
 
 - date: 1. March 2023
