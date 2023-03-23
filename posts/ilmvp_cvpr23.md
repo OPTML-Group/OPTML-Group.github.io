@@ -53,7 +53,7 @@ We propose to take the LM dynamics into the prompt learning process. Namely, we 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/ilmvp_cvpr23/alg.png" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/ilmvp_cvpr23/alg.png" width="1200">
     <br>
     <div style="color:orange;
     display: inline-block;
