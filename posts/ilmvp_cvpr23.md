@@ -115,5 +115,7 @@ The work of A. Chen, Y. Yao, Y. Zhang, and S. Liu was supported by the DARPA RED
 ---
 
 ## References
+
 [1] Bahng, Hyojin, et al. "Visual prompting: Modifying pixel space to adapt pre-trained models." arXiv preprint arXiv:2203.17274 (2022).
+
 [2] Tsai, Yun-Yun, Pin-Yu Chen, and Tsung-Yi Ho. "Transfer learning without knowing: Reprogramming black-box machine learning models with scarce data and limited resources." International Conference on Machine Learning. PMLR, 2020.
