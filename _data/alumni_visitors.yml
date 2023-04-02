@@ -14,7 +14,7 @@
   info: Graduate student, Fraunhofer Center of Machine Learning, Germany
   visiting: May 2022 - Sept. 2022
   research: "<a href='https://arxiv.org/abs/2210.06284'>Visual Prompting for Adversarial Robustness</a> [Paper at ICASSP’23]"
-- name: Hui Li (remote)
-  info: Undergraduate, Huazhong University of Science and Technology, China
-  visiting: May 2022 - Sept. 2022
-  research: "<a href='https://arxiv.org/abs/2303.12735'>SMUG: Towards robust MRI reconstruction by smoothed unrolling</a> [Paper at ICASSP’23]"
+- name: Haomin Zhuang (remote)
+  info: Undergraduate, South China University of Technology, China
+  visiting: Nov. 2022 - Mar. 2023
+  research: "<a href='https://arxiv.org/abs/2303.16378'>A Pilot Study of Query-Free Adversarial Attack against Stable Diffusion</a> [Paper at <a href='https://robustart.github.io/'>The 3rd Workshop of Adversarial Machine Learning on Computer Vision@CVPR23</a>]"
