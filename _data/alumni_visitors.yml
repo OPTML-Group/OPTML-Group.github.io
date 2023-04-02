@@ -2,3 +2,11 @@
   info: Graduate student, UMass Amherst, USA
   visiting: May 2021 - Sept. 2021
   research: "<a href='https://arxiv.org/abs/2109.07497'>Sign-MAML: Efficient Model-Agnostic Meta-Learning by SignSGD</a> [Paper at <a href='https://meta-learn.github.io/2021/'>MetaLearn@NeurIPS'21</a>]"
+- name: Vardaan Taneja (remote)
+  info: Undergraduate, Indian Institute of Technology, Delhi, India
+  visiting: May 2021 - Sept. 2021
+  research: "<a href='https://ieeexplore.ieee.org/document/9746433'>When Does Backdoor Attack Succeed in Image Reconstruction? A Study of Heuristics vs. Bi-Level Solution</a> [Paper at ICASSP’22]"
+- name: "<a href='https://scholar.google.ca/citations?user=c2VU-_4AAAAJ&hl=en'>Soumyadeep Pal</a>"
+  info: Graduate student, University of Alberta, Canada
+  visiting: May 2022 - Sept. 2022
+  research: "<a href='https://arxiv.org/abs/2301.08751'>Towards Understanding How Self Training Tolerates Data Backdoor Poisoning</a> [Best Paper Award Finalist, <a href='https://safeai.webs.upv.es/index.php/best-paper-award/?'>SafeAI Workshop@AAAI'23</a>]"
