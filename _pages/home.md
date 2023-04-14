@@ -124,18 +124,19 @@ Authors marked in **bold** indicate our group members, and "\*" indicates equal 
 
 ### Sponsors
 
-We are grateful for funding from [Michigan State University](https://msu.edu), [MIT-IBM Watson AI Lab](https://mitibmwatsonailab.mit.edu/), [DARPA](https://www.darpa.mil/), [Cisco Research](https://research.cisco.com/), [NSF](https://www.nsf.gov/), and [DSO National Laboratories](https://www.dso.org.sg/).
+We are grateful for funding from [Michigan State University](https://msu.edu), [MIT-IBM Watson AI Lab](https://mitibmwatsonailab.mit.edu/), [DARPA](https://www.darpa.mil/), [Cisco Research](https://research.cisco.com/), [NSF](https://www.nsf.gov/), [DSO National Laboratories](https://www.dso.org.sg/), and LLNL[https://www.llnl.gov/].
 
 <center>
 <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ibm.png" style="width: 30%" padding="5% 5% 5% 5%">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_DARPA.jpeg" style="width: 30%" padding="5% 5% 5% 5%">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Cisco.png" style="width: 30%" padding="5% 5% 5% 5%">
 </figure>
 
 <figure class="fourth">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Cisco.png" style="width: 30%" padding="5% 5% 5% 5%">
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NSF.png" style="width: 30%" padding="5% 5% 5% 5%">
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_DSO.png" style="width: 30%" padding="5% 5% 5% 5%">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_LLNL.png" style="width: 30%" padding="5% 5% 5% 5%">
 </figure>
 
 </center>
