@@ -92,9 +92,9 @@ Authors marked in **bold** indicate our group members, and "\*" indicates equal 
     **Y. Zhang**, **Y. Yao**, **J. Jia**, J. Yi, M. Hong, S. Chang, **S. Liu**<br>
     ICLR’22
 
-* <a href="https://arxiv.org/pdf/2209.10222.pdf">Fairness reprogramming</a><br>
-    G. Zhang\*, **Y. Zhang\***, Y. Zhang, W. Fan, Q. Li, **S. Liu**, S. Chang<br>
-    NeurIPS'22
+* <a href="https://arxiv.org/pdf/2209.10222.pdf">Understanding and Improving Visual Prompting: A Label-Mapping Perspective</a><br>
+    **A. Chen**, **Y. Yao**, P.-Y. Chen, **Y. Zhang**, **S. Liu**<br>
+    CVPR’23
 
 * <a href="https://arxiv.org/pdf/2006.14748.pdf">Proper Network Interpretability Helps Adversarial Robustness in Classification</a><br>
     A. Boopathy, **S. Liu**, G. Zhang, C. Liu, P.-Y. Chen, S. Chang, L. Daniel<br>
