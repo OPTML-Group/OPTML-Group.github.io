@@ -80,6 +80,10 @@ Authors marked in **bold** indicate our group members, and "\*" indicates equal 
 
 **Trustworthy AI: Robustness, fairness, and model explanation**
 
+* <a href="https://arxiv.org/pdf/2209.10222.pdf">Understanding and Improving Visual Prompting: A Label-Mapping Perspective</a><br>
+    **A. Chen**, **Y. Yao**, P.-Y. Chen, **Y. Zhang**, **S. Liu**<br>
+    CVPR’23
+
 * <a href="https://arxiv.org/pdf/2112.12376.pdf">Revisiting and advancing fast adversarial training through the lens of bi-level optimization</a><br>
     **Y. Zhang\***, G. Zhang\*, P. Khanduri, M. Hong, S. Chang, **S. Liu**<br>
     ICML’22 
@@ -91,10 +95,6 @@ Authors marked in **bold** indicate our group members, and "\*" indicates equal 
 * <a href="https://openreview.net/pdf?id=W9G_ImpHlQd">How to Robustify Black-Box ML Models? A Zeroth-Order Optimization Perspective</a><br>
     **Y. Zhang**, **Y. Yao**, **J. Jia**, J. Yi, M. Hong, S. Chang, **S. Liu**<br>
     ICLR’22
-
-* <a href="https://arxiv.org/pdf/2209.10222.pdf">Understanding and Improving Visual Prompting: A Label-Mapping Perspective</a><br>
-    **A. Chen**, **Y. Yao**, P.-Y. Chen, **Y. Zhang**, **S. Liu**<br>
-    CVPR’23
 
 * <a href="https://arxiv.org/pdf/2006.14748.pdf">Proper Network Interpretability Helps Adversarial Robustness in Classification</a><br>
     A. Boopathy, **S. Liu**, G. Zhang, C. Liu, P.-Y. Chen, S. Chang, L. Daniel<br>
