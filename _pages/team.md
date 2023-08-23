@@ -260,7 +260,7 @@ permalink: /team/
 
 ## Former High School Visitors
 {% assign number_printed = 0 %}
-{% for member in site.data.high_school %}
+{% for member in site.data.alumni_high_school %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
