@@ -225,7 +225,7 @@ permalink: /team/
 {% endif %} -->
 
 <!-- ## Former visitors, BSc/ MSc students -->
-## Former Interns
+## Visiting Students/Scholars
 {% assign number_printed = 0 %}
 {% for member in site.data.alumni_visitors %}
 
@@ -258,7 +258,7 @@ permalink: /team/
 {% endif %}
 
 
-## Former High School Visitors
+## Visiting High School Students
 {% assign number_printed = 0 %}
 {% for member in site.data.alumni_high_school %}
 
