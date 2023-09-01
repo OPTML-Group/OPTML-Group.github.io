@@ -175,7 +175,7 @@
   link:
     url: https://arxiv.org/pdf/2112.12376.pdf
     display: ICML'22.
-  highlight: 1
+  highlight: 0
   news2:
   post: fastbat_icml22
 
@@ -265,7 +265,7 @@
   link:
     url: https://openreview.net/forum?id=gpp7cf0xdfN
     display: ICLR’22
-  highlight: 1
+  highlight: 0
   news2:
   post: 
 
