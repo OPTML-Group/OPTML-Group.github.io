@@ -6,8 +6,7 @@ permalink: /pictures/
 ---
 
 # Pictures
-
-<!-- ## Lab Photos -->
+Jump to: [MSU Campus](#beautiful-campus-of-msu-go-green), [Group Logos](#group-logos)
 
 
 ## Beautiful Campus of MSU! Go Green!
