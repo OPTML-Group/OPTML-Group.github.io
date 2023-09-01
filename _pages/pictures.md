@@ -6,11 +6,9 @@ permalink: /pictures/
 ---
 
 # Pictures
-Jump to: [Adversarial T-shirt](#adversarial-t-shirt), [MSU Campus](#beautiful-campus-of-msu-go-green), [Group Logos](#group-logos)
 
-## Adversarial T-shirt
-#### K. Xu, G. Zhang, S. Liu, Q. Fan, M. Sun, H. Chen, P.-Y. Chen, Y. Wang, X. Lin, [Adversarial T-shirt! Evading Person Detectors in A Physical World](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500647.pdf), ECCV’20
-<center> <iframe weight="600" height="300" src="https://www.youtube.com/embed/8GCN7xQkaa0" frameborder="0" allowfullscreen></iframe> </center>
+<!-- ## Lab Photos -->
+
 
 ## Beautiful Campus of MSU! Go Green!
 
