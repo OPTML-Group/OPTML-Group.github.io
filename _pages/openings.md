@@ -13,7 +13,7 @@ permalink: /vacancies
 ### Applications for PhD positions
 
 **OPtimization and Trustworthy Machine Learning Group**  
-Dr Liu's lab (OTPML Group) at the [Department of Computer Science and Engineering](https://www.cse.msu.edu/) of [Michigan State University](https://msu.edu/) (MSU) has multiple RA openings starting Jan. 2021. We are looking for strong candidates who are willing to pursue a PhD degree in the direction of machine learning (ML)/deep learning (DL), optimization theory and methods, computer vision (CV) and artificial intelligence (Al), with a focus on trustworthy Al (e.g, adversarial robustness, fairness, explainability, ML for security, etc.), and optimization for ML/DL.
+Dr Liu's lab (OTPML Group) at the [Department of Computer Science and Engineering](https://www.cse.msu.edu/) of [Michigan State University](https://msu.edu/) (MSU) has multiple RA openings. We are looking for strong candidates who are willing to pursue a PhD degree in the direction of machine learning (ML)/deep learning (DL), optimization theory and methods, computer vision (CV) and artificial intelligence (Al), with a focus on trustworthy Al (e.g, adversarial robustness, fairness, explainability, ML for security, etc.), and optimization for ML/DL.
 
 **Instructions for Interested candidates** 
 You are strongly encouraged to contact Dr. Liu by [email](liusiji5@msu.edu), together with your resume and transcript. A full description of the application instructions can be found at the department website - [Future Graduate Students](https://www.cse.msu.edu/Students/Future_Grad/HowToApply.php). 
@@ -24,7 +24,7 @@ Dr. Liu [Google Scholar](https://scholar.google.com/citations?user=C7dO_UgAAAAJ&
 
 ### About Michigan State University
 
-MSU is a public research university in East Lansing, Michigan. It is a member of the Association of American Universities and is classified among "R1: Doctoral Universities - Very high research activity". [U.S. News & World Report](https://www.usnews.com/best-graduate-schools/top-science-schools/computer-science-rankings) has ranked MSU as the 55th best Computer Science school in the United States. In the areas of Al, CV and ML, [CSRankings](http://csrankings.org/#/index?all) ranked MSU as the 39th top Computer Science institution in the United States.
+MSU is a public research university in East Lansing, Michigan. It is a member of the Association of American Universities and is classified among "R1: Doctoral Universities - Very high research activity". [U.S. News & World Report](https://www.usnews.com/best-graduate-schools/top-science-schools/computer-science-rankings) has ranked MSU as the 50th best Computer Science school in the United States. In the areas of Al, CV and ML, [CSRankings](http://csrankings.org/#/index?all) ranked MSU as the 39th top Computer Science institution in the United States.
 
 
 <!-- <figure>
