@@ -8,6 +8,23 @@ permalink: /pictures/
 # Photos
 Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Photos](#group-life-photos), [MSU Campus](#beautiful-campus-of-msu-go-green), [Group Logos](#group-logos)
 
+
+<style>
+#life .carousel-inner img {
+  width: 100%; /* Adjust as needed */
+  height: 500px; /* Adjust as needed */
+  object-fit: cover; /* Cover the entire element box */
+}
+</style>
+
+<style>
+#campus .carousel-inner img {
+  width: 100%; /* Adjust as needed */
+  height: 500px; /* Adjust as needed */
+  object-fit: cover; /* Cover the entire element box */
+}
+</style>
+
 <style>
 #icml23 .carousel-inner img {
   width: 100%; /* Adjust as needed */
@@ -354,6 +371,16 @@ Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Ph
     <ol class="carousel-indicators">
         <li data-target="#life" data-slide-to="0" class="active"></li>
         <li data-target="#life" data-slide-to="1"></li>
+        <li data-target="#life" data-slide-to="2"></li>
+        <li data-target="#life" data-slide-to="3"></li>
+        <li data-target="#life" data-slide-to="4"></li>
+        <li data-target="#life" data-slide-to="5"></li>
+        <li data-target="#life" data-slide-to="6"></li>
+        <li data-target="#life" data-slide-to="7"></li>
+        <li data-target="#life" data-slide-to="8"></li>
+        <li data-target="#life" data-slide-to="9"></li>
+        <li data-target="#life" data-slide-to="10"></li>
+        <li data-target="#life" data-slide-to="11"></li>
     </ol>
 
     <!-- Items -->
@@ -384,6 +411,12 @@ Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Ph
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic9.jpg" alt="Slide 9" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic10.jpg" alt="Slide 10" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic11.jpg" alt="Slide 11" />
         </div>
     </div>
   <a class="left carousel-control" href="#life" role="button" data-slide="prev">
@@ -420,7 +453,6 @@ Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Ph
         <li data-target="#campus" data-slide-to="14"></li>
         <li data-target="#campus" data-slide-to="15"></li>
         <li data-target="#campus" data-slide-to="16"></li>
-        <li data-target="#campus" data-slide-to="17"></li>
     </ol>
 
     <!-- Items -->
@@ -472,9 +504,6 @@ Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Ph
 		</div>
 		<div class="item">
 		    <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/campus/campus16.jpeg" alt="Slide 16" />
-		</div>
-		<div class="item">
-		    <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/campus/campus17.jpeg" alt="Slide 17" />
 		</div>
     </div>
   <a class="left carousel-control" href="#campus" role="button" data-slide="prev">
