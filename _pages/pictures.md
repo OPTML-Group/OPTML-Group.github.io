@@ -20,12 +20,11 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 
 ### OPTML@CVPR2023
 
-<div markdown="0" id="cvpr23" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
+<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
     </ol>
 
     <!-- Items -->
@@ -35,9 +34,6 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
         </div>
         <div class="item">
 	    <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/CVPR23/pic2.jpg" alt="Slide 2" />
-		</div>
-		<div class="item">
-		    <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/CVPR23/pic3.jpg" alt="Slide 3" />
 		</div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -49,6 +45,8 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+
 
 
 ## Beautiful Campus of MSU! Go Green!
