@@ -6,15 +6,7 @@ permalink: /pictures/
 ---
 
 # Pictures
-Jump to: [Group Photos](#group-photos) [MSU Campus](#beautiful-campus-of-msu-go-green), [Group Logos](#group-logos)
-
-## Group Photos
-
-
-
-
-
-## Beautiful Campus of MSU! Go Green!
+Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go-green), [Group Logos](#group-logos)
 
 <style>
 .carousel-inner img {
@@ -23,6 +15,43 @@ Jump to: [Group Photos](#group-photos) [MSU Campus](#beautiful-campus-of-msu-go-
   object-fit: cover; /* Cover the entire element box */
 }
 </style>
+
+## Group Photos
+
+### OPTML@CVPR2023
+
+<div markdown="0" id="cvpr23" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
+    <!-- Menu -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Items -->
+    <div class="carousel-inner" markdown="0">
+        <div class="item active">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/CVPR23/pic1.jpg" alt="Slide 1" />
+        </div>
+        <div class="item">
+	    <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/CVPR23/pic2.jpg" alt="Slide 2" />
+		</div>
+		<div class="item">
+		    <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/CVPR23/pic3.jpg" alt="Slide 3" />
+		</div>
+    </div>
+  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+## Beautiful Campus of MSU! Go Green!
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -112,9 +141,6 @@ Jump to: [Group Photos](#group-photos) [MSU Campus](#beautiful-campus-of-msu-go-
 </div>
 
 <p> &nbsp; </p>
-
-#### Cute Dr. Squirrel on compus!
-<center> <iframe width="600" height="300" src="https://www.youtube.com/embed/scQs0zwvrfk" frameborder="0" allowfullscreen></iframe> </center>
 
 ## Group Logos
 #### group logo
