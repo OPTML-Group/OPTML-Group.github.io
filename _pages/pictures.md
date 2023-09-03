@@ -61,11 +61,11 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 
 ### CVPR'23 (Vancouver, Canada)
 
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
+<div markdown="0" id="cvpr23" class="carousel slide" data-ride="cvpr23" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#cvpr23" data-slide-to="0" class="active"></li>
+        <li data-target="#cvpr23" data-slide-to="1"></li>
     </ol>
 
     <!-- Items -->
@@ -77,11 +77,11 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 	    <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/CVPR23/pic2.jpg" alt="Slide 2" />
 		</div>
     </div>
-  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#cvpr23" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+  <a class="right carousel-control" href="#cvpr23" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -89,13 +89,13 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 
 ### AAAI'23 (Washington DC, USA)
 
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
+<div markdown="0" id="aaai23" class="carousel slide" data-ride="aaai23" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-        <li data-target="#carousel" data-slide-to="3"></li>
+        <li data-target="#aaai23" data-slide-to="0" class="active"></li>
+        <li data-target="#aaai23" data-slide-to="1"></li>
+        <li data-target="#aaai23" data-slide-to="2"></li>
+        <li data-target="#aaai23" data-slide-to="3"></li>
     </ol>
 
     <!-- Items -->
@@ -113,11 +113,11 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 	    	<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/AAAI23/pic4.jpg" alt="Slide 4" />
 		</div>
     </div>
-  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#aaai23" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+  <a class="right carousel-control" href="#aaai23" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -126,12 +126,12 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 
 ### NeurIPS'22 (New Orleans, USA)
 
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
+<div markdown="0" id="nips22" class="carousel slide" data-ride="nips22" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#nips22" data-slide-to="0" class="active"></li>
+        <li data-target="#nips22" data-slide-to="1"></li>
+        <li data-target="#nips22" data-slide-to="2"></li>
     </ol>
 
     <!-- Items -->
@@ -146,11 +146,11 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 	    	<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/NeurIPS22/pic3.jpg" alt="Slide 3" />
 		</div>
     </div>
-  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#nips22" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+  <a class="right carousel-control" href="#nips22" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -160,13 +160,13 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 ### ICML'22 (Baltimore, USA)
 
 
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
+<div markdown="0" id="icml22" class="carousel slide" data-ride="icml22" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-        <li data-target="#carousel" data-slide-to="3"></li>
+        <li data-target="#icml22" data-slide-to="0" class="active"></li>
+        <li data-target="#icml22" data-slide-to="1"></li>
+        <li data-target="#icml22" data-slide-to="2"></li>
+        <li data-target="#icml22" data-slide-to="3"></li>
     </ol>
 
     <!-- Items -->
@@ -184,11 +184,11 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 	    	<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/ICML22/pic4.jpg" alt="Slide 3" />
 		</div>
     </div>
-  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#icml22" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+  <a class="right carousel-control" href="#icml22" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -197,11 +197,11 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 
 ### CVPR'22 (New Orleans, USA)
 
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
+<div markdown="0" id="cvpr22" class="carousel slide" data-ride="cvpr22" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#cvpr22" data-slide-to="0" class="active"></li>
+        <li data-target="#cvpr22" data-slide-to="1"></li>
     </ol>
 
     <!-- Items -->
@@ -213,11 +213,11 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 	    	<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/CVPR22/pic2.jpg" alt="Slide 2" />
 		</div>
     </div>
-  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#cvpr22" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+  <a class="right carousel-control" href="#cvpr22" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
