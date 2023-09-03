@@ -16,9 +16,54 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 }
 </style>
 
-## Group Photos
+## OPTML Group Photos
 
-### OPTML@CVPR2023
+### ICML'23 (Hawaii, USA)
+
+<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
+    <!-- Menu -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="3"></li>
+        <li data-target="#carousel" data-slide-to="4"></li>
+        <li data-target="#carousel" data-slide-to="5"></li>
+        <li data-target="#carousel" data-slide-to="6"></li>
+    </ol>
+
+    <!-- Items -->
+    <div class="carousel-inner" markdown="0">
+        <div class="item active">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/ICML23/pic1.jpg" alt="Slide 1" />
+        </div>
+        <div class="item">
+	    	<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/ICML23/pic2.jpg" alt="Slide 2" />
+		</div>
+		<div class="item">
+	    	<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/ICML23/pic3.jpg" alt="Slide 3" />
+		</div>
+		<div class="item">
+	    	<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/ICML23/pic4.jpg" alt="Slide 4" />
+		</div>
+		<div class="item">
+	    	<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/ICML23/pic5.jpg" alt="Slide 5" />
+		</div>
+		<div class="item">
+	    	<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/ICML23/pic6.jpg" alt="Slide 6" />
+		</div>
+    </div>
+  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+### CVPR'23 (Vancouver, Canada)
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -46,7 +91,41 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
   </a>
 </div>
 
+### AAAI'23 (Washington DC, USA)
 
+<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
+    <!-- Menu -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Items -->
+    <div class="carousel-inner" markdown="0">
+        <div class="item active">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/AAAI23/pic1.jpg" alt="Slide 1" />
+        </div>
+        <div class="item">
+	    	<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/AAAI23/pic2.jpg" alt="Slide 2" />
+		</div>
+		<div class="item">
+	    	<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/AAAI23/pic3.jpg" alt="Slide 3" />
+		</div>
+		<div class="item">
+	    	<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/AAAI23/pic4.jpg" alt="Slide 4" />
+		</div>
+    </div>
+  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
 
 ## Beautiful Campus of MSU! Go Green!
