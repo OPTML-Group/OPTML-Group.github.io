@@ -1,7 +1,7 @@
 ---
-title: "OTML - Pictures"
+title: "OPTML - Pictures"
 layout: piclay
-excerpt: "OTML -- Pictures"
+excerpt: "OPTML -- Pictures"
 permalink: /pictures/
 ---
 
@@ -38,11 +38,54 @@ Jump to: [MSU Campus](#beautiful-campus-of-msu-go-green), [Group Logos](#group-l
         <div class="item active">
             <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/campus/campus1.jpeg" alt="Slide 1" />
         </div>
-        {% for i in range(2, 17) %}
-    	<div class="item">
-        	<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/campus/campus{{ i }}.jpeg" alt="Slide {{ i }}" />
-    	</div>
-		{% endfor %}
+        <div class="item">
+	    <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus2.jpeg" alt="Slide 2" />
+		</div>
+		<div class="item">
+		    <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus3.jpeg" alt="Slide 3" />
+		</div>
+		<div class="item">
+		    <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus4.jpeg" alt="Slide 4" />
+		</div>
+		<div class="item">
+		    <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus5.jpeg" alt="Slide 5" />
+		</div>
+		<div class="item">
+		    <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus6.jpeg" alt="Slide 6" />
+		</div>
+		<div class="item">
+		    <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus7.jpeg" alt="Slide 7" />
+		</div>
+		<div class="item">
+		    <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus8.jpeg" alt="Slide 8" />
+		</div>
+		<div class="item">
+		    <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus9.jpeg" alt="Slide 9" />
+		</div>
+		<div class="item">
+		    <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus10.jpeg" alt="Slide 10" />
+		</div>
+		<div class="item">
+		    <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus11.jpeg" alt="Slide 11" />
+		</div>
+		<div class="item">
+		    <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus12.jpeg" alt="Slide 12" />
+		</div>
+		<div class="item">
+		    <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus13.jpeg" alt="Slide 13" />
+		</div>
+		<div class="item">
+		    <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus14.jpeg" alt="Slide 14" />
+		</div>
+		<div class="item">
+		    <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus15.jpeg" alt="Slide 15" />
+		</div>
+		<div class="item">
+		    <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus16.jpeg" alt="Slide 16" />
+		</div>
+		<div class="item">
+		    <img src="{{ site.url }}{{ site.baseurl }}/images/slider/campus17.jpeg" alt="Slide 17" />
+		</div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
