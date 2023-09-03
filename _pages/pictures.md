@@ -102,6 +102,7 @@ Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Ph
         <li data-target="#icml23" data-slide-to="3"></li>
         <li data-target="#icml23" data-slide-to="4"></li>
         <li data-target="#icml23" data-slide-to="5"></li>
+        <li data-target="#icml23" data-slide-to="6"></li>
     </ol>
 
     <!-- Items -->
@@ -121,6 +122,9 @@ Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Ph
 		<div class="item">
 	    	<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/ICML23/pic6.jpg" alt="Slide 6" />
 		</div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/ICML23/pic7.jpg" alt="Slide 7" />
+        </div>
     </div>
   <a class="left carousel-control" href="#icml23" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -417,6 +421,15 @@ Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Ph
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic11.jpg" alt="Slide 11" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic12.jpg" alt="Slide 12" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic13.jpg" alt="Slide 13" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic14.jpg" alt="Slide 14" />
         </div>
     </div>
   <a class="left carousel-control" href="#life" role="button" data-slide="prev">
