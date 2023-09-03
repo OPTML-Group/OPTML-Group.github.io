@@ -64,6 +64,14 @@ Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Ph
 }
 </style>
 
+<style>
+#campus .carousel-inner img {
+  width: 100%; /* Adjust as needed */
+  height: 500px; /* Adjust as needed */
+  object-fit: cover; /* Cover the entire element box */
+}
+</style>
+
 ## Group Academic Activities
 
 ### ICML'23 (Hawaii, USA)
@@ -392,27 +400,27 @@ Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Ph
 
 ## Beautiful Campus of MSU! Go Green!
 
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
+<div markdown="0" id="campus" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-        <li data-target="#carousel" data-slide-to="3"></li>
-        <li data-target="#carousel" data-slide-to="4"></li>
-        <li data-target="#carousel" data-slide-to="5"></li>
-        <li data-target="#carousel" data-slide-to="6"></li>
-        <li data-target="#carousel" data-slide-to="7"></li>
-        <li data-target="#carousel" data-slide-to="8"></li>
-        <li data-target="#carousel" data-slide-to="9"></li>
-        <li data-target="#carousel" data-slide-to="10"></li>
-        <li data-target="#carousel" data-slide-to="11"></li>
-        <li data-target="#carousel" data-slide-to="12"></li>
-        <li data-target="#carousel" data-slide-to="13"></li>
-        <li data-target="#carousel" data-slide-to="14"></li>
-        <li data-target="#carousel" data-slide-to="15"></li>
-        <li data-target="#carousel" data-slide-to="16"></li>
-        <li data-target="#carousel" data-slide-to="17"></li>
+        <li data-target="#campus" data-slide-to="0" class="active"></li>
+        <li data-target="#campus" data-slide-to="1"></li>
+        <li data-target="#campus" data-slide-to="2"></li>
+        <li data-target="#campus" data-slide-to="3"></li>
+        <li data-target="#campus" data-slide-to="4"></li>
+        <li data-target="#campus" data-slide-to="5"></li>
+        <li data-target="#campus" data-slide-to="6"></li>
+        <li data-target="#campus" data-slide-to="7"></li>
+        <li data-target="#campus" data-slide-to="8"></li>
+        <li data-target="#campus" data-slide-to="9"></li>
+        <li data-target="#campus" data-slide-to="10"></li>
+        <li data-target="#campus" data-slide-to="11"></li>
+        <li data-target="#campus" data-slide-to="12"></li>
+        <li data-target="#campus" data-slide-to="13"></li>
+        <li data-target="#campus" data-slide-to="14"></li>
+        <li data-target="#campus" data-slide-to="15"></li>
+        <li data-target="#campus" data-slide-to="16"></li>
+        <li data-target="#campus" data-slide-to="17"></li>
     </ol>
 
     <!-- Items -->
@@ -469,11 +477,11 @@ Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Ph
 		    <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/campus/campus17.jpeg" alt="Slide 17" />
 		</div>
     </div>
-  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#campus" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+  <a class="right carousel-control" href="#campus" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
