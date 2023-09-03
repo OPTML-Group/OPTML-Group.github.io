@@ -6,7 +6,7 @@ permalink: /pictures/
 ---
 
 # Photos
-Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go-green), [Group Logos](#group-logos)
+Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Photos](#group-life-photos), [MSU Campus](#beautiful-campus-of-msu-go-green), [Group Logos](#group-logos)
 
 <style>
 #icml23 .carousel-inner img {
@@ -41,6 +41,14 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 </style>
 
 <style>
+#informs22 .carousel-inner img {
+  width: 100%; /* Adjust as needed */
+  height: 500px; /* Adjust as needed */
+  object-fit: cover; /* Cover the entire element box */
+}
+</style>
+
+<style>
 #icml22 .carousel-inner img {
   width: 100%; /* Adjust as needed */
   height: 500px; /* Adjust as needed */
@@ -56,7 +64,7 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 }
 </style>
 
-## OPTML Group Photos
+## Group Academic Activities
 
 ### ICML'23 (Hawaii, USA)
 
@@ -106,6 +114,10 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
     <ol class="carousel-indicators">
         <li data-target="#cvpr23" data-slide-to="0" class="active"></li>
         <li data-target="#cvpr23" data-slide-to="1"></li>
+        <li data-target="#cvpr23" data-slide-to="2"></li>
+        <li data-target="#cvpr23" data-slide-to="3"></li>
+        <li data-target="#cvpr23" data-slide-to="4"></li>
+        <li data-target="#cvpr23" data-slide-to="5"></li>
     </ol>
 
     <!-- Items -->
@@ -114,8 +126,20 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
             <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/CVPR23/pic1.jpg" alt="Slide 1" />
         </div>
         <div class="item">
-	    <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/CVPR23/pic2.jpg" alt="Slide 2" />
+	       <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/CVPR23/pic2.jpg" alt="Slide 2" />
 		</div>
+        <div class="item">
+           <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/CVPR23/pic3.jpg" alt="Slide 3" />
+        </div>
+        <div class="item">
+           <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/CVPR23/pic4.jpg" alt="Slide 4" />
+        </div>
+        <div class="item">
+           <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/CVPR23/pic5.jpg" alt="Slide 5" />
+        </div>
+        <div class="item">
+           <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/CVPR23/pic6.jpg" alt="Slide 6" />
+        </div>
     </div>
   <a class="left carousel-control" href="#cvpr23" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -172,6 +196,10 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
         <li data-target="#nips22" data-slide-to="0" class="active"></li>
         <li data-target="#nips22" data-slide-to="1"></li>
         <li data-target="#nips22" data-slide-to="2"></li>
+        <li data-target="#nips22" data-slide-to="3"></li>
+        <li data-target="#nips22" data-slide-to="4"></li>
+        <li data-target="#nips22" data-slide-to="5"></li>
+        <li data-target="#nips22" data-slide-to="6"></li>
     </ol>
 
     <!-- Items -->
@@ -185,12 +213,54 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 		<div class="item">
 	    	<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/NeurIPS22/pic3.jpg" alt="Slide 3" />
 		</div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/NeurIPS22/pic4.jpg" alt="Slide 4" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/NeurIPS22/pic5.jpg" alt="Slide 5" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/NeurIPS22/pic6.jpg" alt="Slide 6" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/NeurIPS22/pic7.jpg" alt="Slide 7" />
+        </div>
     </div>
   <a class="left carousel-control" href="#nips22" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
   <a class="right carousel-control" href="#nips22" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+### INFORMS'22 (Indianapolis, USA)
+
+
+<div markdown="0" id="informs22" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
+    <!-- Menu -->
+    <ol class="carousel-indicators">
+        <li data-target="#informs22" data-slide-to="0" class="active"></li>
+        <li data-target="#informs22" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Items -->
+    <div class="carousel-inner" markdown="0">
+        <div class="item active">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/INFORMS22/pic1.jpg" alt="Slide 1" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/INFORMS22/pic2.jpg" alt="Slide 2" />
+        </div>
+    </div>
+  <a class="left carousel-control" href="#informs22" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#informs22" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -207,6 +277,7 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
         <li data-target="#icml22" data-slide-to="1"></li>
         <li data-target="#icml22" data-slide-to="2"></li>
         <li data-target="#icml22" data-slide-to="3"></li>
+        <li data-target="#icml22" data-slide-to="4"></li>
     </ol>
 
     <!-- Items -->
@@ -221,8 +292,11 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 	    	<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/ICML22/pic3.jpg" alt="Slide 3" />
 		</div>
 		<div class="item">
-	    	<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/ICML22/pic4.jpg" alt="Slide 3" />
+	    	<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/ICML22/pic4.jpg" alt="Slide 4" />
 		</div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/ICML22/pic5.jpg" alt="Slide 5" />
+        </div>
     </div>
   <a class="left carousel-control" href="#icml22" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -262,6 +336,58 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+
+## Group Life Photos
+
+
+<div markdown="0" id="life" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
+    <!-- Menu -->
+    <ol class="carousel-indicators">
+        <li data-target="#life" data-slide-to="0" class="active"></li>
+        <li data-target="#life" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Items -->
+    <div class="carousel-inner" markdown="0">
+        <div class="item active">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic1.jpg" alt="Slide 1" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic2.jpg" alt="Slide 2" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic3.jpg" alt="Slide 3" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic4.jpg" alt="Slide 4" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic5.jpg" alt="Slide 5" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic6.jpg" alt="Slide 6" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic7.jpg" alt="Slide 7" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic8.jpg" alt="Slide 8" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic9.jpg" alt="Slide 9" />
+        </div>
+    </div>
+  <a class="left carousel-control" href="#life" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#life" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
 
 
 ## Beautiful Campus of MSU! Go Green!
