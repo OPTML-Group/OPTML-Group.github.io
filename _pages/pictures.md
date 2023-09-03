@@ -20,15 +20,15 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 
 ### ICML'23 (Hawaii, USA)
 
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
+<div markdown="0" id="icml23" class="carousel slide" data-ride="icml23" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-        <li data-target="#carousel" data-slide-to="3"></li>
-        <li data-target="#carousel" data-slide-to="4"></li>
-        <li data-target="#carousel" data-slide-to="5"></li>
+        <li data-target="#icml23" data-slide-to="0" class="active"></li>
+        <li data-target="#icml23" data-slide-to="1"></li>
+        <li data-target="#icml23" data-slide-to="2"></li>
+        <li data-target="#icml23" data-slide-to="3"></li>
+        <li data-target="#icml23" data-slide-to="4"></li>
+        <li data-target="#icml23" data-slide-to="5"></li>
     </ol>
 
     <!-- Items -->
@@ -49,11 +49,11 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 	    	<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/ICML23/pic6.jpg" alt="Slide 6" />
 		</div>
     </div>
-  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#icml23" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+  <a class="right carousel-control" href="#icml23" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
