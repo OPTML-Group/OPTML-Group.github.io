@@ -33,7 +33,7 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 </style>
 
 <style>
-#nips23 .carousel-inner img {
+#nips22 .carousel-inner img {
   width: 100%; /* Adjust as needed */
   height: 500px; /* Adjust as needed */
   object-fit: cover; /* Cover the entire element box */
