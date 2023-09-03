@@ -1,11 +1,11 @@
 ---
-title: "OPTML - Pictures"
+title: "OPTML - Photos"
 layout: piclay
-excerpt: "OPTML -- Pictures"
+excerpt: "OPTML -- Photos"
 permalink: /pictures/
 ---
 
-# Pictures
+# Photos
 Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go-green), [Group Logos](#group-logos)
 
 <style>
