@@ -9,7 +9,7 @@ permalink: /pictures/
 Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go-green), [Group Logos](#group-logos)
 
 <style>
-.carousel-inner img {
+#icml23 .carousel-inner img {
   width: 100%; /* Adjust as needed */
   height: 500px; /* Adjust as needed */
   object-fit: cover; /* Cover the entire element box */
@@ -20,7 +20,7 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 
 ### ICML'23 (Hawaii, USA)
 
-<div markdown="0" id="icml23" class="carousel slide" data-ride="icml23" data-interval="4000" data-pause="hover" >
+<div markdown="0" id="icml23" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
         <li data-target="#icml23" data-slide-to="0" class="active"></li>
@@ -61,7 +61,7 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 
 ### CVPR'23 (Vancouver, Canada)
 
-<div markdown="0" id="cvpr23" class="carousel slide" data-ride="cvpr23" data-interval="4000" data-pause="hover" >
+<div markdown="0" id="cvpr23" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
         <li data-target="#cvpr23" data-slide-to="0" class="active"></li>
@@ -89,7 +89,7 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 
 ### AAAI'23 (Washington DC, USA)
 
-<div markdown="0" id="aaai23" class="carousel slide" data-ride="aaai23" data-interval="4000" data-pause="hover" >
+<div markdown="0" id="aaai23" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
         <li data-target="#aaai23" data-slide-to="0" class="active"></li>
@@ -126,7 +126,7 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 
 ### NeurIPS'22 (New Orleans, USA)
 
-<div markdown="0" id="nips22" class="carousel slide" data-ride="nips22" data-interval="4000" data-pause="hover" >
+<div markdown="0" id="nips22" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
         <li data-target="#nips22" data-slide-to="0" class="active"></li>
@@ -160,7 +160,7 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 ### ICML'22 (Baltimore, USA)
 
 
-<div markdown="0" id="icml22" class="carousel slide" data-ride="icml22" data-interval="4000" data-pause="hover" >
+<div markdown="0" id="icml22" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
         <li data-target="#icml22" data-slide-to="0" class="active"></li>
@@ -197,7 +197,7 @@ Jump to: [Group Photos](#group-photos), [MSU Campus](#beautiful-campus-of-msu-go
 
 ### CVPR'22 (New Orleans, USA)
 
-<div markdown="0" id="cvpr22" class="carousel slide" data-ride="cvpr22" data-interval="4000" data-pause="hover" >
+<div markdown="0" id="cvpr22" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
         <li data-target="#cvpr22" data-slide-to="0" class="active"></li>
