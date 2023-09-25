@@ -9,17 +9,11 @@ author: "<a style='color: #dfebf7' href='https://damon-demon.github.io'>Yimeng Z
          <a style='color: #dfebf7' href='https://www.linkedin.com/in/dingke'>Ke Ding</a><sup>[2]</sup>"
 maintainer: "<a style='color: #dfebf7' href='https://damon-demon.github.io'>Yimeng Zhang</a>"
 affiliation: "<sup>[1]</sup>Michigan State University, <sup>[2]</sup>Applied ML, Intel"
-code: "https://github.com/intel"
+code: "https://github.com/intel/TVP"
 poster: "https://damon-demon.github.io/links/2DTVP_CVPR23_poster.pdf"
 paper: "https://arxiv.org/abs/2303.04995"
 slides: "https://damon-demon.github.io/links/CVPR23_2D_TVP_presentation.pdf"
 video: "https://youtu.be/zj2s_G3066s"
----
-
-### [Locoation]: **West Building Exhibit Halls ABC**
-### [Time]: **Wed 21 Jun 4:30 p.m. — 6 p.m.**
-### [Poster Num]: **233**
-
 ---
 
 <center>
