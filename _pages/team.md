@@ -273,8 +273,12 @@ permalink: /team/
   <i>{{ member.info }}</i>
   <ul style="overflow: hidden">
   <li> Visiting Time: {{ member.visiting  }} </li>
+  {% if member.research %}
   <li> Research Project: {{ member.research }} </li>
+  {% endif %} 
+  {% if member.current %}
   <li> Current: {{ member.current }} </li>
+  {% endif %} 
   </ul>
 </div>
 
