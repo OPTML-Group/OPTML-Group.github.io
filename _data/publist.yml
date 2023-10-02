@@ -1,3 +1,39 @@
+- title: "Selectivity Drives Productivity: Efficient Dataset Pruning for Enhanced Transfer Learning"
+  image: dummy.png
+  description:
+  authors:
+    "<span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>A. Chen</span>, <span style='color:blue'>J. Jia</span>, <span style='color:blue'>J. Liu</span>, G. Liu, M. Hong, S. Chang, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2304.04934
+    display: NeurIPS'23
+  highlight: 0
+  news2: 
+  post:
+
+- title: "Model Sparsity Can Simplify Machine Unlearning"
+  image: dummy.png
+  description:
+  authors:
+    "<span style='color:blue'>J. Jia</span>, <span style='color:blue'>J. Liu</span>, P. Ram, <span style='color:blue'>Y. Yao</span>, G. Liu, Y. Liu, P. Sharma, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2304.04934
+    display: NeurIPS'23
+  highlight: 0
+  news2: 
+  post:
+
+- title: "On the Convergence and Sample Complexity Analysis of Deep Q-Networks with Greedy Exploration"
+  image: dummy.png
+  description:
+  authors:
+    "S. Zhang, M. Wang, H. Li, M. Liu, P. Chen, S. Lu, <span style='color:blue'>S. Liu</span>, K. Murugesan. S. Chaudhury"
+  link:
+    url: https://arxiv.org/abs/2304.04934
+    display: NeurIPS'23
+  highlight: 0
+  news2: 
+  post:
+
 - title: "Robust Mixture-of-Expert Training for Convolutional Neural Networks"
   image: dummy.png
   description:
