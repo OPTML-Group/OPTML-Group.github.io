@@ -40,14 +40,6 @@
   number_educ: 2
   education1: M.S. Biomedical Engineering, University of Florida, USA
   education2: B.S. Bioinformatics, Huazhong Agricultural University, China
-     
-- name: Aochuan(Arthur) Chen
-  photo: aochuan.png
-  info: Graduate Student, Computer Science, Michigan State University (Fall 2022 - current)
-  email: chenaoch@msu.edu 
-  url: https://cse.msu.edu/~chenaoch/
-  number_educ: 1
-  education1: B.S. Automation, Tsinghua University, China
   
 - name: Jiancheng Liu
   photo: jiancheng.png
