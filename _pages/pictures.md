@@ -39,6 +39,8 @@ Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Ph
 
 <div class="image-gallery">
 
+<a/>
+
 {% for pic in site.data.pictures.conference %}
 
   <a href="{{ site.url }}{{ site.baseurl }}/{{ pic.image }}" title="{{ pic.title }}">
@@ -54,6 +56,8 @@ Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Ph
 
 
 <div class="image-gallery">
+
+<a/>
 
 {% for pic in site.data.pictures.food %}
 
@@ -71,6 +75,8 @@ Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Ph
 
 <div class="image-gallery">
 
+<a/>
+
 {% for pic in site.data.pictures.funny %}
 
   <a href="{{ site.url }}{{ site.baseurl }}/{{ pic.image }}" title="{{ pic.title }}">
@@ -85,6 +91,8 @@ Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Ph
 ## Beautiful Campus of MSU! Go Green!
 
 <div class="image-gallery">
+
+<a/>
 
 {% for pic in site.data.pictures.msu_campus %}
 
