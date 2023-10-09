@@ -7,7 +7,7 @@ permalink: /pictures/
 
 <style>
   .image-gallery {overflow: auto; margin-left: 0%!important;}
-  .image-gallery a {float: left; display: block; margin: 0 0 0.5% 0.5%; width: 33%; text-align: center; text-decoration: none!important;}
+  .image-gallery a {float: left; display: block; margin: 0 0 0.5% 0.5%; width: 30%; text-align: center; text-decoration: none!important;}
   .image-gallery a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
   .image-gallery a img {width: 100%; display: block; margin-bottom: 0%!important; padding-top: 0px;}
   .image-gallery a:first-child {padding-top: 0px}
