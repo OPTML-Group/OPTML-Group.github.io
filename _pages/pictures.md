@@ -15,14 +15,63 @@ permalink: /pictures/
 
 
 # Photos
-Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Photos](#group-life-photos), [MSU Campus](#beautiful-campus-of-msu-go-green), [Group Logos](#group-logos)
+Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Photos](#group-life-photos), [Food at MSU](#food-at-msu), [Group Funny Moments](#group-funny-moments), [MSU Campus](#beautiful-campus-of-msu-go-green), [Group Logos](#group-logos)
 
 
 ## OPTML Academic Activities
 
 <div class="image-gallery">
 
+<a/>
+
 {% for pic in site.data.pictures.conference %}
+
+  <a href="{{ site.url }}{{ site.baseurl }}/{{ pic.image }}" title="{{ pic.title }}">
+    <img src="//images.weserv.nl/?url=www.optml-group.com/{{ pic.image }}&w=300&h=300&output=jpg&q=50&t=square" alt="{{ pic.title }}" />
+    <span>{{ pic.title }}</span>
+  </a>
+
+{% endfor %}
+</div>
+
+## Group Life Photos
+
+
+<div class="image-gallery">
+
+{% for pic in site.data.pictures.conference %}
+
+  <a href="{{ site.url }}{{ site.baseurl }}/{{ pic.image }}" title="{{ pic.title }}">
+    <img src="//images.weserv.nl/?url=www.optml-group.com/{{ pic.image }}&w=300&h=300&output=jpg&q=50&t=square" alt="{{ pic.title }}" />
+    <span>{{ pic.title }}</span>
+  </a>
+
+{% endfor %}
+</div>
+
+
+## Food at MSU
+
+
+<div class="image-gallery">
+
+{% for pic in site.data.pictures.food %}
+
+  <a href="{{ site.url }}{{ site.baseurl }}/{{ pic.image }}" title="{{ pic.title }}">
+    <img src="//images.weserv.nl/?url=www.optml-group.com/{{ pic.image }}&w=300&h=300&output=jpg&q=50&t=square" alt="{{ pic.title }}" />
+    <span>{{ pic.title }}</span>
+  </a>
+
+{% endfor %}
+</div>
+
+
+## Group Funny Moments
+
+
+<div class="image-gallery">
+
+{% for pic in site.data.pictures.funny %}
 
   <a href="{{ site.url }}{{ site.baseurl }}/{{ pic.image }}" title="{{ pic.title }}">
     <img src="//images.weserv.nl/?url=www.optml-group.com/{{ pic.image }}&w=300&h=300&output=jpg&q=50&t=square" alt="{{ pic.title }}" />
@@ -56,81 +105,6 @@ Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Ph
 }
 </style>
 
-
-## Group Life Photos
-
-
-<div markdown="0" id="life" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
-    <!-- Menu -->
-    <ol class="carousel-indicators">
-        <li data-target="#life" data-slide-to="0" class="active"></li>
-        <li data-target="#life" data-slide-to="1"></li>
-        <li data-target="#life" data-slide-to="2"></li>
-        <li data-target="#life" data-slide-to="3"></li>
-        <li data-target="#life" data-slide-to="4"></li>
-        <li data-target="#life" data-slide-to="5"></li>
-        <li data-target="#life" data-slide-to="6"></li>
-        <li data-target="#life" data-slide-to="7"></li>
-        <li data-target="#life" data-slide-to="8"></li>
-        <li data-target="#life" data-slide-to="9"></li>
-        <li data-target="#life" data-slide-to="10"></li>
-        <li data-target="#life" data-slide-to="11"></li>
-    </ol>
-
-    <!-- Items -->
-    <div class="carousel-inner" markdown="0">
-        <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic1.jpg" alt="Slide 1" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic2.jpg" alt="Slide 2" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic3.jpg" alt="Slide 3" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic4.jpg" alt="Slide 4" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic5.jpg" alt="Slide 5" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic6.jpg" alt="Slide 6" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic7.jpg" alt="Slide 7" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic8.jpg" alt="Slide 8" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic9.jpg" alt="Slide 9" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic10.jpg" alt="Slide 10" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic11.jpg" alt="Slide 11" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic12.jpg" alt="Slide 12" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic13.jpg" alt="Slide 13" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_pics/Life/pic14.jpg" alt="Slide 14" />
-        </div>
-    </div>
-  <a class="left carousel-control" href="#life" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#life" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
 
 ## Group Logos
 #### group logo
