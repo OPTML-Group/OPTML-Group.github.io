@@ -14,11 +14,11 @@ permalink: /pictures/
 </style>
 
 
-### Photos
+## Photos
 Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Photos](#group-life-photos), [Food at MSU](#food-at-msu), [Group Funny Moments](#group-funny-moments), [MSU Campus](#beautiful-campus-of-msu-go-green), [Group Logos](#group-logos)
 
 
-#### OPTML Academic Activities
+### OPTML Academic Activities
 
 <div class="image-gallery">
 
@@ -36,7 +36,7 @@ Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Ph
 
 Go back to [Top](#photos).
 
-#### Group Life Photos
+### Group Life Photos
 
 
 <div class="image-gallery">
@@ -56,7 +56,7 @@ Go back to [Top](#photos).
 Go back to [Top](#photos).
 
 
-#### Food at MSU
+### Food at MSU
 
 
 <div class="image-gallery">
@@ -76,7 +76,7 @@ Go back to [Top](#photos).
 Go back to [Top](#photos).
 
 
-#### Group Funny Moments
+### Group Funny Moments
 
 
 <div class="image-gallery">
@@ -96,7 +96,7 @@ Go back to [Top](#photos).
 Go back to [Top](#photos).
 
 
-#### Beautiful Campus of MSU! Go Green!
+### Beautiful Campus of MSU! Go Green!
 
 <div class="image-gallery">
 
@@ -115,22 +115,22 @@ Go back to [Top](#photos).
 Go back to [Top](#photos).
 
 
-#### Group Logos
-##### group logo
+### Group Logos
+#### group logo
 <center>
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/logo.png" width="60%">
 </figure>
 </center>
 
-##### group logo - black
+#### group logo - black
 <center>
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/logo_black.png" width="60%">
 </figure>
 </center>
 
-##### group logo - white
+#### group logo - white
 <center>
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/logo_white.png" width="60%">
