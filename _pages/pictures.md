@@ -15,10 +15,14 @@ permalink: /pictures/
 
 
 ## Photos
-Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Photos](#group-life-photos), [Food at MSU](#food-at-msu), [Group Funny Moments](#group-funny-moments), [MSU Campus](#beautiful-campus-of-msu-go-green), [Group Logos](#group-logos)
+Dive into the journey of OPTML. Explore our academic pursuits, cherishable memories, the culinary delights of MSU, our candid moments, and the majestic landscapes of the MSU campus.
+
+Jump to: [Group Academic Activities](#group-academic-activities), [Life Beyond Research](#life-beyond-research), [MSU Culinary Delights](#msu-culinary-delights), [Candid Chronicles](#candid-chronicles), [MSU's Serene Beauty](#msus-serene-beauty), [Group Logos](#group-logos)
 
 
-### OPTML Academic Activities
+### Life Beyond Research
+
+Experience our passion for research and academic excellence. Be a part of the conferences, seminars, and workshops that have shaped our group's intellectual trajectory.
 
 <div class="image-gallery">
 
@@ -56,7 +60,7 @@ Go back to [Top](#photos).
 Go back to [Top](#photos).
 
 
-### Food at MSU
+### MSU Culinary Delights
 
 
 <div class="image-gallery">
@@ -76,7 +80,9 @@ Go back to [Top](#photos).
 Go back to [Top](#photos).
 
 
-### Group Funny Moments
+### Candid Chronicles
+
+A collection of spontaneous, unscripted moments that capture the essence of our group's spirit and camaraderie. Laughter guaranteed!
 
 
 <div class="image-gallery">
@@ -96,7 +102,9 @@ Go back to [Top](#photos).
 Go back to [Top](#photos).
 
 
-### Beautiful Campus of MSU! Go Green!
+### MSU's Serene Beauty
+
+Embark on a visual journey across the verdant and picturesque MSU campus. Witness nature's splendor in the heart of an academic institution. Go Green! Go White!
 
 <div class="image-gallery">
 
