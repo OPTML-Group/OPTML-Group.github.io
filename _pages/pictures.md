@@ -43,7 +43,7 @@ Go back to [Top](#photos).
 
 <a/>
 
-{% for pic in site.data.pictures.conference %}
+{% for pic in site.data.pictures.life %}
 
   <a href="{{ site.url }}{{ site.baseurl }}/{{ pic.image }}" title="{{ pic.title }}">
     <img src="//images.weserv.nl/?url=www.optml-group.com/{{ pic.image }}&w=300&h=300&output=jpg&q=50&t=square" alt="{{ pic.title }}" />
