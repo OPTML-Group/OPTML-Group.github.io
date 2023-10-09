@@ -20,7 +20,7 @@ Dive into the journey of OPTML. Explore our academic pursuits, cherishable memor
 Jump to: [Group Academic Activities](#group-academic-activities), [Life Beyond Research](#life-beyond-research), [MSU Culinary Delights](#msu-culinary-delights), [Candid Chronicles](#candid-chronicles), [MSU's Serene Beauty](#msus-serene-beauty), [Group Logos](#group-logos)
 
 
-### Life Beyond Research
+### Group Academic Activities
 
 Experience our passion for research and academic excellence. Be a part of the conferences, seminars, and workshops that have shaped our group's intellectual trajectory.
 
@@ -40,7 +40,7 @@ Experience our passion for research and academic excellence. Be a part of the co
 
 Go back to [Top](#photos).
 
-### Group Life Photos
+### Life Beyond Research
 
 
 <div class="image-gallery">
