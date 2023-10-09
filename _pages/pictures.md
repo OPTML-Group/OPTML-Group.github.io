@@ -34,6 +34,8 @@ Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Ph
 {% endfor %}
 </div>
 
+Go back to [Top](#photos).
+
 ## Group Life Photos
 
 
@@ -50,6 +52,8 @@ Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Ph
 
 {% endfor %}
 </div>
+
+Go back to [Top](#photos).
 
 
 ## Food at MSU
@@ -69,6 +73,8 @@ Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Ph
 {% endfor %}
 </div>
 
+Go back to [Top](#photos).
+
 
 ## Group Funny Moments
 
@@ -87,6 +93,8 @@ Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Ph
 {% endfor %}
 </div>
 
+Go back to [Top](#photos).
+
 
 ## Beautiful Campus of MSU! Go Green!
 
@@ -104,14 +112,7 @@ Jump to: [Group Academic Activities](#group-academic-activities), [Group Life Ph
 {% endfor %}
 </div>
 
-
-<style>
-#life .carousel-inner img {
-  width: 100%; /* Adjust as needed */
-  height: 500px; /* Adjust as needed */
-  object-fit: cover; /* Cover the entire element box */
-}
-</style>
+Go back to [Top](#photos).
 
 
 ## Group Logos
