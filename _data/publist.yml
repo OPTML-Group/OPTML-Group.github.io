@@ -41,7 +41,7 @@
     "<span style='color:blue'>Y. Zhang</span>, R. Cai, T. Chen, G. Zhang, H. Zhang. P. Chen, S. Chang, Z. Wang, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/abs/2308.10110v1
-    display: ICCV'23 (<span style='color:red'>Oral</span>)
+    display: ICCV'23 (<span style='color:red'><b>Oral</b></span>)
   highlight: 0
   news2: 
   post:
@@ -199,7 +199,7 @@
     "G. Zhang*, S. Lu*, <span style='color:blue'>Y. Zhang*</span>, X. Chen, P. Chen, Q. Fan, L. Martie, L. Horesh, M. Hong, and <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/pdf/2206.06257.pdf
-    display: UAI’22 (<span style='color:red'>Oral, Best Paper Runner-up Award</span>)
+    display: UAI’22 (<span style='color:red'><b>Oral</b>, Best Paper Runner-up Award</span>)
   highlight: 0
   news2: 
 
@@ -434,7 +434,7 @@
     Z. Li, G. Yuan, W. Niu, Y. Li, P. Zhao, Y. Cai, X. Shen, Z. Zhan, Z. Kong, Q. Jin, Z. Chen, <span style='color:blue'>S. Liu</span>, K. Yang, Y. Wang, B. Ren, and X. Lin.
   link:
     url: https://arxiv.org/pdf/2012.00596.pdf
-    display: "CVPR’21 (<span style='color:red'>Oral, acceptance rate 4%</span>)"
+    display: "CVPR’21 (<span style='color:red'><b>Oral</b>, acceptance rate 4%</span>)"
   highlight: 0
   news2: 
 
@@ -676,7 +676,7 @@
     J. Mohapatra, L. Weng, P.-Y. Chen, <span style='color:blue'>S. Liu</span>, L. Daniel
   link:
     url: https://arxiv.org/pdf/1912.09533.pdf
-    display: "CVPR’20 (<span style='color:red'>Oral, acceptance rate 5%</span>)"
+    display: "CVPR’20 (<span style='color:red'><b>Oral</b>, acceptance rate 5%</span>)"
   highlight: 0
   news2: 
 
