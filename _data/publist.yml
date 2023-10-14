@@ -312,7 +312,7 @@
     "<span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>Y. Yao</span>, <span style='color:blue'>J. Jia</span>, J. Yi, M. Hong, S. Chang, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://openreview.net/forum?id=W9G_ImpHlQd
-    display: "ICLR’22 (<span style='color:red'>spotlight, acceptance rate 5%</span>)"
+    display: "ICLR’22 (<span style='color:red'>Spotlight, acceptance rate 5%</span>)"
   highlight: 1
   news2: 
   post:
@@ -434,7 +434,7 @@
     Z. Li, G. Yuan, W. Niu, Y. Li, P. Zhao, Y. Cai, X. Shen, Z. Zhan, Z. Kong, Q. Jin, Z. Chen, <span style='color:blue'>S. Liu</span>, K. Yang, Y. Wang, B. Ren, and X. Lin.
   link:
     url: https://arxiv.org/pdf/2012.00596.pdf
-    display: "CVPR’21 (<span style='color:red'>ORAL, acceptance rate 4%</span>)"
+    display: "CVPR’21 (<span style='color:red'>Oral, acceptance rate 4%</span>)"
   highlight: 0
   news2: 
 
@@ -566,7 +566,7 @@
     T. Chen, W. Zhang, J. Zhou, S. Chang, <span style='color:blue'>S. Liu</span>, L. Amini, Z. Wang
   link:
     url: https://arxiv.org/pdf/2010.09089.pdf
-    display: "NeurIPS’20 (<span style='color:red'>spotlight, acceptance rate 3%</span>)"
+    display: "NeurIPS’20 (<span style='color:red'>Spotlight, acceptance rate 3%</span>)"
   highlight: 0
   news2: 
 
@@ -577,7 +577,7 @@
     J. Mohapatra, C.-Y. Ko, L. Weng, P.-Y. Chen, <span style='color:blue'>S. Liu</span>, L. Daniel
   link:
     url: https://arxiv.org/pdf/2010.06651.pdf
-    display: "NeurIPS’20 (<span style='color:red'>spotlight, acceptance rate 3%</span>)"
+    display: "NeurIPS’20 (<span style='color:red'>Spotlight, acceptance rate 3%</span>)"
   highlight: 0
   news2: 
 
@@ -588,7 +588,7 @@
     K. Xu, G. Zhang, <span style='color:blue'>S. Liu</span>, Q. Fan, M. Sun, H. Chen, P.-Y. Chen, Y. Wang, X. Lin
   link:
     url: https://arxiv.org/pdf/1910.11099.pdf
-    display: "ECCV’20 (<span style='color:red'>spotlight, acceptance rate 5%</span>)"
+    display: "ECCV’20 (<span style='color:red'>Spotlight, acceptance rate 5%</span>)"
   highlight: 0
   news2: 
 
@@ -676,7 +676,7 @@
     J. Mohapatra, L. Weng, P.-Y. Chen, <span style='color:blue'>S. Liu</span>, L. Daniel
   link:
     url: https://arxiv.org/pdf/1912.09533.pdf
-    display: "CVPR’20 (<span style='color:red'>ORAL, acceptance rate 5%</span>)"
+    display: "CVPR’20 (<span style='color:red'>Oral, acceptance rate 5%</span>)"
   highlight: 0
   news2: 
 
