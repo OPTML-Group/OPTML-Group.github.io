@@ -2,7 +2,7 @@
   image: dummy.png
   description:
   authors:
-    "<span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>A. Chen</span>, <span style='color:blue'>J. Jia</span>, <span style='color:blue'>J. Liu</span>, G. Liu, M. Hong, S. Chang, <span style='color:blue'>S. Liu</span>"
+    "<span style='color:blue'>Y. Zhang*</span>, <span style='color:blue'>Y. Zhang*</span>, <span style='color:blue'>A. Chen*</span>, <span style='color:blue'>J. Jia</span>, <span style='color:blue'>J. Liu</span>, G. Liu, M. Hong, S. Chang, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/abs/2304.04934
     display: NeurIPS'23
@@ -14,7 +14,7 @@
   image: dummy.png
   description:
   authors:
-    "<span style='color:blue'>J. Jia</span>, <span style='color:blue'>J. Liu</span>, P. Ram, <span style='color:blue'>Y. Yao</span>, G. Liu, Y. Liu, P. Sharma, <span style='color:blue'>S. Liu</span>"
+    "<span style='color:blue'>J. Jia*</span>, <span style='color:blue'>J. Liu*</span>, P. Ram, <span style='color:blue'>Y. Yao</span>, G. Liu, Y. Liu, P. Sharma, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/abs/2304.04934
     display: NeurIPS'23 (<span style='color:red'><b>Spotlight</b></span>)
