@@ -16,7 +16,7 @@
   authors:
     "<span style='color:blue'>J. Jia</span>, <span style='color:blue'>J. Liu</span>, P. Ram, <span style='color:blue'>Y. Yao</span>, G. Liu, Y. Liu, P. Sharma, <span style='color:blue'>S. Liu</span>"
   link:
-    url: https://arxiv.org/abs/2304.04934
+    url: https://arxiv.org/abs/2304.04934 (<span style='color:red'>Spotlight</span>)
     display: NeurIPS'23
   highlight: 0
   news2: 
@@ -40,7 +40,7 @@
   authors:
     "<span style='color:blue'>Y. Zhang</span>, R. Cai, T. Chen, G. Zhang, H. Zhang. P. Chen, S. Chang, Z. Wang, <span style='color:blue'>S. Liu</span>"
   link:
-    url: https://arxiv.org/abs/2308.10110v1
+    url: https://arxiv.org/abs/2308.10110v1 (<span style='color:red'>Oral</span>)
     display: ICCV'23
   highlight: 0
   news2: 
