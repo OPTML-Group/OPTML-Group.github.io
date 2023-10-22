@@ -80,6 +80,10 @@ Authors marked in **bold** indicate our group members, and "\*" indicates equal 
 
 **Trustworthy AI: Robustness, fairness, and model explanation**
 
+* <a href="https://arxiv.org/pdf/2304.04934.pdf">Model sparsification can simplify machine unlearning</a><br>
+    **J. Jia\***, **J. Liu\***, P. Ram, **Y. Yao**, G. Liu, Y. Liu, P. Sharma, **S. Liu**<br>
+    NeurIPS’23 (Spotlight)
+
 * <a href="https://arxiv.org/pdf/2209.10222.pdf">Understanding and Improving Visual Prompting: A Label-Mapping Perspective</a><br>
     **A. Chen**, **Y. Yao**, P.-Y. Chen, **Y. Zhang**, **S. Liu**<br>
     CVPR’23
@@ -94,11 +98,8 @@ Authors marked in **bold** indicate our group members, and "\*" indicates equal 
 
 * <a href="https://openreview.net/pdf?id=W9G_ImpHlQd">How to Robustify Black-Box ML Models? A Zeroth-Order Optimization Perspective</a><br>
     **Y. Zhang**, **Y. Yao**, **J. Jia**, J. Yi, M. Hong, S. Chang, **S. Liu**<br>
-    ICLR’22
+    ICLR’22 (Spotlight)
 
-* <a href="https://arxiv.org/pdf/2006.14748.pdf">Proper Network Interpretability Helps Adversarial Robustness in Classification</a><br>
-    A. Boopathy, **S. Liu**, G. Zhang, C. Liu, P.-Y. Chen, S. Chang, L. Daniel<br>
-    ICML’20
 
 **Scalable AI: Model compression, distributed learning, black-box optimization, and automated ML**
 
