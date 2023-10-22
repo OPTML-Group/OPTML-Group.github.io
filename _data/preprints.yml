@@ -1,0 +1,35 @@
+- title: "DeepZero: Scaling up Zeroth-Order Optimization for Deep Model Training"
+  image: dummy.png
+  description:
+  authors:
+    "<span style='color:blue'>A. Chen*</span>, <span style='color:blue'>Y. Zhang*</span>, <span style='color:blue'>J. Jia</span>, J. Diffenderfer, <span style='color:blue'>J. Liu</span>, K. Parasyris, <span style='color:blue'>Y. Zhang</span>, Z. Zhang, B. Kailkhura, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2310.02025
+    display: 
+  highlight: 0
+  news2: 
+  post:
+
+- title: "To Generate or Not? Safety-Driven Unlearned Diffusion Models Are Still Easy To Generate Unsafe Images ... For Now"
+  image: dummy.png
+  description:
+  authors:
+    "<span style='color:blue'>Y. Zhang*</span>, <span style='color:blue'>J. Jia*</span>, X. Chen, <span style='color:blue'>A. Chen</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>J. Liu</span>, K. Ding, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2310.11868
+    display: 
+  highlight: 0
+  news2: 
+  post:
+
+- title: "SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation"
+  image: dummy.png
+  description:
+  authors:
+    "<span style='color:blue'>C. Fan*</span>, <span style='color:blue'>J. Liu*</span>, <span style='color:blue'>Y. Zhang</span>, D. Wei, E. Wong, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2310.12508
+    display: 
+  highlight: 0
+  news2: 
+  post:
