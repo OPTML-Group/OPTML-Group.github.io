@@ -1,3 +1,6 @@
+- date: 21. October 2023
+  headline: "[New Preprints]: We are pleased to announce the release of the following papers on arXiv: <a href='https://arxiv.org/abs/2310.11868'>To Generate or Not? Safety-Driven Unlearned Diffusion Models Are Still Easy To Generate Unsafe Images … For Now</a>; <a href='https://arxiv.org/abs/2310.12508'>SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation</a>; <a href='https://browse.arxiv.org/abs/2310.02025'>DeepZero: Scaling up Zeroth-Order Optimization for Deep Model Training</a>."
+
 - date: 22. September 2023
   headline: "NeurIPS 2023: 3 Papers Accepted – 1 Spotlight and 2 Posters. Congratulations to Jinghan, Jiancheng, and Yuguang for their spotlight acceptance with 'Model Sparsity Simplifies Machine Unlearning'. And kudos to Yihua, Yimeng, Aochuan, Jinghan, and Jiancheng for their poster acceptance with 'Selectivity Boosts Transfer Learning Efficiency.'"
 
