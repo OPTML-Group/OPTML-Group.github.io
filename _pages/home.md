@@ -101,7 +101,11 @@ Authors marked in **bold** indicate our group members, and "\*" indicates equal 
     ICLR’22 (Spotlight)
 
 
-**Scalable AI: Model compression, distributed learning, black-box optimization, and automated ML**
+**Scalable AI: Model & data compression, distributed learning, black-box optimization, and automated ML**
+
+* <a href="https://arxiv.org/abs/2310.08782">Selectivity Drives Productivity: Efficient Dataset Pruning for Enhanced Transfer Learning</a><br>
+    **Y. Zhang\***, **Y. Zhang\***, **A. Chen**, **J. Jia**, **J. Liu**, G. Liu, M. Hong, S. Chang, **S. Liu** <br>
+    NeurIPS'23
 
 * <a href="https://arxiv.org/pdf/2210.04092.pdf">Advancing Model Pruning via Bi-level Optimization</a><br>
     **Y. Zhang\***, **Y. Yao\***, P. Ram, P. Zhao, T. Chen, M. Hong, Y. Wang, **S. Liu**<br>
@@ -118,10 +122,6 @@ Authors marked in **bold** indicate our group members, and "\*" indicates equal 
 * <a href="https://arxiv.org/pdf/2006.06224.pdf">A Primer on Zeroth-Order Optimization in Signal Processing and Machine Learning</a><br>
     **S. Liu**, P.-Y. Chen, B. Kailkhura, G. Zhang, A. O. Hero, P. K. Varshney<br>
     IEEE Signal Processing Magazine, 2020
-
-* <a href="https://arxiv.org/pdf/1905.00424.pdf">An ADMM Based Framework for AutoML Pipeline Configuration</a><br>
-    **S. Liu\***, P. Ram\*, D. Vijaykeerthy, D. Bouneffouf, G. Bramble, H. Samulowitz, D. Wang, A. Conn, A. Gray, <br>
-    AAAI’20
 
 ### Sponsors
 
