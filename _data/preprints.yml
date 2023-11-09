@@ -1,3 +1,16 @@
+- title: "From Trojan Horses to Castle Walls: Unveiling Bilateral Backdoor Effects in Diffusion Models"
+  image: dummy.png
+  description:
+  authors:
+    "<span style='color:blue'>Z. Pan*</span>, <span style='color:blue'>Y. Yao*</span>, G. Liu, B. Shen, H. V. Zhao, R. R. Kompella, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2311.02373
+    display:
+  highlight: 0
+  news2: 
+  post:
+
+
 - title: "DeepZero: Scaling up Zeroth-Order Optimization for Deep Model Training"
   image: dummy.png
   description:
