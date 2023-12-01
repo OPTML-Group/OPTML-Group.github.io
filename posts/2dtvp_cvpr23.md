@@ -16,12 +16,6 @@ slides: "https://damon-demon.github.io/links/CVPR23_2D_TVP_presentation.pdf"
 video: "https://youtu.be/zj2s_G3066s"
 ---
 
-### [Locoation]: **West Building Exhibit Halls ABC**
-### [Time]: **Wed 21 Jun 4:30 p.m. — 6 p.m.**
-### [Poster Num]: **233**
-
----
-
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
