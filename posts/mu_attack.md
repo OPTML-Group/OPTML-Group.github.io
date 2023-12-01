@@ -126,7 +126,7 @@ It is clear that the former necessitates an extra diffusion process (represented
 
 **Remark 2**
 
-The derivation is contingent upon the upper bounding of the individual relative difference concerning $$c_j$$ in \eqref{eq: upper_bound}. Nonetheless, this relaxation retains its tightness if we frame the task of predicting $$c^\prime$$ as a `binary` classification problem. In this scenario, we can interpret $$c_j$$ as the  non-$$c^\prime$$ class (e.g., non-Van Gogh painting style vs. $$c^\prime$$ containing Van Gogh style, which is the concept to be erased). 
+The derivation is contingent upon the upper bounding of the individual relative difference concerning $$c_j$$. Nonetheless, this relaxation retains its tightness if we frame the task of predicting $$c^\prime$$ as a `binary` classification problem. In this scenario, we can interpret $$c_j$$ as the  non-$$c^\prime$$ class (e.g., non-Van Gogh painting style vs. $$c^\prime$$ containing Van Gogh style, which is the concept to be erased). 
 
 
 **Remark 3**
@@ -135,20 +135,43 @@ As the adversarial perturbations to be optimized are situated in the discrete te
 
 ---
 
-## Performance Comparison
-Our method yields substantial accuracy improvement on multiple datasets.
+## Performances and Visualizations
 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/2dtvp_cvpr23/performance_table.png" width="1200">
-    <br>
-    <div style="color:orange;
-    display: inline-block;
-    color: #999; font-size:2px；
-    padding: 2px;">Performance comparison of different thresholds m on the Charades-STA and ActivityNet Captions Datasets.</div>
-</center> 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/mu_attack/concept_esd.png" width="1000">
+</center>
 
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/mu_attack/concept_fmn.png" width="1000">
+</center>
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/mu_attack/style_esd.png" width="1000">
+</center>
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/mu_attack/style_fmn.png" width="1000">
+</center>
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/mu_attack/object_esd.png" width="1000">
+</center>
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/mu_attack/object_fmn.png" width="1000">
+</center>
 
 ---
 
