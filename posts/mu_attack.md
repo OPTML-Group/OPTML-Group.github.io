@@ -76,6 +76,7 @@ To tackle the above problems, we leverage a key observation in
 $$
   p_{\boldsymbol \theta}(c_i| \mathbf x)   \propto   \frac{ 1 }{\sum_j  \exp \left \{ -\mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_j) \|_2^2] \right \} / \exp \left \{ -\mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_i) \|_2^2] \right \}  } \nonumber 
 $$
+
 $$
   = \frac{ 1 }{\sum_j  \exp \left \{ \mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_i) \|_2^2] -\mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_j) \|_2^2] \right \}    }
 $$
@@ -104,6 +105,33 @@ $$
 $$
 
 where we excluded $$\exp$$ as it is monotonically increasing with respect to its input argument. 
+
+---
+## Remarks
+
+**Remark 1**
+
+A key takeaway is that we can optimize the adversarial prompt $$c^\prime$$ by aligning it with the diffusion training objective    \eqref{eq: diffusion_training}, given the victim model $$\boldsymbol \theta^*$$ and the target image $$\mathbf{x}_\mathrm{tgt}$$ (to which the forward noise-injection process is applied, rather than the latent embedding $$\mathbf z_t$$).
+
+Additionally, in contrast to existing adversarial prompt generation methods for DMs, our proposed adversarial attack does `not` depend on an auxiliary DM or an external image classifier. To underscore this advantage, let's examine an attack formulation employed in the concurrent work `P4D`:
+
+$$
+  \min_{c^\prime} \mathbb{E}_{t, \epsilon }[\| \epsilon_{\btheta} (\mathbf z_t | c) - \epsilon_{\boldsymbol \theta^*}(\mathbf z_t | c^\prime) \|_2^2]
+$$
+
+where $$\boldsymbol \theta$$ represents the original DM without unlearning, $$\mathbf{z}_t$$ is the latent embedding for image generation, and $$c$$ is an `inappropriate` prompt intended to generate a `harmful` image. 
+
+It is clear that the former necessitates an extra diffusion process (represented by $$\boldsymbol \theta$$) to generate an unwanted image when provided with a prompt $$c$$ (the unlearning target). This introduces a large computational overhead during optimization. In contrast, the selection of $$\mathbf x_\mathrm{tgt}$$ can be performed offline and from diverse image sources.
+
+
+**Remark 2**
+
+The derivation is contingent upon the upper bounding of the individual relative difference concerning $$c_j$$ in \eqref{eq: upper_bound}. Nonetheless, this relaxation retains its tightness if we frame the task of predicting $$c^\prime$$ as a `binary` classification problem. In this scenario, we can interpret $$c_j$$ as the  non-$$c^\prime$$ class (e.g., non-Van Gogh painting style vs. $$c^\prime$$ containing Van Gogh style, which is the concept to be erased). 
+
+
+**Remark 3**
+
+As the adversarial perturbations to be optimized are situated in the discrete text space, we employ projected gradient descent (PGD) to solve the optimization problem. Yet, it is worth noting that different from vanilla PGD for continuous optimization, the projection operation is defined within the discrete space. It serves to map the token embedding to discrete texts, following a similar approach utilized in  [[3](#refer-anchor-3)] for generating natural language processing (NLP) attacks.
 
 ---
 
@@ -142,3 +170,4 @@ Our method yields substantial accuracy improvement on multiple datasets.
 
 <div id="refer-anchor-2"></div>  [2] Li, Alexander C., et al. (2023) "Your diffusion model is secretly a zero-shot classifier."
 
+<div id="refer-anchor-3"></div> [3] Hou, Bairu, et al. (2022) "Textgrad: Advancing robustness evaluation in nlp by gradient-driven optimization.".
