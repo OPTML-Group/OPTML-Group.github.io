@@ -20,26 +20,43 @@ paper: "https://arxiv.org/abs/2310.11868"
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/mu_attack/overview.png" width="500">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/mu_attack/overview.png" width="1000">
 </center>
 
 ---
 
 ## Abstract
 
-The recent advances in diffusion models (DMs) have revolutionized the generation of complex and diverse images. However, these models also introduce potential safety hazards, such as the produc- tion of harmful content and infringement of data copyrights. Although there have been efforts to create safety-driven unlearning methods to counteract these challenges, doubts remain about their capabilities. To bridge this uncertainty, we propose an evaluation framework built upon adversarial attacks (also referred to as adversarial prompts), in order to discern the trustworthiness of these safety-driven unlearned DMs. Specifically, our research explores the (worst-case) robustness of unlearned DMs in eradicating unwanted concepts, styles, and objects, assessed by the generation of adversarial prompts. We develop a novel adversarial learning approach called UnlearnDiff that leverages the inherent classification capabilities of DMs to streamline the generation of adversarial prompts, making it as simple for DMs as it is for image classification attacks. This technique stream- lines the creation of adversarial prompts, making the process as intuitive for generative modeling as it is for image classification assaults. Through comprehensive benchmarking, we assess the unlearning robustness of five prevalent unlearned DMs across multiple tasks. Our results underscore the effec- tiveness and efficiency of UnlearnDiff when compared to state-of-the-art adversarial prompting methods.
+The recent advances in diffusion models (DMs) have revolutionized the generation of complex and diverse images. However, these models also introduce potential safety hazards, such as the production of harmful content and infringement of data copyrights. **Although there have been efforts to create safety-driven unlearning methods to counteract these challenges, doubts remain about their capabilities. To bridge this uncertainty, we propose an evaluation framework built upon adversarial attacks (also referred to as adversarial prompts), in order to discern the trustworthiness of these safety-driven unlearned DMs.** Specifically, our research explores the (worst-case) robustness of unlearned DMs in eradicating unwanted concepts, styles, and objects, assessed by the generation of adversarial prompts. **We develop a novel adversarial learning approach called UnlearnDiff that leverages the inherent classification capabilities of DMs to streamline the generation of adversarial prompts, making it as simple for DMs as it is for image classification attacks. This technique streamlines the creation of adversarial prompts, making the process as intuitive for generative modeling as it is for image classification assaults. Through comprehensive benchmarking, we assess the unlearning robustness of five prevalent unlearned DMs across multiple tasks. Our results underscore the effectiveness and efficiency of UnlearnDiff when compared to state-of-the-art adversarial prompting methods.
 
-(WARNING: This paper contains model outputs that may be offensive in nature.)
+**(WARNING: This paper contains model outputs that may be offensive in nature.)**
 
 ---
 
 ## Our Proposal: Evaluation framework for unlearned diffusion models
 Our proposed method for generating adversarial prompts, referred to as the ‘Unlearning Diffusion’ attack (UnlearnDiff). **Unlike previous methods for generating adversarial prompts, we leverage the class-discriminative ability of the ‘diffusion classifier’ inherent in a well-trained DM, using it effectively and without additional costs.** This classification perspective within DMs allows us to craft adversarial prompts exclusively with the victim model (i.e., unlearned DM), eliminating the need for an extra auxiliary DM or image classifier. As a result, our proposal streamlines the diffusion costs during the process of generating attacks.
 
-1. **Turning generation into classification: Exploiting DMs' embedded `free' classifier.**
-Recent studies on adversarial attacks against DMs \citep{zhuang2023pilot, yang2023sneakyprompt} 
-have indicated that crafting an adversarial prompt to generate a target image within DMs presents a significantly greater challenge than generating a conventional adversarial attack aimed at a specific class label for image classifiers.
-As illustrated in \textbf{Fig.\,\ref{fig: overview}}, current attack generation methods typically require either an auxiliary DM in addition to the victim model \citep{maus2023black,zhuang2023pilot,chin2023prompting4debugging} or an external image classifier that produces post-generation classification results \citep{maus2023black}. However, both approaches come with limitations. The former significantly increases the computational burden during attack generation due to the involvement of two separate diffusion processes: one associated with the unlearned DM and another for the auxiliary DM. The latter relies on the existence of a well-trained image classifier for generated images and assumes that the adversary has access to this classifier. In this work, we will demonstrate that there is no need to introduce an additional DM or classifier because the victim DM inherently serves dual roles  -- image generation and classification.
+1. **Turning generation into classification: Exploiting DMs' embedded `free' classifier.**: 
+In this work, we will demonstrate that there is no need to introduce an additional DM or classifier because the victim DM inherently serves dual roles  -- image generation and classification.
+
+We next extract the `free' classifier from a DM, referred to as the diffusion classifier \citep{chen2023robust,li2023your}. 
+The underlying principle is that classification with a DM can be achieved by applying Bayes' rule to the likelihood of model generation $$p_{\btheta}(\mathbf x | c)$$  and the prior probability distribution  $$p(c)$$ over prompts $$\{ c_i\}$$ (viewed as image `labels'). Following {Sec.\,\ref{sec:problem}}, $$\mathbf x$$ and $$\btheta$$ represent an image and DM's parameters, respectively. 
+According to Bayes' rule, the probability of predicting $$\mathbf x$$ as the `label' $c$ is given by
+
+$$
+  p_{\btheta}(c_i| \mathbf x) =  \frac{p(c_i) p_{\btheta}(\mathbf x | c_i) }{\sum_j p(c_j) p_{\btheta}(\mathbf x | c_j) },
+$$
+
+where $p(c)$ can be a uniform distribution, representing a random guess regarding $$\mathbf{x}$$, while $$p_{\btheta}(\mathbf{x} | c_i)$$ is associated with the quality of image generation corresponding to prompt $c_i$. In the case of the uniform prior, namely, $p(c_i) = p(c_j)$, 
+\eqref{eq: condition_prob} can be further simplified to exclusively address the conditional probabilities $$\{ p_{\btheta}(\mathbf x | c_i) \}$$. 
+In DM, the log-likelihood of $$p_{\btheta}(\mathbf x | c_i)$$  relates to the denoising error in \eqref{eq: diffusion_training}, \textit{i.e.}, $p_{\btheta}(\mathbf x | c_i) \propto \exp \left \{ -\mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_i) \|_2^2] \right \} $, where $\exp{\cdot}$ is the exponential function. 
+As a result, the \textit{diffusion classifier} yields
+
+$$
+  p_{\btheta}(c_i| \mathbf x) \propto   \frac{  \exp \left \{ -\mathbb{E}_{t, \epsilon}[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_i) \|_2^2] \right \} }{\sum_j  \exp \left \{ -\mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_j) \|_2^2] \right \}  }
+$$
+
+A key insight is that the DM ($$\btheta$$) can serve as a classifier by evaluating its denoising error for a specific prompt ($c_i$) relative to all the potential errors associated with different prompts.
 
 
 
