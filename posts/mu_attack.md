@@ -45,7 +45,7 @@ The underlying principle is that classification with a DM can be achieved by app
 According to Bayes' rule, the probability of predicting $$\mathbf x$$ as the `label` $$c$$ is given by
 
 $$
-  p_{\boldsymbol \theta}(c_i| \mathbf x) =  \frac{p(c_i) p_{\boldsymbol \theta}(\mathbf x | c_i) }{\sum_j p(c_j) p_{\boldsymbol \theta}(\mathbf x | c_j) }    &emsp;&emsp;   (1),
+  p_{\boldsymbol \theta}(c_i| \mathbf x) =  \frac{p(c_i) p_{\boldsymbol \theta}(\mathbf x | c_i) }{\sum_j p(c_j) p_{\boldsymbol \theta}(\mathbf x | c_j) }
 $$
 
 where $$p(c)$$ can be a uniform distribution, representing a random guess regarding $$\mathbf{x}$$, while $$p_{\boldsymbol \theta}(\mathbf{x} | c_i)$$ is associated with the quality of image generation corresponding to prompt $$c_i$$. In the case of the uniform prior, namely, $$p(c_i) = p(c_j)$$, 
@@ -54,7 +54,7 @@ In DM, the log-likelihood of $$p_{\boldsymbol \theta}(\mathbf x | c_i)$$  relate
 As a result, the diffusion classifier yields
 
 $$
-  p_{\boldsymbol \theta}(c_i| \mathbf x) \propto   \frac{  \exp \left \{ -\mathbb{E}_{t, \epsilon}[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_i) \|_2^2] \right \} }{\sum_j  \exp \left \{ -\mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_j) \|_2^2] \right \}  }  &emsp;&emsp;  (2).
+  p_{\boldsymbol \theta}(c_i| \mathbf x) \propto   \frac{  \exp \left \{ -\mathbb{E}_{t, \epsilon}[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_i) \|_2^2] \right \} }{\sum_j  \exp \left \{ -\mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_j) \|_2^2] \right \}  }
 $$
 
 A key insight is that the DM ($$\boldsymbol \theta$$) can serve as a classifier by evaluating its denoising error for a specific prompt ($c_i$) relative to all the potential errors associated with different prompts.
@@ -63,7 +63,7 @@ A key insight is that the DM ($$\boldsymbol \theta$$) can serve as a classifier 
 The task of creating an adversarial prompt ($$c^\prime$$) to evade a victim unlearned DM ($$\boldsymbol \theta^*$$) can be cast as:
 
 $$
-  \maximize_{c^\prime} p_{\btheta^*}(c^\prime | \mathbf x_\mathrm{tgt}),
+  \maximize_{c^\prime} p_{\btheta^*}(c^\prime | \mathbf x_\mathrm{tgt})
 $$
 
 where $$\mathbf{x}_\mathrm{tgt}$$ denotes a target image containing unwanted content (encoded by $$c^\prime$$) which $$\btheta^*$$ intends to forget.
