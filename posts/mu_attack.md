@@ -116,7 +116,7 @@ A key takeaway is that we can optimize the adversarial prompt $$c^\prime$$ by al
 Additionally, in contrast to existing adversarial prompt generation methods for DMs, our proposed adversarial attack does `not` depend on an auxiliary DM or an external image classifier. To underscore this advantage, let's examine an attack formulation employed in the concurrent work `P4D`:
 
 $$
-  \min_{c^\prime} \mathbb{E}_{t, \epsilon }[\| \epsilon_{\btheta} (\mathbf z_t | c) - \epsilon_{\boldsymbol \theta^*}(\mathbf z_t | c^\prime) \|_2^2]
+  \min_{c^\prime} \mathbb{E}_{t, \epsilon }[\| \epsilon_{\boldsymbol \theta} (\mathbf z_t | c) - \epsilon_{\boldsymbol \theta^*}(\mathbf z_t | c^\prime) \|_2^2]
 $$
 
 where $$\boldsymbol \theta$$ represents the original DM without unlearning, $$\mathbf{z}_t$$ is the latent embedding for image generation, and $$c$$ is an `inappropriate` prompt intended to generate a `harmful` image. 
