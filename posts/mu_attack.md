@@ -74,15 +74,15 @@ To tackle the above problems, we leverage a key observation in
  [[2](#refer-anchor-2)]:  Classification only requires the `relative` differences  between the noise errors, rather than their `absolute` magnitudes. Then we can get:
  
 $$
-  p_{\btheta}(c_i| \mathbf x) &  \propto   \frac{ 1 }{\sum_j  \exp \left \{ -\mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_j) \|_2^2] \right \} / \exp \left \{ -\mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_i) \|_2^2] \right \}  } \nonumber \\
-  & = \frac{ 1 }{\sum_j  \exp \left \{ \mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_i) \|_2^2] -\mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_j) \|_2^2] \right \}    }
+  p_{\btheta}(c_i| \mathbf x)   \propto   \frac{ 1 }{\sum_j  \exp \left \{ -\mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_j) \|_2^2] \right \} / \exp \left \{ -\mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_i) \|_2^2] \right \}  } \nonumber 
+   = \frac{ 1 }{\sum_j  \exp \left \{ \mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_i) \|_2^2] -\mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_j) \|_2^2] \right \}    }
 $$
 
 If we view the adversarial prompt $$c^\prime$$ as the targeted prediction (i.e., $$c_i = c^\prime$$), then we can solve the attack generation problem by
 
 $$
-          \min_{c^\prime} &  \sum_j  \exp \left \{ \mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta^*}(\mathbf x_{\mathrm{tgt},t} | c^\prime) \|_2^2] -\mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta^*}(\mathbf x_{\mathrm{tgt},t} | c_j) \|_2^2]
-          \right \}
+  \min_{c^\prime} &  \sum_j  \exp \left \{ \mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta^*}(\mathbf x_{\mathrm{tgt},t} | c^\prime) \|_2^2] -\mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta^*}(\mathbf x_{\mathrm{tgt},t} | c_j) \|_2^2]
+  \right \}
 $$
 
 where $$\mathbf x_{\mathrm{tgt},t}$$ represents the noisy image at diffusion time step $$t$$ corresponding to the original noiseless image $$\mathbf{x}_{\mathrm{tgt}}$$. 
@@ -93,15 +93,14 @@ $$
           \right \} }_\text{independent of attack variable $c^\prime$}
 $$
 
-where the second term is \textit{not} a function of the optimization variable $$c^\prime$$, irrespective of our choice of another prompt $c_j$ (corresponding to a class  unrelated to $c$).
+where the second term is \textit{not} a function of the optimization variable $$c^\prime$$, irrespective of our choice of another prompt $$c_j$$ (corresponding to a class  unrelated to $$c$$).
 
 Then, we arrive at the following simplified optimization problem for attack generation:
 
-
-
 $$
-  \minimize_{c^\prime} & \mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta^*}(\mathbf x_{\mathrm{tgt},t} | c^\prime) \|_2^2]
+  \min_{c^\prime} & \mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta^*}(\mathbf x_{\mathrm{tgt},t} | c^\prime) \|_2^2]
 $$
+
 where we excluded $$\exp$$ as it is monotonically increasing with respect to its input argument. 
 
 ---
