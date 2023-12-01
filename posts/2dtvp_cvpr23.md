@@ -2,49 +2,54 @@
 layout: paper
 title:  "[CVPR'23] Text-Visual Prompting for Efficient 2D Temporal Video Grounding"
 date: 2023-05-24 7:00:00
-author: 
-        "<a style='color: #dfebf7' href='https://damon-demon.github.io'>Yimeng Zhang</a><sup>[1,2]</sup>*, 
-        <a style='color: #dfebf7' href='https://jinghanjia.github.io'>Jinghan Jia</a><sup>[1]</sup>*, 
-        <a style='color: #dfebf7' href='https://www.linkedin.com/in/xinchenhawaii'>Xin Chen</a><sup>[2]</sup>,
-        <a style='color: #dfebf7' href='https://cse.msu.edu/~chenaoch/'>Aochuan Chen</a><sup>[1]</sup>,
-        <a style='color: #dfebf7' href='https://www.yihua-zhang.com'>Yihua Zhang</a><sup>[1]</sup>,
-        <a style='color: #dfebf7' href='https://scholar.google.com/citations?user=ReWNzl4AAAAJ&hl=en'>Jiancheng Liu</a><sup>[1]</sup>, 
-        <a style='color: #dfebf7' href='https://www.linkedin.com/in/dingke'>Ke Ding</a><sup>[2]</sup>,
-        <a style='color: #dfebf7' href='https://lsjxjtu.github.io/'>Sijia Liu</a><sup>[1]</sup>"
+author: "<a style='color: #dfebf7' href='https://damon-demon.github.io'>Yimeng Zhang</a><sup>[1,2]</sup>, 
+         <a style='color: #dfebf7' href='https://www.linkedin.com/in/xinchenhawaii'>Xin Chen</a><sup>[2]</sup>, 
+         <a style='color: #dfebf7' href='https://jinghanjia.github.io/cv/'>Jinghan Jia</a><sup>[1]</sup>, 
+         <a style='color: #dfebf7' href='https://lsjxjtu.github.io/'>Sijia Liu</a><sup>[1]</sup>, 
+         <a style='color: #dfebf7' href='https://www.linkedin.com/in/dingke'>Ke Ding</a><sup>[2]</sup>"
 maintainer: "<a style='color: #dfebf7' href='https://damon-demon.github.io'>Yimeng Zhang</a>"
 affiliation: "<sup>[1]</sup>Michigan State University, <sup>[2]</sup>Applied ML, Intel"
-code: "https://github.com/OPTML-Group/Diffusion-MU-Attack"
-paper: "https://arxiv.org/abs/2310.11868"
+code: "https://github.com/intel"
+poster: "https://damon-demon.github.io/links/2DTVP_CVPR23_poster.pdf"
+paper: "https://arxiv.org/abs/2303.04995"
+slides: "https://damon-demon.github.io/links/CVPR23_2D_TVP_presentation.pdf"
+video: "https://youtu.be/zj2s_G3066s"
+---
+
+### [Locoation]: **West Building Exhibit Halls ABC**
+### [Time]: **Wed 21 Jun 4:30 p.m. — 6 p.m.**
+### [Poster Num]: **233**
+
 ---
 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/mu_attack/overview.png" width="500">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/2dtvp_cvpr23/fig1_all_final.png" width="500">
 </center>
+
+How to advance 2D TVG methods so as to achieve comparable results to 3D TVG methods?
 
 ---
 
 ## Abstract
 
-The recent advances in diffusion models (DMs) have revolutionized the generation of complex and diverse images. However, these models also introduce potential safety hazards, such as the produc- tion of harmful content and infringement of data copyrights. Although there have been efforts to create safety-driven unlearning methods to counteract these challenges, doubts remain about their capabilities. To bridge this uncertainty, we propose an evaluation framework built upon adversarial attacks (also referred to as adversarial prompts), in order to discern the trustworthiness of these safety-driven unlearned DMs. Specifically, our research explores the (worst-case) robustness of unlearned DMs in eradicating unwanted concepts, styles, and objects, assessed by the generation of adversarial prompts. We develop a novel adversarial learning approach called UnlearnDiff that leverages the inherent classification capabilities of DMs to streamline the generation of adversarial prompts, making it as simple for DMs as it is for image classification attacks. This technique stream- lines the creation of adversarial prompts, making the process as intuitive for generative modeling as it is for image classification assaults. Through comprehensive benchmarking, we assess the unlearning robustness of five prevalent unlearned DMs across multiple tasks. Our results underscore the effec- tiveness and efficiency of UnlearnDiff when compared to state-of-the-art adversarial prompting methods.
-
-(WARNING: This paper contains model outputs that may be offensive in nature.)
+In this paper, we study the problem of temporal video grounding (TVG), which aims to predict the starting/ending time points of moments described by a text sentence within a long untrimmed video. Benefiting from fine-grained 3D visual features, the TVG techniques have achieved remarkable progress in recent years. However, the high complexity of 3D convolutional neural networks (CNNs) makes extracting dense 3D visual features time-consuming, which calls for intensive memory and computing resources. Towards efficient TVG, we propose a novel text-visual prompting (TVP) framework, which incorporates optimized perturbation patterns (that we call ‘prompts’) into both visual inputs and textual features of a TVG model. In sharp contrast to 3D CNNs, we show that TVP allows us to effectively co-train vision encoder and language encoder in a 2D TVG model and improves the performance of crossmodal feature fusion using only low-complexity sparse 2D visual features. Further, we propose a Temporal-Distance IoU (TDIoU) loss for efficient learning of TVG. Experiments on two benchmark datasets, Charades-STA and Ac- tivityNet Captions datasets, empirically show that the pro- posed TVP significantly boosts the performance of 2D TVG (e.g., 9.79% improvement on Charades-STA and 30.77% improvement on ActivityNet Captions) and achieves 5× inference acceleration over TVG using 3D visual features.
 
 ---
 
-## Our Proposal: Evaluation framework for unlearned diffusion models
-Our proposed method for generating adversarial prompts, referred to as the ‘Unlearning Diffusion’ attack (UnlearnDiff). **Unlike previous methods for generating adversarial prompts, we leverage the class-discriminative ability of the ‘diffusion classifier’ inherent in a well-trained DM, using it effectively and without additional costs.** This classification perspective within DMs allows us to craft adversarial prompts exclusively with the victim model (i.e., unlearned DM), eliminating the need for an extra auxiliary DM or image classifier. As a result, our proposal streamlines the diffusion costs during the process of generating attacks.
+## Our Proposal: TVP Framework
 
-1. **Turning generation into classification: Exploiting DMs' embedded `free' classifier.**
-Recent studies on adversarial attacks against DMs \citep{zhuang2023pilot, yang2023sneakyprompt} 
-have indicated that crafting an adversarial prompt to generate a target image within DMs presents a significantly greater challenge than generating a conventional adversarial attack aimed at a specific class label for image classifiers.
-As illustrated in \textbf{Fig.\,\ref{fig: overview}}, current attack generation methods typically require either an auxiliary DM in addition to the victim model \citep{maus2023black,zhuang2023pilot,chin2023prompting4debugging} or an external image classifier that produces post-generation classification results \citep{maus2023black}. However, both approaches come with limitations. The former significantly increases the computational burden during attack generation due to the involvement of two separate diffusion processes: one associated with the unlearned DM and another for the auxiliary DM. The latter relies on the existence of a well-trained image classifier for generated images and assumes that the adversary has access to this classifier. In this work, we will demonstrate that there is no need to introduce an additional DM or classifier because the victim DM inherently serves dual roles  -- image generation and classification.
-
-
-
-
-
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/2dtvp_cvpr23/overall_sta.png" width="1200">
+    <br>
+    <div style="color:orange;
+    display: inline-block;
+    color: #999; font-size:2px；
+    padding: 2px;">Overview of our proposed TVP (text-visual prompting) framework for 2D TVG (temporal video grounding).</div>
+</center>
 
 
 Inspired by the success of transformers in vision-language tasks, we choose ClipBERT [1](#refer-anchor-1) as the base model for 2D TVG. Extended from ClipBERT, the input of our regression-based TVG model would be describable sentences and uniformly sampled frames of one untrimmed video as shown in figure above. Then, the predicted starting and ending time points of the target video clip would be model outputs.
