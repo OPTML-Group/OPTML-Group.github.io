@@ -36,21 +36,21 @@ The recent advances in diffusion models (DMs) have revolutionized the generation
 ## Our Proposal: Evaluation framework for unlearned diffusion models
 Our proposed method for generating adversarial prompts, referred to as the ‘Unlearning Diffusion’ attack (UnlearnDiff). **Unlike previous methods for generating adversarial prompts, we leverage the class-discriminative ability of the ‘diffusion classifier’ inherent in a well-trained DM, using it effectively and without additional costs.** This classification perspective within DMs allows us to craft adversarial prompts exclusively with the victim model (i.e., unlearned DM), eliminating the need for an extra auxiliary DM or image classifier. As a result, our proposal streamlines the diffusion costs during the process of generating attacks.
 
-1. **Turning generation into classification: Exploiting DMs' embedded `free' classifier.**: 
+**1. Turning generation into classification: Exploiting DMs' embedded `free' classifier.**
 In this work, we will demonstrate that there is no need to introduce an additional DM or classifier because the victim DM inherently serves dual roles  -- image generation and classification.
 
-We next extract the free classifier from a DM, referred to as the diffusion classifier [[1](#refer-anchor-1),[2](#refer-anchor-2)]. 
-The underlying principle is that classification with a DM can be achieved by applying Bayes' rule to the likelihood of model generation $$p_{\boldsymbol \theta}(\mathbf x | c)$$  and the prior probability distribution  $$p(c)$$ over prompts $$\{ c_i\}$$ (viewed as image `labels'). Following {Sec.\,\ref{sec:problem}}, $$\mathbf x$$ and $$\boldsymbol \theta$$ represent an image and DM's parameters, respectively. 
-According to Bayes' rule, the probability of predicting $$\mathbf x$$ as the `label' $c$ is given by
+We next extract the `free classifier` from a DM, referred to as the diffusion classifier [[1](#refer-anchor-1),[2](#refer-anchor-2)]. 
+The underlying principle is that classification with a DM can be achieved by applying Bayes' rule to the likelihood of model generation $$p_{\boldsymbol \theta}(\mathbf x | c)$$  and the prior probability distribution  $$p(c)$$ over prompts $$\{ c_i\}$$ (viewed as image `labels'). $$\mathbf x$$ and $$\boldsymbol \theta$$ represent an image and DM's parameters, respectively. 
+According to Bayes' rule, the probability of predicting $$\mathbf x$$ as the `label` $$c$$ is given by
 
 $$
   p_{\boldsymbol \theta}(c_i| \mathbf x) =  \frac{p(c_i) p_{\boldsymbol \theta}(\mathbf x | c_i) }{\sum_j p(c_j) p_{\boldsymbol \theta}(\mathbf x | c_j) },
 $$
 
-where $p(c)$ can be a uniform distribution, representing a random guess regarding $$\mathbf{x}$$, while $$p_{\boldsymbol \theta}(\mathbf{x} | c_i)$$ is associated with the quality of image generation corresponding to prompt $c_i$. In the case of the uniform prior, namely, $p(c_i) = p(c_j)$, 
+where $$p(c)$$ can be a uniform distribution, representing a random guess regarding $$\mathbf{x}$$, while $$p_{\boldsymbol \theta}(\mathbf{x} | c_i)$$ is associated with the quality of image generation corresponding to prompt $$c_i$$. In the case of the uniform prior, namely, $$p(c_i) = p(c_j)$$, 
 \eqref{eq: condition_prob} can be further simplified to exclusively address the conditional probabilities $$\{ p_{\boldsymbol \theta}(\mathbf x | c_i) \}$$. 
-In DM, the log-likelihood of $$p_{\boldsymbol \theta}(\mathbf x | c_i)$$  relates to the denoising error in \eqref{eq: diffusion_training}, \textit{i.e.}, $p_{\boldsymbol \theta}(\mathbf x | c_i) \propto \exp \left \{ -\mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_i) \|_2^2] \right \} $, where $\exp{\cdot}$ is the exponential function. 
-As a result, the \textit{diffusion classifier} yields
+In DM, the log-likelihood of $$p_{\boldsymbol \theta}(\mathbf x | c_i)$$  relates to the denoising error, i.e., $$p_{\boldsymbol \theta}(\mathbf x | c_i) \propto \exp \left \{ -\mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_i) \|_2^2] \right \}$$, where $$\exp{\cdot}$$ is the exponential function. 
+As a result, the diffusion classifier yields
 
 $$
   p_{\boldsymbol \theta}(c_i| \mathbf x) \propto   \frac{  \exp \left \{ -\mathbb{E}_{t, \epsilon}[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_i) \|_2^2] \right \} }{\sum_j  \exp \left \{ -\mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_j) \|_2^2] \right \}  }
