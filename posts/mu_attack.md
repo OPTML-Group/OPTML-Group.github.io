@@ -1,6 +1,6 @@
 ---
 layout: paper
-title:  "[CVPR'23] Text-Visual Prompting for Efficient 2D Temporal Video Grounding"
+title:  "To Generate or Not? Safety-Driven Unlearned Diffusion Models Are Still Easy To Generate Unsafe Images ... For Now"
 date: 2023-05-24 7:00:00
 author: 
         "<a style='color: #dfebf7' href='https://damon-demon.github.io'>Yimeng Zhang</a><sup>[1,2]</sup>*, 
@@ -27,7 +27,7 @@ paper: "https://arxiv.org/abs/2310.11868"
 
 ## Abstract
 
-The recent advances in diffusion models (DMs) have revolutionized the generation of complex and diverse images. However, these models also introduce potential safety hazards, such as the production of harmful content and infringement of data copyrights. **Although there have been efforts to create safety-driven unlearning methods to counteract these challenges, doubts remain about their capabilities. To bridge this uncertainty, we propose an evaluation framework built upon adversarial attacks (also referred to as adversarial prompts), in order to discern the trustworthiness of these safety-driven unlearned DMs.** Specifically, our research explores the (worst-case) robustness of unlearned DMs in eradicating unwanted concepts, styles, and objects, assessed by the generation of adversarial prompts. **We develop a novel adversarial learning approach called UnlearnDiff that leverages the inherent classification capabilities of DMs to streamline the generation of adversarial prompts, making it as simple for DMs as it is for image classification attacks. This technique streamlines the creation of adversarial prompts, making the process as intuitive for generative modeling as it is for image classification assaults. Through comprehensive benchmarking, we assess the unlearning robustness of five prevalent unlearned DMs across multiple tasks. Our results underscore the effectiveness and efficiency of UnlearnDiff when compared to state-of-the-art adversarial prompting methods.
+The recent advances in diffusion models (DMs) have revolutionized the generation of complex and diverse images. However, these models also introduce potential safety hazards, such as the production of harmful content and infringement of data copyrights. **Although there have been efforts to create safety-driven unlearning methods to counteract these challenges, doubts remain about their capabilities. To bridge this uncertainty, we propose an evaluation framework built upon adversarial attacks (also referred to as adversarial prompts), in order to discern the trustworthiness of these safety-driven unlearned DMs.** Specifically, our research explores the (worst-case) robustness of unlearned DMs in eradicating unwanted concepts, styles, and objects, assessed by the generation of adversarial prompts. We develop a novel adversarial learning approach called UnlearnDiff that leverages the inherent classification capabilities of DMs to streamline the generation of adversarial prompts, making it as simple for DMs as it is for image classification attacks. This technique streamlines the creation of adversarial prompts, making the process as intuitive for generative modeling as it is for image classification assaults. Through comprehensive benchmarking, we assess the unlearning robustness of five prevalent unlearned DMs across multiple tasks. Our results underscore the effectiveness and efficiency of UnlearnDiff when compared to state-of-the-art adversarial prompting methods.
 
 **(WARNING: This paper contains model outputs that may be offensive in nature.)**
 
@@ -39,24 +39,24 @@ Our proposed method for generating adversarial prompts, referred to as the ‘Un
 1. **Turning generation into classification: Exploiting DMs' embedded `free' classifier.**: 
 In this work, we will demonstrate that there is no need to introduce an additional DM or classifier because the victim DM inherently serves dual roles  -- image generation and classification.
 
-We next extract the `free' classifier from a DM, referred to as the diffusion classifier \citep{chen2023robust,li2023your}. 
-The underlying principle is that classification with a DM can be achieved by applying Bayes' rule to the likelihood of model generation $$p_{\btheta}(\mathbf x | c)$$  and the prior probability distribution  $$p(c)$$ over prompts $$\{ c_i\}$$ (viewed as image `labels'). Following {Sec.\,\ref{sec:problem}}, $$\mathbf x$$ and $$\btheta$$ represent an image and DM's parameters, respectively. 
+We next extract the `free' classifier from a DM, referred to as the diffusion classifier [[1](#refer-anchor-1),[2](#refer-anchor-2)]. 
+The underlying principle is that classification with a DM can be achieved by applying Bayes' rule to the likelihood of model generation $$p_{\boldsymbol \theta}(\mathbf x | c)$$  and the prior probability distribution  $$p(c)$$ over prompts $$\{ c_i\}$$ (viewed as image `labels'). Following {Sec.\,\ref{sec:problem}}, $$\mathbf x$$ and $$\boldsymbol \theta$$ represent an image and DM's parameters, respectively. 
 According to Bayes' rule, the probability of predicting $$\mathbf x$$ as the `label' $c$ is given by
 
 $$
-  p_{\btheta}(c_i| \mathbf x) =  \frac{p(c_i) p_{\btheta}(\mathbf x | c_i) }{\sum_j p(c_j) p_{\btheta}(\mathbf x | c_j) },
+  p_{\boldsymbol \theta}(c_i| \mathbf x) =  \frac{p(c_i) p_{\boldsymbol \theta}(\mathbf x | c_i) }{\sum_j p(c_j) p_{\boldsymbol \theta}(\mathbf x | c_j) },
 $$
 
-where $p(c)$ can be a uniform distribution, representing a random guess regarding $$\mathbf{x}$$, while $$p_{\btheta}(\mathbf{x} | c_i)$$ is associated with the quality of image generation corresponding to prompt $c_i$. In the case of the uniform prior, namely, $p(c_i) = p(c_j)$, 
-\eqref{eq: condition_prob} can be further simplified to exclusively address the conditional probabilities $$\{ p_{\btheta}(\mathbf x | c_i) \}$$. 
-In DM, the log-likelihood of $$p_{\btheta}(\mathbf x | c_i)$$  relates to the denoising error in \eqref{eq: diffusion_training}, \textit{i.e.}, $p_{\btheta}(\mathbf x | c_i) \propto \exp \left \{ -\mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_i) \|_2^2] \right \} $, where $\exp{\cdot}$ is the exponential function. 
+where $p(c)$ can be a uniform distribution, representing a random guess regarding $$\mathbf{x}$$, while $$p_{\boldsymbol \theta}(\mathbf{x} | c_i)$$ is associated with the quality of image generation corresponding to prompt $c_i$. In the case of the uniform prior, namely, $p(c_i) = p(c_j)$, 
+\eqref{eq: condition_prob} can be further simplified to exclusively address the conditional probabilities $$\{ p_{\boldsymbol \theta}(\mathbf x | c_i) \}$$. 
+In DM, the log-likelihood of $$p_{\boldsymbol \theta}(\mathbf x | c_i)$$  relates to the denoising error in \eqref{eq: diffusion_training}, \textit{i.e.}, $p_{\boldsymbol \theta}(\mathbf x | c_i) \propto \exp \left \{ -\mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_i) \|_2^2] \right \} $, where $\exp{\cdot}$ is the exponential function. 
 As a result, the \textit{diffusion classifier} yields
 
 $$
-  p_{\btheta}(c_i| \mathbf x) \propto   \frac{  \exp \left \{ -\mathbb{E}_{t, \epsilon}[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_i) \|_2^2] \right \} }{\sum_j  \exp \left \{ -\mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_j) \|_2^2] \right \}  }
+  p_{\boldsymbol \theta}(c_i| \mathbf x) \propto   \frac{  \exp \left \{ -\mathbb{E}_{t, \epsilon}[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_i) \|_2^2] \right \} }{\sum_j  \exp \left \{ -\mathbb{E}_{t, \epsilon }[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_j) \|_2^2] \right \}  }
 $$
 
-A key insight is that the DM ($$\btheta$$) can serve as a classifier by evaluating its denoising error for a specific prompt ($c_i$) relative to all the potential errors associated with different prompts.
+A key insight is that the DM ($$\boldsymbol \theta$$) can serve as a classifier by evaluating its denoising error for a specific prompt ($c_i$) relative to all the potential errors associated with different prompts.
 
 
 
@@ -99,10 +99,10 @@ Our method yields substantial accuracy improvement on multiple datasets.
 
 ## Citation
 ```
-@article{zhang2023text,
-  title={Text-visual prompting for efficient 2d temporal video grounding},
-  author={Zhang, Yimeng and Chen, Xin and Jia, Jinghan and Liu, Sijia and Ding, Ke},
-  journal={arXiv preprint arXiv:2303.04995},
+@article{zhang2023generate,
+  title={To Generate or Not? Safety-Driven Unlearned Diffusion Models Are Still Easy To Generate Unsafe Images... For Now},
+  author={Zhang, Yimeng and Jia, Jinghan and Chen, Xin and Chen, Aochuan and Zhang, Yihua and Liu, Jiancheng and Ding, Ke and Liu, Sijia},
+  journal={arXiv preprint arXiv:2310.11868},
   year={2023}
 }
 ```
@@ -111,8 +111,7 @@ Our method yields substantial accuracy improvement on multiple datasets.
 
 ## References
 
-<div id="refer-anchor-1"></div>  [1] Lei et al. (2021). Less is More: ClipBERT for Video-and-Language Learning via Sparse Sampling. 
+<div id="refer-anchor-1"></div>  [1] Chen, Huanran, et al. (2023) "Robust Classification via a Single Diffusion Model."
 
-<div id="refer-anchor-1"></div>  [2] Huang et al. (2020). Pixel-BERT: Aligning Image Pixels with Text by Deep Multi-Modal Transformers. 
+<div id="refer-anchor-2"></div>  [2] Li, Alexander C., et al. (2023) "Your diffusion model is secretly a zero-shot classifier."
 
-<div id="refer-anchor-1"></div>  [3] Devlin et al. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.
