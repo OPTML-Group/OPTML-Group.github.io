@@ -111,7 +111,7 @@ where we excluded $$\exp$$ as it is monotonically increasing with respect to its
 
 **Remark 1**
 
-A key takeaway is that we can optimize the adversarial prompt $$c^\prime$$ by aligning it with the diffusion training objective    \eqref{eq: diffusion_training}, given the victim model $$\boldsymbol \theta^*$$ and the target image $$\mathbf{x}_\mathrm{tgt}$$ (to which the forward noise-injection process is applied, rather than the latent embedding $$\mathbf z_t$$).
+A key takeaway is that we can optimize the adversarial prompt $$c^\prime$$ by aligning it with the diffusion training objective, given the victim model $$\boldsymbol \theta^*$$ and the target image $$\mathbf{x}_\mathrm{tgt}$$ (to which the forward noise-injection process is applied, rather than the latent embedding $$\mathbf z_t$$).
 
 Additionally, in contrast to existing adversarial prompt generation methods for DMs, our proposed adversarial attack does `not` depend on an auxiliary DM or an external image classifier. To underscore this advantage, let's examine an attack formulation employed in the concurrent work `P4D`:
 
