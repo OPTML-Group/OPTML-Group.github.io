@@ -24,26 +24,7 @@
 
 - title: "Model Sparsity Can Simplify Machine Unlearning"
   image: Sparse_unlearn_neurips23.png
-  description: "In response to recent data regulation requirements, machine unlearning (MU) has
-emerged as a critical process to remove the influence of specific examples from a
-given model. Although exact unlearning can be achieved through complete model
-retraining using the remaining dataset, the associated computational costs have
-driven the development of efficient, approximate unlearning techniques. Moving
-beyond data-centric MU approaches, our study introduces a novel model-based
-perspective: model sparsification via weight pruning, which is capable of reducing
-the gap between exact unlearning and approximate unlearning. We show in both
-theory and practice that model sparsity can boost the multi-criteria unlearning
-performance of an approximate unlearner, closing the approximation gap, while
-continuing to be efficient. This leads to a new MU paradigm, termed prune first,
-then unlearn, which infuses a sparse model prior into the unlearning process.
-Building on this insight, we also develop a sparsity-aware unlearning method that
-utilizes sparsity regularization to enhance the training process of approximate
-unlearning. Extensive experiments show that our proposals consistently benefit
-MU in various unlearning scenarios. A notable highlight is the 77% unlearning
-efficacy gain of fine-tuning (one of the simplest unlearning methods) when using
-sparsity-aware unlearning. Furthermore, we demonstrate the practical impact of
-our proposed MU methods in addressing other machine learning challenges, such
-as defending against backdoor attacks and enhancing transfer learning. "
+  description: "Machine unlearning (MU) has become essential for complying with data regulations by eliminating the influence of specific data from models. Traditional exact unlearning methods, which involve retraining from scratch, are computationally expensive, prompting the exploration of efficient, approximate alternatives. Our research introduces a model-based approach: sparsity through weight pruning, which narrows the gap between exact and approximate unlearning. We present a new paradigm, “prune first, then unlearn,” which integrates a sparsity model into unlearning, and a sparsity-aware technique that further refines approximate unlearning training. Our extensive experiments confirm the effectiveness of our methods, particularly a 77% increase in unlearning efficacy with fine-tuning, and their applicability in mitigating backdoor attacks and improving transfer learning."
   authors:
     "<span style='color:blue'>J. Jia*</span>, <span style='color:blue'>J. Liu*</span>, P. Ram, <span style='color:blue'>Y. Yao</span>, G. Liu, Y. Liu, P. Sharma, <span style='color:blue'>S. Liu</span>"
   link:
