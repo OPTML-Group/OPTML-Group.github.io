@@ -204,8 +204,8 @@ was partially supported by NSF Grant IIS-2143895 and IIS-2040800.
 
 ## References
 
-[1] Cao, Yinzhi, and Junfeng Yang. "Towards making systems forget with machine unlearning." 2015 IEEE symposium on security and privacy. IEEE, 2015.
+[1] Cao, Yinzhi, and Junfeng Yang. "Towards making systems forget with machine unlearning." 2015 IEEE symposium on security and privacy.
 
-[2] Thudi, Anvith, et al. "Unrolling sgd: Understanding factors influencing machine unlearning." 2022 IEEE 7th European Symposium on Security and Privacy (EuroS&P). IEEE, 2022.
+[2] Thudi, Anvith, et al. "Unrolling sgd: Understanding factors influencing machine unlearning." 2022 IEEE 7th European Symposium on Security and Privacy (EuroS&P).
 
 [3] Ma, Xiaolong, et al. "Sanity checks for lottery tickets: Does your winning ticket really win the jackpot?." Advances in Neural Information Processing Systems 34 (2021): 12749-12760.
