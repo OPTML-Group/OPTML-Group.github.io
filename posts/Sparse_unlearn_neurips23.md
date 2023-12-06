@@ -32,26 +32,8 @@ categories: "neurips23"
 
 ## Abstract
 
-In response to recent data regulation requirements, machine unlearning (MU) has
-emerged as a critical process to remove the influence of specific examples from a
-given model. Although exact unlearning can be achieved through complete model
-retraining using the remaining dataset, the associated computational costs have
-driven the development of efficient, approximate unlearning techniques. Moving
-beyond data-centric MU approaches, our study introduces a novel model-based
-perspective: model sparsification via weight pruning, which is capable of reducing
-the gap between exact unlearning and approximate unlearning. We show in both
-theory and practice that model sparsity can boost the multi-criteria unlearning
-performance of an approximate unlearner, closing the approximation gap, while
-continuing to be efficient. This leads to a new MU paradigm, termed prune first,
-then unlearn, which infuses a sparse model prior into the unlearning process.
-Building on this insight, we also develop a sparsity-aware unlearning method that
-utilizes sparsity regularization to enhance the training process of approximate
-unlearning. Extensive experiments show that our proposals consistently benefit
-MU in various unlearning scenarios. A notable highlight is the 77% unlearning
-efficacy gain of fine-tuning (one of the simplest unlearning methods) when using
-sparsity-aware unlearning. Furthermore, we demonstrate the practical impact of
-our proposed MU methods in addressing other machine learning challenges, such
-as defending against backdoor attacks and enhancing transfer learning. 
+
+Machine unlearning (MU) has become essential for complying with data regulations by eliminating the influence of specific data from models. Traditional exact unlearning methods, which involve retraining from scratch, are computationally expensive, prompting the exploration of efficient, approximate alternatives. Our research introduces a model-based approach—sparsity through weight pruning—that narrows the gap between exact and approximate unlearning. We present a new paradigm, "prune first, then unlearn," which integrates a sparsity model into unlearning, and a sparsity-aware technique that further refines approximate unlearning training. Our extensive experiments confirm the effectiveness of our methods, particularly a 77% increase in unlearning efficacy with fine-tuning, and their applicability in mitigating backdoor attacks and improving transfer learning.
 
 ---
 
@@ -76,10 +58,9 @@ Figure 2: Overview for Machine Unlearning.
 
 
 ## What are Challenges in Machine Unlearning?
-**Efficicy Challenge**: The optimal machine unlearning (MU) strategy requires retraining the model from scratch over retaining dataset (after removing data points to be unlearned). But it lacks training efficiency, particularly for large-scale deep models. Hence, there's a need for **fast**, yet **effective** MU methods.
+**Efficicy Challenge**: The ideal MU strategy involves full model retraining, which is inefficient for large models. Therefore, **fast** and **efficient** MU methods are essential. 
 
 **Evaluation Challenges**: 
-
 Different from traditional machine learning problem, MU requires multiple unlearning performance metrics, which shown in the figure 3 below.
 <center>
     <img style="border-radius: 0.3125em;
@@ -95,8 +76,9 @@ Different from traditional machine learning problem, MU requires multiple unlear
 ---
 
 ## Model Sparsity Helps Unlearning!
-The fundamental insight behind employing model pruning lies in the reduction of the unlearning dimensions and the associated unlearning error. This reduction refers to the disparity between approximate unlearning and exact unlearning, the latter achieved by retraining the model from scratch. In our work, we extend the analytical framework of Thudi et al. regarding machine unlearning to encompass sparse models. **Proposition 2** of our paper elucidates that an increase in model sparsity, as indicated by the sparsity pattern $$m$$, contributes to a decrease in the unlearning error. Nonetheless, it is critical to acknowledge that operating within a regime of high sparsity may inversely affect the model’s capacity for generalization.
-<center>
+In our work, we extend the analytical framework of Thudi et al. regarding machine unlearning to encompass sparse models.
+ <!-- **Proposition 2** of our paper elucidates that an increase in model sparsity, as indicated by the sparsity pattern $$m$$, contributes to a decrease in the unlearning error. Nonetheless, it is critical to acknowledge that operating within a regime of high sparsity may inversely affect the model’s capacity for generalization. -->
+<!-- <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="{{ site.url }}{{ site.baseurl }}/images/postpic/Sparse_unlearn_neurips23/proposition.png" width="800">
@@ -106,13 +88,21 @@ The fundamental insight behind employing model pruning lies in the reduction of 
     color: #999; font-size:16px；
     padding: 2px;">
 </div>
-</center>
+</center> -->
+
+**Theorem:** Given SGD-based training and model pruning mask $$m$$, the unlearning error, $$e(m)$$, characterized by weight distance between an approximate unlearner and the exact unlearner yields
+
+$$ e(m) = \mathcal{O}(\|m \circ (\theta_t - \theta_0)\|_2) $$
+
+where $$\circ$$ is entry-wise product, $$\theta_t$$ is model trained after $$t$$ SGD iterations.This theorem eveals that higher model sparsity, denoted by $$m$$, reduces unlearning error but may compromise generalization at extreme levels.
+
+
 ---
 
 ## How to Integrate Sparsity with Machine Unlearning?
 In our paper, we present two innovative strategies for the integration of sparsity with machine unlearning, aiming to augment the efficacy of the unlearning process. 
 
-**Prune first, then unlearn**: Our initial approach involves pruning the model to induce sparsity, employing the One-shot Magnitude Pruning (OMP) technique as detailed by Ma et al. in 2021. Following this, we implement existing machine unlearning methodologies on the now-sparse model. The procedural framework is depicted below:
+**Prune first, then unlearn**: Our approach starts with pruning via One-shot Magnitude Pruning (OMP) detailed by Ma et al. in 2021. to sparsify the model, then applies machine unlearning methods to this sparse framework. See the process outlined below: 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -138,7 +128,7 @@ $$
 
 ### Model sparsity improves approximate unlearning. 
 
-In Table 1 below, we explore how model sparsity influences the effectiveness of different machine unlearning (MU) methods within the 'prune first, then unlearn' approach. We compare these methods to the exact unlearning (Retrain) benchmark. We find that increased sparsity consistently enhances unlearning accuracy (UA) and membership inference attack efficacy (MIA-Efficacy), with minimal impact on retained accuracy (RA). As sparsity rises, notably at 95%, the performance gap with Retrain narrows, indicating improved unlearning. Although Retrain experiences a 3% decline in test accuracy (TA) at high sparsity levels, approximate unlearning methods like FT and IU benefit, showing marked improvements in UA and MIA-Efficacy while better maintaining TA.
+Our paper shows that higher sparsity improves the efficacy of machine unlearning methods in our 'Prune first, then unlearn' paradigm, closely matching the Retrain benchmark, especially at 95% sparsity. Despite a minor TA drop in Retrain at high sparsity, methods like FT and IU display significant gains in unlearning accuracy and attack defense, with less impact on TA.
 
 <center>
     <img style="border-radius: 0.3125em;
@@ -156,7 +146,8 @@ unlearning scenarios: class-wise forgetting, and random data forgetting.
 
 ### Effectiveness of sparsity-aware unlearning.
 
-In Figure 5, we demonstrate the effectiveness of the proposed sparsity-aware unlearning method, i.e., $$\ell_1$$-sparse MU. For clarity, we limit our discussion to comparisons with the FT method and the optimal Retrain strategy, focusing on scenarios of class-wise forgetting and random data forgetting within the CIFAR-10 dataset, using a ResNet-18 model. The results show that $$\ell_1$$-sparse MU surpasses FT in unlearning efficacy, measured by UA and MIA-Efficacy, and effectively reduces the performance gap with Retrain, all while retaining the computational benefits of approximate unlearning. We refer readers to our paper for further exploration of $$\ell_1$$-sparse MU on additional datasets.
+In Fig. 5, we present the efficacy of our $$\ell_1$$-sparse MU method, comparing it with FT and Retrain strategies on CIFAR-10 using ResNet-18. We focus on class-wise and random data forgetting. Results indicate $$\ell_1$$-sparse MU not only outperforms FT in terms of unlearning (measured by UA and MIA-Efficacy) but also narrows the performance gap with Retrain, maintaining computational efficiency. For extended analysis on other datasets, see our paper.
+
 
 <center>
     <img style="border-radius: 0.3125em;
@@ -173,7 +164,7 @@ In Figure 5, we demonstrate the effectiveness of the proposed sparsity-aware unl
 
 ### Application: MU for Trojan model cleanse.
 
-In our study, we explore machine unlearning (MU) as a defensive technique to mitigate the effects of poisoned data, similar to the approach by Liu et al. We assess the unlearned model using the success rate of backdoor attacks (ASR) and standard accuracy (SA). Figure 6 compares these metrics for the Trojan model and its unlearned counterpart using the FT method across various sparsity levels, and it introduces $$\ell_1$$-sparse MU, showing its cleansing efficacy on a dense model. While the Trojan model's ASR remains high, FT unlearning notably decreases ASR, particularly at 90% sparsity, with minimal impact on SA. Additionally, $$\ell_1$$-sparse MU effectively neutralizes backdoor threats, affirming our unlearning approach as a viable defense against backdoor attacks.
+Our study examines machine unlearning (MU) for countering poisoned data, using metrics like backdoor attack success rate (ASR) and standard accuracy (SA). Figure 6 shows that our $$\ell_1$$-sparse MU method effectively reduces ASR in the Trojan model, particularly at higher sparsity levels, while maintaining SA, thus proving its efficacy against backdoor threats.
 
 <center>
     <img style="border-radius: 0.3125em;
@@ -201,10 +192,10 @@ was partially supported by NSF Grant IIS-2143895 and IIS-2040800.
 
 ## Citation
 ```
-@article{jia2023model,
-  title={Model sparsification can simplify machine unlearning},
+@inproceedings{jia2023model,
+  title={Model Sparsity Can Simplify Machine Unlearning},
   author={Jia, Jinghan and Liu, Jiancheng and Ram, Parikshit and Yao, Yuguang and Liu, Gaowen and Liu, Yang and Sharma, Pranay and Liu, Sijia},
-  journal={arXiv preprint arXiv:2304.04934},
+  booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
   year={2023}
 }
 ```
@@ -216,3 +207,5 @@ was partially supported by NSF Grant IIS-2143895 and IIS-2040800.
 [1] Cao, Yinzhi, and Junfeng Yang. "Towards making systems forget with machine unlearning." 2015 IEEE symposium on security and privacy. IEEE, 2015.
 
 [2] Thudi, Anvith, et al. "Unrolling sgd: Understanding factors influencing machine unlearning." 2022 IEEE 7th European Symposium on Security and Privacy (EuroS&P). IEEE, 2022.
+
+[3] Ma, Xiaolong, et al. "Sanity checks for lottery tickets: Does your winning ticket really win the jackpot?." Advances in Neural Information Processing Systems 34 (2021): 12749-12760.
