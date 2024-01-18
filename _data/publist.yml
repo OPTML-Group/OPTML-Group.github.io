@@ -1,14 +1,40 @@
-- title: "To Generate or Not? Safety-Driven Unlearned Diffusion Models Are Still Easy To Generate Unsafe Images ... For Now"
-  image: mu_attack.png
-  description: "The recent advances in diffusion models (DMs) have revolutionized the generation of complex and diverse images. However, these models also introduce potential safety hazards, such as the production of harmful content and infringement of data copyrights. **Although there have been efforts to create safety-driven unlearning methods to counteract these challenges, doubts remain about their capabilities. To bridge this uncertainty, we propose an evaluation framework built upon adversarial attacks (also referred to as adversarial prompts), in order to discern the trustworthiness of these safety-driven unlearned DMs.** Specifically, our research explores the (worst-case) robustness of unlearned DMs in eradicating unwanted concepts, styles, and objects, assessed by the generation of adversarial prompts. We develop a novel adversarial learning approach called UnlearnDiff that leverages the inherent classification capabilities of DMs to streamline the generation of adversarial prompts, making it as simple for DMs as it is for image classification attacks. This technique streamlines the creation of adversarial prompts, making the process as intuitive for generative modeling as it is for image classification assaults. Through comprehensive benchmarking, we assess the unlearning robustness of five prevalent unlearned DMs across multiple tasks. Our results underscore the effectiveness and efficiency of UnlearnDiff when compared to state-of-the-art adversarial prompting methods. **(WARNING: This paper contains model outputs that may be offensive in nature.)**"
+- title: "SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation"
+  image: dummy.png
+  description:
   authors:
-    "<span style='color:blue'>Y. Zhang*</span>, <span style='color:blue'>J. Jia*</span>, X. Chen, <span style='color:blue'>A. Chen</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>J. Liu</span>, K. Ding, <span style='color:blue'>S. Liu</span>"
+    "<span style='color:blue'>C. Fan*</span>, <span style='color:blue'>J. Liu*</span>, <span style='color:blue'>Y. Zhang</span>, D. Wei, E. Wong, <span style='color:blue'>S. Liu</span>"
   link:
-    url: https://arxiv.org/abs/2310.11868
-    display: ArXiv
-  highlight: 1
+    url: https://arxiv.org/abs/2310.12508
+    display: ICLR'24 Spotlight
+  highlight: 0
   news2: 
-  post: mu_attack
+  post:
+
+- title: "DeepZero: Scaling up Zeroth-Order Optimization for Deep Model Training"
+  image: dummy.png
+  description:
+  authors:
+    "<span style='color:blue'>A. Chen*</span>, <span style='color:blue'>Y. Zhang*</span>, <span style='color:blue'>J. Jia</span>, J. Diffenderfer, <span style='color:blue'>J. Liu</span>, K. Parasyris, <span style='color:blue'>Y. Zhang</span>, Z. Zhang, B. Kailkhura, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2310.02025
+    display: ICLR'24
+  highlight: 0
+  news2: 
+  post:
+
+
+- title: "AutoVP: An Automated Visual Prompting Frameowrk and Benchmark"
+  image: dummy.png
+  description:
+  authors:
+    "H.-Y. Tsao, L. Hsiung, P.-Y. Chen, <span style='color:blue'>S. Liu</span>, T.-Y. Ho"
+  link:
+    url: https://arxiv.org/abs/2310.08381
+    display: ICLR'24
+  highlight: 0
+  news2: 
+  post:
+
 
 - title: "Selectivity Drives Productivity: Efficient Dataset Pruning for Enhanced Transfer Learning"
   image: dummy.png
@@ -23,16 +49,16 @@
   post:
 
 - title: "Model Sparsity Can Simplify Machine Unlearning"
-  image: Sparse_unlearn_neurips23.png
-  description: "Machine unlearning (MU) has become essential for complying with data regulations by eliminating the influence of specific data from models. Traditional exact unlearning methods, which involve retraining from scratch, are computationally expensive, prompting the exploration of efficient, approximate alternatives. Our research introduces a model-based approach: sparsity through weight pruning, which narrows the gap between exact and approximate unlearning. We present a new paradigm, “prune first, then unlearn,” which integrates a sparsity model into unlearning, and a sparsity-aware technique that further refines approximate unlearning training. Our extensive experiments confirm the effectiveness of our methods, particularly a 77% increase in unlearning efficacy with fine-tuning, and their applicability in mitigating backdoor attacks and improving transfer learning."
+  image: dummy.png
+  description:
   authors:
     "<span style='color:blue'>J. Jia*</span>, <span style='color:blue'>J. Liu*</span>, P. Ram, <span style='color:blue'>Y. Yao</span>, G. Liu, Y. Liu, P. Sharma, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/abs/2304.04934
     display: NeurIPS'23 (<span style='color:red'><b>Spotlight</b></span>)
-  highlight: 1
+  highlight: 0
   news2: 
-  post: Sparse_unlearn_neurips23
+  post:
 
 - title: "On the Convergence and Sample Complexity Analysis of Deep Q-Networks with Greedy Exploration"
   image: dummy.png
@@ -82,19 +108,6 @@
   news2: 
   post:
 
-- title: "Text-Visual Prompting for Efficient 2D Temporal Video Grounding"
-  image: 2dtvp_cvpr23.png
-  description: "In this paper, we study the problem of temporal video grounding (TVG), which aims to predict the starting/ending time points of moments described by a text sentence within a long untrimmed video. Benefiting from fine-grained 3D visual features, the TVG techniques have achieved remarkable progress in recent years. However, the high complexity of 3D convolutional neural networks (CNNs) makes extracting dense 3D visual features time-consuming, which calls for intensive memory and computing resources. Towards efficient TVG, we propose a novel text-visual prompting (TVP) framework, which incorporates optimized perturbation patterns (that we call ‘prompts’) into both visual inputs and textual features of a TVG model. In sharp contrast to 3D CNNs, we show that TVP allows us to effectively co-train vision encoder and language encoder in a 2D TVG model and improves the performance of crossmodal feature fusion using only low-complexity sparse 2D visual features. Further, we propose a Temporal-Distance IoU (TDIoU) loss for efficient learning of TVG. Experiments on two benchmark datasets, Charades-STA and Ac- tivityNet Captions datasets, empirically show that the pro- posed TVP significantly boosts the performance of 2D TVG (e.g., 9.79% improvement on Charades-STA and 30.77% improvement on ActivityNet Captions) and achieves 5× inference acceleration over TVG using 3D visual features."
-  authors:
-    "<span style='color:blue'>Y. Zhang</span>, X. Chen, <span style='color:blue'>J. Jia</span>, <span style='color:blue'>S. Liu</span>, K. Ding"
-  link:
-    url: https://arxiv.org/abs/2303.04995
-    display: CVPR'23
-  highlight: 1
-  news2: 
-  post: 2dtvp_cvpr23
-
-
 - title: "Understanding and Improving Visual Prompting: A Label-Mapping Perspective"
   image: ilmvp_cvpr23.png
   description: "We revisit and advance visual prompting (VP), an input prompting technique for vision tasks. VP can reprogram a fixed, pre-trained source model to accomplish downstream tasks in the target domain by simply incorporating universal prompts (in terms of input perturbation patterns) into downstream data points. Yet, it remains elusive why VP stays effective even given a ruleless label mapping (LM) between the source classes and the target classes. Inspired by the above, we ask: How is LM interrelated with VP? And how to exploit such a relationship to improve its accuracy on target tasks? We peer into the influence of LM on VP and provide an affirmative answer that a better ’quality’ of LM (assessed by mapping precision and explanation) can consistently improve the effectiveness of VP. This is in contrast to the prior art where the factor of LM was missing. To optimize LM, we propose a new VP framework, termed ILM-VP (iterative label mapping-based visual prompting), which automatically re-maps the source labels to the target labels and progressively improves the target task accuracy of VP. Further, when using a contrastive language-image pretrained (CLIP) model, we propose to integrate an LM process to assist the text prompt selection of CLIP and to improve the target task accuracy. Extensive experiments demonstrate that our proposal significantly outperforms state-of-the-art VP methods. As highlighted below, we show that when reprogramming an ImageNet-pretrained ResNet-18 to 13 target tasks, our method outperforms baselines by a substantial margin, e.g., 7.9% and 6.7% accuracy improvements in transfer learning to the target Flowers102 and CIFAR100 datasets. Besides, our proposal on CLIP-based VP provides 13.7% and 7.1% accuracy improvements on Flowers102 and DTD respectively."
@@ -106,6 +119,18 @@
   highlight: 1
   news2: 
   post: ilmvp_cvpr23
+
+- title: "Text-Visual Prompting for Efficient 2D Temporal Video Grounding"
+  image: 2dtvp_cvpr23.png
+  description: "In this paper, we study the problem of temporal video grounding (TVG), which aims to predict the starting/ending time points of moments described by a text sentence within a long untrimmed video. Benefiting from fine-grained 3D visual features, the TVG techniques have achieved remarkable progress in recent years. However, the high complexity of 3D convolutional neural networks (CNNs) makes extracting dense 3D visual features time-consuming, which calls for intensive memory and computing resources. Towards efficient TVG, we propose a novel text-visual prompting (TVP) framework, which incorporates optimized perturbation patterns (that we call ‘prompts’) into both visual inputs and textual features of a TVG model. In sharp contrast to 3D CNNs, we show that TVP allows us to effectively co-train vision encoder and language encoder in a 2D TVG model and improves the performance of crossmodal feature fusion using only low-complexity sparse 2D visual features. Further, we propose a Temporal-Distance IoU (TDIoU) loss for efficient learning of TVG. Experiments on two benchmark datasets, Charades-STA and Ac- tivityNet Captions datasets, empirically show that the pro- posed TVP significantly boosts the performance of 2D TVG (e.g., 9.79% improvement on Charades-STA and 30.77% improvement on ActivityNet Captions) and achieves 5× inference acceleration over TVG using 3D visual features."
+  authors:
+    "<span style='color:blue'>Y. Zhang</span>, X. Chen, <span style='color:blue'>J. Jia</span>, <span style='color:blue'>S. Liu</span>, K. Ding"
+  link:
+    url: https://arxiv.org/abs/2303.04995
+    display: CVPR'23
+  highlight: 1
+  news2: 
+  post: 2dtvp_cvpr23
 
 - title: "What Is Missing in IRM Training and Evaluation? Challenges and Solutions"
   image: dummy.png
