@@ -1,3 +1,41 @@
+- title: "SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation"
+  image: dummy.png
+  description:
+  authors:
+    "<span style='color:blue'>C. Fan*</span>, <span style='color:blue'>J. Liu*</span>, <span style='color:blue'>Y. Zhang</span>, D. Wei, E. Wong, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2310.12508
+    display: ICLR'24 Spotlight
+  highlight: 0
+  news2: 
+  post:
+
+- title: "DeepZero: Scaling up Zeroth-Order Optimization for Deep Model Training"
+  image: dummy.png
+  description:
+  authors:
+    "<span style='color:blue'>A. Chen*</span>, <span style='color:blue'>Y. Zhang*</span>, <span style='color:blue'>J. Jia</span>, J. Diffenderfer, <span style='color:blue'>J. Liu</span>, K. Parasyris, <span style='color:blue'>Y. Zhang</span>, Z. Zhang, B. Kailkhura, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2310.02025
+    display: ICLR'24
+  highlight: 0
+  news2: 
+  post:
+
+
+- title: "AutoVP: An Automated Visual Prompting Frameowrk and Benchmark"
+  image: dummy.png
+  description:
+  authors:
+    "H.-Y. Tsao, L. Hsiung, P.-Y. Chen, <span style='color:blue'>S. Liu</span>, T.-Y. Ho"
+  link:
+    url: https://arxiv.org/abs/2310.08381
+    display: ICLR'24
+  highlight: 0
+  news2: 
+  post:
+
+
 - title: "Selectivity Drives Productivity: Efficient Dataset Pruning for Enhanced Transfer Learning"
   image: dummy.png
   description:
