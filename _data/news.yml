@@ -1,3 +1,6 @@
+- date: 16. January 2024
+  headline: "Four papers accepted in ICLR’24: (1) <a href='https://arxiv.org/pdf/2310.12508.pdf'>Machine unlearning for safe image generation</a>; (2) <a href='https://arxiv.org/pdf/2310.02025.pdf'>DeepZero: Training neural networks from scratch using only forward passes</a>; (3) <a href=''>Backdoor data sifting</a>; (4) <a href='https://arxiv.org/pdf/2310.08381.pdf'>Visual prompting automation</a>"
+
 - date: 9. November 2023
   headline: "[New Preprints] We are pleased to announce the release of the paper on arXiv: <a href='https://arxiv.org/abs/2311.02373'>From Trojan Horses to Castle Walls: Unveiling Bilateral Backdoor Effects in Diffusion Models</a>."
 
