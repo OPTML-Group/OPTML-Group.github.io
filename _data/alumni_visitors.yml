@@ -6,7 +6,7 @@
 - name: Zhuoshi Pan (remote)
   info: Graduate student, Tsinghua University, China
   visiting: May. 2023 - Present
-  research: "<a href='https://arxiv.org/abs/2311.02373'>From Trojan Horses to Castle Walls: Unveiling Bilateral Backdoor Effects in Diffusion Models</a>"
+  research: "<a href='https://arxiv.org/abs/2311.02373'>From Trojan Horses to Castle Walls: Unveiling Bilateral Backdoor Effects in Diffusion Models</a> [Paper at <a href='https://neurips2023-bugs.github.io/'>Backdoors in Deep Learning@NeurIPS’23</a>]"
 
 - name: Chen Fan (remote)
   info: Graduate student, University of British Columbia, Canada
