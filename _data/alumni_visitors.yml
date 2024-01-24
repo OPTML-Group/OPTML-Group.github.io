@@ -1,12 +1,12 @@
-- name: Chongyu Fan (remote)
+- name: Chongyu Fan
   info: Undergraduate, Huazhong University of Science and Technology, China
   visiting: May. 2023 - Present
-  research: "<a href='https://arxiv.org/abs/2310.12508'>SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation</a>"
+  research: "<a href='https://arxiv.org/abs/2310.12508'>SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation</a> [<span style='color:red'><b>Spotlight</b></span> paper at ICLR’24]"
 
 - name: Zhuoshi Pan (remote)
   info: Graduate student, Tsinghua University, China
   visiting: May. 2023 - Present
-  research: "<a href='https://arxiv.org/pdf/2311.02373v1.pdf'>From Trojan Horses to Castle Walls: Unveiling Bilateral Backdoor Effects in Diffusion Models</a>"
+  research: "<a href='https://arxiv.org/abs/2311.02373'>From Trojan Horses to Castle Walls: Unveiling Bilateral Backdoor Effects in Diffusion Models</a>"
 
 - name: Chen Fan (remote)
   info: Graduate student, University of British Columbia, Canada
