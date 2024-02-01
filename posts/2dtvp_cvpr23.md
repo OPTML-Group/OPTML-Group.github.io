@@ -14,6 +14,7 @@ poster: "https://damon-demon.github.io/links/2DTVP_CVPR23_poster.pdf"
 paper: "https://arxiv.org/abs/2303.04995"
 slides: "https://damon-demon.github.io/links/CVPR23_2D_TVP_presentation.pdf"
 video: "https://youtu.be/zj2s_G3066s"
+HuggingFace Model: "https://huggingface.co/docs/transformers/main/en/model_doc/tvp"
 ---
 
 <center>
