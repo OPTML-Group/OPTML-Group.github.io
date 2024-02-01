@@ -21,7 +21,7 @@ paper: "https://arxiv.org/abs/2310.02025"
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/deepzero_iclr24/deepzero_overview.png" width="500">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/deepzero_iclr24/overview.png" width="1500">
 </center>
 
 Overview of our DeepZero framework.
