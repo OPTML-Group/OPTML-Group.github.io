@@ -47,7 +47,7 @@ However, the scalability of ZO optimization remains an open problem: Its use has
 There are two main ZO gradient estimation schemes: deterministic coordinate-wise gradient estimation (**CGE**) and randomized vector-wise gradient estimation (**RGE**) as shown below:
 
 $$
-    \hat{\nabla}_{\boldsymbol \theta} \ell(\boldsymbol \theta) = \frac{1}{q} \sum_{i=1}^q \left [ \frac{\ell(\boldsymbol \theta + \mu \mathbf u_i) - \ell(\boldsymbol \theta)}{\mu}  \mathbf u_i \right ] ~~~~~~~~~~~~ (\mathbf{RGE})
+    \hat{\nabla}_{\boldsymbol \theta} \ell(\boldsymbol \theta) = \frac{1}{q} \sum_{i=1}^q \left [ \frac{\ell(\boldsymbol \theta + \mu \mathbf u_i) - \ell(\boldsymbol \theta)}{\mu}  \mathbf u_i \right ] ~~~~~~~~~~ (\mathbf{RGE})
 $$
 
 $$
