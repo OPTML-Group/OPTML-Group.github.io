@@ -47,11 +47,11 @@ However, the scalability of ZO optimization remains an open problem: Its use has
 There are two main ZO gradient estimation schemes: deterministic coordinate-wise gradient estimation (**CGE**) and randomized vector-wise gradient estimation (**RGE**) as shown below:
 
 $$
-    \mathbf{RGE}: \hat{\nabla}_{\boldsymbol \theta} \ell(\boldsymbol \theta) = \frac{1}{q} \sum_{i=1}^q \left [ \frac{\ell(\boldsymbol \theta + \mu \mathbf u_i) - \ell(\boldsymbol \theta)}{\mu}  \mathbf u_i \right ];
+    \hat{\nabla}_{\boldsymbol \theta} \ell(\boldsymbol \theta) = \frac{1}{q} \sum_{i=1}^q \left [ \frac{\ell(\boldsymbol \theta + \mu \mathbf u_i) - \ell(\boldsymbol \theta)}{\mu}  \mathbf u_i \right ] ~~~~~~~~~~~~ (\mathbf{RGE})
 $$
 
 $$
-    \mathbf{CGE}: \hat{\nabla}_{\boldsymbol \theta} \ell(\boldsymbol \theta) = \sum_{i=1}^d \left [ \frac{\ell(\boldsymbol \theta + \mu \mathbf e_i) - \ell(\boldsymbol \theta)}{\mu}  \mathbf e_i \right ]
+    \hat{\nabla}_{\boldsymbol \theta} \ell(\boldsymbol \theta) = \sum_{i=1}^d \left [ \frac{\ell(\boldsymbol \theta + \mu \mathbf e_i) - \ell(\boldsymbol \theta)}{\mu}  \mathbf e_i \right ] ~~~~~~~~~~~~ (\mathbf{CGE})
 $$
 
 we demonstrate the advantages of coordinate-wise gradient estimation (CGE) over randomized vector-wise gradient estimation in training accuracy and computational efficiency.
