@@ -21,7 +21,7 @@ paper: "https://arxiv.org/abs/2310.02025"
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/deepzero_iclr24/overview.png" width="1500">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/deepzero_iclr24/deepzero_iclr24.png" width="1500">
 </center>
 
 Overview of our DeepZero framework.
@@ -34,7 +34,18 @@ Zeroth-order (ZO) optimization has become a popular technique for solving machin
 
 ---
 
-## Why Zeroth-Order (ZO) Optimization needed for model training?
+## Motivations: Why Zeroth-Order (ZO) Optimization needed for model training?
+
+## Challenges: High Computation Cost
+
+## Contributions
+
+## ZO Gradient Estimator: RGE or CGE?
+
+## Proposed ZO Training Framework
+
+
+
 
 
 Inspired by the success of transformers in vision-language tasks, we choose ClipBERT [[1](#refer-anchor-1)] as the base model for 2D TVG. Extended from ClipBERT, the input of our regression-based TVG model would be describable sentences and uniformly sampled frames of one untrimmed video as shown in figure above. Then, the predicted starting and ending time points of the target video clip would be model outputs.
