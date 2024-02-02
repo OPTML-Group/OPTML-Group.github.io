@@ -55,8 +55,8 @@ $$
 $$
 
 where $$\hat{\nabla}_{\boldsymbol \theta} \ell$$ denotes an estimation of the FO gradient $$\nabla_{\boldsymbol \theta}\ell$$ with respect to optimization variables $$\boldsymbol \theta \in \mathbb R^d$$ (e.g., model parameters of a neural network). 
-In (**RGE**), $$\mathbf u_i $$ denotes a randomized perturbation vector, e.g.,  drawn from the standard Gaussian distribution $$\mathcal N(\mathbf 0, \mathbf I)$, $\mu > 0$ is a perturbation size (a.k.a. smoothing parameter), and $q$ is the number of random directions used to acquire finite differences. 
-In (**CGE**), $$\mathbf e_i$$ denotes a standard basis vector, and $$\frac{\ell(\boldsymbol \theta + \mu \mathbf e_i) - \ell(\boldsymbol \theta)}{\mu}$$ provides the finite-difference estimation of the partial derivative of $\ell(\boldsymbol \theta)$ at the $$i$$th coordinate $$\boldsymbol \theta_i$$.
+In (**RGE**), $$\mathbf u_i $$ denotes a randomized perturbation vector, e.g.,  drawn from the standard Gaussian distribution $$\mathcal N(\mathbf 0, \mathbf I)$, $$\mu > 0$$ is a perturbation size (a.k.a. smoothing parameter), and $q$ is the number of random directions used to acquire finite differences. 
+In (**CGE**), $$\mathbf e_i$$ denotes a standard basis vector, and $$\frac{\ell(\boldsymbol \theta + \mu \mathbf e_i) - \ell(\boldsymbol \theta)}{\mu}$$ provides the finite-difference estimation of the partial derivative of $$\ell(\boldsymbol \theta)$$ at the $$i$$th coordinate $$\boldsymbol \theta_i$$.
 
 
 we demonstrate the advantages of coordinate-wise gradient estimation (CGE) over randomized vector-wise gradient estimation in training accuracy and computational efficiency.
