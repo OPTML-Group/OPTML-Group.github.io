@@ -44,15 +44,20 @@ However, the scalability of ZO optimization remains an open problem: Its use has
 ---
 
 ## ZO Gradient Estimator: RGE or CGE?
-There are two main ZO gradient estimation schemes: deterministic coordinate-wise gradient estimation (**CGE**) and randomized vector-wise gradient estimation (**RGE**) as shown below:
+The ZO optimizer interacts with the objective function $\ell$ only by submitting inputs i.e., realizations of $\boldsymbol \theta$) and receiving the corresponding function values. There are two main ZO gradient estimation schemes: deterministic coordinate-wise gradient estimation (**CGE**) and randomized vector-wise gradient estimation (**RGE**) as shown below:
 
 $$
-    \hat{\nabla}_{\boldsymbol \theta} \ell(\boldsymbol \theta) = \frac{1}{q} \sum_{i=1}^q \left [ \frac{\ell(\boldsymbol \theta + \mu \mathbf u_i) - \ell(\boldsymbol \theta)}{\mu}  \mathbf u_i \right ] ~~~~~~~~~~ (\mathbf{RGE})
+    \hat{\nabla}_{\boldsymbol \theta} \ell(\boldsymbol \theta) = \frac{1}{q} \sum_{i=1}^q \left [ \frac{\ell(\boldsymbol \theta + \mu \mathbf u_i) - \ell(\boldsymbol \theta)}{\mu}  \mathbf u_i \right ]; ~~~~~~~~ (\mathbf{RGE})
 $$
 
 $$
-    \hat{\nabla}_{\boldsymbol \theta} \ell(\boldsymbol \theta) = \sum_{i=1}^d \left [ \frac{\ell(\boldsymbol \theta + \mu \mathbf e_i) - \ell(\boldsymbol \theta)}{\mu}  \mathbf e_i \right ] ~~~~~~~~~~~~ (\mathbf{CGE})
+    \hat{\nabla}_{\boldsymbol \theta} \ell(\boldsymbol \theta) = \sum_{i=1}^d \left [ \frac{\ell(\boldsymbol \theta + \mu \mathbf e_i) - \ell(\boldsymbol \theta)}{\mu}  \mathbf e_i \right ], ~~~~~~~~~~~~ (\mathbf{CGE})
 $$
+
+where $$\hat{\nabla}_{\boldsymbol \theta} \ell$$ denotes an estimation of the FO gradient $$\nabla_{\boldsymbol \theta}\ell$$ with respect to optimization variables $$\boldsymbol \theta \in \mathbb R^d$$ (e.g., model parameters of a neural network). 
+In (**RGE**), $$\mathbf u_i $$ denotes a randomized perturbation vector, e.g.,  drawn from the standard Gaussian distribution $$\mathcal N(\mathbf 0, \mathbf I)$, $\mu > 0$ is a perturbation size (a.k.a. smoothing parameter), and $q$ is the number of random directions used to acquire finite differences. 
+In (**CGE**), $$\mathbf e_i$$ denotes a standard basis vector, and $$\frac{\ell(\boldsymbol \theta + \mu \mathbf e_i) - \ell(\boldsymbol \theta)}{\mu}$$ provides the finite-difference estimation of the partial derivative of $\ell(\boldsymbol \theta)$ at the $$i$$th coordinate $$\boldsymbol \theta_i$$.
+
 
 we demonstrate the advantages of coordinate-wise gradient estimation (CGE) over randomized vector-wise gradient estimation in training accuracy and computational efficiency.
 
