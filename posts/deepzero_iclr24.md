@@ -44,7 +44,7 @@ However, the scalability of ZO optimization remains an open problem: Its use has
 ---
 
 ## ZO Gradient Estimator: RGE or CGE?
-The ZO optimizer interacts with the objective function $$\ell$$ only by submitting inputs i.e., realizations of $$\boldsymbol \theta$$) and receiving the corresponding function values. There are two main ZO gradient estimation schemes: deterministic coordinate-wise gradient estimation (**CGE**) and randomized vector-wise gradient estimation (**RGE**) as shown below:
+The ZO optimizer interacts with the objective function $$\ell$$ only by submitting inputs (i.e., realizations of $$\boldsymbol \theta$$) and receiving the corresponding function values. There are two main ZO gradient estimation schemes: deterministic coordinate-wise gradient estimation (**CGE**) and randomized vector-wise gradient estimation (**RGE**) as shown below:
 
 $$
     \hat{\nabla}_{\boldsymbol \theta} \ell(\boldsymbol \theta) = \frac{1}{q} \sum_{i=1}^q \left [ \frac{\ell(\boldsymbol \theta + \mu \mathbf u_i) - \ell(\boldsymbol \theta)}{\mu}  \mathbf u_i \right ]; ~~~~~~~~ (\mathbf{RGE})
@@ -60,24 +60,30 @@ In (**RGE**), $$\mathbf u_i $$ denotes a randomized perturbation vector, e.g.,  
 
 In (**CGE**), $$\mathbf e_i$$ denotes a standard basis vector, and $$\frac{\ell(\boldsymbol \theta + \mu \mathbf e_i) - \ell(\boldsymbol \theta)}{\mu}$$ provides the finite-difference estimation of the partial derivative of $$\ell(\boldsymbol \theta)$$ at the $$i$$th coordinate $$\boldsymbol \theta_i$$.
 
+Compared to CGE, RGE has the flexibility to specify $$q < d$$ to reduce the number of function evaluations. Despite the query efficiency, it remains uncertain whether RGE can deliver satisfactory accuracy when training a deep model from scratch. To this end, we undertake a preliminary investigation wherein we train a basic convolutional neural network (CNN) of different sizes on CIFAR-10, employing both RGE and CGE. As the two figures below show, CGE can achieve test accuracy comparable to FO training and significantly outperforms RGE and also greater time efficiency than RGE.
+
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="{{ site.url }}{{ site.baseurl }}/images/postpic/deepzero_iclr24/cge_rge_acc_time.png" width="1500">
 </center>
 
+Based on the advantages of CGE over RGE in terms of both accuracy and computation efficiency, we choose CGE as the preferred ZO gradient estimator. However, query complexity of CGE is still a bottleneck, as it scales with model size $$d$$.
 
-we demonstrate the advantages of coordinate-wise gradient estimation (CGE) over randomized vector-wise gradient estimation in training accuracy and computational efficiency.
+---
 
 ## Proposed ZO DL Framework: DeepZero
-To our best knowledge, no prior work has demonstrated the effectiveness of ZO optimization in training deep neural networks (DNNs) without a significant decrease in performance. To overcome this roadblock, we develop **DeepZero, a principled ZO deep learning (DL) framework that can scale ZO optimization to DNN training from scratch.** 
+To our best knowledge, no prior work has demonstrated the effectiveness of ZO optimization in training deep neural networks (DNNs) without a significant decrease in performance. To overcome this roadblock, we develop **DeepZero**, a principled ZO deep learning (DL) framework that can scale ZO optimization to DNN training from scratch. 
+1. **Model pruning via ZO oracle: ZO-GraSP**: A randomly initialized, dense neural network contains a high-quality sparse subnetwork. However, most effective pruning methods incorporate model training as an intermediate step. Thus, they are not well-suited for finding sparsity via a ZO oracle.
 
-1. **Sparse Gradient**:  
+To address the above challenge, we draw inspiration from training-free pruning methods, known as pruning-at-initialization. Within this family, gradient signal preservation (GraSP) is a method to identify the sparsity prior of DL through the gradient flows of a randomly-initialized network.
+
+2. **Sparse Gradient**:  
 we propose a sparsity-induced ZO training protocol that extends the model pruning methodology using only finite differences to explore and exploit the sparse DL prior in CGE. 
 
-2. **Forward Parallelization**:
+3. **Forward Parallelization**:
 
-3. **Feature Reuse**: 
+4. **Feature Reuse**: 
 
 ---
 
