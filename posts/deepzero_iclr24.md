@@ -24,25 +24,38 @@ paper: "https://arxiv.org/abs/2310.02025"
     src="{{ site.url }}{{ site.baseurl }}/images/postpic/deepzero_iclr24/deepzero_iclr24.png" width="1500">
 </center>
 
-Overview of our DeepZero framework.
-
----
-
-## Abstract
-
-Zeroth-order (ZO) optimization has become a popular technique for solving machine learning (ML) problems when first-order (FO) information is difficult or impossible to obtain. However, the scala- bility of ZO optimization remains an open problem: Its use has primarily been limited to relatively small-scale ML problems, such as sample-wise adversarial attack generation. To our best knowl- edge, no prior work has demonstrated the effectiveness of ZO optimization in training deep neural networks (DNNs) without a significant decrease in performance. To overcome this roadblock, we develop DeepZero, a principled ZO deep learning (DL) framework that can scale ZO optimization to DNN training from scratch through three primary innovations. First, we demonstrate the advantages of coordinate-wise gradient estimation (CGE) over randomized vector-wise gradient estimation in training accuracy and computational efficiency. Second, we propose a sparsity-induced ZO training protocol that extends the model pruning methodology using only finite differences to explore and exploit the sparse DL prior in CGE. Third, we develop the methods of feature reuse and forward parallelization to advance the practical implementations of ZO training. Our extensive experiments show that DeepZero achieves state-of-the-art (SOTA) accuracy on ResNet-20 trained on CIFAR-10, approaching FO training performance for the first time. Furthermore, we show the practical utility of DeepZero in applications of certified adversarial defense and DL-based partial differential equa- tion error correction, achieving 10-20% improvement over SOTA. We believe our results will inspire future research on scalable ZO optimization and contribute to advancing DL with black box.
+Overview of DeepZero, a principled ZO deep learning (DL) framework that can scale ZO optimization to DNN training from scratch.
 
 ---
 
 ## Motivations: Why Zeroth-Order (ZO) Optimization needed for model training?
+Zeroth-order (ZO) optimization has become a popular technique for solving machine learning (ML) problems when first-order (FO) information is difficult or impossible to obtain:
 
-## Challenges: High Computation Cost
+1. **Disciplines like physics and chemistry**: ML models may interact with intricate simulators or experiments where the underlying systems are non-differentiable.
 
-## Contributions
+2. **Black-box learning scenarios**: When deep learning (DL) models are integrated with third-party APIs, such as adversarial attack and defense against black-box DL models and black-box prompt learning for language-model-as-a-service.
+
+3. **Limited hardware**: The principled backpropagation (BP) mechanism for calculating FO gradients may also not be supported when implementing DL models on hardware systems.
+
+However, the scalability of ZO optimization remains an open problem: Its use has primarily been limited to relatively small-scale ML problems, such as sample-wise adversarial attack generation. These challenges motivate the central question addressed in this work:
+**How to scale up ZO optimization for training deep models?**
+
+---
 
 ## ZO Gradient Estimator: RGE or CGE?
+we demonstrate the advantages of coordinate-wise gradient estimation (CGE) over randomized vector-wise gradient estimation in training accuracy and computational efficiency.
 
-## Proposed ZO Training Framework
+## Proposed ZO DL Framework: DeepZero
+To our best knowledge, no prior work has demonstrated the effectiveness of ZO optimization in training deep neural networks (DNNs) without a significant decrease in performance. To overcome this roadblock, we develop **DeepZero, a principled ZO deep learning (DL) framework that can scale ZO optimization to DNN training from scratch.** 
+
+1. **Sparse Gradient**:  
+we propose a sparsity-induced ZO training protocol that extends the model pruning methodology using only finite differences to explore and exploit the sparse DL prior in CGE. 
+
+2. **Forward Parallelization**:
+
+3. **Feature Reuse**: 
+
+---
 
 
 
