@@ -37,12 +37,23 @@ Zeroth-order (ZO) optimization has become a popular technique for solving machin
 
 3. **Limited hardware**: The principled backpropagation (BP) mechanism for calculating FO gradients may also not be supported when implementing DL models on hardware systems.
 
-However, the scalability of ZO optimization remains an open problem: Its use has primarily been limited to relatively small-scale ML problems, such as sample-wise adversarial attack generation. These challenges motivate the central question addressed in this work:
-**How to scale up ZO optimization for training deep models?**
+However, the scalability of ZO optimization remains an open problem: Its use has primarily been limited to relatively small-scale ML problems, such as sample-wise adversarial attack generation. As problem dimensionality increases, the accuracy and efficiency of traditional ZO methods deteriorate. This is because ZO finite difference-based gradient estimates are biased estimators of FO gradients, and the bias becomes more pronounced in higher-dimensional spaces. These challenges motivate the **central question** addressed in this work:
+
+**How to scale up ZO optimization for training deep models ?**
 
 ---
 
 ## ZO Gradient Estimator: RGE or CGE?
+There are two main ZO gradient estimation schemes: deterministic coordinate-wise gradient estimation (**CGE**) and randomized vector-wise gradient estimation (**RGE**) as shown below:
+
+$$
+    \text{(\textbf{\RGE})} ~~ \hat{\nabla}_{\btheta} \ell(\btheta) = \frac{1}{q} \sum_{i=1}^q \left [ \frac{\ell(\btheta + \mu \mathbf u_i) - \ell(\btheta)}{\mu}  \mathbf u_i \right ];
+$$
+
+$$
+    \text{(\textbf{\CGE})} ~~ \hat{\nabla}_{\btheta} \ell(\btheta) = \sum_{i=1}^d \left [ \frac{\ell(\btheta + \mu \mathbf e_i) - \ell(\btheta)}{\mu}  \mathbf e_i \right ]
+$$
+
 we demonstrate the advantages of coordinate-wise gradient estimation (CGE) over randomized vector-wise gradient estimation in training accuracy and computational efficiency.
 
 ## Proposed ZO DL Framework: DeepZero
