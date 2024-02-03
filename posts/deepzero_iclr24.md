@@ -74,35 +74,25 @@ Based on the advantages of CGE over RGE in terms of both accuracy and computatio
 
 ## Proposed ZO DL Framework: DeepZero
 To our best knowledge, no prior work has demonstrated the effectiveness of ZO optimization in training deep neural networks (DNNs) without a significant decrease in performance. To overcome this roadblock, we develop **DeepZero**, a principled ZO deep learning (DL) framework that can scale ZO optimization to DNN training from scratch. 
-1. **Model pruning via ZO oracle: ZO-GraSP**: A randomly initialized, dense neural network contains a high-quality sparse subnetwork. However, most effective pruning methods incorporate model training as an intermediate step. Thus, they are not well-suited for finding sparsity via a ZO oracle.
+1. **Model pruning via ZO oracle: ZO-GraSP**: A randomly initialized, dense neural network contains a high-quality sparse subnetwork. However, most effective pruning methods incorporate model training as an intermediate step. Thus, they are not well-suited for finding sparsity via a ZO oracle.To address the above challenge, we draw inspiration from training-free pruning methods, known as pruning-at-initialization. Within this family, gradient signal preservation (GraSP) is a method to **identify the sparsity prior of DL through the gradient flows of a randomly-initialized network**.
 
-To address the above challenge, we draw inspiration from training-free pruning methods, known as pruning-at-initialization. Within this family, gradient signal preservation (GraSP) is a method to identify the sparsity prior of DL through the gradient flows of a randomly-initialized network.
+2. **Sparse Gradient**: To retain the accuracy benefits of training dense models, we incorporate gradient sparsity (in CGE) rather than weight sparsity as shown in Algorithm 1. This ensures that we train a dense model in the weight space, rather than training a sparse model where the sparsity determined by ZO-GraSP is directly applied. Specifically, we leverage ZO-GraSP to determine layer-wise pruning ratios (LPRs) that can capture DNN compressibility and then ZO optimization can train the dense model using iteratively-updated (Sparse-CGE) with **LPRs-guided dynamic sparsity patterns**.
 
-2. **Sparse Gradient**:  
-we propose a sparsity-induced ZO training protocol that extends the model pruning methodology using only finite differences to explore and exploit the sparse DL prior in CGE. 
+$$
+\hat \nabla_{\boldsymbol \theta}   \ell ({\boldsymbol \theta} ) =  \sum_{i \in \mathcal S_{ZO-GraSP}
+     } \left [ \frac{\ell ({\boldsymbol \theta}   + \mu \mathbf e_i ) - \ell({\boldsymbol \theta} )}{\mu} \mathbf e_i \right ].
+     \tag{\text{Sparse-{\CGE}}}
+$$
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/deepzero_iclr24/cge_rge_acc_time.png" width="1500">
+</center>
 
 3. **Forward Parallelization**:
 
 4. **Feature Reuse**: 
-
----
-
-
-
-
-
-Inspired by the success of transformers in vision-language tasks, we choose ClipBERT [[1](#refer-anchor-1)] as the base model for 2D TVG. Extended from ClipBERT, the input of our regression-based TVG model would be describable sentences and uniformly sampled frames of one untrimmed video as shown in figure above. Then, the predicted starting and ending time points of the target video clip would be model outputs.
-
-There are four phases of our proposed TVP framework:
-
-1. **Video frame preprocessing**: We obtain sparsely-sampled frames $$\mathbf{v}_\mathrm{sam}$$
-from one input untrimmed video $$\mathbf{v}$$, and apply universal frame-aware visual prompts $$\boldsymbol{\delta}_{\mathrm{vp}}$$ on top of frames at the padding location. 
-
-2. **Feature extraction**: 2D vision encoder (first 5 ConvBlock of ResNet-50) $$g_\mathrm{vid}$$ and language encoder (a trainable word embedding layer) $$g_\mathrm{tex}$$ would extract features from the prompted frames $$\mathbf{v}^{\prime}_\mathrm{sam}$$ and textual inputs $$\mathbf{s}$$, respectively. 
-
-3. **Multimodal feature processing**: Following the setting of Pixel-BERT [[2](#refer-anchor-2)], the 2D visual features $$\mathbf{Q}_\mathrm{vid}$$ are downsampled spatially by a $$2\times2$$ max-pooling layer and fused temporally by a mean-pooling layer. Then, text prompts $$\boldsymbol{\delta}_{\mathrm{tp}}$$ are integrated into textual features $$\mathbf{Q}_\mathrm{tex}$$. In addition, trainable 2D visual position embeddings $$\mathbf{M}_\mathrm{2D}$$ and textual position embeddings  $$\mathbf{M}_\mathrm{pos}$$ are applied to the processed 2D visual features $$\mathbf{Q}^{\prime}_{\mathrm{vid}}$$ and prompted textual features $$\mathbf{Q}^{\prime}_\mathrm{tex}$$, respectively [[1](#refer-anchor-1), [3](#refer-anchor-3)].  Afterwards, the processed and position-encoded 2D visual features  $$\mathbf{Q}^{\prime\prime}_{\mathrm{vid}}$$ are flattened and integrated into prompted and position-encoded textual features $$\mathbf{Q}^{\prime\prime}_\mathrm{tex}$$. Moreover, type embeddings $$\mathbf{M}_\mathrm{type}$$ would be added to the integrated multimodal features $$\mathbf{Q}_{\mathrm{all}}$$ to indicate the source type of features.
-
-4. **Crossmodal fusion**: A 12-layer transformer [[3](#refer-anchor-3)] is utilized for crossmodal fusion on $$\mathbf{Q}_{\mathrm{all}}$$, and then multilayer perceptron (MLP) ending with sigmoid function is used as the prediction head to process the last-layer \underline{c}ross\underline{m}odal representation $$\mathbf{Q}_\mathrm{CM}$$ of the transformer for generating the predicted starting/ending time points $$(\hat{t}_\mathrm{sta}, \hat{t}_\mathrm{sta})$$ of the target moments described by the text query input.
 
 
 ---
