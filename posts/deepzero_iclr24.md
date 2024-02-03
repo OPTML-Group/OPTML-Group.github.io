@@ -78,7 +78,7 @@ To our best knowledge, no prior work has demonstrated the effectiveness of ZO op
 
 2. **Sparse Gradient**: To retain the accuracy benefits of training dense models, we incorporate gradient sparsity (in CGE) rather than weight sparsity. This ensures that we train a dense model in the weight space, rather than training a sparse model. Specifically, we leverage ZO-GraSP to determine layer-wise pruning ratios (LPRs) that can capture DNN compressibility and then ZO optimization can train the dense model by **iteratively updating partial model parameter weight** with their corresponding gradient estimation by CGE, where the sparse gradient ratio determined by LPRs.
 
-3. **Feature Reuse**: Since CGE perturbs each parameter element-wise, it can reuse the feature immediately preceding the perturbed layer and carry out the remaining forward pass operations instead of starting from the input layer. Empirically, CGE with feature reuse exhibits a 2X reduction in training time.
+3. **Feature Reuse**: Since CGE perturbs each parameter element-wise, it can **reuse the feature immediately preceding the perturbed layer and carry out the remaining forward pass operations** instead of starting from the input layer. Empirically, CGE with feature reuse exhibits a 2X reduction in training time.
 
 4. **Forward Parallelization**: CGE enables parallelization of model training due to its alignment of parameter perturbations with forward passes. The decoupling property enables scaling forward passes via distributed machines, which can significantly improve ZO training speed.
 
@@ -98,7 +98,7 @@ As shown in figure below, the accuracy gap still exists between (1) and the mode
 </center>
 
 ### Black-box defense
-The black-box defense problem arises when the owner of an ML model is unwilling to share the model details with the defender against adversarial attacks. This poses a challenge for existing robustness enhancement algorithms that directly robustify white-box ML models using FO training. To overcome this challenge, ZO-AE-DS are proposed to introduces an autoencoder (AE) between the white-box denoised smoothing (DS) defense operation (to be learned) and the black-box image classifier to address dimensionality challenges with ZO training. **The downside of ZO-AE-DS is poor scaling to high-resolution datasets (e.g., ImageNet) due to the use of AE**, which compromises the fidelity of the image input to the black-box image classifier and leads to inferior defense performance. In contrast, **DeepZero can directly learn the defense operation integrated with the black-box classifier**, without needing AE. As shown in table below, DeepZero consistently outperforms ZO-AE-DS in terms of certified accuracy (CA) for all values of input perturbation radius $$r > 0$$.
+The black-box defense problem arises when the owner of an ML model is unwilling to share the model details with the defender against adversarial attacks. This poses a challenge for existing robustness enhancement algorithms that directly robustify white-box ML models using FO training. To overcome this challenge, ZO-AE-DS [[1](#refer-anchor-1)] are proposed to introduces an autoencoder (AE) between the white-box denoised smoothing (DS) defense operation (to be learned) and the black-box image classifier to address dimensionality challenges with ZO training. **The downside of ZO-AE-DS is poor scaling to high-resolution datasets (e.g., ImageNet) due to the use of AE**, which compromises the fidelity of the image input to the black-box image classifier and leads to inferior defense performance. In contrast, **DeepZero can directly learn the defense operation integrated with the black-box classifier**, without needing AE. As shown in table below, DeepZero consistently outperforms ZO-AE-DS in terms of certified accuracy (CA) for all values of input perturbation radius $$r > 0$$.
 
 <center>
     <img style="border-radius: 0.3125em;
@@ -107,7 +107,7 @@ The black-box defense problem arises when the owner of an ML model is unwilling 
 </center>
 
 ### Simulation-coupled DL
-Numerical methods, while instrumental in providing physics-informed simulations, come with their own challenge: the discretization unavoidably produces numerical errors. The feasibility of training a corrective neural network through looping interactions with the iterative partial differential equation (PDE) solver, coined ‘solver-in-the-loop’ (SOL). While existing work focused on using or developing differentiable simulators for model training, we extend SOL by leveraging DeepZero, **enabling its use with non-differentiable or blackbox simulators**. The table below compares the test error correction performance of ZO-SOL (via DeepZero) with three differentiable approaches methods: 
+Numerical methods, while instrumental in providing physics-informed simulations, come with their own challenge: the discretization unavoidably produces numerical errors. The feasibility of training a corrective neural network through looping interactions with the iterative partial differential equation (PDE) solver, coined ‘solver-in-the-loop’ (SOL) [[2](#refer-anchor-2)]. While existing work focused on using or developing differentiable simulators for model training, we extend SOL by leveraging DeepZero, **enabling its use with non-differentiable or blackbox simulators**. The table below compares the test error correction performance of ZO-SOL (via DeepZero) with three differentiable approaches methods: 
 - SRC (low fidelity simulation without error correction), 
 - NON (non-interactive training out of the simulation loop using pre-generated low and high fidelity simulation data), 
 - FO-SOL (FO training for SOL given a differentiable simulator).
@@ -135,8 +135,7 @@ The error for each test simulation is computed as the mean absolute error (MAE) 
 
 ## References
 
-<div id="refer-anchor-1"></div>  [1] Lei et al. (2021). Less is More: ClipBERT for Video-and-Language Learning via Sparse Sampling. 
+<div id="refer-anchor-1"></div>  [1] Zhang et al. (ICLR 2022). How to robustify black-box ml models? a zeroth-order optimization perspective
 
-<div id="refer-anchor-2"></div>  [2] Huang et al. (2020). Pixel-BERT: Aligning Image Pixels with Text by Deep Multi-Modal Transformers. 
+<div id="refer-anchor-2"></div>  [2] Um et al. (NeurIPS 2020). Solver-in-the-loop: Learning from differentiable physics to interact with iterative pde-solvers.
 
-<div id="refer-anchor-3"></div>  [3] Devlin et al. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.
