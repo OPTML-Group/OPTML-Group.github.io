@@ -76,16 +76,13 @@ Based on the advantages of CGE over RGE in terms of both accuracy and computatio
 To our best knowledge, no prior work has demonstrated the effectiveness of ZO optimization in training deep neural networks (DNNs) without a significant decrease in performance. To overcome this roadblock, we develop **DeepZero**, a principled ZO deep learning (DL) framework that can scale ZO optimization to DNN training from scratch. 
 1. **Model pruning via ZO oracle: ZO-GraSP**: A randomly initialized, dense neural network contains a high-quality sparse subnetwork. However, most effective pruning methods incorporate model training as an intermediate step. Thus, they are not well-suited for finding sparsity via a ZO oracle.To address the above challenge, we draw inspiration from training-free pruning methods, known as pruning-at-initialization. Within this family, gradient signal preservation (GraSP) is a method to **identify the sparsity prior of DL through the gradient flows of a randomly-initialized network**.
 
-2. **Sparse Gradient**: To retain the accuracy benefits of training dense models, we incorporate gradient sparsity (in CGE) rather than weight sparsity as shown in Algorithm 1. This ensures that we train a dense model in the weight space, rather than training a sparse model where the sparsity determined by ZO-GraSP is directly applied. Specifically, we leverage ZO-GraSP to determine layer-wise pruning ratios (LPRs) that can capture DNN compressibility and then ZO optimization can train the dense model using iteratively-updated (Sparse-CGE) with **LPRs-guided dynamic sparsity patterns**.
+2. **Sparse Gradient**: To retain the accuracy benefits of training dense models, we incorporate gradient sparsity (in CGE) rather than weight sparsity. This ensures that we train a dense model in the weight space, rather than training a sparse model. Specifically, we leverage ZO-GraSP to determine layer-wise pruning ratios (LPRs) that can capture DNN compressibility and then ZO optimization can train the dense model by **iteratively updating partial model parameter weight** with their corresponding gradient estimation by CGE, where the sparse gradient ratio determined by LPRs.
 
-$$
-\hat \nabla_{\boldsymbol \theta}   \ell ({\boldsymbol \theta} ) =  \sum_{i \in \mathcal S_{ZO-GraSP}} \left [ \frac{\ell ({\boldsymbol \theta}   + \mu \mathbf e_i ) - \ell({\boldsymbol \theta} )}{\mu} \mathbf e_i \right ] ~~~~ (Sparse-CGE)
-$$
+3. **Feature Reuse**: Since CGE perturbs each parameter element-wise, it can reuse the feature immediately preceding the perturbed layer and carry out the remaining forward pass operations instead of starting from the input layer. Empirically, CGE with feature reuse exhibits a 2X reduction in training time.
 
+4. **Forward Parallelization**: CGE enables parallelization of model training due to its alignment of parameter perturbations with forward passes. The decoupling property enables scaling forward passes via distributed machines, which can significantly improve ZO training speed.
 
-3. **Forward Parallelization**:
-
-4. **Feature Reuse**: 
+ 
 
 
 ---
