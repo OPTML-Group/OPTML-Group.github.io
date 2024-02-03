@@ -84,16 +84,17 @@ To our best knowledge, no prior work has demonstrated the effectiveness of ZO op
 
 ---
 ## Performance Comparison
-### Classification Task
+### Image classification
 we compare the accuracy of DeepZero-trained ResNet-20 with two variants trained by FO recipes: 
 - (1) a dense ResNet-20 acquired through FO training 
 - (2) a sparse ResNet20 acquired through FO training under FO-GraSP sparsity pattern. 
-As shown in figure below, the accuracy gap still exists between (1) and the model trained with DeepZero in the sparsity regime of 80% to 99%. This highlights the challenge of ZO optimization for deep model training, where achieving high sparsity is desired to reduce the number of model queries in Sparse CGE for scaling to ResNet-20. Notably, in the sparsity regime of 90% to 99%, DeepZero outperforms (2), showcasing the superiority of gradient sparsity in DeepZero compared to weight sparsity (i.e., directly training a sparse model).
+
+As shown in figure below, the accuracy gap still exists between (1) and the model trained with DeepZero in the sparsity regime of 80% to 99%. This highlights the challenge of ZO optimization for deep model training, where achieving high sparsity is desired to reduce the number of model queries in Sparse CGE for scaling to ResNet-20. Notably, in the sparsity regime of 90% to 99%, DeepZero outperforms (2), **showcasing the superiority of gradient sparsity in DeepZero compared to weight sparsity** (i.e., directly training a sparse model).
 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/deepzero_iclr24/classification_exp.png" width="1500">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/deepzero_iclr24/classification_exp.png" width="500">
 </center>
 
 ### Black-box defense
@@ -102,7 +103,7 @@ The black-box defense problem arises when the owner of an ML model is unwilling 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/deepzero_iclr24/black_box_exp.png" width="1500">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/deepzero_iclr24/black_box_exp.png" width="500">
 </center>
 
 ### Simulation-coupled DL
@@ -110,21 +111,22 @@ Numerical methods, while instrumental in providing physics-informed simulations,
 - SRC (low fidelity simulation without error correction), 
 - NON (non-interactive training out of the simulation loop using pre-generated low and high fidelity simulation data), 
 - FO-SOL (FO training for SOL given a differentiable simulator).
+
 The error for each test simulation is computed as the mean absolute error (MAE) of the corrected simulation compared to the high fidelity simulation averaged across all simulation timesteps. The results demonstrate that ZO-SOL achieved by DeepZero outperforms the SRC and NON baselines, and narrows the performance gap with FO-SOL, despite only having query-based access to the simulator. Comparing ZO-SOL with NON **highlights the promise of ZO-SOL even when integrated with black-box simulators**.
 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/deepzero_iclr24/SOL_exp.png" width="1500">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/deepzero_iclr24/SOL_exp.png" width="500">
 </center>
 
 ---
 ## Citation
 ```
-@article{zhang2023text,
-  title={Text-visual prompting for efficient 2d temporal video grounding},
-  author={Zhang, Yimeng and Chen, Xin and Jia, Jinghan and Liu, Sijia and Ding, Ke},
-  journal={arXiv preprint arXiv:2303.04995},
+@article{chen2023deepzero,
+  title={DeepZero: Scaling up Zeroth-Order Optimization for Deep Model Training},
+  author={Chen, Aochuan and Zhang, Yimeng and Jia, Jinghan and Diffenderfer, James and Liu, Jiancheng and Parasyris, Konstantinos and Zhang, Yihua and Zhang, Zheng and Kailkhura, Bhavya and Liu, Sijia},
+  journal={arXiv preprint arXiv:2310.02025},
   year={2023}
 }
 ```
