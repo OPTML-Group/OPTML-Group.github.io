@@ -79,16 +79,9 @@ To our best knowledge, no prior work has demonstrated the effectiveness of ZO op
 2. **Sparse Gradient**: To retain the accuracy benefits of training dense models, we incorporate gradient sparsity (in CGE) rather than weight sparsity as shown in Algorithm 1. This ensures that we train a dense model in the weight space, rather than training a sparse model where the sparsity determined by ZO-GraSP is directly applied. Specifically, we leverage ZO-GraSP to determine layer-wise pruning ratios (LPRs) that can capture DNN compressibility and then ZO optimization can train the dense model using iteratively-updated (Sparse-CGE) with **LPRs-guided dynamic sparsity patterns**.
 
 $$
-\hat \nabla_{\boldsymbol \theta}   \ell ({\boldsymbol \theta} ) =  \sum_{i \in \mathcal S_{ZO-GraSP}
-     } \left [ \frac{\ell ({\boldsymbol \theta}   + \mu \mathbf e_i ) - \ell({\boldsymbol \theta} )}{\mu} \mathbf e_i \right ].
-     \tag{\text{Sparse-{\CGE}}}
+\hat \nabla_{\boldsymbol \theta}   \ell ({\boldsymbol \theta} ) =  \sum_{i \in \mathcal S_{ZO-GraSP}} \left [ \frac{\ell ({\boldsymbol \theta}   + \mu \mathbf e_i ) - \ell({\boldsymbol \theta} )}{\mu} \mathbf e_i \right ] ~~~~ (Sparse-CGE)
 $$
 
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/deepzero_iclr24/cge_rge_acc_time.png" width="1500">
-</center>
 
 3. **Forward Parallelization**:
 
