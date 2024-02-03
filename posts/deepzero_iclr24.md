@@ -82,28 +82,43 @@ To our best knowledge, no prior work has demonstrated the effectiveness of ZO op
 
 4. **Forward Parallelization**: CGE enables parallelization of model training due to its alignment of parameter perturbations with forward passes. The decoupling property enables scaling forward passes via distributed machines, which can significantly improve ZO training speed.
 
- 
-
-
 ---
-
 ## Performance Comparison
-Our method yields substantial accuracy improvement on multiple datasets.
+### Classification Task
+we compare the accuracy of DeepZero-trained ResNet-20 with two variants trained by FO recipes: 
+- (1) a dense ResNet-20 acquired through FO training 
+- (2) a sparse ResNet20 acquired through FO training under FO-GraSP sparsity pattern. 
+As shown in figure below, the accuracy gap still exists between (1) and the model trained with DeepZero in the sparsity regime of 80% to 99%. This highlights the challenge of ZO optimization for deep model training, where achieving high sparsity is desired to reduce the number of model queries in Sparse CGE for scaling to ResNet-20. Notably, in the sparsity regime of 90% to 99%, DeepZero outperforms (2), showcasing the superiority of gradient sparsity in DeepZero compared to weight sparsity (i.e., directly training a sparse model).
 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/2dtvp_cvpr23/performance_table.png" width="1200">
-    <br>
-    <div style="color:orange;
-    display: inline-block;
-    color: #999; font-size:2px；
-    padding: 2px;">Performance comparison of different thresholds m on the Charades-STA and ActivityNet Captions Datasets.</div>
-</center> 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/deepzero_iclr24/classification_exp.png" width="1500">
+</center>
 
+### Black-box defense
+The black-box defense problem arises when the owner of an ML model is unwilling to share the model details with the defender against adversarial attacks. This poses a challenge for existing robustness enhancement algorithms that directly robustify white-box ML models using FO training. To overcome this challenge, ZO-AE-DS are proposed to introduces an autoencoder (AE) between the white-box denoised smoothing (DS) defense operation (to be learned) and the black-box image classifier to address dimensionality challenges with ZO training. **The downside of ZO-AE-DS is poor scaling to high-resolution datasets (e.g., ImageNet) due to the use of AE**, which compromises the fidelity of the image input to the black-box image classifier and leads to inferior defense performance. In contrast, **DeepZero can directly learn the defense operation integrated with the black-box classifier**, without needing AE. As shown in table below, DeepZero consistently outperforms ZO-AE-DS in terms of certified accuracy (CA) for all values of input perturbation radius $$r > 0$$.
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/deepzero_iclr24/black_box_exp.png" width="1500">
+</center>
+
+### Simulation-coupled DL
+Numerical methods, while instrumental in providing physics-informed simulations, come with their own challenge: the discretization unavoidably produces numerical errors. The feasibility of training a corrective neural network through looping interactions with the iterative partial differential equation (PDE) solver, coined ‘solver-in-the-loop’ (SOL). While existing work focused on using or developing differentiable simulators for model training, we extend SOL by leveraging DeepZero, **enabling its use with non-differentiable or blackbox simulators**. The table below compares the test error correction performance of ZO-SOL (via DeepZero) with three differentiable approaches methods: 
+- SRC (low fidelity simulation without error correction), 
+- NON (non-interactive training out of the simulation loop using pre-generated low and high fidelity simulation data), 
+- FO-SOL (FO training for SOL given a differentiable simulator).
+The error for each test simulation is computed as the mean absolute error (MAE) of the corrected simulation compared to the high fidelity simulation averaged across all simulation timesteps. The results demonstrate that ZO-SOL achieved by DeepZero outperforms the SRC and NON baselines, and narrows the performance gap with FO-SOL, despite only having query-based access to the simulator. Comparing ZO-SOL with NON **highlights the promise of ZO-SOL even when integrated with black-box simulators**.
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/deepzero_iclr24/SOL_exp.png" width="1500">
+</center>
 
 ---
-
 ## Citation
 ```
 @article{zhang2023text,
