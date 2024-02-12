@@ -1,7 +1,7 @@
 ---
 title: "OPTML Group - Projects"
 layout: gridlay
-excerpt: "OPTML Group -- Projects"
+# excerpt: "OPTML Group -- Projects"
 sitemap: false
 permalink: /posts
 ---

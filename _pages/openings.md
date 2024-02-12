@@ -1,7 +1,7 @@
 ---
 title: "Joining the OPTML Group"
 layout: textlay
-excerpt: "Openings"
+# excerpt: "Openings"
 sitemap: false
 permalink: /vacancies
 ---

@@ -1,7 +1,7 @@
 ---
 title: "OPTML - Team"
 layout: gridlay
-excerpt: "OPTML: Team members"
+# excerpt: "OPTML: Team members"
 sitemap: false
 permalink: /team/
 ---
