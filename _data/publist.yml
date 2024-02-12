@@ -1,27 +1,3 @@
-- title: "DeepZero: Scaling up Zeroth-Order Optimization for Deep Model Training"
-  image: deepzero_iclr24.png
-  description: "Zeroth-order (ZO) optimization has become a popular technique for solving machine learning (ML) problems when first-order (FO) information is difficult or impossible to obtain. However, the scala- bility of ZO optimization remains an open problem: Its use has primarily been limited to relatively small-scale ML problems, such as sample-wise adversarial attack generation. To our best knowl- edge, no prior work has demonstrated the effectiveness of ZO optimization in training deep neural networks (DNNs) without a significant decrease in performance. To overcome this roadblock, we develop DeepZero, a principled ZO deep learning (DL) framework that can scale ZO optimization to DNN training from scratch through three primary innovations. First, we demonstrate the advantages of coordinate-wise gradient estimation (CGE) over randomized vector-wise gradient estimation in training accuracy and computational efficiency. Second, we propose a sparsity-induced ZO training protocol that extends the model pruning methodology using only finite differences to explore and exploit the sparse DL prior in CGE. Third, we develop the methods of feature reuse and forward parallelization to advance the practical implementations of ZO training. Our extensive experiments show that DeepZero achieves state-of-the-art (SOTA) accuracy on ResNet-20 trained on CIFAR-10, approaching FO training performance for the first time. Furthermore, we show the practical utility of DeepZero in applications of certified adversarial defense and DL-based partial differential equa- tion error correction, achieving 10-20% improvement over SOTA. We believe our results will inspire future research on scalable ZO optimization and contribute to advancing DL with black box."
-  authors:
-    "<span style='color:blue'>A. Chen*</span>, <span style='color:blue'>Y. Zhang*</span>, <span style='color:blue'>J. Jia</span>, J. Diffenderfer, <span style='color:blue'>J. Liu</span>, K. Parasyris, <span style='color:blue'>Y. Zhang</span>, Z. Zhang, B. Kailkhura, <span style='color:blue'>S. Liu</span>"
-  link:
-    url: https://browse.arxiv.org/abs/2310.02025
-    display: ICLR'24
-  highlight: 1
-  news2: 
-  post: deepzero_iclr24
-
-- title: "To Generate or Not? Safety-Driven Unlearned Diffusion Models Are Still Easy To Generate Unsafe Images ... For Now"
-  image: mu_attack.png
-  description: "The recent advances in diffusion models (DMs) have revolutionized the generation of complex and diverse images. However, these models also introduce potential safety hazards, such as the production of harmful content and infringement of data copyrights. Although there have been efforts to create safety-driven unlearning methods to counteract these challenges, doubts remain about their capabilities. To bridge this uncertainty, we propose an evaluation framework built upon adversarial attacks (also referred to as adversarial prompts), in order to discern the trustworthiness of these safety-driven unlearned DMs. Specifically, our research explores the (worst-case) robustness of unlearned DMs in eradicating unwanted concepts, styles, and objects, assessed by the generation of adversarial prompts. We develop a novel adversarial learning approach called UnlearnDiff that leverages the inherent classification capabilities of DMs to streamline the generation of adversarial prompts, making it as simple for DMs as it is for image classification attacks. This technique streamlines the creation of adversarial prompts, making the process as intuitive for generative modeling as it is for image classification assaults. Through comprehensive benchmarking, we assess the unlearning robustness of five prevalent unlearned DMs across multiple tasks. Our results underscore the effectiveness and efficiency of UnlearnDiff when compared to state-of-the-art adversarial prompting methods."
-  authors:
-    "<span style='color:blue'>Y. Zhang*</span>, <span style='color:blue'>J. Jia*</span>, X. Chen, <span style='color:blue'>A. Chen</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>J. Liu</span>, K. Ding, <span style='color:blue'>S. Liu</span>"
-  link:
-    url: https://arxiv.org/abs/2310.11868
-    display: Under Review
-  highlight: 1
-  news2: 
-  post: mu_attack
-
 - title: "SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation"
   image: dummy.png
   description:
@@ -35,17 +11,16 @@
   post:
 
 - title: "DeepZero: Scaling up Zeroth-Order Optimization for Deep Model Training"
-  image: dummy.png
-  description:
+  image: deepzero_iclr24.png
+  description: "Zeroth-order (ZO) optimization has become a popular technique for solving machine learning (ML) problems when first-order (FO) information is difficult or impossible to obtain. However, the scala- bility of ZO optimization remains an open problem: Its use has primarily been limited to relatively small-scale ML problems, such as sample-wise adversarial attack generation. To our best knowl- edge, no prior work has demonstrated the effectiveness of ZO optimization in training deep neural networks (DNNs) without a significant decrease in performance. To overcome this roadblock, we develop DeepZero, a principled ZO deep learning (DL) framework that can scale ZO optimization to DNN training from scratch through three primary innovations. First, we demonstrate the advantages of coordinate-wise gradient estimation (CGE) over randomized vector-wise gradient estimation in training accuracy and computational efficiency. Second, we propose a sparsity-induced ZO training protocol that extends the model pruning methodology using only finite differences to explore and exploit the sparse DL prior in CGE. Third, we develop the methods of feature reuse and forward parallelization to advance the practical implementations of ZO training. Our extensive experiments show that DeepZero achieves state-of-the-art (SOTA) accuracy on ResNet-20 trained on CIFAR-10, approaching FO training performance for the first time. Furthermore, we show the practical utility of DeepZero in applications of certified adversarial defense and DL-based partial differential equa- tion error correction, achieving 10-20% improvement over SOTA. We believe our results will inspire future research on scalable ZO optimization and contribute to advancing DL with black box."
   authors:
     "<span style='color:blue'>A. Chen*</span>, <span style='color:blue'>Y. Zhang*</span>, <span style='color:blue'>J. Jia</span>, J. Diffenderfer, <span style='color:blue'>J. Liu</span>, K. Parasyris, <span style='color:blue'>Y. Zhang</span>, Z. Zhang, B. Kailkhura, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/abs/2310.02025
     display: ICLR'24
-  highlight: 0
+  highlight: 1
   news2: 
-  post:
-
+  post: deepzero_iclr24
 
 - title: "AutoVP: An Automated Visual Prompting Frameowrk and Benchmark"
   image: dummy.png
