@@ -29,7 +29,7 @@
     "<span style='color:blue'>C. Fan*</span>, <span style='color:blue'>J. Liu*</span>, <span style='color:blue'>Y. Zhang</span>, D. Wei, E. Wong, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/abs/2310.12508
-    display: ICLR'24 (<span style='color:red'><b>Spotlight</b>, acceptance rate 5%</span>)
+    display: ICLR'24 Spotlight
   highlight: 0
   news2: 
   post:
@@ -79,7 +79,7 @@
     "<span style='color:blue'>J. Jia*</span>, <span style='color:blue'>J. Liu*</span>, P. Ram, <span style='color:blue'>Y. Yao</span>, G. Liu, Y. Liu, P. Sharma, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/abs/2304.04934
-    display: NeurIPS'23 (<span style='color:red'><b>Spotlight</b>, acceptance rate 3%</span>)
+    display: NeurIPS'23 (<span style='color:red'><b>Spotlight</b></span>)
   highlight: 0
   news2: 
   post:
@@ -103,7 +103,7 @@
     "<span style='color:blue'>Y. Zhang</span>, R. Cai, T. Chen, G. Zhang, H. Zhang. P. Chen, S. Chang, Z. Wang, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/abs/2308.10110v1
-    display: ICCV'23 (<span style='color:red'><b>Oral</b>, acceptance rate 2%</span>)
+    display: ICCV'23 (<span style='color:red'><b>Oral</b></span>)
   highlight: 0
   news2: 
   post:
