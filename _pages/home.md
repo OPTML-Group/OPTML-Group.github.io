@@ -82,7 +82,7 @@ Authors marked in **bold** indicate our group members, and "\*" indicates equal 
 
 * <a href="https://arxiv.org/abs/2304.04934">Model sparsification can simplify machine unlearning</a><br>
     **J. Jia\***, **J. Liu\***, P. Ram, **Y. Yao**, G. Liu, Y. Liu, P. Sharma, **S. Liu**<br>
-    NeurIPS’23 (Spotlight)
+    NeurIPS’23 **<span style="color:red">(Spotlight)</span>**
 
 * <a href="https://arxiv.org/abs/2209.10222">Understanding and Improving Visual Prompting: A Label-Mapping Perspective</a><br>
     **A. Chen**, **Y. Yao**, P.-Y. Chen, **Y. Zhang**, **S. Liu**<br>
@@ -94,7 +94,7 @@ Authors marked in **bold** indicate our group members, and "\*" indicates equal 
 
 * <a href="https://arxiv.org/abs/2203.14195">How to Robustify Black-Box ML Models? A Zeroth-Order Optimization Perspective</a><br>
     **Y. Zhang**, **Y. Yao**, **J. Jia**, J. Yi, M. Hong, S. Chang, **S. Liu**<br>
-    ICLR’22 (Spotlight)
+    ICLR’22 **<span style="color:red">(Spotlight)</span>**
 
 * <a href="https://arxiv.org/abs/2203.14145">Reverse Engineering of Imperceptible Adversarial Image Perturbations</a><br>
     Y. Gong\*, **Y. Yao\***, Y. Li, Y. Zhang, X. Liu, X. Lin, **S. Liu**<br>
@@ -104,7 +104,7 @@ Authors marked in **bold** indicate our group members, and "\*" indicates equal 
 **Scalable AI: Model & data compression, distributed learning, black-box optimization, and automated ML**
 
 * <a href="https://arxiv.org/abs/2310.08782">Selectivity Drives Productivity: Efficient Dataset Pruning for Enhanced Transfer Learning</a><br>
-    **Y. Zhang\***, **Y. Zhang\***, **A. Chen**, **J. Jia**, **J. Liu**, G. Liu, M. Hong, S. Chang, **S. Liu** <br>
+    **Y. Zhang\***, **Y. Zhang\***, **A. Chen**, **J. Jia**, **J. Liu**, G. Liu, M. Hong, S. Chang, **S. Liu**<br>
     NeurIPS’23
 
 * <a href="https://arxiv.org/abs/2210.04092">Advancing Model Pruning via Bi-level Optimization</a><br>
