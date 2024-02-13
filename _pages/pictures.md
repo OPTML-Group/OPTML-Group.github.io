@@ -14,7 +14,7 @@ permalink: /pictures/
 </style>
 
 
-## Photos
+# Photos
 Dive into the journey of OPTML. Explore our academic pursuits, cherishable memories, the culinary delights of MSU, our candid moments, and the majestic landscapes of the MSU campus.
 
 Jump to: [Group Academic Activities](#group-academic-activities), [Life Beyond Research](#life-beyond-research), [MSU Culinary Delights](#msu-culinary-delights), [Candid Chronicles](#candid-chronicles), [MSU's Serene Beauty](#msus-serene-beauty), [Group Logos](#group-logos)

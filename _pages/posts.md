@@ -6,7 +6,7 @@ sitemap: false
 permalink: /posts
 ---
 
-# Group projects highlights
+# Group Projects Highlights
 
 Authors marked in <span style="color:blue">blue</span> indicate our group members, and "\*" indicates equal contribution.<br />
 
