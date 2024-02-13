@@ -1,7 +1,7 @@
 ---
 title: "News"
 layout: textlay
-excerpt: "OPTML at Michigan State University"
+# excerpt: "OPTML at Michigan State University"
 sitemap: false
 permalink: /allnews.html
 ---

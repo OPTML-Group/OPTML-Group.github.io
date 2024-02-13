@@ -1,7 +1,7 @@
 ---
 title: "OPTML - Research"
 layout: textlay
-excerpt: "OPTML -- Research"
+# excerpt: "OPTML -- Research"
 sitemap: false
 permalink: /research
 ---

@@ -1,7 +1,7 @@
 ---
 title: "OPTML - Photos"
 layout: piclay
-excerpt: "OPTML -- Photos"
+# excerpt: "OPTML -- Photos"
 permalink: /pictures/
 ---
 
