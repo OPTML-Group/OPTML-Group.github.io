@@ -8,7 +8,7 @@ author:
         <a style='color: #dfebf7' href='https://www.linkedin.com/in/xinchenhawaii'>Xin Chen</a><sup>[2]</sup>,
         <a style='color: #dfebf7' href='https://cse.msu.edu/~chenaoch/'>Aochuan Chen</a><sup>[1]</sup>,
         <a style='color: #dfebf7' href='https://www.yihua-zhang.com'>Yihua Zhang</a><sup>[1]</sup>,
-        <a style='color: #dfebf7' href='https://scholar.google.com/citations?user=ReWNzl4AAAAJ&hl=en'>Jiancheng Liu</a><sup>[1]</sup>, 
+        <a style='color: #dfebf7' href='https://ljcc0930.github.io/'>Jiancheng Liu</a><sup>[1]</sup>, 
         <a style='color: #dfebf7' href='https://www.linkedin.com/in/dingke'>Ke Ding</a><sup>[2]</sup>,
         <a style='color: #dfebf7' href='https://lsjxjtu.github.io/'>Sijia Liu</a><sup>[1]</sup>"
 maintainer: "<a style='color: #dfebf7' href='https://damon-demon.github.io'>Yimeng Zhang</a>"

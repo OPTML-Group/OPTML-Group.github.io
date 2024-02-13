@@ -3,7 +3,7 @@ layout: paper
 title:  "[NeurIPS23] Model Sparsity Can Simplify Machine Unlearning"
 date: 2023-12-02 21:00:00
 author: "<a style='color: #dfebf7' href='https://jinghanjia.netlify.app'>Jinghan Jia</a><sup>[1]</sup>*,
-         <a style='color: #dfebf7' href='https://scholar.google.com/citations?user=ReWNzl4AAAAJ&hl=en'>Jiancheng Liu</a><sup>[1]</sup>*,
+         <a style='color: #dfebf7' href='https://ljcc0930.github.io/'>Jiancheng Liu</a><sup>[1]</sup>*,
          <a style='color: #dfebf7' href='https://rithram.github.io/'>Parikshit Ram</a><sup>[2]</sup>,
          <a style='color: #dfebf7' href='https://www.cse.msu.edu/~yaoyugua/'>Yuguang Yao</a><sup>[1]</sup>,
          <a style='color: #dfebf7' href='https://www.linkedin.com/in/gaowen-liu-1b52a610a/'>Gaowen Liu</a><sup>[3]</sup>,
