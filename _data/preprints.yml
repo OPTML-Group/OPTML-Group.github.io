@@ -17,14 +17,7 @@
     "<span style='color:blue'>Y. Zhang*</span>, <span style='color:blue'>J. Jia*</span>, X. Chen, <span style='color:blue'>A. Chen</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>J. Liu</span>, K. Ding, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/abs/2310.11868
-<<<<<<< HEAD
-    display: 
-  highlight: 0
-  news2: 
-  post:
-=======
     display: Under Review
   highlight: 1
   news2: 
   post: mu_attack
->>>>>>> 335352f3ef3081bcc89f132f46da88c8d95425a5
