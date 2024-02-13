@@ -13,12 +13,22 @@
   description: ""
   authors: <span style='color:blue'>S. Liu</span>, P.-Y. Chen, B. Kailkhura, G. Zhang, A. O. Hero, P. K. Varshney
   link:
+    url: https://ieeexplore.ieee.org/abstract/document/9186148
+    display: IEEE Signal Processing Magazine, 2020
+  highlight: 0
+  news2:
+
+- title: "On sparse identification of complex dynamical systems: A study on discovering influential reactions in chemical reaction networks"
+  image: dummy.png
+  description: ""
+  authors: F. Harirchi, D. Kim, O. Khalil, <span style='color:blue'>S. Liu</span>, P. Elvati, M. Baranwal, A. O. Hero, A. Violi
+  link:
     url: https://www.sciencedirect.com/science/article/abs/pii/S001623612031200X
     display: Fuel, Elsevier, 2020
   highlight: 0
   news2:
 
-- title: "Genome Architecture Leads a Bifurcation in Cell Identity"
+- title: "Genome Architecture Mediates Transcriptional Control of Human Myogenic Reprogramming"
   image: dummy.png
   description: ""
   authors: <span style='color:blue'>S. Liu</span>, H. Chen, S. Ronquist, L. Seaman, N. Ceglia, W. Meixner, L. A. Muir, P.-Y. Chen, G. Higgins, P. Baldi, S. Smale, A. O. Hero, I. Rajapakse
@@ -38,12 +48,12 @@
   highlight: 0
   news2:
 
-- title: "Memristor-Based Optimization Framework for AI Applications"
+- title: "A Memristor-Based Optimization Framework for Artificial Intelligence Applications"
   image: dummy.png
   description: ""
   authors: <span style='color:blue'>S. Liu</span>, Y. Wang, M. Fardad, and P. K. Varshney
   link:
-    url: https://arxiv.org/abs/1710.08882
+    url: https://ieeexplore.ieee.org/document/8288635
     display: IEEE Circuits and Systems Magazine, 2018
   highlight: 0
   news2:
@@ -63,7 +73,7 @@
   description: ""
   authors: P.-Y. Chen, <span style='color:blue'>S. Liu</span>
   link:
-    url: https://arxiv.org/abs/1706.00544
+    url: https://ieeexplore.ieee.org/abstract/document/7938677
     display: IEEE Signal Process. Lett., 2017
   highlight: 0
   news2:
@@ -83,17 +93,17 @@
   description: ""
   authors: <span style='color:blue'>S. Liu</span>, S. Kar, M. Fardad, P. K. Varshney
   link:
-    url: https://ieeexplore.ieee.org/document/8288635
+    url: https://ieeexplore.ieee.org/document/7572989
     display: IEEE Transactions on Signal Processing, 2017
   highlight: 0
   news2:
 
-- title: "Measurement Matrix Design for Compressive Detection with Secrecy Guarantees"
+- title: "Measurement Matrix Design for Compressed Detection With Secrecy Guarantees"
   image: dummy.png
   description: ""
   authors: B. Kailkhura, <span style='color:blue'>S. Liu</span>, T. Wimalajeewa, P. K. Varshney
   link:
-    url: https://arxiv.org/abs/1506.00238
+    url: https://ieeexplore.ieee.org/document/7482664
     display: IEEE Wireless Communications Letters, 2016
   highlight: 0
   news2:
@@ -103,7 +113,7 @@
   description: "Sensor Selection for Estimation with Correlated Measurement Noise"
   authors: <span style='color:blue'>S. Liu</span>, S. P. Chepuri, M. Fardad, E. Masazade, G. Leus, P. K. Varshney
   link:
-    url: https://arxiv.org/abs/1508.03690
+    url: https://ieeexplore.ieee.org/document/7446349
     display: IEEE Transactions on Signal Processing, 2016
   highlight: 0
   news2:
