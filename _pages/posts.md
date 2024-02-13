@@ -10,10 +10,12 @@ permalink: /posts
 
 Authors marked in <span style="color:blue">blue</span> indicate our group members, and "\*" indicates equal contribution.<br />
 
-{% assign number_printed = 0 %}
-{% assign all_publications = site.data.publications.preprints | concat: site.data.publications.conferences %}
+{% assign temp_pubs = site.data.publications.preprints | concat: site.data.publications.conferences %}
+{% assign all_pubs = temp_pubs | concat: site.data.publications.journals %}
 
-{% for publi in all_publications %}
+{% assign number_printed = 0 %}
+
+{% for publi in all_pubs %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if publi.highlight == 1 %}
