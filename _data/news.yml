@@ -20,28 +20,28 @@
   headline: "Grateful to receive a grant from Army Research Office (ARO) as the PI."
 
 - date: 12. August 2023
-  headline: "Our paper on <a href='https://arxiv.org/abs/2308.10110v1'>Adversarial Training for MoE</a> has been chosen for an Oral Presentation at ICCV'23!"
+  headline: "Our paper on <a href='https://arxiv.org/abs/2308.10110v1'>Adversarial Training for MoE</a> has been chosen for an Oral Presentation at ICCV’23!"
 
 - date: 2. August 2023
   headline: "Grateful to receive a gift funding from Cisco Research as the PI."
 
 - date: 21. July 2023
-  headline: "Call for participation in <a href='https://advml-frontier.github.io/'>2nd AdvML-Frontiers Workshop</a>@ICML'23"
+  headline: "Call for participation in <a href='https://advml-frontier.github.io/'>2nd AdvML-Frontiers Workshop</a>@ICML’23"
 
 - date: 19. July 2023
-  headline: "One paper in ICCV'23 on Adversarial Robustness of Mixture-of-Experts"
+  headline: "One paper in ICCV’23 on Adversarial Robustness of Mixture-of-Experts"
 
 - date: 29. June 2023
   headline: "Grateful to receive a CPS Medium Grant Award from NSF as a co-PI."
 
 - date: 19. June 2023
-  headline: "Slides of our CVPR'23 tutorial on Reverse Engineering of Deceptions (RED) is now available at the <a href='https://sites.google.com/view/cvpr2023red'>tutorial page</a>. Tutorial recording is available <a href='https://youtu.be/j3bivXEiIm4'>here</a>."
+  headline: "Slides of our CVPR’23 tutorial on Reverse Engineering of Deceptions (RED) is now available at the <a href='https://sites.google.com/view/cvpr2023red'>tutorial page</a>. Tutorial recording is available <a href='https://youtu.be/j3bivXEiIm4'>here</a>."
 
 - date: 4. June 2023
   headline: "Our paper <a href='https://arxiv.org/pdf/2210.06284.pdf'>Visual Prompting for Adversarial Robustness</a> received the <a href='https://drive.google.com/file/d/1PHjGXkCUSRJ3pQc4_8BGl_Y5aaRB-Nuw/view'>Top 3% Paper Recognition at ICASSP 2023</a>. Congrats to Aochuan, Peter (internship at OPTML in 2022), Yuguang, and Pin-Yu (IBM Research)!"
 
 - date: 24. April 2023
-  headline: "Two papers in <a href='https://icml.cc/'>ICML'23</a> and CFP for <a href='https://advml-frontier.github.io'>2nd AdvML-Frontiers Workshop @ICML'23</a>."
+  headline: "Two papers in <a href='https://icml.cc/'>ICML’23</a> and CFP for <a href='https://advml-frontier.github.io'>2nd AdvML-Frontiers Workshop @ICML’23</a>."
 
 - date: 17. April 2023
   headline: "A new arXiv paper is released: Model Sparsification Can Simplify Machine Unlearning (see <a href='https://arxiv.org/abs/2304.04934'>paper</a> and <a href='https://github.com/OPTML-Group/Unlearn-Sparse'>code</a>)!"
@@ -50,28 +50,28 @@
   headline: "Grateful to receive a grant from Lawrence Livermore National Laboratory."
 
 - date: 1. April 2023
-  headline: "Call for Papers and AdvML Rising Star Award Applications in the workshop <a href='https://advml-frontier.github.io'>AdvML-Frontiers</a>, ICML'23 "
+  headline: "Call for Papers and AdvML Rising Star Award Applications in the workshop <a href='https://advml-frontier.github.io'>AdvML-Frontiers</a>, ICML’23 "
 
 - date: 17. March 2023
   headline: "A new arXiv paper is released: Adversarial attacks can be parsed to reveal victim model information! (see [<a href='https://arxiv.org/pdf/2303.07474.pdf'>Paper</a>])"
 
 - date: 17. March 2023
-  headline: "The 2nd Workshop on <a href='https://advml-frontier.github.io/'>New Frontiers in Adversarial Machine Learning</a> has been accepted by ICML'23"
+  headline: "The 2nd Workshop on <a href='https://advml-frontier.github.io/'>New Frontiers in Adversarial Machine Learning</a> has been accepted by ICML’23"
 
 - date: 1. March 2023
   headline: "Grateful to receive a grant from DSO National Laboratories."
 
 - date: 27. February 2023
-  headline: "Two papers accepted in CVPR'23."
+  headline: "Two papers accepted in CVPR’23."
 
 - date: 16. February 2023
-  headline: "Three papers accepted in ICASSP'23."
+  headline: "Three papers accepted in ICASSP’23."
 
 - date: 11. February 2023
-  headline: "CVPR'23 tutorial on Reverse Engineering of Deception: Foundations and Applications is accepted and will be given with Xiaoming Liu (MSU) and Xue Lin (Northeastern)."
+  headline: "CVPR’23 tutorial on Reverse Engineering of Deception: Foundations and Applications is accepted and will be given with Xiaoming Liu (MSU) and Xue Lin (Northeastern)."
 
 - date: 09. February 2023
-  headline: "AAAI'23 tutorial on <a href='https://sites.google.com/view/aaai2023tutorial/home'>Bi-level Optimization in ML: Foundations and Applications</a> is now available!"
+  headline: "AAAI’23 tutorial on <a href='https://sites.google.com/view/aaai2023tutorial/home'>Bi-level Optimization in ML: Foundations and Applications</a> is now available!"
 
 - date: 20. January 2023
   headline: "Four papers accepted in <a href='https://iclr.cc/'>ICLR 2023</a>: <a href='https://openreview.net/pdf?id=MjsDeTcDEy'>Issues and Fixes in IRM</a>, <a href='https://openreview.net/pdf?id=5tKXUZil3X'>TextGrad: Differentiable Solution to NLP Attack Generation</a>, <a href='https://openreview.net/pdf?id=4UldFtZ_CVF'>Provable Benefits of Sparse GNN</a>, <a href='https://openreview.net/pdf?id=jClGv3Qjhb'>Sample Complexity Analysis of ViT</a>"
@@ -83,19 +83,19 @@
   headline: "One paper accepted in <a href='https://saner2023.must.edu.mo/'>SANER 2023</a>: <a href='https://arxiv.org/abs/2211.11711'>Towards Both Robust and Accurate Code Models</a>; Equally contributed by Jinghan Jia (MSU) and Shashank Srikant (MIT)."
 
 - date: 23. November 2022
-  headline: "Code Repositories of <a href='https://github.com/OPTML-Group/BiP'>Bi-Level Pruning (NeurIPS'22)</a>, <a href='https://github.com/OPTML-Group/Fairness-Reprogramming'>Fairness Reprogramming (NeurIPS'22)</a>, and <a href='https://github.com/OPTML-Group/ILM-VP'>Visual Prompting by Iterative Label Mapping (arXiv)</a> have been released."
+  headline: "Code Repositories of <a href='https://github.com/OPTML-Group/BiP'>Bi-Level Pruning (NeurIPS’22)</a>, <a href='https://github.com/OPTML-Group/Fairness-Reprogramming'>Fairness Reprogramming (NeurIPS’22)</a>, and <a href='https://github.com/OPTML-Group/ILM-VP'>Visual Prompting by Iterative Label Mapping (arXiv)</a> have been released."
 
 - date: 22. November 2022
   headline: "Dr. Sijia Liu is selected as a presenter of the AAAI 2023 New Faculty Highlight Program."
 
 - date: 12. October 2022
-  headline: "Tutorial on <a href='https://sites.google.com/view/neurips2022-frfm-turotial/'>Foundational Robustness of Foundation Models</a> will be given in <a href='https://nips.cc'>NeurIPS'22</a>."
+  headline: "Tutorial on <a href='https://sites.google.com/view/neurips2022-frfm-turotial/'>Foundational Robustness of Foundation Models</a> will be given in <a href='https://nips.cc'>NeurIPS’22</a>."
 
 - date: 11. October 2022
-  headline: "Tutorial on Bi-level Machine Learning will be given in <a href='https://aaai.org/Conferences/AAAI-23/aaai23tutorials/'>AAAI'23</a>."
+  headline: "Tutorial on Bi-level Machine Learning will be given in <a href='https://aaai.org/Conferences/AAAI-23/aaai23tutorials/'>AAAI’23</a>."
 
 - date: 14. September 2022
-  headline: "Two papers accpeted in <a href='https://nips.cc'>NeurIPS'22</a>."
+  headline: "Two papers accpeted in <a href='https://nips.cc'>NeurIPS’22</a>."
 
 - date: 2. September 2022
   headline: "<a href='https://scholar.google.de/citations?user=laq9cq0AAAAJ&hl=en'>Francesco Croce</a> will give an invited talk on test-time defense on Sept. 7th."
@@ -107,28 +107,28 @@
   headline: Grateful to receive the <b>Best Paper Runner-Up Award</b> at UAI’22 in recognition of our work <a href="https://arxiv.org/pdf/2206.06257.pdf">Distributed Adversarial Training to Robustify Deep Neural Networks at Scale</a>.
 
 - date: 16. May 2022
-  headline: One paper accepted in <a href="https://www.auai.org/uai2022/">UAI'22</a>.
+  headline: One paper accepted in <a href="https://www.auai.org/uai2022/">UAI’22</a>.
 
 - date: 15. May 2022
-  headline: "Five papers accepted in <a href='https://icml.cc/'>ICML'22</a> : <a href='https://arxiv.org/pdf/2112.12376.pdf'>Bi-level adversarial training </a>; <a href='https://arxiv.org/pdf/2206.04762.pdf'>Winning lottery tickets from robust pretraining</a>; <a href='https://arxiv.org/pdf/2206.07839.pdf'>Pruning helps certified robustness</a>; <a href='https://arxiv.org/pdf/2112.04468.pdf'>Contrastive learning theory</a>; and Generalization theory of GCN."
+  headline: "Five papers accepted in <a href='https://icml.cc/'>ICML’22</a> : <a href='https://arxiv.org/pdf/2112.12376.pdf'>Bi-level adversarial training </a>; <a href='https://arxiv.org/pdf/2206.04762.pdf'>Winning lottery tickets from robust pretraining</a>; <a href='https://arxiv.org/pdf/2206.07839.pdf'>Pruning helps certified robustness</a>; <a href='https://arxiv.org/pdf/2112.04468.pdf'>Contrastive learning theory</a>; and Generalization theory of GCN."
 
 - date: 20. April 2022
-  headline: One paper accepted in <a href="https://ijcai-22.org/">IJCAI'22</a>.
+  headline: One paper accepted in <a href="https://ijcai-22.org/">IJCAI’22</a>.
 
 - date: 1. April 2022
-  headline: "CFP: The 1st Workshop on New Frontiers in Adversarial Machine Learning at ICML'22 (<a href='https://advml-frontier.github.io/'>AdvML-Frontiers@ICML'22</a>)."
+  headline: "CFP: The 1st Workshop on New Frontiers in Adversarial Machine Learning at ICML’22 (<a href='https://advml-frontier.github.io/'>AdvML-Frontiers@ICML’22</a>)."
 
 - date: 11. March 2022
   headline: "Dr. Sijia Liu is grateful to receive a gift funding from <a href='https://research.cisco.com/'>Cisco Research</a> as the PI."
 
 - date: 4. March 2022
-  headline: Two papers accepted in <a href="https://cvpr2022.thecvf.com/">CVPR'22</a>. Congratulations to <a href="http://www.yihua-zhang.com">Yihua Zhang</a> for his first CVPR paper!
+  headline: Two papers accepted in <a href="https://cvpr2022.thecvf.com/">CVPR’22</a>. Congratulations to <a href="http://www.yihua-zhang.com">Yihua Zhang</a> for his first CVPR paper!
 
 - date: 28. February 2022
   headline: Aochuan(Arthur) Chen will join us in Fall 2022 -- welcome Arthur!
 
 - date: 21. January 2022
-  headline: "Five accepted papers in ICLR'22, <a href='https://openreview.net/pdf?id=gpp7cf0xdfN'>Reverse Engineering of Adversaries</a>, <a href='https://openreview.net/pdf?id=W9G_ImpHlQd'>Black-Box Defense(spotlight)</a>, <a href='https://openreview.net/pdf?id=VqzXzA9hjaX'>Learning to Optimize</a>, <a href='https://openreview.net/pdf?id=qiMXBIf4NfB'>Self-Training Theory</a>, <a href='https://openreview.net/pdf?id=oj2yn1Q4Ett'>Distributed Learning</a>. Congratulations to Yimeng Zhang, Yuguang Yao, Jianghan Jia for their first ICLR papers!"
+  headline: "Five accepted papers in ICLR’22, <a href='https://openreview.net/pdf?id=gpp7cf0xdfN'>Reverse Engineering of Adversaries</a>, <a href='https://openreview.net/pdf?id=W9G_ImpHlQd'>Black-Box Defense(spotlight)</a>, <a href='https://openreview.net/pdf?id=VqzXzA9hjaX'>Learning to Optimize</a>, <a href='https://openreview.net/pdf?id=qiMXBIf4NfB'>Self-Training Theory</a>, <a href='https://openreview.net/pdf?id=oj2yn1Q4Ett'>Distributed Learning</a>. Congratulations to Yimeng Zhang, Yuguang Yao, Jianghan Jia for their first ICLR papers!"
 
 - date: 15. January 2022
   headline: "Our work on <a href='https://arxiv.org/pdf/2112.12376.pdf'>interpreting and advancing adversarial training via bi-level optimization</a> is now available on arXiv; equally contributed by Yihua Zhang (MSU) and Guanhua Zhang (UCSB)."
@@ -137,10 +137,10 @@
   headline: Dr. Sijia Liu receives a DARPA IP2 AIE Grant as a Co-PI.
 
 - date: 28. September 2021
-  headline: "Five papers accepted in <a href='https://nips.cc/'>NeurIPS'21</a>."
+  headline: "Five papers accepted in <a href='https://nips.cc/'>NeurIPS’21</a>."
 
 - date: 19. May 2021
   headline: "Our MSU-NEU team (with PI <a href='https://www.cse.msu.edu/~liuxm/index2.html'>Xiaoming Liu</a> and co-PI <a href='https://web.northeastern.edu/xuelin/?page_id=60'>Xue Lin</a>) entered the Phase 2 of DARPA AIE RED."
 
 - date: 13. May 2021
-  headline: "One paper accepted in <a href='https://icml.cc'>ICML'21</a>"
+  headline: "One paper accepted in <a href='https://icml.cc'>ICML’21</a>"

@@ -1,6 +1,6 @@
 ---
 layout: paper
-title:  "[CVPR'23] Text-Visual Prompting for Efficient 2D Temporal Video Grounding"
+title:  "[CVPR’23] Text-Visual Prompting for Efficient 2D Temporal Video Grounding"
 date: 2023-05-24 7:00:00
 author: "<a style='color: #dfebf7' href='https://damon-demon.github.io'>Yimeng Zhang</a><sup>[1,2]</sup>, 
          <a style='color: #dfebf7' href='https://www.linkedin.com/in/xinchenhawaii'>Xin Chen</a><sup>[2]</sup>, 

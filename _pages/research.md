@@ -83,5 +83,5 @@ Two of our achievements are highlighted below.
 
 ### Workshops
 
-* [Adversarial Learning Methods for Machine Learning and Data Mining](https://sites.google.com/view/advml), KDD'21
+* [Adversarial Learning Methods for Machine Learning and Data Mining](https://sites.google.com/view/advml), KDD’21
 

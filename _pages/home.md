@@ -105,7 +105,7 @@ Authors marked in **bold** indicate our group members, and "\*" indicates equal 
 
 * <a href="https://arxiv.org/abs/2310.08782">Selectivity Drives Productivity: Efficient Dataset Pruning for Enhanced Transfer Learning</a><br>
     **Y. Zhang\***, **Y. Zhang\***, **A. Chen**, **J. Jia**, **J. Liu**, G. Liu, M. Hong, S. Chang, **S. Liu** <br>
-    NeurIPS'23
+    NeurIPS’23
 
 * <a href="https://arxiv.org/pdf/2210.04092.pdf">Advancing Model Pruning via Bi-level Optimization</a><br>
     **Y. Zhang\***, **Y. Yao\***, P. Ram, P. Zhao, T. Chen, M. Hong, Y. Wang, **S. Liu**<br>
