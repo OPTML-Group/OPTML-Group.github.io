@@ -80,25 +80,25 @@ Authors marked in **bold** indicate our group members, and "\*" indicates equal 
 
 **Trustworthy AI: Robustness, fairness, and model explanation**
 
-* <a href="https://arxiv.org/pdf/2304.04934.pdf">Model sparsification can simplify machine unlearning</a><br>
+* <a href="https://arxiv.org/abs/2304.04934">Model sparsification can simplify machine unlearning</a><br>
     **J. Jia\***, **J. Liu\***, P. Ram, **Y. Yao**, G. Liu, Y. Liu, P. Sharma, **S. Liu**<br>
     NeurIPS’23 (Spotlight)
 
-* <a href="https://arxiv.org/pdf/2209.10222.pdf">Understanding and Improving Visual Prompting: A Label-Mapping Perspective</a><br>
+* <a href="https://arxiv.org/abs/2209.10222">Understanding and Improving Visual Prompting: A Label-Mapping Perspective</a><br>
     **A. Chen**, **Y. Yao**, P.-Y. Chen, **Y. Zhang**, **S. Liu**<br>
     CVPR’23
 
-* <a href="https://arxiv.org/pdf/2112.12376.pdf">Revisiting and advancing fast adversarial training through the lens of bi-level optimization</a><br>
+* <a href="https://arxiv.org/abs/2112.12376">Revisiting and advancing fast adversarial training through the lens of bi-level optimization</a><br>
     **Y. Zhang\***, G. Zhang\*, P. Khanduri, M. Hong, S. Chang, **S. Liu**<br>
-    ICML’22 
+    ICML’22
 
-* <a href="https://openreview.net/pdf?id=gpp7cf0xdfN">Reverse Engineering of Imperceptible Adversarial Image Perturbations</a><br>
-    Y. Gong\*, **Y. Yao\***, Y. Li, Y. Zhang, X. Liu, X. Lin, **S. Liu**<br>
-    ICLR’22  
-
-* <a href="https://openreview.net/pdf?id=W9G_ImpHlQd">How to Robustify Black-Box ML Models? A Zeroth-Order Optimization Perspective</a><br>
+* <a href="https://arxiv.org/abs/2203.14195">How to Robustify Black-Box ML Models? A Zeroth-Order Optimization Perspective</a><br>
     **Y. Zhang**, **Y. Yao**, **J. Jia**, J. Yi, M. Hong, S. Chang, **S. Liu**<br>
     ICLR’22 (Spotlight)
+
+* <a href="https://arxiv.org/abs/2203.14145">Reverse Engineering of Imperceptible Adversarial Image Perturbations</a><br>
+    Y. Gong\*, **Y. Yao\***, Y. Li, Y. Zhang, X. Liu, X. Lin, **S. Liu**<br>
+    ICLR’22
 
 
 **Scalable AI: Model & data compression, distributed learning, black-box optimization, and automated ML**
@@ -107,19 +107,19 @@ Authors marked in **bold** indicate our group members, and "\*" indicates equal 
     **Y. Zhang\***, **Y. Zhang\***, **A. Chen**, **J. Jia**, **J. Liu**, G. Liu, M. Hong, S. Chang, **S. Liu** <br>
     NeurIPS’23
 
-* <a href="https://arxiv.org/pdf/2210.04092.pdf">Advancing Model Pruning via Bi-level Optimization</a><br>
+* <a href="https://arxiv.org/abs/2210.04092">Advancing Model Pruning via Bi-level Optimization</a><br>
     **Y. Zhang\***, **Y. Yao\***, P. Ram, P. Zhao, T. Chen, M. Hong, Y. Wang, **S. Liu**<br>
     NeurIPS’22
 
-* <a href="https://arxiv.org/pdf/2206.06257.pdf">Distributed Adversarial Training to Robustify Deep Neural Networks at Scale</a><br>
+* <a href="https://arxiv.org/abs/2206.06257">Distributed Adversarial Training to Robustify Deep Neural Networks at Scale</a><br>
     G. Zhang\*, S. Lu\*, **Y. Zhang**, X. Chen, P.-Y. Chen, Q. Fan, L. Martie, L. Horesh, M. Hong, **S. Liu**<br>
     UAI’22 **<span style="color:red">(Best Paper Runner-Up Award)</span>**
 
-* <a href="https://arxiv.org/pdf/1909.13806.pdf">Min-Max Optimization without Gradients: Convergence and Applications to Adversarial ML</a><br>
+* <a href="https://arxiv.org/abs/1909.13806">Min-Max Optimization without Gradients: Convergence and Applications to Adversarial ML</a><br>
     **S. Liu**, S. Lu, X. Chen, Y. Feng, K. Xu, A. Al-Dujaili, M. Hong, U.-M. O'Reilly<br>
     ICML’20
 
-* <a href="https://arxiv.org/pdf/2006.06224.pdf">A Primer on Zeroth-Order Optimization in Signal Processing and Machine Learning</a><br>
+* <a href="https://arxiv.org/abs/2006.06224">A Primer on Zeroth-Order Optimization in Signal Processing and Machine Learning</a><br>
     **S. Liu**, P.-Y. Chen, B. Kailkhura, G. Zhang, A. O. Hero, P. K. Varshney<br>
     IEEE Signal Processing Magazine, 2020
 

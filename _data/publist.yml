@@ -280,7 +280,7 @@
   authors: 
     "H. Li, M. Weng, <span style='color:blue'>S. Liu</span>, P. Chen, and J. Xiong"
   link:
-    url: 
+    url: https://arxiv.org/abs/2207.03584
     display: ICML’22.
   highlight: 0
   news2:
@@ -291,7 +291,7 @@
   authors: 
     "Y. Xie, D. Wang, P. Chen, J. Xiong, <span style='color:blue'>S. Liu</span>, S. Koyejo"
   link:
-    url: 
+    url: https://aclanthology.org/2022.naacl-main.43.pdf
     display: NAACL’22.
   highlight: 0
   news2:
@@ -302,7 +302,7 @@
   authors: 
     "P. Zhao, P. Ram, S. Lu, <span style='color:blue'>Y. Yao</span>, D. Bouneffouf, X. Lin, <span style='color:blue'>S. Liu</span>"
   link:
-    url: 
+    url: https://arxiv.org/abs/2009.13714
     display: IJCAI’22
   highlight: 0
   news2:
@@ -313,7 +313,7 @@
   authors: 
     "V. Asnani, X. Yin, T. Hassner, <span style='color:blue'>S. Liu</span>, X. Liu"
   link:
-    url: 
+    url: https://arxiv.org/abs/2203.15880
     display: CVPR’22
   highlight: 0
   news2:
@@ -492,7 +492,7 @@
   authors: 
     J. Mohapatra, C.-Y. Ko, L. Weng, P.-Y. Chen, <span style='color:blue'>S. Liu</span>, L. Daniel
   link:
-    url: https://lsjxjtu.github.io/null
+    url: https://arxiv.org/abs/2003.01249
     display: AISTATS’21
   highlight: 0
   news2: 
@@ -558,7 +558,7 @@
   authors: 
     A. Boopathy, L. Weng, <span style='color:blue'>S. Liu</span>, P.-Y. Chen, G. Zhang, L. Daniel
   link:
-    url: 
+    url: https://arxiv.org/abs/2102.01208
     display: AAAI’21
   highlight: 0
   news2: 
@@ -569,18 +569,18 @@
   authors: 
     M. Cheng, P.-Y. Chen, <span style='color:blue'>S. Liu</span>, S. Chang, C.-J. Hsieh, P. Das
   link:
-    url: 
+    url: https://arxiv.org/abs/2012.11769
     display: AAAI’21
   highlight: 0
   news2: 
 
-- title: "Achieving Real-Time Execution of 3D Convolutional Neural Networks on Mobile Devices"
+- title: "RT3D: Achieving Real-Time Execution of 3D Convolutional Neural Networks on Mobile Devices"
   image: dummy.png
   description: ""
   authors: 
     W. Niu, M. Sun, Z. Li, J.-A. Chen, J. Guan, X. Shen, Y. Wang, <span style='color:blue'>S. Liu</span>, X. Lin, B. Ren
   link:
-    url: 
+    url: https://arxiv.org/abs/2007.09835
     display: AAAI’21
   highlight: 0
   news2: 
