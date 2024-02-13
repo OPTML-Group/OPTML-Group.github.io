@@ -5,7 +5,7 @@
     "<span style='color:blue'>Z. Pan*</span>, <span style='color:blue'>Y. Yao*</span>, G. Liu, B. Shen, H. V. Zhao, R. R. Kompella, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/abs/2311.02373
-    display:
+    display: arXiv Preprint
   highlight: 0
   news2: 
   post:
@@ -17,7 +17,7 @@
     "<span style='color:blue'>Y. Zhang*</span>, <span style='color:blue'>J. Jia*</span>, X. Chen, <span style='color:blue'>A. Chen</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>J. Liu</span>, K. Ding, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/abs/2310.11868
-    display: Under Review
+    display: arXiv Preprint
   highlight: 1
   news2: 
   post: mu_attack
