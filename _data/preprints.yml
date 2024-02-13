@@ -1,23 +1,21 @@
 - title: "From Trojan Horses to Castle Walls: Unveiling Bilateral Backdoor Effects in Diffusion Models"
   image: dummy.png
   description:
-  authors:
-    "<span style='color:blue'>Z. Pan*</span>, <span style='color:blue'>Y. Yao*</span>, G. Liu, B. Shen, H. V. Zhao, R. R. Kompella, <span style='color:blue'>S. Liu</span>"
+  authors: "<span style='color:blue'>Z. Pan*</span>, <span style='color:blue'>Y. Yao*</span>, G. Liu, B. Shen, H. V. Zhao, R. R. Kompella, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/abs/2311.02373
     display: arXiv Preprint
   highlight: 0
-  news2: 
+  news2:
   post:
 
 - title: "To Generate or Not? Safety-Driven Unlearned Diffusion Models Are Still Easy To Generate Unsafe Images ... For Now"
   image: mu_attack.png
   description: "The recent advances in diffusion models (DMs) have revolutionized the generation of complex and diverse images. However, these models also introduce potential safety hazards, such as the production of harmful content and infringement of data copyrights. Although there have been efforts to create safety-driven unlearning methods to counteract these challenges, doubts remain about their capabilities. To bridge this uncertainty, we propose an evaluation framework built upon adversarial attacks (also referred to as adversarial prompts), in order to discern the trustworthiness of these safety-driven unlearned DMs. Specifically, our research explores the (worst-case) robustness of unlearned DMs in eradicating unwanted concepts, styles, and objects, assessed by the generation of adversarial prompts. We develop a novel adversarial learning approach called UnlearnDiff that leverages the inherent classification capabilities of DMs to streamline the generation of adversarial prompts, making it as simple for DMs as it is for image classification attacks. This technique streamlines the creation of adversarial prompts, making the process as intuitive for generative modeling as it is for image classification assaults. Through comprehensive benchmarking, we assess the unlearning robustness of five prevalent unlearned DMs across multiple tasks. Our results underscore the effectiveness and efficiency of UnlearnDiff when compared to state-of-the-art adversarial prompting methods."
-  authors:
-    "<span style='color:blue'>Y. Zhang*</span>, <span style='color:blue'>J. Jia*</span>, X. Chen, <span style='color:blue'>A. Chen</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>J. Liu</span>, K. Ding, <span style='color:blue'>S. Liu</span>"
+  authors: "<span style='color:blue'>Y. Zhang*</span>, <span style='color:blue'>J. Jia*</span>, X. Chen, <span style='color:blue'>A. Chen</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>J. Liu</span>, K. Ding, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/abs/2310.11868
     display: arXiv Preprint
   highlight: 1
-  news2: 
+  news2:
   post: mu_attack
