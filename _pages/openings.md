@@ -13,10 +13,10 @@ permalink: /vacancies
 ### Applications for PhD positions
 
 **OPtimization and Trustworthy Machine Learning Group**  
-Dr Liu's lab (OTPML Group) at the [Department of Computer Science and Engineering](https://www.cse.msu.edu/) of [Michigan State University](https://msu.edu/) (MSU) has multiple RA openings. We are looking for strong candidates who are willing to pursue a PhD degree in the direction of machine learning (ML)/deep learning (DL), optimization theory and methods, computer vision (CV) and artificial intelligence (Al), with a focus on trustworthy Al (e.g, adversarial robustness, fairness, explainability, ML for security, etc.), and optimization for ML/DL.
+Dr. Liu's lab (OPTML Group) at the [Department of Computer Science and Engineering](https://www.cse.msu.edu/) of [Michigan State University](https://msu.edu/) (MSU) has multiple RA openings. We are looking for strong candidates who are willing to pursue a PhD degree in the direction of machine learning (ML)/deep learning (DL), optimization theory and methods, computer vision (CV) and artificial intelligence (Al), with a focus on trustworthy Al (e.g, adversarial robustness, fairness, explainability, ML for security, etc.), and optimization for ML/DL.
 
 **Instructions for Interested candidates** 
-You are strongly encouraged to contact Dr. Liu by [email](liusiji5@msu.edu), together with your resume and transcript. A full description of the application instructions can be found at the department website - [Future Graduate Students](https://www.cse.msu.edu/Students/Future_Grad/HowToApply.php). 
+You are strongly encouraged to contact Dr. Liu by [email](liusiji5@msu.edu), together with your resume and transcript. A full description of the application instructions can be found at the department website - [Future Graduate Students](https://www.cse.msu.edu/Students/Future_Grad/HowToApply.php).
 <!-- Applicants who would like to start in Spring semester (Jan. 2021) please contact Dr. Liu ASAP. -->
 
 <!-- **About Pl**
