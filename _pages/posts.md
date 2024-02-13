@@ -11,7 +11,7 @@ permalink: /posts
 Authors marked in <span style="color:blue">blue</span> indicate our group members, and "\*" indicates equal contribution.<br />
 
 {% assign number_printed = 0 %}
-{% for publi in site.data.preprints %}
+{% for publi in site.data.publications.preprints %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if publi.highlight == 1 %}
@@ -42,7 +42,7 @@ Authors marked in <span style="color:blue">blue</span> indicate our group member
 {% endif %}
 {% endfor %}
 
-{% for publi in site.data.publist %}
+{% for publi in site.data.publications.conferences %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if publi.highlight == 1 %}
