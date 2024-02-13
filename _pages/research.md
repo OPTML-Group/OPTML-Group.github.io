@@ -79,7 +79,7 @@ Two of our achievements are highlighted below.
 
 * [Zeroth Order Optimization: Theory and Applications to Deep Learning](https://sites.google.com/umich.edu/cvpr-2020-zoo), CVPR’20
 
-* [Recent Progress in Zeroth Order Optimization and Its Applications to Adversarial Robustness in Data Mining and Machine Learning](https://sites.google.com/view/adv-robustness-zoopt), KDD'19
+* [Recent Progress in Zeroth Order Optimization and Its Applications to Adversarial Robustness in Data Mining and Machine Learning](https://sites.google.com/view/adv-robustness-zoopt), KDD’19
 
 ### Workshops
 
