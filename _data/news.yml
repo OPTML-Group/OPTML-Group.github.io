@@ -2,19 +2,19 @@
   headline: "Tutorial 'Machine Unlearning in Computer Vision: Foundations and Applications' is accepted for presentation by [CVPR’24](https://cvpr.thecvf.com/Conferences/2024). See you in Seattle!"
 
 - date: 16. January 2024
-  headline: "Four papers accepted in ICLR’24: [1] [Machine unlearning for safe image generation](https://arxiv.org/pdf/2310.12508.pdf); [2] [DeepZero: Training neural networks from scratch using only forward passes](https://arxiv.org/pdf/2310.02025.pdf); [3] [Backdoor data sifting](); [4] [Visual prompting automation](https://arxiv.org/pdf/2310.08381.pdf)"
+  headline: "Four papers accepted in ICLR’24: [1] [Machine unlearning for safe image generation](https://arxiv.org/pdf/2310.12508.pdf) (Spotlight); [2] [DeepZero: Training neural networks from scratch using only forward passes](https://arxiv.org/pdf/2310.02025.pdf); [3] [Backdoor data sifting](); [4] [Visual prompting automation](https://arxiv.org/pdf/2310.08381.pdf)."
 
 - date: 9. November 2023
   headline: "[New Preprints] We are pleased to announce the release of the paper on arXiv: [From Trojan Horses to Castle Walls: Unveiling Bilateral Backdoor Effects in Diffusion Models](https://arxiv.org/abs/2311.02373)."
 
 - date: 24. October 2023
-  headline: "Tutorial on 'Zeroth-Order Machine Learning - Fundamental Principles and Emerging Applications in Foundation Models' is accepted by ICASSP’24 and AAAI’24"
+  headline: "Tutorial on 'Zeroth-Order Machine Learning - Fundamental Principles and Emerging Applications in Foundation Models' is accepted by ICASSP’24 and AAAI’24."
 
 - date: 21. October 2023
   headline: "[New Preprints] We are pleased to announce the release of the following papers on arXiv: [1] [To Generate or Not? Safety-Driven Unlearned Diffusion Models Are Still Easy To Generate Unsafe Images … For Now](https://arxiv.org/abs/2310.11868); [2] [SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation](https://arxiv.org/abs/2310.12508); [3] [DeepZero: Scaling up Zeroth-Order Optimization for Deep Model Training](https://browse.arxiv.org/abs/2310.02025)."
 
 - date: 22. September 2023
-  headline: "NeurIPS 2023: 3 Papers Accepted – 1 Spotlight and 2 Posters. Congratulations to Jinghan, Jiancheng, and Yuguang for their spotlight acceptance with 'Model Sparsity Simplifies Machine Unlearning'. And kudos to Yihua, Yimeng, Aochuan, Jinghan, and Jiancheng for their poster acceptance with 'Selectivity Boosts Transfer Learning Efficiency.'"
+  headline: "NeurIPS 2023: 3 Papers Accepted – 1 Spotlight and 2 Posters. Congratulations to Jinghan, Jiancheng, and Yuguang for their spotlight acceptance with '[Model Sparsity Simplifies Machine Unlearning](https://arxiv.org/pdf/2304.04934.pdf)'. And kudos to Yihua, Yimeng, Aochuan, Jinghan, and Jiancheng for their poster acceptance with '[Selectivity Boosts Transfer Learning Efficiency](https://arxiv.org/pdf/2310.08782.pdf)'."
 
 - date: 31. August 2023
   headline: "Grateful to receive a grant from Army Research Office (ARO) as the PI."
@@ -44,7 +44,7 @@
   headline: "Two papers in [ICML’23](https://icml.cc/Conferences/2023) and CFP for [2nd AdvML-Frontiers Workshop @ICML’23](https://advml-frontier.github.io)."
 
 - date: 17. April 2023
-  headline: "A new arXiv paper is released: Model Sparsification Can Simplify Machine Unlearning (see [paper](https://arxiv.org/abs/2304.04934) and [code](https://github.com/OPTML-Group/Unlearn-Sparse))!"
+  headline: "[New Preprints] A new arXiv paper is released: Model Sparsification Can Simplify Machine Unlearning (see [paper](https://arxiv.org/abs/2304.04934) and [code](https://github.com/OPTML-Group/Unlearn-Sparse))!"
 
 - date: 13. April 2023
   headline: "Grateful to receive a grant from Lawrence Livermore National Laboratory."
@@ -53,7 +53,7 @@
   headline: "Call for Papers and AdvML Rising Star Award Applications in the workshop [AdvML-Frontiers](https://advml-frontier.github.io), ICML’23 "
 
 - date: 17. March 2023
-  headline: "A new arXiv paper is released: Adversarial attacks can be parsed to reveal victim model information! (see [[Paper](https://arxiv.org/pdf/2303.07474.pdf)])"
+  headline: "[New Preprints] A new arXiv paper is released: Adversarial attacks can be parsed to reveal victim model information! (see [[Paper](https://arxiv.org/pdf/2303.07474.pdf)])"
 
 - date: 17. March 2023
   headline: "The 2nd Workshop on [New Frontiers in Adversarial Machine Learning](https://advml-frontier.github.io/) has been accepted by ICML’23"
@@ -128,7 +128,7 @@
   headline: "Five accepted papers in ICLR’22: [1] [Reverse Engineering of Adversaries](https://openreview.net/pdf?id=gpp7cf0xdfN); [2] [Black-Box Defense(spotlight)](https://openreview.net/pdf?id=W9G_ImpHlQd); [3] [Learning to Optimize](https://openreview.net/pdf?id=VqzXzA9hjaX); [4] [Self-Training Theory](https://openreview.net/pdf?id=qiMXBIf4NfB); [5] [Distributed Learning](https://openreview.net/pdf?id=oj2yn1Q4Ett). Congratulations to Yimeng Zhang, Yuguang Yao, Jianghan Jia for their first ICLR papers!"
 
 - date: 15. January 2022
-  headline: "Our work on [interpreting and advancing adversarial training via bi-level optimization](https://arxiv.org/pdf/2112.12376.pdf) is now available on arXiv; equally contributed by Yihua Zhang (MSU) and Guanhua Zhang (UCSB)."
+  headline: "[New Preprints] Our work on [interpreting and advancing adversarial training via bi-level optimization](https://arxiv.org/pdf/2112.12376.pdf) is now available on arXiv; equally contributed by Yihua Zhang (MSU) and Guanhua Zhang (UCSB)."
 
 - date: 15. October 2021
   headline: Dr. Sijia Liu receives a DARPA IP2 AIE Grant as a Co-PI.
