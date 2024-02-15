@@ -31,17 +31,6 @@
   news2:
   post:
 
-- title: "Selectivity Drives Productivity: Efficient Dataset Pruning for Enhanced Transfer Learning"
-  image: dummy.png
-  description:
-  authors: "<span style='color:blue'>Y. Zhang*</span>, <span style='color:blue'>Y. Zhang*</span>, <span style='color:blue'>A. Chen*</span>, <span style='color:blue'>J. Jia</span>, <span style='color:blue'>J. Liu</span>, G. Liu, M. Hong, S. Chang, <span style='color:blue'>S. Liu</span>"
-  link:
-    url: https://arxiv.org/abs/2308.00788
-    display: NeurIPS’23
-  highlight: 0
-  news2:
-  post:
-
 - title: "Model Sparsity Can Simplify Machine Unlearning"
   image: Sparse_unlearn_neurips23.png
   description: "Machine unlearning (MU) has become essential for complying with data regulations by eliminating the influence of specific data from models. Traditional exact unlearning methods, which involve retraining from scratch, are computationally expensive, prompting the exploration of efficient, approximate alternatives. Our research introduces a model-based approach: sparsity through weight pruning,that narrows the gap between exact and approximate unlearning. We present a new paradigm, “prune first, then unlearn,” which integrates a sparsity model into unlearning, and a sparsity-aware technique that further refines approximate unlearning training. Our extensive experiments confirm the effectiveness of our methods, particularly a 77% increase in unlearning efficacy with fine-tuning, and their applicability in mitigating backdoor attacks and improving transfer learning."
@@ -53,12 +42,23 @@
   news2:
   post: Sparse_unlearn_neurips23
 
+- title: "Selectivity Drives Productivity: Efficient Dataset Pruning for Enhanced Transfer Learning"
+  image: dummy.png
+  description:
+  authors: "<span style='color:blue'>Y. Zhang*</span>, <span style='color:blue'>Y. Zhang*</span>, <span style='color:blue'>A. Chen*</span>, <span style='color:blue'>J. Jia</span>, <span style='color:blue'>J. Liu</span>, G. Liu, M. Hong, S. Chang, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2310.08782
+    display: NeurIPS’23
+  highlight: 0
+  news2:
+  post:
+
 - title: "On the Convergence and Sample Complexity Analysis of Deep Q-Networks with Greedy Exploration"
   image: dummy.png
   description:
   authors: "S. Zhang, M. Wang, H. Li, M. Liu, P. Chen, S. Lu, <span style='color:blue'>S. Liu</span>, K. Murugesan. S. Chaudhury"
   link:
-    url: https://arxiv.org/abs/2304.04934
+    url: https://arxiv.org/abs/2310.16173
     display: NeurIPS’23
   highlight: 0
   news2:
@@ -69,7 +69,7 @@
   description:
   authors: "<span style='color:blue'>Y. Zhang</span>, R. Cai, T. Chen, G. Zhang, H. Zhang. P. Chen, S. Chang, Z. Wang, <span style='color:blue'>S. Liu</span>"
   link:
-    url: https://arxiv.org/abs/2308.10110v1
+    url: https://arxiv.org/abs/2308.10110
     display: ICCV’23 (<span style='color:red'><b>Oral</b>, acceptance rate 2%</span>)
   highlight: 0
   news2:
@@ -174,7 +174,7 @@
   news2:
   post:
 
-- title: "Towards Both Robust and Accurate Code Models"
+- title: "CLAWSAT: Towards Both Robust and Accurate Code Models"
   image: dummy.png
   description:
   authors: "<span style='color:blue'>J. Jia*</span>, <span style='color:black'>S. Srikant*</span>, T. Mitrovska, C. Gan, S. Chang, <span style='color:blue'>S. Liu</span>, U-M O'Reilly"
@@ -263,7 +263,7 @@
   description:
   authors: "Y. Xie, D. Wang, P. Chen, J. Xiong, <span style='color:blue'>S. Liu</span>, S. Koyejo"
   link:
-    url: https://aclanthology.org/2022.naacl-main.43.pdf
+    url: https://arxiv.org/abs/2205.01094
     display: NAACL’22.
   highlight: 0
   news2:
@@ -321,12 +321,12 @@
   news2:
   post:
 
-- title: "How unlabeled data improve generalization in self-training? A one-hidden-layer theoretical analysis"
+- title: "How does unlabeled data improve generalization in self-training? A one-hidden-layer theoretical analysis"
   image: dummy.png
   description: ""
   authors: "S. Zhang, M. Wang, <span style='color:blue'>S. Liu</span>, P.-Y. Chen, J. Xiong"
   link:
-    url: https://openreview.net/forum?id=qiMXBIf4NfB
+    url: https://arxiv.org/abs/2201.08514
     display: ICLR’22
   highlight: 0
   news2:
@@ -371,7 +371,7 @@
   highlight: 0
   news2:
 
-- title: "When does Contrastive Learning Preserve Adversarial Robustness from Pretraining to Finetuning?"
+- title: "When Does Contrastive Learning Preserve Adversarial Robustness from Pretraining to Finetuning?"
   image: dummy.png
   description: ""
   authors: "L. Fan, <span style='color:blue'>S. Liu</span>, P.-Y. Chen, G. Zhang, C. Gan."
@@ -421,7 +421,7 @@
   highlight: 0
   news2:
 
-- title: "NPAS: A compiler-aware framework of unified network pruning and architecture search for beyond real-time mobile acceleration"
+- title: "NPAS: A Compiler-aware Framework of Unified Network Pruning and Architecture Search for Beyond Real-Time Mobile Acceleration"
   image: dummy.png
   description: ""
   authors: Z. Li, G. Yuan, W. Niu, Y. Li, P. Zhao, Y. Cai, X. Shen, Z. Zhan, Z. Kong, Q. Jin, Z. Chen, <span style='color:blue'>S. Liu</span>, K. Yang, Y. Wang, B. Ren, and X. Lin.
@@ -451,7 +451,7 @@
   highlight: 0
   news2:
 
-- title: "Rate-Improved Inexact Augmented Lagrangian Method for Constrained Nonconvex Optimization"
+- title: "Rate-improved Inexact Augmented Lagrangian Method for Constrained Nonconvex Optimization"
   image: dummy.png
   description: ""
   authors: Z. Li, P.-Y. Chen, <span style='color:blue'>S. Liu</span>, S. Lu, Y. Xu
@@ -551,7 +551,7 @@
   highlight: 0
   news2:
 
-- title: "Higher-Order Certification For Randomized Smoothing"
+- title: "Higher-Order Certification for Randomized Smoothing"
   image: dummy.png
   description: ""
   authors: J. Mohapatra, C.-Y. Ko, L. Weng, P.-Y. Chen, <span style='color:blue'>S. Liu</span>, L. Daniel
