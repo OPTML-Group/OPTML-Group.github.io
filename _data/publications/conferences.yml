@@ -1,7 +1,7 @@
 - title: "SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation"
   image: dummy.png
   description:
-  authors: "<span style='color:blue'>C. Fan*</span>, <span style='color:blue'>J. Liu*</span>, <span style='color:blue'>Y. Zhang</span>, D. Wei, E. Wong, <span style='color:blue'>S. Liu</span>"
+  authors: "<span style='color:blue'>C. Fan*</span>, <span style='color:blue'>J. Liu*</span>, <span style='color:blue'>Y. Zhang</span>, E. Wong, D. Wei, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/abs/2310.12508
     display: ICLR’24 (<span style='color:red'><b>Spotlight</b>, acceptance rate 5%</span>)
