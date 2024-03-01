@@ -1,3 +1,25 @@
+- title: "UnlearnCanvas: A Stylized Image Dataset to Benchmark Machine Unlearning for Diffusion Models"
+  image: dummy.png
+  description:
+  authors: "<span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>Y. Yao</span>, <span style='color:blue'>J. Jia</span>, <span style='color:blue'>J. Liu</span>, X. Liu, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2402.11846
+    display: arXiv Preprint
+  highlight: 0
+  news2:
+  post:
+
+- title: "Revisiting Zeroth-Order Optimization for Memory-Efficient LLM Fine-Tuning: A Benchmark"
+  image: dummy.png
+  description:
+  authors: "<span style='color:blue'>Y. Zhang*</span>, P. Li*, J. Hong*, J. Li, <span style='color:blue'>Y. Zhang</span>, W. Zheng, P. Y. Chen, J. D. Lee, W. Yin, M. Hong, Z. Wang, <span style='color:blue'>S. Liu</span>, T. Chen"
+  link:
+    url: https://arxiv.org/abs/2402.11592
+    display: arXiv Preprint
+  highlight: 0
+  news2:
+  post:
+
 - title: "From Trojan Horses to Castle Walls: Unveiling Bilateral Backdoor Effects in Diffusion Models"
   image: dummy.png
   description:
