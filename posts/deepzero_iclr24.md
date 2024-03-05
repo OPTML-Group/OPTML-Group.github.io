@@ -1,6 +1,6 @@
 ---
 layout: paper
-title:  "[ICLR'24] DeepZero: Scaling up Zeroth-Order Optimization for Deep Model Training"
+title:  "[ICLR’24] DeepZero: Scaling up Zeroth-Order Optimization for Deep Model Training"
 date: 2024-02-1 7:00:00
 author: "<a style='color: #dfebf7' href='https://scholar.google.com/citations?user=7pY-Ie8AAAAJ&hl=en'>Aochuan Chen</a><sup>[1]</sup>*, 
          <a style='color: #dfebf7' href='https://damon-demon.github.io'>Yimeng Zhang</a><sup>[1]</sup>*, 

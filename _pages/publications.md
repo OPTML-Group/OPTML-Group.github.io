@@ -17,7 +17,7 @@ Jump: [Preprints](#preprints), [Conference Papers](#highlighted-conference-paper
 
 **Back to [Top](#publications)**
 
-{% for publi in site.data.preprints %}
+{% for publi in site.data.publications.preprints %}
 
   <a href="{{ publi.link.url }}"><b>{{ publi.title }}</b></a> <br />
   <em>{{ publi.authors }} </em><br />
@@ -30,7 +30,7 @@ Jump: [Preprints](#preprints), [Conference Papers](#highlighted-conference-paper
 
 **Back to [Top](#publications)**
 
-{% for publi in site.data.publist %}
+{% for publi in site.data.publications.conferences %}
 
   <a href="{{ publi.link.url }}"><b>{{ publi.title }}</b></a> <br />
   <em>{{ publi.authors }} </em><br />
@@ -42,7 +42,7 @@ Jump: [Preprints](#preprints), [Conference Papers](#highlighted-conference-paper
 
 **Back to [Top](#publications)**
 
-{% for publi in site.data.journallist %}
+{% for publi in site.data.publications.journals %}
 
   <a href="{{ publi.link.url }}"><b>{{ publi.title }}</b></a> <br />
   <em>{{ publi.authors }} </em><br />
