@@ -36,10 +36,145 @@ With evolving data regulations, machine unlearning (MU) has become an important 
 
 ---
 
+---
+
+## Limitations in MU: Lack of Stability and Generality.
+
+---
+#### Lack of Stability.
+
+1. **Stability to forgetting data amount.**  
+Fig.2 (a) shows sensitivity of unlearning accuracy gaps with respect to Retrain (measured by ‘|Method − Retrain|’) as a function of forgetting data amount. Five existing MU methods (FT, RL, GA, IU, ℓ1-sparse) are included. As we can see, the unlearning effectiveness of existing MU methods observed at a 10% forgetting data quantity does not necessarily hold when the forgetting data quantity is increased to 50%. 
+2. **Stability to choice of hyperparameters.**  
+We use IU (influence unlearning) as an example, where the tuning of the Fisher information regularization parameter is necessay. Fig.2 (b) illustrates the variances of unlearning accuracies using Retrain, IU, and the proposed weight saliency-integrated IU across various hyperparameter choices. The box size represents the variance of UA values across hyperparameter values. The integration with our proposal (SalUn) reduces this instability.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/images/postpic/salun_iclr24/fig2.jpg" title="fig2" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption" style="color: #999; font-size:16px; padding: 2px;">
+    Figure 2. Demonstration of the instability limitations of MU methods on CIFAR-10.
+</div>
+
+
+#### Lack of Generality.
+1. **Generality for different tasks.**  
+MU methods for image classification can not be adapted to image generation. In Fig 3, we exam five existing MU methods: Retrain, GA, RL, FT and ℓ1-sparse. Existing MU methods tend to either over-forget, resulting in poor generation quality for image classes in Df (e.g., GA, RL), or under-forget, leading to unsuccessful unlearning with regard to ‘airplane’ images (e.g., FT, ℓ1-sparse). This stands in sharp contrast to Retrain.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/images/postpic/salun_iclr24/fig3.jpg" title="fig3" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption" style="color: #999; font-size:16px; padding: 2px;">
+    Figure 3. Performance of MU baselines on DMs illustrated using DDPM with classifier-free guidance on CIFAR-10. Each column contains 4 images, generated from the same noise seed over 1000 time steps for the forgetting class ‘airplane’ and non-forgetting classes (‘car’, ‘bird’, ‘horse’, and ‘truck’).  
+</div>
+
+
+---
+
+## Weight Saliency
+
+
+#### What is Weight Saliency?
+Weight Saliency to identify model weights contributing the most to the model output. 
+
+
+#### Gradient-based Weight Saliency
+We utilize the gradient of a forgetting loss (denoted as $$\ell_{\mathrm{f}}(\boldsymbol{\theta}; \mathcal{D}_\mathrm{f})$$) with respect to the model weights variable $$\boldsymbol{\theta}$$ under the forgetting dataset $$\mathcal{D}_\mathrm{f}$$. By applying a hard thresholding operation, we can then obtain the desired weight saliency map[\[1\]](#refer-anchor-1):
+
+$$
+    \mathbf m_{\mathrm{S}}   = \mathbf 1 \left ( \left |  \nabla_{\boldsymbol{\theta}} \ell_{\mathrm{f}} (\boldsymbol{\theta}; \mathcal{D}_\mathrm{f}) \left . \right |_{\boldsymbol{\theta} = \boldsymbol{\theta}_{\mathrm{o}} } \right  | \geq  \gamma \right )
+$$
+
+ where $$ \mathbf 1 (\mathbf g \geq \gamma ) $$ is an element-wise indicator function which yields a value of $$1$$ for the $$i$$-th element if $$ g_i \geq \gamma $$ and $$ 0 $$ otherwise, 
+ |$$\cdot$$| is an element-wise absolute value operation, and $$\gamma > 0$$ is a hard threshold.
+ In practice, we have observed that setting $$\gamma$$ to the median of the gradient vector  $$\nabla_{\boldsymbol{\theta}} \ell_{\mathrm{f}} (\boldsymbol{\theta}; \mathcal{D}_\mathrm{f}) \left . \right |_{\boldsymbol{\theta} = \boldsymbol{\theta_{\mathrm{o}}}}$$ is a sufficiently effective choice.  We express the unlearning model $$\boldsymbol{\theta_\mathrm{u}}$$ as
+
+
+
+$$
+    \boldsymbol{\theta}_\mathrm{u} = \underbrace{\mathbf m_{\mathrm{S}} \odot \boldsymbol{\theta}}_\text{salient weights} + \underbrace{ (\mathbf 1 - \mathbf m_{\mathrm{S}}) \odot \boldsymbol{\theta_{\mathrm{o}}}}_\text{original weights}
+$$
+
+We find that the forgetting loss in Gradient Ascent presents a unified, effective, and simple solution in image classification and generation. This is given by the training loss over the forgetting dataset $$\mathcal{D}_\mathrm{f}$$:
+
+$$
+     \text{Classification: } \ell_\mathrm{f} (\boldsymbol{\theta} ; \mathcal D_\mathrm{f}) = \mathbb E_{(\mathbf x, y) \sim \mathcal D_\mathrm{f}} [ \ell_{\mathrm{CE}}(\boldsymbol{\theta}; \mathbf x ,y)]
+$$
+
+$$
+     \text{Generation: } \ell_\mathrm{f} (\boldsymbol{\theta} ; \mathcal D_\mathrm{f}) =  \mathbb{E}_{t, \epsilon \sim \mathcal{N}(0,1)}[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_\mathrm{f}) \|_2^2]
+$$
+
+---
+
+## Saliency-based unlearning (SalUn)
+
+---
+We introduce SalUn, which incorporates the saliency-aware unlearning variables $$\boldsymbol{\theta_\mathrm{u}}$$  into the unlearning process.
+One  advantage of SalUn is its plug-and-play capability, allowing it to be applied on top of existing unlearning methods. 
+In particular, we find that integrating weight saliency with the Random Labeling method provides a promising MU solution.
+
+In image classification, Random Labeling assigns a random image label to a forgetting data point and then fine-tunes the model on the randomly labeled $$\mathcal{D}_\mathrm{f}$$. In SalUn, we leverage the idea of Random Labeling to update $$\boldsymbol{\theta_\mathrm{u}}$$. This gives rise to the following optimization problem associated with SalUn for image classification:
+
+$$
+    \min_\mathbf{\theta_\mathrm{u}} ~ L_\text{SalUn}^{(1)} (\boldsymbol{\theta_\mathrm{u}}) \mathrel{\mathop:}=  \mathbb E_{(\mathbf x, y) \sim \mathcal{D}_\mathrm{f}, y^\prime \neq y} \left [ \ell_\mathrm{CE}(\boldsymbol{\theta_\mathrm{u}}; \mathbf x, y^\prime) \right ]
+$$
+
+where $$y^\prime$$ is the random label of the image $$\mathbf x$$ different from $$y$$. Additionally, to achieve a balance between unlearning on forgetting data points and preserving the model's generalization ability for non-forgetting data points, we usually fine-tune the original model $$\boldsymbol{\theta_\mathrm{o}}$$ for a small number of epochs, e.g., 10 epochs in the classification task.
+
+Furthermore, we extend the use of Radom Labeling to the image generation context within SalUn. In this context, Radom Labeling is implemented by associating the image of the forgetting concept with a misaligned concept. To maintain the image-generation capability of the DM, we also introduce the MSE loss  on the remaining dataset $$\mathcal{D}_\mathrm{r}$$ as a regularization. This leads to  the   optimization problem of SalUn for image generation:
+
+$$
+    \min_\mathbf{\theta_\mathrm{u}} ~  L_\text{SalUn}^{(2)} (\boldsymbol{\theta}_\mathrm{u}) \mathrel{\mathop:}=  \mathbb{E}_{(\mathbf x, c) \sim \mathcal D_\mathrm{f}, t, \epsilon \sim \mathcal{N}(0,1), c^\prime \neq c  } \left [ \| \epsilon_\mathbf{\theta_\mathrm{u}}(\mathbf x_t | c^\prime) - \epsilon_\mathbf{\theta_\mathrm{u}}(\mathbf x_t | c) \|_2^2 \right ] + \alpha \ell_\mathrm{MSE}(\boldsymbol{\theta_\mathrm{u}}; \mathcal D_\mathrm{r})
+$$
+
+where $$c^\prime \neq c$$ indicates that the concept $$c^\prime$$ is different from $$c$$, $$\boldsymbol{\theta_\mathrm{u}}$$ is the saliency-based unlearned model, $$\alpha > 0$$ is a regularization parameter to place an optimization tradeoff between the RL-based unlearning  loss over the forgetting dataset $$\mathcal D_\mathrm{f}$$ and the diffusion training loss $$\ell_\mathrm{MSE}(\boldsymbol{\theta_\mathrm{u}}; \mathcal D_\mathrm{r})$$  on the non-forgetting dataset $$\mathcal{D}_\mathrm{r}$$ (to preserve image generation quality).
+
+---
+
+## Experiments
+
+---
+
+#### Performance of MU in image classification
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/images/postpic/salun_iclr24/tab1.jpg" title="overview of salun" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+#### Class-wise forgetting performance in image generation
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/images/postpic/salun_iclr24/figa8.jpg" title="overview of salun" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/images/postpic/salun_iclr24/tab2.jpg" title="overview of salun" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+#### Application to NSFW concept forgetting
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/posts/images/postpic/salun_iclr24/fig6.jpg" title="overview of salun" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+---
 
 ## Acknowledgement
 
 C. Fan, J. Liu, and S. Liu were supported by the Cisco Research Faculty Award and the National Science Foundation (NSF) Robust Intelligence (RI) Core Program Award IIS-2207052.
+
+---
+
+## References
+<div id="refer-anchor-1"></div> [1]Samiyuru Menik et al. "Towards modular machine learning solution development: Benefits
+and trade-offs" arXiv preprint arXiv:2301.09753, 2023.
 
 ---
 
