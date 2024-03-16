@@ -5,9 +5,9 @@
   link:
     url: https://arxiv.org/abs/2310.12508
     display: ICLR’24 (<span style='color:red'><b>Spotlight</b>, acceptance rate 5%</span>)
-  highlight: 0
+  highlight: 1
   news2:
-  post:
+  post: salun_iclr24
 
 - title: "DeepZero: Scaling up Zeroth-Order Optimization for Deep Model Training"
   image: deepzero_iclr24.png
