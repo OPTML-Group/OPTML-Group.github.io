@@ -38,12 +38,16 @@ With evolving data regulations, machine unlearning (MU) has become an important 
 
 
 ## How to Evaluate MU’s Performance?
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/images/postpic/salun_iclr24/fig0.jpg" title="mu" class="img-fluid" zoomable=true %}
-    </div>
-</div>
-
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/fig0.jpg" width="600">
+    <br>
+    <div style="color:orange;
+    display: inline-block;
+    color: #999; font-size:16px；
+    padding: 2px;"> </div>
+</center>
 
 ## Limitations of Current MU Methods
 
@@ -52,26 +56,36 @@ Fig.2 (a) shows sensitivity of unlearning accuracy gaps with respect to Retrain 
 
 **Lack of Stability to choice of hyperparameters**  
 We use IU (influence unlearning) as an example, where the tuning of the Fisher information regularization parameter is necessay. Fig.2 (b) illustrates the variances of unlearning accuracies using Retrain, IU, and the proposed weight saliency-integrated IU across various hyperparameter choices. The box size represents the variance of UA values across hyperparameter values. The integration with our proposal (SalUn) reduces this instability.
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/images/postpic/salun_iclr24/fig1.jpg" title="stability" class="img-fluid" zoomable=true %}
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/fig1.jpg" width="600">
+    <br>
+    <div style="color:orange;
+    display: inline-block;
+    color: #999; font-size:16px；
+    padding: 2px;">
+    Figure 2. Demonstration of the instability limitations of MU methods on CIFAR-10. 
     </div>
-</div>
-<div class="caption" style="color: #999; font-size:16px; padding: 2px;">
-    Figure 2. Demonstration of the instability limitations of MU methods on CIFAR-10.
-</div>
+</center>
+
 
 **Lack of Generality for different tasks**  
 MU methods for image classification can not be adapted to image generation. In Fig 3, we exam five existing MU methods: Retrain, GA, RL, FT and ℓ1-sparse. Existing MU methods tend to either over-forget, resulting in poor generation quality for image classes in Df (e.g., GA, RL), or under-forget, leading to unsuccessful unlearning with regard to ‘airplane’ images (e.g., FT, ℓ1-sparse). This stands in sharp contrast to Retrain.
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/images/postpic/salun_iclr24/fig2.jpg" title="generality" class="img-fluid" zoomable=true %}
-    </div>
-</div>
-<div class="caption" style="color: #999; font-size:16px; padding: 2px;">
-    Figure 3. Performance of MU baselines on DMs illustrated using DDPM with classifier-free guidance on CIFAR-10. Each column contains 4 images, generated from the same noise seed over 1000 time steps for the forgetting class ‘airplane’ and non-forgetting classes (‘car’, ‘bird’, ‘horse’, and ‘truck’).  
-</div>
 
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/fig2.jpg" width="600">
+    <br>
+    <div style="color:orange;
+    display: inline-block;
+    color: #999; font-size:16px；
+    padding: 2px;">
+    Figure 3. Performance of MU baselines on DMs illustrated using DDPM with classifier-free guidance on CIFAR-10. Each column contains 4 images, generated from the same noise seed over 1000 time steps for the forgetting class ‘airplane’ and non-forgetting classes (‘car’, ‘bird’, ‘horse’, and ‘truck’).  
+    </div>
+</center>
 
 ## Weight Saliency
 Weight saliency is used to identify model weights contributing the most to the model output. Here, we utilize the weight saliency to identify the weights that are sensitive to the forgetting **data/class/concept** with the gradient of a forgetting loss (denoted as $$\ell_{\mathrm{f}}(\boldsymbol{\theta}; \mathcal{D}_\mathrm{f})$$) with respect to the model weights variable $$\boldsymbol{\theta}$$ under the forgetting dataset $$\mathcal{D}_\mathrm{f}$$. By applying a hard thresholding operation, we can then obtain the desired weight saliency map<sup>[\[1\]](#refer-anchor-1)</sup>:
@@ -128,34 +142,46 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
 ## Experiment results highlight
 
 * **Data-wise forgetting in image classification**
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/images/postpic/salun_iclr24/tab1.jpg" title="overview of salun" class="img-fluid" zoomable=true %}
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/tab1.jpg" width="800">
+    <br>
+    <div style="color:orange;
+    display: inline-block;
+    color: #999; font-size:16px；
+    padding: 2px;">
+    Table 1. Performance summary of various MU methods for image classification (including the proposed SalUn and SalUn-soft and 7 other baselines) in two unlearning scenarios, 10% random data forgetting and 50% random data forgetting, on CIFAR-10 using ResNet-18. The result format is given by a<sub>±b</sub> with mean a and standard deviation b over 10 independent trials. A performance gap against Retrain is provided in (<span style="color:blue">•</span>).   
     </div>
-</div>
-<div class="caption" style="color: #999; font-size:16px; padding: 2px;">
-    Table 1. Performance summary of various MU methods for image classification (including the proposed SalUn and SalUn-soft and 7 other baselines) in two unlearning scenarios, 10% random data forgetting and 50% random data forgetting, on CIFAR-10 using ResNet-18. The result format is given by a<sub>±b</sub> with mean a and standard deviation b over 10 independent trials. A performance gap against Retrain is provided in (<span style="color:blue">•</span>). 
-</div>
+</center>
 
 * **Concept-wise forgetting in image generation**
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/images/postpic/salun_iclr24/fig3.jpg" title="overview of salun" class="img-fluid" zoomable=true %}
-    </div>
-</div>
-<div class="caption" style="color: #999; font-size:16px; padding: 2px;">
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/fig3.jpg" width="600">
+    <br>
+    <div style="color:orange;
+    display: inline-block;
+    color: #999; font-size:16px；
+    padding: 2px;">
     Figure 4. Eliminate the NSFW (not safe for work) concepts, inappropriate image prompts (I2P). Examples of generated images using SDs w/ and w/o MU. The unlearning methods include ESD, FMN, and SalUn (ours). Each column represents generated images using different SDs with the same prompt(denoted by P<sub>i</sub>) and the same seed.
-</div>
+    </div>
+</center>
 
 * **Class-wise forgetting in image generation**
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/images/postpic/salun_iclr24/fig4.jpg" title="overview of salun" class="img-fluid" zoomable=true %}
-    </div>
-</div>
-<div class="caption" style="color: #999; font-size:16px; padding: 2px;">
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/fig4.jpg" width="600">
+    <br>
+    <div style="color:orange;
+    display: inline-block;
+    color: #999; font-size:16px；
+    padding: 2px;">
     Figure 5. Examples of generated images using SalUn. From the rows below, diagonal images represent the forgetting class, while non-diagonal images represent the remaining class.
-</div>
+    </div>
+</center>
 
 
 ### Acknowledgement
