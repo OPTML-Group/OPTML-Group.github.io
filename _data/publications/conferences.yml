@@ -1,13 +1,13 @@
 - title: "SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation"
-  image: dummy.png
-  description:
+  image: salun_iclr24.png
+  description: "With evolving data regulations, machine unlearning (MU) has become an important tool for fostering trust and safety in today's AI models. However, existing MU methods focusing on data and/or weight perspectives often suffer limitations in unlearning accuracy, stability, and cross-domain applicability. To address these challenges, we introduce the concept of 'weight saliency' for MU, drawing parallels with input saliency in model explanation. This innovation directs MU's attention toward specific model weights rather than the entire model, improving effectiveness and efficiency. The resultant method that we call saliency unlearning (SalUn) narrows the performance gap with 'exact' unlearning (model retraining from scratch after removing the forgetting data points). To the best of our knowledge, SalUn is the first principled MU approach that can effectively erase the influence of forgetting data, classes, or concepts in both image classification and generation tasks. As highlighted below, For example, SalUn yields a stability advantage in high-variance random data forgetting, *e.g.*, with a 0.2% gap compared to exact unlearning on the CIFAR-10 dataset. Moreover, in preventing conditional diffusion models from generating harmful images, SalUn achieves nearly 100% unlearning accuracy, outperforming current state-of-the-art baselines like Erased Stable Diffusion and Forget-Me-Not."
   authors: "<span style='color:blue'>C. Fan*</span>, <span style='color:blue'>J. Liu*</span>, <span style='color:blue'>Y. Zhang</span>, E. Wong, D. Wei, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/abs/2310.12508
     display: ICLR’24 (<span style='color:red'><b>Spotlight</b>, acceptance rate 5%</span>)
-  highlight: 0
+  highlight: 1
   news2:
-  post:
+  post: salun_iclr24
 
 - title: "DeepZero: Scaling up Zeroth-Order Optimization for Deep Model Training"
   image: deepzero_iclr24.png

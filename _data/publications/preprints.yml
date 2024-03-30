@@ -1,3 +1,14 @@
+- title: "Challenging Forgets: Unveiling the Worst-Case Forget Sets in Machine Unlearning"
+  image: dummy.png
+  description:
+  authors: "<span style='color:blue'>C. Fan*</span>, <span style='color:blue'>J. Liu*</span>, A. Hero, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2403.07362
+    display: arXiv Preprint
+  highlight: 0
+  news2:
+  post:
+
 - title: "UnlearnCanvas: A Stylized Image Dataset to Benchmark Machine Unlearning for Diffusion Models"
   image: dummy.png
   description:

@@ -16,6 +16,8 @@ maintainer: "<a style='color: #dfebf7' href='https://damon-demon.github.io'>Yime
 affiliation: "<sup>[1]</sup>Michigan State University, <sup>[2]</sup>Lawrence Livermore National Laboratory, <sup>[3]</sup>University of California, Santa Barbara"
 code: "https://github.com/OPTML-Group/DeepZero"
 paper: "https://arxiv.org/abs/2310.02025"
+poster: "https://damon-demon.github.io/links/ICLR2024_DeepZero_poster.pdf"
+slides: "https://damon-demon.github.io/links/ICLR2024_DeepZero_Presentation.pdf"
 ---
 
 <center>
