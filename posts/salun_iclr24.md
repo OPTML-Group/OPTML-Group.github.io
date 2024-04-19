@@ -13,6 +13,19 @@ code: "https://github.com/OPTML-Group/Unlearn-Saliency"
 # poster: ""
 paper: "https://arxiv.org/pdf/2310.12508.pdf"
 ---
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/transition_new.gif" width="800">
+    <br>
+    <div style="color:orange;
+    display: inline-block;
+    color: #999; font-size:16px；
+    padding: 2px;">
+    Figure 1. Schematic overview of comparing conventional unlearning methods with our proposal (SalUn) in the context of mitigating the influence of the harmful concept of ‘nudity’ in DM. </div>
+</center>
+
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
