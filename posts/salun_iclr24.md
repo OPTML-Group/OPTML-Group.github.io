@@ -95,7 +95,7 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     Table 1. Performance summary of various MU methods for image classification (including the proposed SalUn and SalUn-soft and 7 other baselines) in two unlearning scenarios, 10% random data forgetting and 50% random data forgetting, on CIFAR-10 using ResNet-18. The result format is given by a<sub>±b</sub> with mean a and standard deviation b over 10 independent trials. A performance gap against Retrain is provided in (<span style="color:blue">•</span>).   
     </div>
 </center>
-<br><br>
+<br>
 
 * **Object-wise forgetting in image generation**
 <center>
@@ -132,7 +132,7 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     Figure 4. Example comparison on Unlearn Canvas of pre/after object-wise forgetting by SalUn.
     </div>
 </center>
-<br><br>
+<br>
 
 * **Concept-wise forgetting in image generation**
 <center>
@@ -151,7 +151,7 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     Figure 5. Example comparison on I2P of pre/after concept-wise forgetting by SalUn.
     </div>
 </center>
-<br><br>
+<br>
 
 * **Style-wise forgetting in image generation**
 <center>
