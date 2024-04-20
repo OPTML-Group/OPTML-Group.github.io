@@ -23,20 +23,9 @@ paper: "https://arxiv.org/pdf/2310.12508.pdf"
     display: inline-block;
     color: #999; font-size:16px；
     padding: 2px;">
-    Figure 1. Schematic overview of comparing conventional unlearning methods with our proposal (SalUn) in the context of mitigating the influence of the harmful concept of ‘nudity’ in DM. </div>
+    Figure 1. Example comparison of pre/after unlearning by SalUn. (Left) Concept "Nudity"; (Middle) Object "Dog"; (Right) Style "Sketch". </div>
 </center>
 
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/teaser-v2.png" width="800">
-    <br>
-    <div style="color:orange;
-    display: inline-block;
-    color: #999; font-size:16px；
-    padding: 2px;">
-    Figure 1. Schematic overview of comparing conventional unlearning methods with our proposal (SalUn) in the context of mitigating the influence of the harmful concept of ‘nudity’ in DM. </div>
-</center>
 
 ## Abstract
 With evolving data regulations, machine unlearning (MU) has become an important tool for fostering trust and safety in today's AI models. However, existing MU methods focusing on data and/or weight perspectives often suffer limitations in unlearning accuracy, stability, and cross-domain applicability. To address these challenges, we introduce the concept of 'weight saliency' for MU, drawing parallels with input saliency in model explanation. This innovation directs MU's attention toward specific model weights rather than the entire model, improving effectiveness and efficiency. The resultant method that we call saliency unlearning (SalUn) narrows the performance gap with 'exact' unlearning (model retraining from scratch after removing the forgetting data points). To the best of our knowledge, SalUn is the first principled MU approach that can effectively erase the influence of forgetting data, classes, or concepts in both image classification and generation tasks. As highlighted below, For example, SalUn yields a stability advantage in high-variance random data forgetting, *e.g.*, with a 0.2% gap compared to exact unlearning on the CIFAR-10 dataset. Moreover, in preventing conditional diffusion models from generating harmful images, SalUn achieves nearly 100% unlearning accuracy, outperforming current state-of-the-art baselines like Erased Stable Diffusion and Forget-Me-Not.
@@ -44,64 +33,8 @@ With evolving data regulations, machine unlearning (MU) has become an important 
 **WARNING**: This paper contains model outputs that may be offensive in nature.
 
 
-## What is Machine Unlearning(MU)?
-
-* Eliminate undesirable data influence (e.g., sensitive or illegal information) and associated model capabilities, while maintaining utility. 
-* Applications: Removing sensitive data information, copyright protection, harmful content degeneration, etc.
-
-
-## How to Evaluate MU’s Performance?
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/fig0.jpg" width="600">
-    <br>
-    <div style="color:orange;
-    display: inline-block;
-    color: #999; font-size:16px；
-    padding: 2px;"> </div>
-</center>
-
-## Limitations of Current MU Methods
-
-**Lack of Stability to forgetting data amount**  
-Fig.2 (a) shows sensitivity of unlearning accuracy gaps with respect to Retrain (measured by ‘|Method − Retrain|’) as a function of forgetting data amount. Five existing MU methods (FT, RL, GA, IU, ℓ1-sparse) are included. As we can see, the unlearning effectiveness of existing MU methods observed at a 10% forgetting data quantity does not necessarily hold when the forgetting data quantity is increased to 50%.  
-
-**Lack of Stability to choice of hyperparameters**  
-We use IU (influence unlearning) as an example, where the tuning of the Fisher information regularization parameter is necessay. Fig.2 (b) illustrates the variances of unlearning accuracies using Retrain, IU, and the proposed weight saliency-integrated IU across various hyperparameter choices. The box size represents the variance of UA values across hyperparameter values. The integration with our proposal (SalUn) reduces this instability.
-
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/fig1.jpg" width="600">
-    <br>
-    <div style="color:orange;
-    display: inline-block;
-    color: #999; font-size:16px；
-    padding: 2px;">
-    Figure 2. Demonstration of the instability limitations of MU methods on CIFAR-10. 
-    </div>
-</center>
-
-
-**Lack of Generality for different tasks**  
-MU methods for image classification can not be adapted to image generation. In Fig 3, we exam five existing MU methods: Retrain, GA, RL, FT and ℓ1-sparse. Existing MU methods tend to either over-forget, resulting in poor generation quality for image classes in Df (e.g., GA, RL), or under-forget, leading to unsuccessful unlearning with regard to ‘airplane’ images (e.g., FT, ℓ1-sparse). This stands in sharp contrast to Retrain.
-
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/fig2.jpg" width="600">
-    <br>
-    <div style="color:orange;
-    display: inline-block;
-    color: #999; font-size:16px；
-    padding: 2px;">
-    Figure 3. Performance of MU baselines on DMs illustrated using DDPM with classifier-free guidance on CIFAR-10. Each column contains 4 images, generated from the same noise seed over 1000 time steps for the forgetting class ‘airplane’ and non-forgetting classes (‘car’, ‘bird’, ‘horse’, and ‘truck’).  
-    </div>
-</center>
-
-## Weight Saliency
-Weight saliency is used to identify model weights contributing the most to the model output. Here, we utilize the weight saliency to identify the weights that are sensitive to the forgetting **data/class/concept** with the gradient of a forgetting loss (denoted as $$\ell_{\mathrm{f}}(\boldsymbol{\theta}; \mathcal{D}_\mathrm{f})$$) with respect to the model weights variable $$\boldsymbol{\theta}$$ under the forgetting dataset $$\mathcal{D}_\mathrm{f}$$. By applying a hard thresholding operation, we can then obtain the desired weight saliency map<sup>[\[1\]](#refer-anchor-1)</sup>:
+## Algorithms: Saliency Unlearning (SalUn)
+We incorporates weight saliency into the unlearning process. Weight saliency is used to identify model weights contributing the most to the model output. Here, we utilize the weight saliency to identify the weights that are sensitive to the forgetting **data/class/concept** with the gradient of a forgetting loss (denoted as $$\ell_{\mathrm{f}}(\boldsymbol{\theta}; \mathcal{D}_\mathrm{f})$$) with respect to the model weights variable $$\boldsymbol{\theta}$$ under the forgetting dataset $$\mathcal{D}_\mathrm{f}$$. By applying a hard thresholding operation, we can then obtain the desired weight saliency map<sup>[\[1\]](#refer-anchor-1)</sup>:
 
 $$
     \mathbf m_{\mathrm{S}}   = \mathbf 1 \left ( \left |  \nabla_{\boldsymbol{\theta}} \ell_{\mathrm{f}} (\boldsymbol{\theta}; \mathcal{D}_\mathrm{f}) \left . \right |_{\boldsymbol{\theta} = \boldsymbol{\theta}_{\mathrm{o}} } \right  | \geq  \gamma \right )
@@ -112,28 +45,22 @@ $$
 
 
 $$
-    \boldsymbol{\theta}_\mathrm{u} = \underbrace{\mathbf m_{\mathrm{S}} \odot \boldsymbol{\theta}}_\text{salient weights} + \underbrace{ (\mathbf 1 - \mathbf m_{\mathrm{S}}) \odot \boldsymbol{\theta_{\mathrm{o}}}}_\text{original weights}
+    \boldsymbol{\theta}_\mathrm{u} = \underbrace{\mathbf m_{\mathrm{S}} \odot (\Delta \boldsymbol{\theta} + \boldsymbol{\theta_{\mathrm{o}}})}_\text{salient weights} + \underbrace{ (\mathbf 1 - \mathbf m_{\mathrm{S}}) \odot \boldsymbol{\theta_{\mathrm{o}}}}_\text{original weights}
 $$
 
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/teaser-v2.png" width="800">
+    <br>
+    <div style="color:orange;
+    display: inline-block;
+    color: #999; font-size:16px；
+    padding: 2px;">
+    Figure 2. Schematic overview of comparing conventional unlearning methods with our proposal (SalUn) in the context of mitigating the influence of the harmful concept of ‘nudity’ in DM. </div>
+</center>
 
-We find that the forgetting loss in Gradient Ascent presents a unified, effective, and simple solution in image classification and generation. This is given by the training loss over the forgetting dataset $$ \mathcal{D}_\mathrm{f}$$:
-
-
-$$
-     \text{Classification: } \ell_\mathrm{f} (\boldsymbol{\theta} ; \mathcal D_\mathrm{f}) = \mathbb E_{(\mathbf x, y) \sim \mathcal D_\mathrm{f}} [ \ell_{\mathrm{CE}}(\boldsymbol{\theta}; \mathbf x ,y)]
-$$
-
-
-$$
-     \text{Generation: } \ell_\mathrm{f} (\boldsymbol{\theta} ; \mathcal D_\mathrm{f}) =  \mathbb{E}_{t, \epsilon \sim \mathcal{N}(0,1)}[\| \epsilon - \epsilon_{\boldsymbol \theta}(\mathbf x_t | c_\mathrm{f}) \|_2^2]
-$$
-
-
-## Saliency-based unlearning (SalUn)
-
-We introduce SalUn, which incorporates the saliency-aware unlearning variables $$ \boldsymbol{\theta_\mathrm{u}} $$  into the unlearning process.
-One  advantage of SalUn is its plug-and-play capability, allowing it to be applied on top of existing unlearning methods. 
-In particular, we find that integrating weight saliency with the Random Labeling method provides a promising MU solution.
+The resultant method that we call saliency unlearning (SalUn). One  advantage of SalUn is its plug-and-play capability, allowing it to be applied on top of existing unlearning methods. In particular, we find that integrating weight saliency with the Random Labeling method provides a promising MU solution.
 
 In image classification, Random Labeling assigns a random image label to a forgetting data point and then fine-tunes the model on the randomly labeled $$ \mathcal{D}_\mathrm{f} $$. In SalUn, we leverage the idea of Random Labeling to update $$ \boldsymbol{\theta_\mathrm{u}} $$. This gives rise to the following optimization problem associated with SalUn for image classification:
 
