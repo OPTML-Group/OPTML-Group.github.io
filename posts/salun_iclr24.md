@@ -100,13 +100,34 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/fig4.jpg" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/church.png" width="600">
+    <br>
+        <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/chain_saw.png" width="600">
     <br>
     <div style="color:orange;
     display: inline-block;
     color: #999; font-size:16px；
     padding: 2px;">
-    Figure 3. Examples of generated images using SalUn. From the rows below, diagonal images represent the forgetting class, while non-diagonal images represent the remaining class.
+    Figure 3. Example comparison on Imgaenette of pre/after unlearning by SalUn.
+    </div>
+</center>
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/dog.png" width="600">
+    <br>
+        <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/cat.png" width="600">
+    <br>
+    <div style="color:orange;
+    display: inline-block;
+    color: #999; font-size:16px；
+    padding: 2px;">
+    Figure 4. Example comparison on Unlearn Canvas of pre/after unlearning by SalUn.
     </div>
 </center>
 
@@ -114,17 +135,17 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/fig3.jpg" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/nudity_1.png" width="600">
     <br>
-    <img style="border-radius: 0.3125em;
+        <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/fig3.jpg" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/nudity_2.png" width="600">
     <br>
     <div style="color:orange;
     display: inline-block;
     color: #999; font-size:16px；
-    padding: 2px;">>
-    Figure 4. Eliminate the NSFW (not safe for work) concepts, inappropriate image prompts (I2P). Examples of generated images using SDs w/ and w/o MU. The unlearning methods include ESD, FMN, and SalUn (ours). Each column represents generated images using different SDs with the same prompt(denoted by P<sub>i</sub>) and the same seed.
+    padding: 2px;">
+    Figure 5. Example comparison on I2P of pre/after unlearning by SalUn.
     </div>
 </center>
 
@@ -132,13 +153,17 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/fig3.jpg" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/van_gogh.png" width="600">
+    <br>
+        <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/bricks.png" width="600">
     <br>
     <div style="color:orange;
     display: inline-block;
     color: #999; font-size:16px；
     padding: 2px;">
-    Figure 5. Eliminate the NSFW (not safe for work) concepts, inappropriate image prompts (I2P). Examples of generated images using SDs w/ and w/o MU. The unlearning methods include ESD, FMN, and SalUn (ours). Each column represents generated images using different SDs with the same prompt(denoted by P<sub>i</sub>) and the same seed.
+    Figure 6. Example comparison on Unlearn Canvas of pre/after unlearning by SalUn.
     </div>
 </center>
 
