@@ -96,7 +96,7 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     </div>
 </center>
 
-* **Class-wise forgetting in image generation**
+* **Object-wise forgetting in image generation**
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -110,7 +110,7 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     display: inline-block;
     color: #999; font-size:16px；
     padding: 2px;">
-    Figure 3. Example comparison on Imgaenette of pre/after unlearning by SalUn.
+    Figure 3. Example comparison on Imgaenette of pre/after object-wise forgetting by SalUn.
     </div>
 </center>
 
@@ -127,7 +127,7 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     display: inline-block;
     color: #999; font-size:16px；
     padding: 2px;">
-    Figure 4. Example comparison on Unlearn Canvas of pre/after unlearning by SalUn.
+    Figure 4. Example comparison on Unlearn Canvas of pre/after object-wise forgetting by SalUn.
     </div>
 </center>
 
@@ -145,7 +145,7 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     display: inline-block;
     color: #999; font-size:16px；
     padding: 2px;">
-    Figure 5. Example comparison on I2P of pre/after unlearning by SalUn.
+    Figure 5. Example comparison on I2P of pre/after concept-wise forgetting by SalUn.
     </div>
 </center>
 
@@ -163,7 +163,7 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     display: inline-block;
     color: #999; font-size:16px；
     padding: 2px;">
-    Figure 6. Example comparison on Unlearn Canvas of pre/after unlearning by SalUn.
+    Figure 6. Example comparison on Unlearn Canvas of pre/after style-wise forgetting by SalUn.
     </div>
 </center>
 
