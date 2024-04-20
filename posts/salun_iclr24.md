@@ -69,7 +69,7 @@ $$
     \min_\mathbf{\theta_\mathrm{u}} ~ L_\text{SalUn}^{(1)} (\boldsymbol{\theta_\mathrm{u}}) \mathrel{\mathop:}=  \mathbb E_{(\mathbf x, y) \sim \mathcal{D}_\mathrm{f}, y^\prime \neq y} \left [ \ell_\mathrm{CE}(\boldsymbol{\theta_\mathrm{u}}; \mathbf x, y^\prime) \right ] + \alpha \mathbb E_{(\mathbf x, y) \sim \mathcal{D}_\mathrm{r}} \left [ \ell_\mathrm{CE}(\boldsymbol{\theta_\mathrm{u}}; \mathbf x, y) \right ] 
 $$
 
-where $$ y^\prime $$ is the random label of the image $$ \mathbf x $$ different from $$y$$. Additionally, to achieve a balance between unlearning on forgetting data points and preserving the model's generalization ability for non-forgetting data points, we usually fine-tune the original model $$ \boldsymbol{\theta_\mathrm{o}} $$ for a small number of epochs, e.g., 10 epochs in the classification task.
+where $$ y^\prime $$ is the random label of the image $$ \mathbf x $$ different from $$y$$. Additionally, to achieve a balance between unlearning on forgetting data points and preserving the model's generalization ability for non-forgetting data points,  the regularization term on $\mathcal{D}_\mathrm r$ preserved, with $\alpha > 0$ as a regularization parameter.
 
 Furthermore, we extend the use of Radom Labeling to the image generation context within SalUn. In this context, Radom Labeling is implemented by associating the image of the forgetting concept with a misaligned concept. To maintain the image-generation capability of the DM, we also introduce the MSE loss  on the remaining dataset $$ \mathcal{D}_\mathrm{r} $$ as a regularization. This leads to  the   optimization problem of SalUn for image generation:
 
