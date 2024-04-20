@@ -77,7 +77,7 @@ $$
     \min_\mathbf{\theta_\mathrm{u}} ~  L_\text{SalUn}^{(2)} (\boldsymbol{\theta}_\mathrm{u}) \mathrel{\mathop:}=  \mathbb{E}_{(\mathbf x, c) \sim \mathcal D_\mathrm{f}, t, \epsilon \sim \mathcal{N}(0,1), c^\prime \neq c  } \left [ \| \epsilon_\mathbf{\theta_\mathrm{u}}(\mathbf x_t | c^\prime) - \epsilon_\mathbf{\theta_\mathrm{u}}(\mathbf x_t | c) \|_2^2 \right ] + \beta \ell_\mathrm{MSE}(\boldsymbol{\theta_\mathrm{u}}; \mathcal D_\mathrm{r})
 $$
 
-where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is different from $$ c $$, $$ \boldsymbol{\theta_\mathrm{u}} $$ is the saliency-based unlearned model, $$ \alpha > 0 $$ is a regularization parameter to place an optimization tradeoff between the RL-based unlearning  loss over the forgetting dataset $$ \mathcal D_\mathrm{f} $$ and the diffusion training loss $$ \ell_\mathrm{MSE}(\boldsymbol{\theta_\mathrm{u}}; \mathcal D_\mathrm{r})$$ on the non-forgetting dataset $$ \mathcal{D}_\mathrm{r} $$ (to preserve image generation quality).
+where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is different from $$ c $$, $$ \boldsymbol{\theta_\mathrm{u}} $$ is the saliency-based unlearned model, $$ \beta > 0 $$ is a regularization parameter to place an optimization tradeoff between the RL-based unlearning  loss over the forgetting dataset $$ \mathcal D_\mathrm{f} $$ and the diffusion training loss $$ \ell_\mathrm{MSE}(\boldsymbol{\theta_\mathrm{u}}; \mathcal D_\mathrm{r})$$ on the non-forgetting dataset $$ \mathcal{D}_\mathrm{r} $$ (to preserve image generation quality).
 
 
 ## Experiment results highlight
@@ -86,7 +86,7 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/tab1.jpg" width="800">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/tab1.png" width="800">
     <br>
     <div style="color:orange;
     display: inline-block;
@@ -106,7 +106,7 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     display: inline-block;
     color: #999; font-size:16px；
     padding: 2px;">
-    Figure 5. Examples of generated images using SalUn. From the rows below, diagonal images represent the forgetting class, while non-diagonal images represent the remaining class.
+    Figure 3. Examples of generated images using SalUn. From the rows below, diagonal images represent the forgetting class, while non-diagonal images represent the remaining class.
     </div>
 </center>
 
@@ -116,10 +116,6 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/fig3.jpg" width="600">
     <br>
-    <div style="color:orange;
-    display: inline-block;
-    color: #999; font-size:16px；
-    padding: 2px;">
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/fig3.jpg" width="600">
@@ -127,12 +123,12 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     <div style="color:orange;
     display: inline-block;
     color: #999; font-size:16px；
-    padding: 2px;">
+    padding: 2px;">>
     Figure 4. Eliminate the NSFW (not safe for work) concepts, inappropriate image prompts (I2P). Examples of generated images using SDs w/ and w/o MU. The unlearning methods include ESD, FMN, and SalUn (ours). Each column represents generated images using different SDs with the same prompt(denoted by P<sub>i</sub>) and the same seed.
     </div>
 </center>
 
-* **Concept-wise forgetting in image generation**
+* **Style-wise forgetting in image generation**
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -142,7 +138,7 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     display: inline-block;
     color: #999; font-size:16px；
     padding: 2px;">
-    Figure 4. Eliminate the NSFW (not safe for work) concepts, inappropriate image prompts (I2P). Examples of generated images using SDs w/ and w/o MU. The unlearning methods include ESD, FMN, and SalUn (ours). Each column represents generated images using different SDs with the same prompt(denoted by P<sub>i</sub>) and the same seed.
+    Figure 5. Eliminate the NSFW (not safe for work) concepts, inappropriate image prompts (I2P). Examples of generated images using SDs w/ and w/o MU. The unlearning methods include ESD, FMN, and SalUn (ours). Each column represents generated images using different SDs with the same prompt(denoted by P<sub>i</sub>) and the same seed.
     </div>
 </center>
 
