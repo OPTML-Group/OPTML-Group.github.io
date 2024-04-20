@@ -35,7 +35,7 @@ With evolving data regulations, machine unlearning (MU) has become an important 
 
 
 ## Algorithms: Saliency Unlearning (SalUn)
-We incorporates weight saliency into the unlearning process. Weight saliency is used to identify model weights contributing the most to the model output. Here, we utilize the weight saliency to identify the weights that are sensitive to the forgetting **data/class/concept** with the gradient of a forgetting loss (denoted as $$\ell_{\mathrm{f}}(\boldsymbol{\theta}; \mathcal{D}_\mathrm{f})$$) with respect to the model weights variable $$\boldsymbol{\theta}$$ under the forgetting dataset $$\mathcal{D}_\mathrm{f}$$. By applying a hard thresholding operation, we can then obtain the desired weight saliency map<sup>[\[1\]](#refer-anchor-1)</sup>:
+We incorporates weight saliency into the unlearning process. Weight saliency is used to identify model weights contributing the most to the model output. Here, we utilize the weight saliency to identify the weights that are sensitive to the forgetting ***data/class/concept*** with the gradient of a forgetting loss (denoted as $$\ell_{\mathrm{f}}(\boldsymbol{\theta}; \mathcal{D}_\mathrm{f})$$) with respect to the model weights variable $$\boldsymbol{\theta}$$ under the forgetting dataset $$\mathcal{D}_\mathrm{f}$$. By applying a hard thresholding operation, we can then obtain the desired weight saliency map<sup>[\[1\]](#refer-anchor-1)</sup>:
 
 $$
     \mathbf m_{\mathrm{S}}   = \mathbf 1 \left ( \left |  \nabla_{\boldsymbol{\theta}} \ell_{\mathrm{f}} (\boldsymbol{\theta}; \mathcal{D}_\mathrm{f}) \left . \right |_{\boldsymbol{\theta} = \boldsymbol{\theta}_{\mathrm{o}} } \right  | \geq  \gamma \right )
@@ -94,8 +94,8 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     padding: 2px;">
     Table 1. Performance summary of various MU methods for image classification (including the proposed SalUn and SalUn-soft and 7 other baselines) in two unlearning scenarios, 10% random data forgetting and 50% random data forgetting, on CIFAR-10 using ResNet-18. The result format is given by a<sub>±b</sub> with mean a and standard deviation b over 10 independent trials. A performance gap against Retrain is provided in (<span style="color:blue">•</span>).   
     </div>
-    <br>
 </center>
+<br><br>
 
 * **Object-wise forgetting in image generation**
 <center>
@@ -113,8 +113,8 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     padding: 2px;">
     Figure 3. Example comparison on Imgaenette of pre/after object-wise forgetting by SalUn.
     </div>
-    <br>
 </center>
+<br>
 
 <center>
     <img style="border-radius: 0.3125em;
@@ -131,8 +131,8 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     padding: 2px;">
     Figure 4. Example comparison on Unlearn Canvas of pre/after object-wise forgetting by SalUn.
     </div>
-    <br>
 </center>
+<br><br>
 
 * **Concept-wise forgetting in image generation**
 <center>
@@ -150,8 +150,8 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     padding: 2px;">
     Figure 5. Example comparison on I2P of pre/after concept-wise forgetting by SalUn.
     </div>
-    <br>
 </center>
+<br><br>
 
 * **Style-wise forgetting in image generation**
 <center>
@@ -169,7 +169,6 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     padding: 2px;">
     Figure 6. Example comparison on Unlearn Canvas of pre/after style-wise forgetting by SalUn.
     </div>
-    <br>
 </center>
 
 ### Acknowledgement
