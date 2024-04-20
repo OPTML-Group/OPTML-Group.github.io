@@ -94,17 +94,18 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     padding: 2px;">
     Table 1. Performance summary of various MU methods for image classification (including the proposed SalUn and SalUn-soft and 7 other baselines) in two unlearning scenarios, 10% random data forgetting and 50% random data forgetting, on CIFAR-10 using ResNet-18. The result format is given by a<sub>±b</sub> with mean a and standard deviation b over 10 independent trials. A performance gap against Retrain is provided in (<span style="color:blue">•</span>).   
     </div>
+    <br>
 </center>
 
 * **Object-wise forgetting in image generation**
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/church.jpg" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/church.jpg" width="800">
     <br>
         <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/chain_saw.jpg" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/chain_saw.jpg" width="800">
     <br>
     <div style="color:orange;
     display: inline-block;
@@ -112,16 +113,17 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     padding: 2px;">
     Figure 3. Example comparison on Imgaenette of pre/after object-wise forgetting by SalUn.
     </div>
+    <br>
 </center>
 
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/dog.jpg" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/dog.jpg" width="800">
     <br>
         <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/cat.jpg" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/cat.jpg" width="800">
     <br>
     <div style="color:orange;
     display: inline-block;
@@ -129,17 +131,18 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     padding: 2px;">
     Figure 4. Example comparison on Unlearn Canvas of pre/after object-wise forgetting by SalUn.
     </div>
+    <br>
 </center>
 
 * **Concept-wise forgetting in image generation**
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/nudity_1.jpg" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/nudity_1.jpg" width="800">
     <br>
         <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/nudity_2.jpg" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/nudity_2.jpg" width="800">
     <br>
     <div style="color:orange;
     display: inline-block;
@@ -147,17 +150,18 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     padding: 2px;">
     Figure 5. Example comparison on I2P of pre/after concept-wise forgetting by SalUn.
     </div>
+    <br>
 </center>
 
 * **Style-wise forgetting in image generation**
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/van_gogh.jpg" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/van_gogh.jpg" width="800">
     <br>
         <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/bricks.jpg" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/bricks.jpg" width="800">
     <br>
     <div style="color:orange;
     display: inline-block;
@@ -165,6 +169,7 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     padding: 2px;">
     Figure 6. Example comparison on Unlearn Canvas of pre/after style-wise forgetting by SalUn.
     </div>
+    <br>
 </center>
 
 ### Acknowledgement
