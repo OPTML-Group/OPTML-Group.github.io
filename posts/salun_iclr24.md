@@ -100,11 +100,11 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/church.png" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/church.jpg" width="600">
     <br>
         <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/chain_saw.png" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/chain_saw.jpg" width="600">
     <br>
     <div style="color:orange;
     display: inline-block;
@@ -117,11 +117,11 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/dog.png" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/dog.jpg" width="600">
     <br>
         <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/cat.png" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/cat.jpg" width="600">
     <br>
     <div style="color:orange;
     display: inline-block;
@@ -135,11 +135,11 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/nudity_1.png" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/nudity_1.jpg" width="600">
     <br>
         <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/nudity_2.png" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/nudity_2.jpg" width="600">
     <br>
     <div style="color:orange;
     display: inline-block;
@@ -153,11 +153,11 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/van_gogh.png" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/van_gogh.jpg" width="600">
     <br>
         <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/bricks.png" width="600">
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/bricks.jpg" width="600">
     <br>
     <div style="color:orange;
     display: inline-block;
