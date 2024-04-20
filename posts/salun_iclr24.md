@@ -23,7 +23,8 @@ paper: "https://arxiv.org/pdf/2310.12508.pdf"
     display: inline-block;
     color: #999; font-size:16px；
     padding: 2px;">
-    Figure 1. Example comparison of pre/after unlearning by SalUn. (Left) Concept "Nudity"; (Middle) Object "Dog"; (Right) Style "Sketch". </div>
+    Figure 1. Example comparison of pre/after unlearning by SalUn. 
+    <br> (Left) Concept "Nudity"; (Middle) Object "Dog"; (Right) Style "Sketch". </div>
 </center>
 
 
@@ -60,12 +61,12 @@ $$
     Figure 2. Schematic overview of comparing conventional unlearning methods with our proposal (SalUn) in the context of mitigating the influence of the harmful concept of ‘nudity’ in DM. </div>
 </center>
 
-The resultant method that we call saliency unlearning (SalUn). One  advantage of SalUn is its plug-and-play capability, allowing it to be applied on top of existing unlearning methods. In particular, we find that integrating weight saliency with the Random Labeling method provides a promising MU solution.
+The resultant method that we call ***Saliency Unlearning (SalUn)***. One  advantage of SalUn is its plug-and-play capability, allowing it to be applied on top of existing unlearning methods. In particular, we find that integrating weight saliency with the ***Random Labeling*** method provides a promising MU solution.
 
 In image classification, Random Labeling assigns a random image label to a forgetting data point and then fine-tunes the model on the randomly labeled $$ \mathcal{D}_\mathrm{f} $$. In SalUn, we leverage the idea of Random Labeling to update $$ \boldsymbol{\theta_\mathrm{u}} $$. This gives rise to the following optimization problem associated with SalUn for image classification:
 
 $$
-    \min_\mathbf{\theta_\mathrm{u}} ~ L_\text{SalUn}^{(1)} (\boldsymbol{\theta_\mathrm{u}}) \mathrel{\mathop:}=  \mathbb E_{(\mathbf x, y) \sim \mathcal{D}_\mathrm{f}, y^\prime \neq y} \left [ \ell_\mathrm{CE}(\boldsymbol{\theta_\mathrm{u}}; \mathbf x, y^\prime) \right ]
+    \min_\mathbf{\theta_\mathrm{u}} ~ L_\text{SalUn}^{(1)} (\boldsymbol{\theta_\mathrm{u}}) \mathrel{\mathop:}=  \mathbb E_{(\mathbf x, y) \sim \mathcal{D}_\mathrm{f}, y^\prime \neq y} \left [ \ell_\mathrm{CE}(\boldsymbol{\theta_\mathrm{u}}; \mathbf x, y^\prime) \right ] + \alpha \mathbb E_{(\mathbf x, y) \sim \mathcal{D}_\mathrm{r}} \left [ \ell_\mathrm{CE}(\boldsymbol{\theta_\mathrm{u}}; \mathbf x, y) \right ] 
 $$
 
 where $$ y^\prime $$ is the random label of the image $$ \mathbf x $$ different from $$y$$. Additionally, to achieve a balance between unlearning on forgetting data points and preserving the model's generalization ability for non-forgetting data points, we usually fine-tune the original model $$ \boldsymbol{\theta_\mathrm{o}} $$ for a small number of epochs, e.g., 10 epochs in the classification task.
@@ -73,7 +74,7 @@ where $$ y^\prime $$ is the random label of the image $$ \mathbf x $$ different 
 Furthermore, we extend the use of Radom Labeling to the image generation context within SalUn. In this context, Radom Labeling is implemented by associating the image of the forgetting concept with a misaligned concept. To maintain the image-generation capability of the DM, we also introduce the MSE loss  on the remaining dataset $$ \mathcal{D}_\mathrm{r} $$ as a regularization. This leads to  the   optimization problem of SalUn for image generation:
 
 $$
-    \min_\mathbf{\theta_\mathrm{u}} ~  L_\text{SalUn}^{(2)} (\boldsymbol{\theta}_\mathrm{u}) \mathrel{\mathop:}=  \mathbb{E}_{(\mathbf x, c) \sim \mathcal D_\mathrm{f}, t, \epsilon \sim \mathcal{N}(0,1), c^\prime \neq c  } \left [ \| \epsilon_\mathbf{\theta_\mathrm{u}}(\mathbf x_t | c^\prime) - \epsilon_\mathbf{\theta_\mathrm{u}}(\mathbf x_t | c) \|_2^2 \right ] + \alpha \ell_\mathrm{MSE}(\boldsymbol{\theta_\mathrm{u}}; \mathcal D_\mathrm{r})
+    \min_\mathbf{\theta_\mathrm{u}} ~  L_\text{SalUn}^{(2)} (\boldsymbol{\theta}_\mathrm{u}) \mathrel{\mathop:}=  \mathbb{E}_{(\mathbf x, c) \sim \mathcal D_\mathrm{f}, t, \epsilon \sim \mathcal{N}(0,1), c^\prime \neq c  } \left [ \| \epsilon_\mathbf{\theta_\mathrm{u}}(\mathbf x_t | c^\prime) - \epsilon_\mathbf{\theta_\mathrm{u}}(\mathbf x_t | c) \|_2^2 \right ] + \beta \ell_\mathrm{MSE}(\boldsymbol{\theta_\mathrm{u}}; \mathcal D_\mathrm{r})
 $$
 
 where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is different from $$ c $$, $$ \boldsymbol{\theta_\mathrm{u}} $$ is the saliency-based unlearned model, $$ \alpha > 0 $$ is a regularization parameter to place an optimization tradeoff between the RL-based unlearning  loss over the forgetting dataset $$ \mathcal D_\mathrm{f} $$ and the diffusion training loss $$ \ell_\mathrm{MSE}(\boldsymbol{\theta_\mathrm{u}}; \mathcal D_\mathrm{r})$$ on the non-forgetting dataset $$ \mathcal{D}_\mathrm{r} $$ (to preserve image generation quality).
