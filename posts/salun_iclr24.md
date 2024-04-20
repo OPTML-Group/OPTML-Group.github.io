@@ -96,20 +96,6 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     </div>
 </center>
 
-* **Concept-wise forgetting in image generation**
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/fig3.jpg" width="600">
-    <br>
-    <div style="color:orange;
-    display: inline-block;
-    color: #999; font-size:16px；
-    padding: 2px;">
-    Figure 4. Eliminate the NSFW (not safe for work) concepts, inappropriate image prompts (I2P). Examples of generated images using SDs w/ and w/o MU. The unlearning methods include ESD, FMN, and SalUn (ours). Each column represents generated images using different SDs with the same prompt(denoted by P<sub>i</sub>) and the same seed.
-    </div>
-</center>
-
 * **Class-wise forgetting in image generation**
 <center>
     <img style="border-radius: 0.3125em;
@@ -124,6 +110,41 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     </div>
 </center>
 
+* **Concept-wise forgetting in image generation**
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/fig3.jpg" width="600">
+    <br>
+    <div style="color:orange;
+    display: inline-block;
+    color: #999; font-size:16px；
+    padding: 2px;">
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/fig3.jpg" width="600">
+    <br>
+    <div style="color:orange;
+    display: inline-block;
+    color: #999; font-size:16px；
+    padding: 2px;">
+    Figure 4. Eliminate the NSFW (not safe for work) concepts, inappropriate image prompts (I2P). Examples of generated images using SDs w/ and w/o MU. The unlearning methods include ESD, FMN, and SalUn (ours). Each column represents generated images using different SDs with the same prompt(denoted by P<sub>i</sub>) and the same seed.
+    </div>
+</center>
+
+* **Concept-wise forgetting in image generation**
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="{{ site.url }}{{ site.baseurl }}/images/postpic/salun_iclr24/fig3.jpg" width="600">
+    <br>
+    <div style="color:orange;
+    display: inline-block;
+    color: #999; font-size:16px；
+    padding: 2px;">
+    Figure 4. Eliminate the NSFW (not safe for work) concepts, inappropriate image prompts (I2P). Examples of generated images using SDs w/ and w/o MU. The unlearning methods include ESD, FMN, and SalUn (ours). Each column represents generated images using different SDs with the same prompt(denoted by P<sub>i</sub>) and the same seed.
+    </div>
+</center>
 
 ### Acknowledgement
 
