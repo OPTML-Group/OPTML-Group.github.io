@@ -9,13 +9,11 @@ author: "<a style='color: #dfebf7' href='https://a-f1.github.io/'>Chongyu Fan</a
          <a style='color: #dfebf7' href='https://sites.google.com/site/dennislwei/'>Dennis Wei</a><sup>[3]</sup>,
          <a style='color: #dfebf7' href='https://lsjxjtu.github.io/'>Sijia Liu</a><sup>[1,3]</sup>"
 affiliation: "<sup>[1]</sup>Michigan State University, <sup>[2]</sup>University of Pennsylvania, <sup>[3]</sup>IBM Research"
+other_message: "<b>WARNING: This paper contains model outputs that may be offensive in nature. </b>"
 code: "https://github.com/OPTML-Group/Unlearn-Saliency"
 # poster: ""
 paper: "https://arxiv.org/pdf/2310.12508.pdf"
 ---
-
-
-**WARNING**: This paper contains model outputs that may be offensive in nature.
 
 <center>
     <img style="border-radius: 0.3125em;
