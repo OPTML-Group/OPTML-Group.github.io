@@ -22,8 +22,8 @@
         <a style='color: #dfebf7' href="{{ author.url }}">
           {{ author.name }}
         </a>
-        <sup>[{{ author.affiliation }}]</sup>
-        {% if author.coauthor %} * {% endif %}
+        <sup>[{{ author.affiliation }}]
+        {% if author.coauthor %} * {% endif %}</sup>
         {% if forloop.last == false %}, {% endif %}
         {% endfor %}
       </h2>
