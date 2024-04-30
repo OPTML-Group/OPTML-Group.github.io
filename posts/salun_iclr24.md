@@ -23,6 +23,10 @@ author_list:
     - name: "Sijia Liu"
       url: "https://lsjxjtu.github.io/"
       affiliation: "1,3"
+affiliation_list:
+    - name: "Michigan State University"
+    - name: "University of Pennsylvania"
+    - name: "IBM Research"
 affiliation: "<sup>[1]</sup>Michigan State University, <sup>[2]</sup>University of Pennsylvania, <sup>[3]</sup>IBM Research"
 other_message: "<b>WARNING: This page contains model outputs that may be offensive in nature. </b>"
 buttons:

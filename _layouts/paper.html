@@ -1,72 +1,89 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
+<html lang="{{ site.lang | default: " en-US" }}">
 
-    <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/images/favicon.ico">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/css/paper.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-    </script>
-  </head>
-  <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
-    <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title }}</h1>
-      {% if page.author_list %}
-      <h2 class="project-tagline" style="color:white">
-        {% for author in page.author_list %}
-        <a style='color: #dfebf7' href="{{ author.url }}">
-          {{ author.name }}
-        </a>
-        <sup>[{{ author.affiliation }}]
+<head>
+
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style"
+    type="text/css" crossorigin>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="stylesheet" href="{{ '/css/paper.css?v=' | append: site.github.build_revision | relative_url }}">
+  <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+</head>
+
+<body>
+  <a id="skip-to-content" href="#content">Skip to the content.</a>
+  <header class="page-header" role="banner">
+    <h1 class="project-name">{{ page.title }}</h1>
+    {% if page.author_list %}
+    <h2 class="project-tagline" style="color:white">
+      {% for author in page.author_list %}
+      <a style='color: #dfebf7' href="{{ author.url }}">
+        {{ author.name }}
+      </a>
+      <sup>[{{ author.affiliation }}]
         {% if author.coauthor %} * {% endif %}</sup>
-        {% if forloop.last == false %}, {% endif %}
-        {% endfor %}
-      </h2>
-      {% endif %}
-      {% if page.author %}
-      <h2 class="project-tagline" style="color:white">{{ page.author }}</h2>
-      {% endif %}
-      <h2 class="project-tagline" style="color:white">{{ page.affiliation }}</h2>
-      {% if page.other_message %}
-      <h2 class="project-tagline" style="color:white">{{ page.other_message }}</h2>
-      {% endif %}
-      {% if page.paper %}
-      <a href="{{ page.paper}}" class="btn">Paper</a>
-      {% endif %}
-      {% if page.code %}
-      <a href="{{ page.code}}" class="btn">Code</a>
-      {% endif %}
-      {% if page.poster %}
-      <a href="{{ page.poster }}" class="btn">Poster</a>
-      {% endif %}
-      {% if page.slides %}
-      <a href="{{ page.slides }}" class="btn">Slides</a>
-      {% endif %}
-      {% if page.buttons %}
-      {% for button in page.buttons %}
-      <a href="{{ button.url }}" class="btn">{{ button.text }}</a>
+      {% if forloop.last == false %}, {% endif %}
       {% endfor %}
-      {% endif %}
-    </header>
+    </h2>
+    {% else %}
+    <h2 class="project-tagline" style="color:white">{{ page.author }}</h2>
+    {% endif %}
 
-    <main id="content" class="main-content" role="main">
-      {{ content }}
+    {% if page.affiliation_list %}
+    {% assign affiliation_count = 0 %}
+    <h2 class="project-tagline" style="color:white">
+      {% for affiliation in page.affiliation_list %}
+      {% assign affiliation_count = affiliation_count | plus: 1 %}
+      <sup>[{{affiliation_count}}]</sup> {{affiliation.name}}
+      {% if forloop.last == false %}, {% endif %}
+      {% endfor %}
+    </h2>
+    {% else %}
+    <h2 class="project-tagline" style="color:white">{{ page.affiliation }}</h2>
+    {% endif %}
 
-      <footer class="site-footer">
-        <center>
-              <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?w=150&d=TYai0XCoTewd2PjwgwCME3t_ufoIcL1VJH0Y31jPsAA"></script>
-              <br>
-              <br>
-              {% if page.maintainer %}
-            <span class="site-footer-credits">This page is maintained by @{{page.maintainer}}. &copy; Copyright 2022 OPTML</span>
-            {% endif %}
-        </center>
-      </footer>
-    </main>
-  </body>
+    {% if page.other_message %}
+    <h2 class="project-tagline" style="color:white">{{ page.other_message }}</h2>
+    {% endif %}
+    {% if page.paper %}
+    <a href="{{ page.paper}}" class="btn">Paper</a>
+    {% endif %}
+    {% if page.code %}
+    <a href="{{ page.code}}" class="btn">Code</a>
+    {% endif %}
+    {% if page.poster %}
+    <a href="{{ page.poster }}" class="btn">Poster</a>
+    {% endif %}
+    {% if page.slides %}
+    <a href="{{ page.slides }}" class="btn">Slides</a>
+    {% endif %}
+    {% if page.buttons %}
+    {% for button in page.buttons %}
+    <a href="{{ button.url }}" class="btn">{{ button.text }}</a>
+    {% endfor %}
+    {% endif %}
+  </header>
+
+  <main id="content" class="main-content" role="main">
+    {{ content }}
+
+    <footer class="site-footer">
+      <center>
+        <script type="text/javascript" id="clstr_globe"
+          src="//clustrmaps.com/globe.js?w=150&d=TYai0XCoTewd2PjwgwCME3t_ufoIcL1VJH0Y31jPsAA"></script>
+        <br>
+        <br>
+        {% if page.maintainer %}
+        <span class="site-footer-credits">This page is maintained by @{{page.maintainer}}. &copy; Copyright 2022
+          OPTML</span>
+        {% endif %}
+      </center>
+    </footer>
+  </main>
+</body>
+
 </html>
