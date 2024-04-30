@@ -23,10 +23,7 @@
       {% for author in page.author_list %}
       <a style='color: #dfebf7' href="{{ author.url }}">
         {{ author.name }}
-      </a>
-      <sup>[{{ author.affiliation }}]
-        {% if author.coauthor %} * {% endif %}</sup>
-      {% if forloop.last == false %}, {% endif %}
+      </a><sup>{% if author.coauthor %} * {% endif %} [{{ author.affiliation }}]</sup>{% if forloop.last == false %}, {% endif %}
       {% endfor %}
     </h2>
     {% else %}
@@ -38,8 +35,7 @@
     <h2 class="project-tagline" style="color:white">
       {% for affiliation in page.affiliation_list %}
       {% assign affiliation_count = affiliation_count | plus: 1 %}
-      <sup>[{{affiliation_count}}]</sup> {{affiliation.name}}
-      {% if forloop.last == false %}, {% endif %}
+      <sup>[{{affiliation_count}}]</sup>{{affiliation.name}}{% if forloop.last == false %}, {% endif %}
       {% endfor %}
     </h2>
     {% else %}
