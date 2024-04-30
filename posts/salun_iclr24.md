@@ -34,7 +34,9 @@ buttons:
     - text: "Paper"
       url: "https://arxiv.org/pdf/2310.12508.pdf"
     - text: "Video"
-      url: "https://www.youtube.com/watch?v=O_K0wETC6jg"
+      url: "https://youtu.be/O_K0wETC6jg"
+    - text: "Poster"
+      url: "https://drive.google.com/file/d/1Qy2llf-bOs_JJvExdp97-LOjjrKKrJWA/view"
     - text: "Slides"
       url: "https://drive.google.com/file/d/1ap8mFwswhkdzqX3cw4q8NFXF9TaPUYdV/view"
 ---
