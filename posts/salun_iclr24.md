@@ -10,14 +10,15 @@ author: "<a style='color: #dfebf7' href='https://a-f1.github.io/'>Chongyu Fan</a
          <a style='color: #dfebf7' href='https://lsjxjtu.github.io/'>Sijia Liu</a><sup>[1,3]</sup>"
 affiliation: "<sup>[1]</sup>Michigan State University, <sup>[2]</sup>University of Pennsylvania, <sup>[3]</sup>IBM Research"
 other_message: "<b>WARNING: This page contains model outputs that may be offensive in nature. </b>"
-video: "https://www.youtube.com/watch?v=O_K0wETC6jg"
 buttons:
     - text: "Code"
       url: "https://github.com/OPTML-Group/Unlearn-Saliency"
     - text: "Paper"
       url: "https://arxiv.org/pdf/2310.12508.pdf"
     - text: "Video"
-      url: "https://ieeexplore.ieee.org/document/9152147"
+      url: "https://www.youtube.com/watch?v=O_K0wETC6jg"
+    - text: "Slides"
+        url: "https://drive.google.com/file/d/1ap8mFwswhkdzqX3cw4q8NFXF9TaPUYdV/view"
     - text: "BibTeX"
       url: "https://scholar.googleusercontent.com/scholar.bib?q=info:AAbyvk63DNkJ:scholar.google.com/&output=citation&scisdr=ClH0TJIHELP_ktx_0sk:AFWwaeYAAAAAZjF6ysmH10FESS37-Ys4KZYSHAw&scisig=AFWwaeYAAAAAZjF6ymst44nddxHAz_Rg0MCfHgQ&scisf=4&ct=citation&cd=-1&hl=en"
 ---
