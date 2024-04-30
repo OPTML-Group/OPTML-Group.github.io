@@ -33,8 +33,10 @@
       {% if page.slides %}
       <a href="{{ page.slides }}" class="btn">Slides</a>
       {% endif %}
-      {% if page.video %}
-      <a href="{{ page.video }}" class="btn">Video</a>
+      {% if page.buttons %}
+      {% for button in page.buttons %}
+      <a href="{{ button.url }}" class="btn">{{ button.text }}</a>
+      {% endfor %}
       {% endif %}
     </header>
 
