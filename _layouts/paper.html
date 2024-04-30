@@ -21,9 +21,8 @@
     {% if page.author_list %}
     <h2 class="project-tagline" style="color:white">
       {% for author in page.author_list %}
-      <a style='color: #dfebf7' href="{{ author.url }}">
-        {{ author.name }}
-      </a><sup>{% if author.coauthor %}*{% endif %}[{{ author.affiliation }}]</sup>{% if forloop.last == false %}, {% endif %}
+      <a style='color: #dfebf7' href="{{ author.url }}">{{ author.name }}</a><sup>{% if author.coauthor %}*{% endif
+        %}[{{ author.affiliation }}]</sup>{% if forloop.last == false %}, {% endif %}
       {% endfor %}
     </h2>
     {% else %}
