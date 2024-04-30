@@ -18,6 +18,8 @@ buttons:
       url: "https://arxiv.org/pdf/2310.12508.pdf"
     - text: "Video"
       url: "https://ieeexplore.ieee.org/document/9152147"
+    - text: "BibTeX"
+      url: "https://scholar.googleusercontent.com/scholar.bib?q=info:AAbyvk63DNkJ:scholar.google.com/&output=citation&scisdr=ClH0TJIHELP_ktx_0sk:AFWwaeYAAAAAZjF6ysmH10FESS37-Ys4KZYSHAw&scisig=AFWwaeYAAAAAZjF6ymst44nddxHAz_Rg0MCfHgQ&scisf=4&ct=citation&cd=-1&hl=en"
 ---
 
 <center>
