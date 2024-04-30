@@ -10,10 +10,26 @@ author: "<a style='color: #dfebf7' href='https://a-f1.github.io/'>Chongyu Fan</a
          <a style='color: #dfebf7' href='https://lsjxjtu.github.io/'>Sijia Liu</a><sup>[1,3]</sup>"
 affiliation: "<sup>[1]</sup>Michigan State University, <sup>[2]</sup>University of Pennsylvania, <sup>[3]</sup>IBM Research"
 other_message: "<b>WARNING: This page contains model outputs that may be offensive in nature. </b>"
-code: "https://github.com/OPTML-Group/Unlearn-Saliency"
-# poster: ""
-paper: "https://arxiv.org/pdf/2310.12508.pdf"
+buttons:
+    - text: "Code"
+      url: "https://github.com/OPTML-Group/Unlearn-Saliency"
+    - text: "Paper"
+      url: "https://arxiv.org/pdf/2310.12508.pdf"
+    - text: "Video"
+      url: "https://www.youtube.com/watch?v=O_K0wETC6jg"
+    - text: "Slides"
+      url: "https://drive.google.com/file/d/1ap8mFwswhkdzqX3cw4q8NFXF9TaPUYdV/view"
+    - text: "BibTeX"
+      url: "https://scholar.googleusercontent.com/scholar.bib?q=info:AAbyvk63DNkJ:scholar.google.com/&output=citation&scisdr=ClH0TJIHELP_ktx_0sk:AFWwaeYAAAAAZjF6ysmH10FESS37-Ys4KZYSHAw&scisig=AFWwaeYAAAAAZjF6ymst44nddxHAz_Rg0MCfHgQ&scisf=4&ct=citation&cd=-1&hl=en"
 ---
+
+<center>
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/O_K0wETC6jg?si=UHfAPfjJ5EzonC8l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+
+## Abstract
+With evolving data regulations, machine unlearning (MU) has become an important tool for fostering trust and safety in today's AI models. However, existing MU methods focusing on data and/or weight perspectives often suffer limitations in unlearning accuracy, stability, and cross-domain applicability. To address these challenges, we introduce the concept of 'weight saliency' for MU, drawing parallels with input saliency in model explanation. This innovation directs MU's attention toward specific model weights rather than the entire model, improving effectiveness and efficiency. The resultant method that we call saliency unlearning (SalUn) narrows the performance gap with 'exact' unlearning (model retraining from scratch after removing the forgetting data points). To the best of our knowledge, SalUn is the first principled MU approach that can effectively erase the influence of forgetting data, classes, or concepts in both image classification and generation tasks. As highlighted below, For example, SalUn yields a stability advantage in high-variance random data forgetting, *e.g.*, with a 0.2% gap compared to exact unlearning on the CIFAR-10 dataset. Moreover, in preventing conditional diffusion models from generating harmful images, SalUn achieves nearly 100% unlearning accuracy, outperforming current state-of-the-art baselines like Erased Stable Diffusion and Forget-Me-Not.
 
 <center>
     <img style="border-radius: 0.3125em;
@@ -27,10 +43,6 @@ paper: "https://arxiv.org/pdf/2310.12508.pdf"
     Figure 1. Example comparison of pre/after unlearning by SalUn. 
     <br> (Left) Concept "Nudity"; (Middle) Object "Dog"; (Right) Style "Sketch". </div>
 </center>
-
-
-## Abstract
-With evolving data regulations, machine unlearning (MU) has become an important tool for fostering trust and safety in today's AI models. However, existing MU methods focusing on data and/or weight perspectives often suffer limitations in unlearning accuracy, stability, and cross-domain applicability. To address these challenges, we introduce the concept of 'weight saliency' for MU, drawing parallels with input saliency in model explanation. This innovation directs MU's attention toward specific model weights rather than the entire model, improving effectiveness and efficiency. The resultant method that we call saliency unlearning (SalUn) narrows the performance gap with 'exact' unlearning (model retraining from scratch after removing the forgetting data points). To the best of our knowledge, SalUn is the first principled MU approach that can effectively erase the influence of forgetting data, classes, or concepts in both image classification and generation tasks. As highlighted below, For example, SalUn yields a stability advantage in high-variance random data forgetting, *e.g.*, with a 0.2% gap compared to exact unlearning on the CIFAR-10 dataset. Moreover, in preventing conditional diffusion models from generating harmful images, SalUn achieves nearly 100% unlearning accuracy, outperforming current state-of-the-art baselines like Erased Stable Diffusion and Forget-Me-Not.
 
 
 ## Algorithms: Saliency Unlearning (SalUn)
