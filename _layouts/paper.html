@@ -16,7 +16,21 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title }}</h1>
+      {% if page.author_list %}
+      <h2 class="project-tagline" style="color:white">
+        {% for author in page.author_list %}
+        <a style='color: #dfebf7' href="{{ author.url }}">
+          {{ author.name}}
+        </a>
+        <sup>[{author.affiliation}]</sup>
+        {% if author.coauthor %} * {% endif %}
+        {% if forloop.last == false %}, {% endif %}
+        {% endfor %}
+      </h2>
+      {% endif %}
+      {% if page.author %}
       <h2 class="project-tagline" style="color:white">{{ page.author }}</h2>
+      {% endif %}
       <h2 class="project-tagline" style="color:white">{{ page.affiliation }}</h2>
       {% if page.other_message %}
       <h2 class="project-tagline" style="color:white">{{ page.other_message }}</h2>

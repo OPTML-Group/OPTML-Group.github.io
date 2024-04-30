@@ -2,12 +2,27 @@
 layout: paper
 title:  "[ICLR24 Spotlight] SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation"
 date: 2024-03-15 21:00:00
-author: "<a style='color: #dfebf7' href='https://a-f1.github.io/'>Chongyu Fan</a><sup>[1]</sup>*,
-         <a style='color: #dfebf7' href='https://ljcc0930.github.io/'>Jiancheng Liu</a><sup>[1]</sup>*,
-         <a style='color: #dfebf7' href='https://www.yihua-zhang.com/'>Yihua Zhang</a><sup>[1]</sup>,
-         <a style='color: #dfebf7' href='https://riceric22.github.io/'>Eric Wong</a><sup>[2]</sup>,
-         <a style='color: #dfebf7' href='https://sites.google.com/site/dennislwei/'>Dennis Wei</a><sup>[3]</sup>,
-         <a style='color: #dfebf7' href='https://lsjxjtu.github.io/'>Sijia Liu</a><sup>[1,3]</sup>"
+author_list:
+    - name: "Chongyu Fan"
+      url: "https://a-f1.github.io/"
+      affiliation: "1"
+      coauthor: true
+    - name: "Jiancheng Liu"
+      url: "https://ljcc0930.github.io/"
+      affiliation: "1"
+      coauthor: true
+    - name: "Yihua Zhang"
+      url: "https://www.yihua-zhang.com/"
+      affiliation: "1"
+    - name: "Eric Wong"
+      url: "https://riceric22.github.io/"
+      affiliation: "2"
+    - name: "Dennis Wei"
+      url: "https://sites.google.com/site/dennislwei/"
+      affiliation: "3"
+    - name: "Sijia Liu"
+      url: "https://lsjxjtu.github.io/"
+      affiliation: "1,3"
 affiliation: "<sup>[1]</sup>Michigan State University, <sup>[2]</sup>University of Pennsylvania, <sup>[3]</sup>IBM Research"
 other_message: "<b>WARNING: This page contains model outputs that may be offensive in nature. </b>"
 buttons:
