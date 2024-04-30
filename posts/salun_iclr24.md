@@ -13,6 +13,7 @@ other_message: "<b>WARNING: This page contains model outputs that may be offensi
 code: "https://github.com/OPTML-Group/Unlearn-Saliency"
 # poster: ""
 paper: "https://arxiv.org/pdf/2310.12508.pdf"
+video: "https://www.youtube.com/watch?v=O_K0wETC6jg"
 ---
 
 ## Project Video
