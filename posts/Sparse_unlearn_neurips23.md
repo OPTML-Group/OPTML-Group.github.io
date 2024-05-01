@@ -2,18 +2,47 @@
 layout: paper
 title:  "[NeurIPS23 Spotlight] Model Sparsity Can Simplify Machine Unlearning"
 date: 2023-12-02 21:00:00
-author: "<a style='color: #dfebf7' href='https://jinghanjia.netlify.app'>Jinghan Jia</a><sup>[1]</sup>*,
-         <a style='color: #dfebf7' href='https://ljcc0930.github.io/'>Jiancheng Liu</a><sup>[1]</sup>*,
-         <a style='color: #dfebf7' href='https://rithram.github.io/'>Parikshit Ram</a><sup>[2]</sup>,
-         <a style='color: #dfebf7' href='https://www.cse.msu.edu/~yaoyugua/'>Yuguang Yao</a><sup>[1]</sup>,
-         <a style='color: #dfebf7' href='https://www.linkedin.com/in/gaowen-liu-1b52a610a/'>Gaowen Liu</a><sup>[3]</sup>,
-         <a style='color: #dfebf7' href='http://www.yliuu.com/'>Yang Liu</a><sup>[4,5]</sup>,
-         <a style='color: #dfebf7' href='https://sites.google.com/view/pranay-sharma/home'>Pranay Sharma</a><sup>[6]</sup>,
-         <a style='color: #dfebf7' href='https://lsjxjtu.github.io/'>Sijia Liu</a><sup>[1,2]</sup>"
-affiliation: "<sup>[1]</sup>Michigan State University, <sup>[2]</sup>IBM Research, <sup>[3]</sup>Cisco Research, <sup>[4]</sup>University of California, Santa Cruz, <sup>[5]</sup>ByteDance Research, <sup>[6]</sup>Carnegie Mellon University"
-code: "https://github.com/OPTML-Group/Unlearn-Sparse"
-poster: "https://jinghanjia.netlify.app/assets/img/publication_preview/unlearn-sparse"
-paper: "https://arxiv.org/pdf/2304.04934.pdf"
+author_list:
+  - name: "Jinghan Jia"
+    url: "https://jinghanjia.netlify.app"
+    affiliation: "1"
+    coauthor: true
+  - name: "Jiancheng Liu"
+    url: "https://ljcc0930.github.io/"
+    affiliation: "1"
+    coauthor: true
+  - name: "Parikshit Ram"
+    url: "https://rithram.github.io/"
+    affiliation: "2"
+  - name: "Yuguang Yao"
+    url: "https://www.cse.msu.edu/~yaoyugua/"
+    affiliation: "1"
+  - name: "Gaowen Liu"
+    url: "https://www.linkedin.com/in/gaowen-liu-1b52a610a/"
+    affiliation: "3"
+  - name: "Yang Liu"
+    url: "http://www.yliuu.com/"
+    affiliation: "4,5"
+  - name: "Pranay Sharma"
+    url: "https://sites.google.com/view/pranay-sharma/home"
+    affiliation: "6"
+  - name: "Sijia Liu"
+    url: "https://lsjxjtu.github.io/"
+    affiliation: "1,2"
+affiliation_list:
+  - name: "Michigan State University"
+  - name: "IBM Research"
+  - name: "Cisco Research"
+  - name: "University of California, Santa Cruz"
+  - name: "ByteDance Research"
+  - name: "Carnegie Mellon University"
+buttons:
+    - text: "Code"
+      url: "https://github.com/OPTML-Group/Unlearn-Sparse"
+    - text: "Paper"
+      url: "https://arxiv.org/pdf/2304.04934.pdf"
+    - text: "Poster"
+      url: "https://jinghanjia.netlify.app/assets/img/publication_preview/unlearn-sparse"
 categories: "neurips23"
 ---
 <center>
