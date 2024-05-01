@@ -28,10 +28,11 @@ author_list:
       affiliation: "2"
     - name: "Sijia Liu"
       url: "https://lsjxjtu.github.io/"
-      affiliation: "1"
+      affiliation: "1,3"
 affiliation_list:
     - name: "Michigan State University"
     - name: "Applied ML, Intel"
+    - name: "IBM Research"
 buttons:
     - text: "Code"
       url: "https://github.com/OPTML-Group/Diffusion-MU-Attack"
