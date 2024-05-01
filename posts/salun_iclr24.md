@@ -64,7 +64,7 @@ With evolving data regulations, machine unlearning (MU) has become an important 
 
 
 ## Algorithms: Saliency Unlearning (SalUn)
-We incorporates weight saliency into the unlearning process. Weight saliency is used to identify model weights contributing the most to the model output. Here, we utilize the weight saliency to identify the weights that are sensitive to the forgetting ***data/class/concept*** with the gradient of a forgetting loss (denoted as $$\ell_{\mathrm{f}}(\boldsymbol{\theta}; \mathcal{D}_\mathrm{f})$$) with respect to the model weights variable $$\boldsymbol{\theta}$$ under the forgetting dataset $$\mathcal{D}_\mathrm{f}$$. By applying a hard thresholding operation, we can then obtain the desired weight saliency map<sup>[\[1\]](#refer-anchor-1)</sup>:
+We incorporates weight saliency into the unlearning process. Weight saliency is used to identify model weights contributing the most to the model output. Here, we utilize the weight saliency to identify the weights that are sensitive to the forgetting ***data/class/concept*** with the gradient of a forgetting loss (denoted as $$\ell_{\mathrm{f}}(\boldsymbol{\theta}; \mathcal{D}_\mathrm{f})$$) with respect to the model weights variable $$\boldsymbol{\theta}$$ under the forgetting dataset $$\mathcal{D}_\mathrm{f}$$. By applying a hard thresholding operation, we can then obtain the desired weight saliency map:
 
 $$
     \mathbf m_{\mathrm{S}}   = \mathbf 1 \left ( \left |  \nabla_{\boldsymbol{\theta}} \ell_{\mathrm{f}} (\boldsymbol{\theta}; \mathcal{D}_\mathrm{f}) \left . \right |_{\boldsymbol{\theta} = \boldsymbol{\theta}_{\mathrm{o}} } \right  | \geq  \gamma \right )
@@ -140,7 +140,7 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
     display: inline-block;
     color: #999; font-size:16px；
     padding: 2px;">
-    Figure 3. Example comparison on Imgaenette of pre/after object-wise forgetting by SalUn.
+    Figure 3. Example comparison on ImageNette of pre/after object-wise forgetting by SalUn.
     </div>
 </center>
 <br>
@@ -203,12 +203,6 @@ where $$ c^\prime \neq c $$ indicates that the concept $$ c^\prime $$ is differe
 ### Acknowledgement
 
 C. Fan, J. Liu, Y. Zhang and S. Liu were supported by the Cisco Research Faculty Award and the National Science Foundation (NSF) Robust Intelligence (RI) Core Program Award IIS-2207052.
-
-
-### References
-<div id="refer-anchor-1"></div> [1]Samiyuru Menik et al. "Towards modular machine learning solution development: Benefits
-and trade-offs" arXiv preprint arXiv:2301.09753, 2023.
-
 
 
 ### Citation
