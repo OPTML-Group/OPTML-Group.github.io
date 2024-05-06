@@ -2,7 +2,7 @@
 layout: paper
 title:  "[CVPR22] Quarantine: Sparsity Can Uncover the Trojan Attack Trigger for Free"
 date: 2022-06-21 21:00:00
-author-list:
+author_list:
   - name: "Tianlong Chen"
     url: "https://tianlong-chen.github.io/"
     affiliation: "1"
