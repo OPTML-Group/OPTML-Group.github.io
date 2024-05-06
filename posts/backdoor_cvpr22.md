@@ -29,7 +29,6 @@ affiliation_list:
   - name: "Michigan State University"
   - name: "University of California, Santa Barbara"
   - name: "MIT-IBM Watson AI Lab"
-maintainer: "<a href='https://www.yihua-zhang.com'>Yihua Zhang</a>"
 buttons:
   - text: "Code"
     url: "https://github.com/VITA-Group/Backdoor-LTH"
@@ -37,6 +36,7 @@ buttons:
     url: "https://arxiv.org/pdf/2205.11819"
   - text: "Poster"
     url: "https://drive.google.com/file/d/1VnnC06NBoRCfSjw2RT91dKCeZ8iDEXCY/view?usp=sharing"
+maintainer: "<a href='https://www.yihua-zhang.com'>Yihua Zhang</a>"
 ---
 
 ## Motivation

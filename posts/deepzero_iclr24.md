@@ -41,7 +41,6 @@ affiliation_list:
   - name: "Lawrence Livermore National Laboratory"
   - name: "University of California, Santa Barbara"
   - name: "MIT-IBM Watson AI Lab"
-maintainer: "<a style='color: #dfebf7' href='https://damon-demon.github.io'>Yimeng Zhang</a>"
 buttons:
   - text: "Code"
     url: "https://github.com/OPTML-Group/DeepZero"
@@ -51,6 +50,7 @@ buttons:
     url: "https://damon-demon.github.io/links/ICLR2024_DeepZero_poster.pdf"
   - text: "Slides"
     url: "https://damon-demon.github.io/links/ICLR2024_DeepZero_Presentation.pdf"
+maintainer: "<a style='color: #dfebf7' href='https://damon-demon.github.io'>Yimeng Zhang</a>"
 ---
 
 <center>
