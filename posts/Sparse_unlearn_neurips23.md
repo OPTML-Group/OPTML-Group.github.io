@@ -37,12 +37,12 @@ affiliation_list:
   - name: "ByteDance Research"
   - name: "Carnegie Mellon University"
 buttons:
-    - text: "Code"
-      url: "https://github.com/OPTML-Group/Unlearn-Sparse"
-    - text: "Paper"
-      url: "https://arxiv.org/pdf/2304.04934.pdf"
-    - text: "Poster"
-      url: "https://jinghanjia.netlify.app/assets/img/publication_preview/unlearn-sparse"
+  - text: "Code"
+    url: "https://github.com/OPTML-Group/Unlearn-Sparse"
+  - text: "Paper"
+    url: "https://arxiv.org/pdf/2304.04934.pdf"
+  - text: "Poster"
+    url: "https://jinghanjia.netlify.app/assets/img/publication_preview/unlearn-sparse"
 maintainer: "<a href='https://jinghanjia.netlify.app'>Jinghan Jia</a>"
 ---
 <center>
