@@ -40,9 +40,9 @@
     <h2 class="project-tagline" style="color:white">
       {% for author in page.author_list %}
       <a style='color: #dfebf7' href="{{ author.url }}">{{ author.name }}</a><sup>{% if author.coauthor %}*, {% endif
-        %}[{{ author.affiliation }}]</sup>{% if forloop.last == false %}, {% endif %}
+        %}[{{ author.affiliation }}]</sup>{% if forloop.last == false %}{% if author.newline %}<br>{% else %}, {% endif
+      %}{% endif %}
       {% endfor %}
-      {% endif %}
     </h2>
     {% else %}
     <h2 class="project-tagline" style="color:white">{{ page.author }}</h2>
