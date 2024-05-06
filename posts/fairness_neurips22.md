@@ -2,18 +2,40 @@
 layout: paper
 title:  "[NeurIPS22] Fairness Reprogramming"
 date: 2022-11-26 21:00:00
-author: "<a style='color: #dfebf7' href='https://ghzhang233.github.io/'>Guanhua Zhang</a><sup>[1]</sup>*,
-         <a style='color: #dfebf7' href='https://www.yihua-zhang.com/'>Yihua Zhang</a><sup>[2]</sup>*,
-         <a style='color: #dfebf7' href='https://https://scholar.google.com/citations?hl=zh-CN&user=_-5PSgQAAAAJ/'>Yang Zhang</a><sup>[3]</sup>,
-         <a style='color: #dfebf7' href='https://wenqifan03.github.io/'>Wenqi Fan</a><sup>[4]</sup>,
-         <a style='color: #dfebf7' href='https://scholar.google.com/citations?hl=zh-CN&user=XRB2rKIAAAAJ'>Qing Li</a><sup>[4]</sup>,
-         <a style='color: #dfebf7' href='https://lsjxjtu.github.io/'>Sijia Liu</a><sup>[2,4]</sup>"
+author_list:
+  - name: "Guanhua Zhang"
+    url: "https://ghzhang233.github.io/"
+    affiliation: "1"
+    coauthor: true
+  - name: "Yihua Zhang"
+    url: "https://www.yihua-zhang.com/"
+    affiliation: "2"
+    coauthor: true
+  - name: "Yang Zhang"
+    url: "https://scholar.google.com/citations?hl=zh-CN&user=_-5PSgQAAAAJ/"
+    affiliation: "3"
+  - name: "Wenqi Fan"
+    url: "https://wenqifan03.github.io/"
+    affiliation: "4"
+  - name: "Qing Li"
+    url: "https://scholar.google.com/citations?hl=zh-CN&user=XRB2rKIAAAAJ"
+    affiliation: "4"
+  - name: "Sijia Liu"
+    url: "https://lsjxjtu.github.io/"
+    affiliation: "2,3"
+affiliation_list:
+  - name: "University of Santa Barbara"
+  - name: "Michigan State University"
+  - name: "MIT-IBM Watson AI Lab"
+  - name: "The Hong Kong Polytechnic University"
+buttons:
+  - text: "Code"
+    url: "https://github.com/OPTML-Group/Fairness-Reprogramming"
+  - text: "Paper"
+    url: "https://arxiv.org/pdf/2209.10222.pdf"
+  - text: "Poster"
+    url: "https://www.yihua-zhang.com/assets/posters/fairness_reprogramming.pdf"
 maintainer: "<a href='https://www.yihua-zhang.com'>Yihua Zhang</a>"
-affiliation: "<sup>[1]</sup>University of Santa Barbara, <sup>[2]</sup>Michigan State University, <sup>[3]</sup>MIT-IBM Watson AI Lab, <sup>[4]</sup>The Hong Kong Polytechnic University"
-code: "https://github.com/OPTML-Group/Fairness-Reprogramming"
-poster: "https://www.yihua-zhang.com/assets/posters/fairness_reprogramming.pdf"
-paper: "https://arxiv.org/pdf/2209.10222.pdf"
-# slides: ""
 ---
 
 ## Overview
