@@ -22,9 +22,9 @@ affiliation_list:
   - name: "Michigan State University"
   - name: "MIT-IBM Watson AI Lab, IBM Research"
 buttons:
-  - name: "Code"
+  - text: "Code"
     url: "https://github.com/OPTML-Group/ILM-VP"
-  - name: "Paper"
+  - text: "Paper"
     url: "https://arxiv.org/abs/2211.11635"
 ---
 

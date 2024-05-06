@@ -2,12 +2,6 @@
 layout: paper
 title:  "[ICML22]Revisiting and Advancing Fast Adversarial Training Through The Lens of Bi-Level Optimization"
 date: 2022-07-28 21:00:00
-author: "<a style='color: #dfebf7' href='https://www.yihua-zhang.com/'>Yihua Zhang</a><sup>[1]</sup>*,
-         <a style='color: #dfebf7' href='https://https://ghzhang233.github.io/'>Guanhua Zhang</a><sup>[2]</sup>*,
-         <a style='color: #dfebf7' href='https://sites.google.com/view/khanduri-prashant/home'>Prashant Khanduri</a><sup>[3]</sup>*,
-         <a style='color: #dfebf7' href='https://people.ece.umn.edu/~mhong/mingyi.html'>Mingyi Hong</a><sup>[3]</sup>, 
-         <a style='color: #dfebf7' href='https://code-terminator.github.io/'>Shiyu Chang</a><sup>[1]</sup>
-         <a style='color: #dfebf7' href='https://lsjxjtu.github.io/'>Sijia Liu</a><sup>[2,4]</sup>"
 author_list:
   - name: "Yihua Zhang"
     url: "https://www.yihua-zhang.com/"
@@ -36,13 +30,13 @@ affiliation_list:
   - name: "University of Minnesota"
   - name: "MIT-IBM Watson AI Lab"
 buttons:
-  - name: "Code"
+  - text: "Code"
     url: "https://github.com/OPTML-Group/Fast-BAT"
-  - name: "Paper"
+  - text: "Paper"
     url: "https://proceedings.mlr.press/v162/zhang22ak/zhang22ak.pdf"
-  - name: "Poster"
+  - text: "Poster"
     url: "https://drive.google.com/file/d/1hPXqvVt-nXymYK8Rc3bk-mFYmVbEEard/view?usp=sharing"
-  - name: "Slides"
+  - text: "Slides"
     url: "https://drive.google.com/file/d/13uI2Uzl_yLNdx2o1QqjGiQWFmL8RLaCn/view?usp=sharing"
 maintainer: "<a href='https://www.yihua-zhang.com'>Yihua Zhang</a>"
 ---
