@@ -2,20 +2,47 @@
 layout: paper
 title:  "[NeurIPS22] Advancing Model Pruning via Bi-level Optimization"
 date: 2022-11-26 21:00:00
-author: "<a style='color: #dfebf7' href='https://www.yihua-zhang.com/'>Yihua Zhang</a><sup>[1]</sup>*,
-         <a style='color: #dfebf7' href='https://www.cse.msu.edu/~yaoyugua/'>Yuguang Yao</a><sup>[1]</sup>*,
-         <a style='color: #dfebf7' href='https://rithram.github.io/'>Parikshit Ram</a><sup>[2]</sup>,
-         <a style='color: #dfebf7' href='https://puzhao.info/'>Zhao Pu</a><sup>[3]</sup>,
-         <a style='color: #dfebf7' href='https://tianlong-chen.github.io/about/'>Tianlong Chen</a><sup>[4]</sup>,
-         <a style='color: #dfebf7' href='https://people.ece.umn.edu/~mhong/mingyi.html'>Mingyi Hong</a><sup>[5]</sup>,
-         <a style='color: #dfebf7' href='https://web.northeastern.edu/yanzhiwang/'>Yanzhi Wang</a><sup>[3]</sup>,
-         <a style='color: #dfebf7' href='https://lsjxjtu.github.io/'>Sijia Liu</a><sup>[1,2]</sup>"
+author_list:
+  - name: "Yihua Zhang"
+    url: "https://www.yihua-zhang.com/"
+    affiliation: "1"
+    coauthor: true
+  - name: "Yuguang Yao"
+    url: "https://www.cse.msu.edu/~yaoyugua/"
+    affiliation: "1"
+    coauthor: true
+  - name: "Parikshit Ram"
+    url: "https://rithram.github.io/"
+    affiliation: "2"
+  - name: "Zhao Pu"
+    url: "https://puzhao.info/"
+    affiliation: "3"
+  - name: "Tianlong Chen"
+    url: "https://tianlong-chen.github.io/about/"
+    affiliation: "4"
+  - name: "Mingyi Hong"
+    url: "https://people.ece.umn.edu/~mhong/mingyi.html"
+    affiliation: "5"
+  - name: "Yanzhi Wang"
+    url: "https://web.northeastern.edu/yanzhiwang/"
+    affiliation: "3"
+  - name: "Sijia Liu"
+    url: "https://lsjxjtu.github.io/"
+    affiliation: "1,2"
+affiliation_list:
+  - name: "Michigan State University"
+  - name: "IBM Research"
+  - name: "Northeastern University"
+  - name: "University of Texas at Austin"
+  - name: "University of Minnesota, Twin City"
+buttons:
+  - text: "Code"
+    url: "https://github.com/OPTML-Group/BiP"
+  - text: "Paper"
+    url: "https://arxiv.org/pdf/2210.04092.pdf"
+  - text: "Poster"
+    url: "https://www.yihua-zhang.com/assets/posters/bip.jpg"
 maintainer: "<a href='https://www.yihua-zhang.com'>Yihua Zhang</a>"
-affiliation: "<sup>[1]</sup>Michigan State University, <sup>[2]</sup>IBM Research, <sup>[3]</sup>Northeastern University, <sup>[4]</sup>University of Texas at Austin, <sup>[5]</sup>University of Minnesota, Twin City"
-code: "https://github.com/OPTML-Group/BiP"
-poster: "https://www.yihua-zhang.com/assets/posters/bip.jpg"
-paper: "https://arxiv.org/pdf/2210.04092.pdf"
-# slides: ""
 ---
 
 ## Dilemma in Model Pruning: Effective or Efficient?
