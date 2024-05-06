@@ -38,6 +38,7 @@ buttons:
       url: "https://github.com/OPTML-Group/Diffusion-MU-Attack"
     - text: "Paper"
       url: "https://arxiv.org/abs/2310.11868"
+maintainer: "<a href='https://damon-demon.github.io'>Yimeng Zhang</a>"
 ---
 
 <center>

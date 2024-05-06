@@ -43,7 +43,7 @@ buttons:
       url: "https://arxiv.org/pdf/2304.04934.pdf"
     - text: "Poster"
       url: "https://jinghanjia.netlify.app/assets/img/publication_preview/unlearn-sparse"
-categories: "neurips23"
+maintainer: "<a href='https://jinghanjia.netlify.app'>Jinghan Jia</a>"
 ---
 <center>
     <img style="border-radius: 0.3125em;

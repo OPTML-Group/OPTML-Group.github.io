@@ -39,6 +39,7 @@ buttons:
       url: "https://drive.google.com/file/d/1Qy2llf-bOs_JJvExdp97-LOjjrKKrJWA/view"
     - text: "Slides"
       url: "https://drive.google.com/file/d/1ap8mFwswhkdzqX3cw4q8NFXF9TaPUYdV/view"
+maintainer: "<a href='https://ljcc0930.github.io/'>Jiancheng Liu</a>"
 ---
 
 <center>
