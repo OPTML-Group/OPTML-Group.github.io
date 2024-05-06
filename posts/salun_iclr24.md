@@ -42,7 +42,9 @@ buttons:
 ---
 
 <center>
-    <iframe width="800" height="450" src="https://www.youtube.com/embed/O_K0wETC6jg?si=UHfAPfjJ5EzonC8l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/O_K0wETC6jg?si=UHfAPfjJ5EzonC8l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 </center>
 
 
