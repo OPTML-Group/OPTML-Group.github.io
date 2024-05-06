@@ -1,6 +1,6 @@
 ---
 layout: paper
-title:  "To Generate or Not? Safety-Driven Unlearned Diffusion Models Are Still Easy To Generate Unsafe Images ... For Now"
+title:  "[arXiv] To Generate or Not? Safety-Driven Unlearned Diffusion Models Are Still Easy To Generate Unsafe Images ... For Now"
 date: 2023-05-24 7:00:00
 author_list:
     - name: "Yimeng Zhang"

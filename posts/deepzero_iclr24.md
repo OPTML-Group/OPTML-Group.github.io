@@ -1,6 +1,6 @@
 ---
 layout: paper
-title:  "[ICLR’24] DeepZero: Scaling up Zeroth-Order Optimization for Deep Model Training"
+title:  "[ICLR24] DeepZero: Scaling up Zeroth-Order Optimization for Deep Model Training"
 date: 2024-02-01 7:00:00
 author_list:
   - name: "Aochuan Chen"
