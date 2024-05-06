@@ -62,18 +62,7 @@
     {% if page.other_message %}
     <h2 class="project-tagline" style="color:white">{{ page.other_message }}</h2>
     {% endif %}
-    {% if page.paper %}
-    <a href="{{ page.paper}}" class="btn">Paper</a>
-    {% endif %}
-    {% if page.code %}
-    <a href="{{ page.code}}" class="btn">Code</a>
-    {% endif %}
-    {% if page.poster %}
-    <a href="{{ page.poster }}" class="btn">Poster</a>
-    {% endif %}
-    {% if page.slides %}
-    <a href="{{ page.slides }}" class="btn">Slides</a>
-    {% endif %}
+
     {% if page.buttons %}
     {% for button in page.buttons %}
     <a href="{{ button.url }}" class="btn">{{ button.text }}</a>
