@@ -20,6 +20,7 @@ author_list:
   - name: "Jiancheng Liu"
     url: "https://ljcc0930.github.io"
     affiliation: "1"
+    newline: true
   - name: "Konstantinos Parasyris"
     url: "https://people.llnl.gov/parasyris1"
     affiliation: "2"
