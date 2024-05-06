@@ -1,20 +1,41 @@
 ---
 layout: paper
-title:  "[CVPR’23] Text-Visual Prompting for Efficient 2D Temporal Video Grounding"
+title:  "[CVPR23] Text-Visual Prompting for Efficient 2D Temporal Video Grounding"
 date: 2023-05-24 7:00:00
-author: "<a style='color: #dfebf7' href='https://damon-demon.github.io'>Yimeng Zhang</a><sup>[1,2]</sup>, 
-         <a style='color: #dfebf7' href='https://www.linkedin.com/in/xinchenhawaii'>Xin Chen</a><sup>[2]</sup>, 
-         <a style='color: #dfebf7' href='https://jinghanjia.github.io/cv/'>Jinghan Jia</a><sup>[1]</sup>, 
-         <a style='color: #dfebf7' href='https://lsjxjtu.github.io/'>Sijia Liu</a><sup>[1]</sup>, 
-         <a style='color: #dfebf7' href='https://www.linkedin.com/in/dingke'>Ke Ding</a><sup>[2]</sup>"
+author_list:
+  - name: "Yimeng Zhang"
+    url: "https://damon-demon.github.io"
+    affiliation: "1,2"
+  - name: "Xin Chen"
+    url: "https://www.linkedin.com/in/xinchenhawaii"
+    affiliation: "2"
+  - name: "Jinghan Jia"
+    url: "https://jinghanjia.github.io/cv/"
+    affiliation: "1"
+  - name: "Sijia Liu"
+    url: "https://lsjxjtu.github.io/"
+    affiliation: "1,3"
+  - name: "Ke Ding"
+    url: "https://www.linkedin.com/in/dingke"
+    affiliation: "2"
+affiliation_list:
+  - name: "Michigan State University"
+  - name: "Applied ML, Intel"
+  - name: "IBM Research"
+buttons:
+  - text: "Code"
+    url: "https://github.com/intel"
+  - text: "Poster"
+    url: "https://damon-demon.github.io/links/2DTVP_CVPR23_poster.pdf"
+  - text: "Paper"
+    url: "https://arxiv.org/abs/2303.04995"
+  - text: "Slides"
+    url: "https://damon-demon.github.io/links/CVPR23_2D_TVP_presentation.pdf"
+  - text: "Video"
+    url: "https://youtu.be/zj2s_G3066s"
+  - text: "HuggingFace"
+    url: "https://huggingface.co/docs/transformers/main/en/model_doc/tvp"
 maintainer: "<a style='color: #dfebf7' href='https://damon-demon.github.io'>Yimeng Zhang</a>"
-affiliation: "<sup>[1]</sup>Michigan State University, <sup>[2]</sup>Applied ML, Intel"
-code: "https://github.com/intel"
-poster: "https://damon-demon.github.io/links/2DTVP_CVPR23_poster.pdf"
-paper: "https://arxiv.org/abs/2303.04995"
-slides: "https://damon-demon.github.io/links/CVPR23_2D_TVP_presentation.pdf"
-video: "https://youtu.be/zj2s_G3066s"
-HuggingFace Model: "https://huggingface.co/docs/transformers/main/en/model_doc/tvp"
 ---
 
 <center>
