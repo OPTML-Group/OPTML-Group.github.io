@@ -31,6 +31,17 @@
   news2:
   post: deepzero_iclr24
 
+- title: "Backdoor Secrets Unveiled: Identifying Backdoor Data with Optimized Scaled Prediction Consistency"
+  image: dummy.png
+  description: "Modern machine learning (ML) systems demand substantial training data, often resorting to external sources. Nevertheless, this practice renders them vulnerable to backdoor poisoning attacks. Prior backdoor defense strategies have primarily focused on the identification of backdoored models or poisoned data characteristics, typically operating under the assumption of access to clean data. In this work, we delve into a relatively underexplored challenge: the automatic identification of backdoor data within a poisoned dataset, all under realistic conditions, i.e., without the need for additional clean data or without manually defining a threshold for backdoor detection. We draw an inspiration from the scaled prediction consistency (SPC) technique, which exploits the prediction invariance of poisoned data to an input scaling factor. Based on this, we pose the backdoor data identification problem as a hierarchical data splitting optimization problem, leveraging a novel SPC-based loss function as the primary optimization objective. Our innovation unfolds in several key aspects. First, we revisit the vanilla SPC method, unveiling its limitations in addressing the proposed backdoor identification problem. Subsequently, we develop a bi-level optimization-based approach to precisely identify backdoor data by minimizing the advanced SPC loss. Finally, we demonstrate the efficacy of our proposal against a spectrum of backdoor attacks, encompassing basic label-corrupted attacks as well as more sophisticated clean-label attacks, evaluated across various benchmark datasets. Experiment results show that our approach often surpasses the performance of current baselines in identifying backdoor data points, resulting in about 4%-36% improvement in average AUROC."
+  authors: "<span style='color:blue'>S. Pal</span>, <span style='color:blue'>Y. Yao</span>, R. Wang, B. Shen, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2403.10717
+    display: ICLR’24
+  highlight: 0
+  news2:
+  post:
+
 - title: "AutoVP: An Automated Visual Prompting Frameowrk and Benchmark"
   image: dummy.png
   description:
