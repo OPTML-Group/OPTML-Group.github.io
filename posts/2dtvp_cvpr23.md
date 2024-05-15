@@ -14,14 +14,13 @@ author_list:
     affiliation: "1"
   - name: "Sijia Liu"
     url: "https://lsjxjtu.github.io/"
-    affiliation: "1,3"
+    affiliation: "1"
   - name: "Ke Ding"
     url: "https://www.linkedin.com/in/dingke"
     affiliation: "2"
 affiliation_list:
   - name: "Michigan State University"
   - name: "Applied ML, Intel"
-  - name: "IBM Research"
 buttons:
   - text: "Code"
     url: "https://github.com/intel"
