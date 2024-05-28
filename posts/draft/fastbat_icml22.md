@@ -2,18 +2,43 @@
 layout: paper
 title:  "[ICML22]Revisiting and Advancing Fast Adversarial Training Through The Lens of Bi-Level Optimization"
 date: 2022-07-28 21:00:00
-author: "<a style='color: #dfebf7' href='https://www.yihua-zhang.com/'>Yihua Zhang</a><sup>[1]</sup>*,
-         <a style='color: #dfebf7' href='https://https://ghzhang233.github.io/'>Guanhua Zhang</a><sup>[2]</sup>*,
-         <a style='color: #dfebf7' href='https://sites.google.com/view/khanduri-prashant/home'>Prashant Khanduri</a><sup>[3]</sup>*,
-         <a style='color: #dfebf7' href='https://people.ece.umn.edu/~mhong/mingyi.html'>Mingyi Hong</a><sup>[3]</sup>, 
-         <a style='color: #dfebf7' href='https://code-terminator.github.io/'>Shiyu Chang</a><sup>[1]</sup>
-         <a style='color: #dfebf7' href='https://lsjxjtu.github.io/'>Sijia Liu</a><sup>[2,4]</sup>"
+author_list:
+  - name: "Yihua Zhang"
+    url: "https://www.yihua-zhang.com/"
+    affiliation: "1"
+    coauthor: true
+  - name: "Guanhua Zhang"
+    url: "https://https://ghzhang233.github.io/"
+    affiliation: "2"
+    coauthor: true
+  - name: "Prashant Khanduri"
+    url: "https://sites.google.com/view/khanduri-prashant/home"
+    affiliation: "3"
+    coauthor: true
+  - name: "Mingyi Hong"
+    url: "https://people.ece.umn.edu/~mhong/mingyi.html"
+    affiliation: "3"
+  - name: "Shiyu Chang"
+    url: "https://code-terminator.github.io/"
+    affiliation: "1"
+  - name: "Sijia Liu"
+    url: "https://lsjxjtu.github.io/"
+    affiliation: "2,4"
+affiliation_list:
+  - name: "Michigan State University"
+  - name: "University of California, Santa Barbara"
+  - name: "University of Minnesota"
+  - name: "MIT-IBM Watson AI Lab"
+buttons:
+  - text: "Code"
+    url: "https://github.com/OPTML-Group/Fast-BAT"
+  - text: "Paper"
+    url: "https://proceedings.mlr.press/v162/zhang22ak/zhang22ak.pdf"
+  - text: "Poster"
+    url: "https://drive.google.com/file/d/1hPXqvVt-nXymYK8Rc3bk-mFYmVbEEard/view?usp=sharing"
+  - text: "Slides"
+    url: "https://drive.google.com/file/d/13uI2Uzl_yLNdx2o1QqjGiQWFmL8RLaCn/view?usp=sharing"
 maintainer: "<a href='https://www.yihua-zhang.com'>Yihua Zhang</a>"
-affiliation: "<sup>[1]</sup>Michigan State University, <sup>[2]</sup>University of California, Santa Barbara, <sup>[3]University of Minnesota</sup>, <sup>[4]</sup>MIT-IBM Watson AI Lab"
-code: "https://github.com/OPTML-Group/Fast-BAT"
-poster: "https://drive.google.com/file/d/1hPXqvVt-nXymYK8Rc3bk-mFYmVbEEard/view?usp=sharing"
-paper: "https://proceedings.mlr.press/v162/zhang22ak/zhang22ak.pdf"
-slides: "https://drive.google.com/file/d/13uI2Uzl_yLNdx2o1QqjGiQWFmL8RLaCn/view?usp=sharing"
 ---
 
 ## Motivation

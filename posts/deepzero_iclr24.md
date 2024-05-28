@@ -1,23 +1,56 @@
 ---
 layout: paper
-title:  "[ICLR’24] DeepZero: Scaling up Zeroth-Order Optimization for Deep Model Training"
-date: 2024-02-1 7:00:00
-author: "<a style='color: #dfebf7' href='https://scholar.google.com/citations?user=7pY-Ie8AAAAJ&hl=en'>Aochuan Chen</a><sup>[1]</sup>*, 
-         <a style='color: #dfebf7' href='https://damon-demon.github.io'>Yimeng Zhang</a><sup>[1]</sup>*, 
-         <a style='color: #dfebf7' href='https://jinghanjia.github.io/cv/'>Jinghan Jia</a><sup>[1]</sup>, 
-         <a style='color: #dfebf7' href='https://people.llnl.gov/diffenderfer2'>James Diffenderfer</a><sup>[2]</sup>,
-         <a style='color: #dfebf7' href='https://ljcc0930.github.io'>Jiancheng Liu</a><sup>[1]</sup>, 
-         <a style='color: #dfebf7' href='https://people.llnl.gov/parasyris1'>Konstantinos Parasyris</a><sup>[2]</sup>, 
-         <a style='color: #dfebf7' href='https://www.yihua-zhang.com'>Yihua Zhang</a><sup>[1]</sup>, 
-         <a style='color: #dfebf7' href='https://web.ece.ucsb.edu/~zhengzhang/'>Zheng Zhang</a><sup>[3]</sup>, 
-         <a style='color: #dfebf7' href='https://people.llnl.gov/kailkhura1'>Bhavya Kailkhura</a><sup>[2]</sup>, 
-         <a style='color: #dfebf7' href='https://lsjxjtu.github.io/'>Sijia Liu</a><sup>[1]</sup>"
+title:  "[ICLR24] DeepZero: Scaling up Zeroth-Order Optimization for Deep Model Training"
+date: 2024-02-01 7:00:00
+author_list:
+  - name: "Aochuan Chen"
+    url: "https://scholar.google.com/citations?user=7pY-Ie8AAAAJ&hl=en"
+    affiliation: "1"
+    coauthor: true
+  - name: "Yimeng Zhang"
+    url: "https://damon-demon.github.io"
+    affiliation: "1"
+    coauthor: true
+  - name: "Jinghan Jia"
+    url: "https://jinghanjia.github.io/cv/"
+    affiliation: "1"
+  - name: "James Diffenderfer"
+    url: "https://people.llnl.gov/diffenderfer2"
+    affiliation: "2"
+  - name: "Jiancheng Liu"
+    url: "https://ljcc0930.github.io"
+    affiliation: "1"
+    newline: true
+  - name: "Konstantinos Parasyris"
+    url: "https://people.llnl.gov/parasyris1"
+    affiliation: "2"
+  - name: "Yihua Zhang"
+    url: "https://www.yihua-zhang.com"
+    affiliation: "1"
+  - name: "Zheng Zhang"
+    url: "https://web.ece.ucsb.edu/~zhengzhang/"
+    affiliation: "3"
+  - name: "Bhavya Kailkhura"
+    url: "https://people.llnl.gov/kailkhura1"
+    affiliation: "2"
+  - name: "Sijia Liu"
+    url: "https://lsjxjtu.github.io/"
+    affiliation: "1,4"
+affiliation_list:
+  - name: "Michigan State University"
+  - name: "Lawrence Livermore National Laboratory"
+  - name: "University of California, Santa Barbara"
+  - name: "MIT-IBM Watson AI Lab"
+buttons:
+  - text: "Code"
+    url: "https://github.com/OPTML-Group/DeepZero"
+  - text: "Paper"
+    url: "https://arxiv.org/abs/2310.02025"
+  - text: "Poster"
+    url: "https://damon-demon.github.io/links/ICLR2024_DeepZero_poster.pdf"
+  - text: "Slides"
+    url: "https://damon-demon.github.io/links/ICLR2024_DeepZero_Presentation.pdf"
 maintainer: "<a style='color: #dfebf7' href='https://damon-demon.github.io'>Yimeng Zhang</a>"
-affiliation: "<sup>[1]</sup>Michigan State University, <sup>[2]</sup>Lawrence Livermore National Laboratory, <sup>[3]</sup>University of California, Santa Barbara"
-code: "https://github.com/OPTML-Group/DeepZero"
-paper: "https://arxiv.org/abs/2310.02025"
-poster: "https://damon-demon.github.io/links/ICLR2024_DeepZero_poster.pdf"
-slides: "https://damon-demon.github.io/links/ICLR2024_DeepZero_Presentation.pdf"
 ---
 
 <center>
