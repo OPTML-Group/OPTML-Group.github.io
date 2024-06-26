@@ -139,7 +139,7 @@ permalink: /team/
 {% endif %}
 
 
-<!-- ## Alumni
+## Alumni
 {% assign number_printed = 0 %}
 {% for member in site.data.members.alumni %}
 
@@ -169,7 +169,7 @@ permalink: /team/
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
-{% endif %} -->
+{% endif %}
 
 <!-- ## Visitors -->
 ## Visiting Students/Scholars

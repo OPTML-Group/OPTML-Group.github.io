@@ -1,4 +1,4 @@
-- name: Yuguang(Tony) Yao
+- name: Yuguang (Tony) Yao
   photo: yuguang.png
   info: Graduate student, Computer Science, Michigan State University (Spring 2021 - current)
   email: yaoyugua@msu.edu
@@ -6,7 +6,7 @@
   number_educ: 1
   education1: B.Eng., Automation, Tsinghua University, China
 
-- name: Yimeng(Damon) Zhang
+- name: Yimeng (Damon) Zhang
   photo: yimeng.png
   info: Graduate student, Computer Science, Michigan State University (Spring 2021 - current)
   email: zhan1853@msu.edu
@@ -32,15 +32,6 @@
   number_educ: 1
   education1: B.Eng., Mechanical Engineering, Huazhong University of Science and Technology, China
 
-- name: Yangru Zhou
-  photo: yangru.png
-  info: Graduate student, Computer Science, Michigan State University (Spring 2022 - current)
-  email: zhouya31@msu.edu
-  url: https://www.linkedin.com/in/yangru-zhou-a3223a17a/
-  number_educ: 2
-  education1: M.S., Biomedical Engineering, University of Florida, United States
-  education2: B.S., Bioinformatics, Huazhong Agricultural University, China
-
 - name: Jiancheng Liu
   photo: jiancheng.png
   info: Graduate Student, Computer Science, Michigan State University (Spring 2023 - current)
@@ -48,3 +39,39 @@
   url: https://ljcc0930.github.io/
   number_educ: 1
   education1: B.Eng., Institute for Interdisciplinary Information Sciences, Tsinghua University, China
+
+- name: Chongyu Fan
+  photo: chongyu.png
+  info: Graduate Student, Computer Science, Michigan State University (Fall 2024 - current)
+  email: fanchon2@msu.edu
+  url: https://a-f1.github.io/
+  number_educ: 1
+  education1: B.Eng., Mechanical Engineering, Huazhong University of Science and Technology, China
+
+- name: Changsheng Wang
+  photo: changsheng.png
+  info: Graduate Student, Computer Science, Michigan State University (Fall 2024 - current)
+  email: wangc168@msu.edu
+  url: https://x.com/wcsa23187
+  number_educ: 1
+  education1: B.Eng., Mechanical Engineering, Huazhong University of Science and Technology, China
+
+- name: Yiwei Chen
+  photo: yiwei.png
+  info: Graduate Student, Computer Science, Michigan State University (Fall 2024 - current)
+  email: chenyiw9@msu.edu
+  url: https://www.linkedin.com/in/yiwei-melody-chen/
+  number_educ: 1
+  education1: M.S., Computer Science and Technology, Xi'an Jiaotong University, China
+  education2: B.Eng., Automation, Honor Class in Qian Xuesen Hornors College, Xi'an Jiaotong University, China
+
+- name: Soumyadeep Pal
+  photo: soumyadeep.png
+  info: Graduate Student, Computer Science, Michigan State University (Fall 2024 - current)
+  email: palsoum1@msu.edu
+  url: https://www.linkedin.com/in/yiwei-melody-chen/
+  number_educ: 1
+  education1: M.S., Computer Science, University of Alberta, Canada
+  education2: B.Eng., Electrical and Electronics Engineering, Jadavpur University, India
+
+
