@@ -37,7 +37,7 @@ buttons:
       url: "https://github.com/OPTML-Group/Diffusion-MU-Attack"
     - text: "Paper"
       url: "https://arxiv.org/abs/2310.11868"
-    - text: "Benchmark"
+    - text: "Unlearned DM Benchmark"
       url: "https://huggingface.co/spaces/Intel/UnlearnDiffAtk-Benchmark"
     - text: "Demo"
       url: "https://huggingface.co/spaces/Intel/UnlearnDiffAtk"
