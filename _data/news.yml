@@ -1,3 +1,6 @@
+- date: 1. July 2024
+  headline: "Two papers in <a href='https://eccv.ecva.net/'>ECCV’24</a>: (1) Exploring adversarial robustness of safety-driven concept-unlearned diffusion models through a diffusion classifier perspective <a href='https://arxiv.org/pdf/2310.11868'>[Paper]</a>; (2) Challenging forgets to unveil when and why machine unlearning could be more challenging than common beliefs <a href='https://arxiv.org/pdf/2403.07362'>[paper]</a>"
+
 - date: 10. June 2024
   headline: "Two papers accepted in <a href='https://icml.cc/'>ICML'24</a>: (1) <a href='https://www.arxiv.org/pdf/2402.11592'>Benchmarking zeroth-order optimization for memory-efficient LLM fine-tuning</a>; (2) <a href='https://arxiv.org/pdf/2406.01977'>Why does graph transformer generalize? A Theoretical Dive into Self-attention and Positional Encoding</a>"
 

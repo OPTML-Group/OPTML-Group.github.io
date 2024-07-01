@@ -1,9 +1,9 @@
-- title: "Challenging Forgets: Unveiling the Worst-Case Forget Sets in Machine Unlearning"
+- title: "SOUL: Unlocking the Power of Second-Order Optimization for LLM Unlearning"
   image: dummy.png
   description:
-  authors: "<span style='color:blue'>C. Fan*</span>, <span style='color:blue'>J. Liu*</span>, A. Hero, <span style='color:blue'>S. Liu</span>"
+  authors: "<span style='color:blue'>J. Jia</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>J. Liu</span>, <span style='color:blue'>B. Runwawl</span>, <span style='color:black'>J. Diffendender</span>, <span style='color:black'>B. Kailkhura</span>, <span style='color:blue'>S. Liu</span>"
   link:
-    url: https://arxiv.org/abs/2403.07362
+    url: https://arxiv.org/abs/2404.18239
     display: arXiv Preprint
   highlight: 0
   news2:
@@ -12,7 +12,7 @@
 - title: "UnlearnCanvas: A Stylized Image Dataset to Benchmark Machine Unlearning for Diffusion Models"
   image: dummy.png
   description:
-  authors: "<span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>Y. Yao</span>, <span style='color:blue'>J. Jia</span>, <span style='color:blue'>J. Liu</span>, X. Liu, <span style='color:blue'>S. Liu</span>"
+  authors: "<span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>C. Fan</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>Y. Yao</span>, <span style='color:blue'>J. Jia</span>, <span style='color:blue'>J. Liu</span>, G. Zhang, G. Liu, R. Kompella, X. Liu, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/abs/2402.11846
     display: arXiv Preprint
@@ -31,13 +31,4 @@
   news2:
   post:
 
-- title: "To Generate or Not? Safety-Driven Unlearned Diffusion Models Are Still Easy To Generate Unsafe Images ... For Now"
-  image: mu_attack.png
-  description: "The recent advances in diffusion models (DMs) have revolutionized the generation of complex and diverse images. However, these models also introduce potential safety hazards, such as the production of harmful content and infringement of data copyrights. Although there have been efforts to create safety-driven unlearning methods to counteract these challenges, doubts remain about their capabilities. To bridge this uncertainty, we propose an evaluation framework built upon adversarial attacks (also referred to as adversarial prompts), in order to discern the trustworthiness of these safety-driven unlearned DMs. Specifically, our research explores the (worst-case) robustness of unlearned DMs in eradicating unwanted concepts, styles, and objects, assessed by the generation of adversarial prompts. We develop a novel adversarial learning approach called UnlearnDiff that leverages the inherent classification capabilities of DMs to streamline the generation of adversarial prompts, making it as simple for DMs as it is for image classification attacks. This technique streamlines the creation of adversarial prompts, making the process as intuitive for generative modeling as it is for image classification assaults. Through comprehensive benchmarking, we assess the unlearning robustness of five prevalent unlearned DMs across multiple tasks. Our results underscore the effectiveness and efficiency of UnlearnDiff when compared to state-of-the-art adversarial prompting methods."
-  authors: "<span style='color:blue'>Y. Zhang*</span>, <span style='color:blue'>J. Jia*</span>, X. Chen, <span style='color:blue'>A. Chen</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>J. Liu</span>, K. Ding, <span style='color:blue'>S. Liu</span>"
-  link:
-    url: https://arxiv.org/abs/2310.11868
-    display: arXiv Preprint
-  highlight: 1
-  news2:
-  post: mu_attack
+
