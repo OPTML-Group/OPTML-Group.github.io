@@ -4,7 +4,7 @@
   authors: "<span style='color:blue'>Y. Zhang*</span>, <span style='color:blue'>J. Jia*</span>, X. Chen, <span style='color:blue'>A. Chen</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>J. Liu</span>, K. Ding, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/abs/2310.11868
-    display: ECCV'24
+    display: ECCV’24
   highlight: 1
   news2:
   post: mu_attack
@@ -15,7 +15,7 @@
   authors: "<span style='color:blue'>C. Fan*</span>, <span style='color:blue'>J. Liu*</span>, A. Hero, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/abs/2403.07362
-    display: ECCV'24
+    display: ECCV’24
   highlight: 0
   news2:
   post:
