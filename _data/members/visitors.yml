@@ -1,22 +1,22 @@
-- name: "[Chongyu Fan](https://a-f1.github.io/)"
-  info: Undergraduate, Huazhong University of Science and Technology, China
-  visiting: May. 2023 - Present
-  research: "<a href='https://arxiv.org/abs/2310.12508'>SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation</a> [<b>Spotlight</b> paper at <a href='https://iclr.cc/'>ICLR’24</a>]"
-
 - name: Zhuoshi Pan (remote)
   info: Graduate student, Tsinghua University, China
   visiting: May. 2023 - Present
   research: "<a href='https://arxiv.org/abs/2311.02373'>From Trojan Horses to Castle Walls: Unveiling Bilateral Backdoor Effects in Diffusion Models</a> [Paper at <a href='https://neurips2023-bugs.github.io/'>Backdoors in Deep Learning@NeurIPS’23</a>]"
 
-- name: Chen Fan (remote)
-  info: Graduate student, University of British Columbia, Canada
-  visiting: May 2021 - Sept. 2021
-  research: "<a href='https://arxiv.org/abs/2109.07497'>Sign-MAML: Efficient Model-Agnostic Meta-Learning by SignSGD</a> [Paper at <a href='https://meta-learn.github.io/2021/'>MetaLearn@NeurIPS’21</a>]"
+- name: "[Chongyu Fan](https://a-f1.github.io/)"
+  info: Undergraduate, Huazhong University of Science and Technology, China
+  visiting: May. 2023 - Feb. 2024
+  research: "<a href='https://arxiv.org/abs/2310.12508'>SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation</a> [<b>Spotlight</b> paper at <a href='https://iclr.cc/Conferences/2024'>ICLR’24</a>]"
 
-- name: Vardaan Taneja (remote)
-  info: Undergraduate, Indian Institute of Technology, Delhi, India
-  visiting: May 2021 - Sept. 2021
-  research: "<a href='https://ieeexplore.ieee.org/document/9746433'>When Does Backdoor Attack Succeed in Image Reconstruction? A Study of Heuristics vs. Bi-Level Solution</a> [Paper at <a href='https://2022.ieeeicassp.org/'>ICASSP’22</a>]"
+- name: "[Aochuan Chen](https://scholar.google.com/citations?user=7pY-Ie8AAAAJ&hl=en)"
+  info: Undergraduate, Tsinghua University, China
+  visiting: Aug. 2022 - Sept. 2023
+  research: "<a href='https://arxiv.org/abs/2211.11635'>Understanding and improving visual prompting: A label-mapping perspective</a> [Paper at <a href='https://cvpr.thecvf.com/Conferences/2023'>CVPR’23</a>]"
+
+- name: "[Haomin Zhuang](https://zhmzm.github.io/) (remote)"
+  info: Undergraduate, South China University of Technology, China
+  visiting: Oct. 2022 - Mar. 2023
+  research: "<a href='https://arxiv.org/abs/2303.16378'>A Pilot Study of Query-Free Adversarial Attack against Stable Diffusion</a> [Paper at <a href='https://robustart.github.io/'>The 3rd Workshop of Adversarial Machine Learning on Computer Vision@CVPR’23</a>]"
 
 - name: "[Soumyadeep Pal](https://scholar.google.ca/citations?user=c2VU-_4AAAAJ&hl=en)"
   info: Graduate student, University of Alberta, Canada
@@ -33,7 +33,12 @@
   visiting: May 2022 - Sept. 2022
   research: "<a href='https://arxiv.org/abs/2303.12735'>SMUG: Towards robust MRI reconstruction by smoothed unrolling</a> [Paper at <a href='https://2023.ieeeicassp.org/'>ICASSP’23</a>]"
 
-- name: "[Haomin Zhuang](https://zhmzm.github.io/) (remote)"
-  info: Undergraduate, South China University of Technology, China
-  visiting: Oct. 2022 - Mar. 2023
-  research: "<a href='https://arxiv.org/abs/2303.16378'>A Pilot Study of Query-Free Adversarial Attack against Stable Diffusion</a> [Paper at <a href='https://robustart.github.io/'>The 3rd Workshop of Adversarial Machine Learning on Computer Vision@CVPR’23</a>]"
+- name: Chen Fan (remote)
+  info: Graduate student, University of British Columbia, Canada
+  visiting: May 2021 - Sept. 2021
+  research: "<a href='https://arxiv.org/abs/2109.07497'>Sign-MAML: Efficient Model-Agnostic Meta-Learning by SignSGD</a> [Paper at <a href='https://meta-learn.github.io/2021/'>MetaLearn@NeurIPS’21</a>]"
+
+- name: Vardaan Taneja (remote)
+  info: Undergraduate, Indian Institute of Technology, Delhi, India
+  visiting: May 2021 - Sept. 2021
+  research: "<a href='https://ieeexplore.ieee.org/document/9746433'>When Does Backdoor Attack Succeed in Image Reconstruction? A Study of Heuristics vs. Bi-Level Solution</a> [Paper at <a href='https://2022.ieeeicassp.org/'>ICASSP’22</a>]"
