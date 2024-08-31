@@ -3,75 +3,75 @@
   info: Graduate student, Computer Science, Michigan State University (Spring 2021 - current)
   email: yaoyugua@msu.edu
   url: https://www.cse.msu.edu/~yaoyugua/
-  number_educ: 1
-  education1: B.Eng., Automation, Tsinghua University, China
+  education:
+    - B.Eng., Automation, Tsinghua University, China
 
 - name: Yimeng (Damon) Zhang
   photo: yimeng.png
   info: Graduate student, Computer Science, Michigan State University (Spring 2021 - current)
   email: zhan1853@msu.edu
   url: https://damon-demon.github.io/
-  number_educ: 2
-  education1: M.S., Electrical Engineering, Columbia University, United States
-  education2: B.Eng., Electrical and Electronic Engineering, University of Sheffield, United Kingdom
+  education:
+    - M.S., Electrical Engineering, Columbia University, United States
+    - B.Eng., Electrical and Electronic Engineering, University of Sheffield, United Kingdom
 
 - name: Jinghan Jia
   photo: jinghan.png
   info: Graduate student, Computer Science, Michigan State University (Fall 2021 - current)
   email: jiajingh@msu.edu
   url: https://jinghanjia.netlify.app/
-  number_educ: 2
-  education1: M.S., Electrical and Computer Engineering, University of Florida, United States
-  education2: B.Eng., Computer Science, University of Science and Technology of China, China
+  education:
+    - M.S., Electrical and Computer Engineering, University of Florida, United States
+    - B.Eng., Computer Science, University of Science and Technology of China, China
 
 - name: Yihua Zhang
   photo: yihua.png
   info: Graduate student, Computer Science, Michigan State University (Spring 2022 - current)
   email: zhan1908@msu.edu
   url: https://www.yihua-zhang.com
-  number_educ: 1
-  education1: B.Eng., Mechanical Engineering, Huazhong University of Science and Technology, China
+  education:
+    - B.Eng., Mechanical Engineering, Huazhong University of Science and Technology, China
 
 - name: Jiancheng Liu
   photo: jiancheng.png
   info: Graduate Student, Computer Science, Michigan State University (Spring 2023 - current)
   email: liujia45@msu.edu
   url: https://ljcc0930.github.io/
-  number_educ: 1
-  education1: B.Eng., Institute for Interdisciplinary Information Sciences, Tsinghua University, China
+  education:
+    - B.Eng., Institute for Interdisciplinary Information Sciences, Tsinghua University, China
 
 - name: Chongyu Fan
   photo: chongyu.png
   info: Graduate Student, Computer Science, Michigan State University (Fall 2024 - current)
   email: fanchon2@msu.edu
   url: https://a-f1.github.io/
-  number_educ: 1
-  education1: B.Eng., Mechanical Engineering, Huazhong University of Science and Technology, China
+  education:
+    - B.Eng., Mechanical Engineering, Huazhong University of Science and Technology, China
 
 - name: Changsheng Wang
   photo: changsheng.png
   info: Graduate Student, Computer Science, Michigan State University (Fall 2024 - current)
   email: wangc168@msu.edu
   url: https://x.com/wcsa23187
-  number_educ: 1
-  education1: B.Eng., Data Science, University of Science and Technology of China, China
+  education:
+    - B.Eng., Data Science, University of Science and Technology of China, China
 
 - name: Yiwei Chen
   photo: yiwei.png
   info: Graduate Student, Computer Science, Michigan State University (Fall 2024 - current)
   email: chenyiw9@msu.edu
   url: https://www.linkedin.com/in/yiwei-melody-chen/
-  number_educ: 2
-  education1: M.S., Computer Science and Technology, Xi'an Jiaotong University, China
-  education2: B.Eng., Automation, Honor Class in Qian Xuesen Hornors College, Xi'an Jiaotong University, China
+  education:
+    - M.S., Computer Science and Technology, Xi'an Jiaotong University, China
+    - B.Eng., Automation, Honor Class in Qian Xuesen Hornors College, Xi'an Jiaotong University, China
 
 - name: Soumyadeep Pal
   photo: soumyadeep.png
   info: Graduate Student, Computer Science, Michigan State University (Fall 2024 - current)
   email: palsoum1@msu.edu
   url: https://scholar.google.ca/citations?user=c2VU-_4AAAAJ&hl=en
-  number_educ: 2
-  education1: M.Sc.(Thesis), Computer Science, University of Alberta, Canada
-  education2: B.Eng., Electrical Engineering, Jadavpur University, India
+  education:
+    - M.Sc.(Thesis), Computer Science, University of Alberta, Canada
+    - B.Eng., Electrical Engineering, Jadavpur University, India
 
 
