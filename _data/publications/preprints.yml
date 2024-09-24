@@ -1,14 +1,3 @@
-- title: "SOUL: Unlocking the Power of Second-Order Optimization for LLM Unlearning"
-  image: dummy.png
-  description:
-  authors: "<span style='color:blue'>J. Jia</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>J. Liu</span>, <span style='color:blue'>B. Runwawl</span>, <span style='color:black'>J. Diffendender</span>, <span style='color:black'>B. Kailkhura</span>, <span style='color:blue'>S. Liu</span>"
-  link:
-    url: https://arxiv.org/abs/2404.18239
-    display: arXiv Preprint
-  highlight: 0
-  news2:
-  post:
-
 - title: "UnlearnCanvas: A Stylized Image Dataset to Benchmark Machine Unlearning for Diffusion Models"
   image: dummy.png
   description:
