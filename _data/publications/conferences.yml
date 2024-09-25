@@ -1,3 +1,36 @@
+- title: "WAGLE: Strategic Weight Attribution for Effective and Modular Unlearning in Large Language Models"
+  image: dummy.png
+  description:
+  authors: "<span style='color:blue'>J. Jia</span>, <span style='color:blue'>J. Liu</span>, <span style='color:blue'>Y. Zhang</span>, P. Ram, N. Baracaldo, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://www.optml-group.com/publications
+    display: NeurIPS’24
+  highlight: 0
+  news2:
+  post:
+
+- title: "Defensive Unlearning with Adversarial Training for Robust Concept Erasure in Diffusion Models"
+  image: dummy.png
+  description:
+  authors: "<span style='color:blue'>Y. Zhang</span>, X. Chen, <span style='color:blue'>J. Jia</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>C. Fan</span>, <span style='color:blue'>J. Liu</span>, M. Hong, K. Ding, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2311.02373
+    display: NeurIPS’24
+  highlight: 0
+  news2:
+  post:
+
+- title: "From Trojan Horses to Castle Walls: Unveiling Bilateral Backdoor Effects in Diffusion Models"
+  image: dummy.png
+  description:
+  authors: "<span style='color:blue'>Z. Pan*</span>, <span style='color:blue'>Y. Yao*</span>, G. Liu, B. Shen, H. V. Zhao, R. R. Kompella, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2311.02373
+    display: NeurIPS’24
+  highlight: 0
+  news2:
+  post:
+
 - title: "SOUL: Unlocking the Power of Second-Order Optimization for LLM Unlearning"
   image: dummy.png
   description:
