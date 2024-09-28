@@ -1,7 +1,7 @@
 - image: images/picpic/group_pics/CVPR24/pic1.jpg
   title: CVPR’24
-- image: images/picpic/group_pics/CVPR24/pic2.jpg
-  title: CVPR’24
+# - image: images/picpic/group_pics/CVPR24/pic2.jpg
+  # title: CVPR’24
 - image: images/picpic/group_pics/ICLR24/pic1.jpg
   title: ICLR’24
 - image: images/picpic/group_pics/ICLR24/pic2.jpg
