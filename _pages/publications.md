@@ -13,7 +13,7 @@ Authors marked in <span style="color:blue">blue</span> indicate our group member
 Jump: [Preprints](#preprints), [Conference Papers](#highlighted-conference-papers) and [Journal Papers](#journal-papers)
 
 
-<!-- ## Preprints
+## Preprints
 
 **Back to [Top](#publications)**
 
@@ -23,7 +23,7 @@ Jump: [Preprints](#preprints), [Conference Papers](#highlighted-conference-paper
   <em>{{ publi.authors }} </em><br />
   {{ publi.link.display }}
 
-{% endfor %} -->
+{% endfor %}
 
 
 ## Highlighted Conference Papers

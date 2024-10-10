@@ -20,17 +20,6 @@
   news2:
   post:
 
-- title: "UnlearnCanvas: A Stylized Image Dataset to Benchmark Machine Unlearning for Diffusion Models"
-  image: dummy.png
-  description:
-  authors: "<span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>C. Fan</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>Y. Yao</span>, <span style='color:blue'>J. Jia</span>, <span style='color:blue'>J. Liu</span>, G. Zhang, G. Liu, R. Kompella, X. Liu, <span style='color:blue'>S. Liu</span>"
-  link:
-    url: https://arxiv.org/abs/2402.11846
-    display: "NeurIPS’24 D&B"
-  highlight: 0
-  news2:
-  post:
-
 - title: "From Trojan Horses to Castle Walls: Unveiling Bilateral Backdoor Effects in Diffusion Models"
   image: dummy.png
   description:
@@ -38,6 +27,17 @@
   link:
     url: https://arxiv.org/abs/2311.02373
     display: NeurIPS’24
+  highlight: 0
+  news2:
+  post:
+
+- title: "UnlearnCanvas: A Stylized Image Dataset to Benchmark Machine Unlearning for Diffusion Models"
+  image: dummy.png
+  description:
+  authors: "<span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>C. Fan</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>Y. Yao</span>, <span style='color:blue'>J. Jia</span>, <span style='color:blue'>J. Liu</span>, G. Zhang, G. Liu, R. Kompella, X. Liu, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2402.11846
+    display: "NeurIPS’24 D&B"
   highlight: 0
   news2:
   post:
