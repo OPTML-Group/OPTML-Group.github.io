@@ -83,18 +83,20 @@
 #     - M.M., Computer Music, The Peabody Institute of The Johns Hopkins University, United States
 #     - B.A., Music Design and Production, Zhejiang Conservatory of Music, China
 
-- name: [Changchang Sun] (Visiting)
+- name: "Changchang Sun (Visiting)"
   photo: changchang.png
   email: sunchan5@msu.edu
   info: Ph.D. student, Department of Computer Science, University of Illinois Chicago
   url: https://scholar.google.com/citations?user=bCxWjjYAAAAJ&hl=en
+  education:
 
 
-- name: Hyoseo Kim (Visiting)
+- name: "Hyoseo Kim (Visiting)"
   photo: hyoseo.jpg
   email: kimhyose@msu.edu
   info: Ph.D. student, Department of Computer Science and Engineering, Sogang University, South Korea (Oct. 2024 - Present)
   url: https://sites.google.com/view/hyoseokim
+  education:
 
 
 
