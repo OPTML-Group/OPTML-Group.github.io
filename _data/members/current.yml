@@ -62,8 +62,8 @@
   email: chenyiw9@msu.edu
   url: https://www.linkedin.com/in/yiwei-melody-chen/
   education:
-    - M.S., Computer Science and Technology, Xi'an Jiaotong University, China
-    - B.Eng., Automation, Honor Class in Qian Xuesen Hornors College, Xi'an Jiaotong University, China
+    - M.S., Computer Science, Xi'an Jiaotong University, China
+    - B.Eng., Automation, Young Gifted Class, Xi'an Jiaotong University, China
 
 - name: Soumyadeep Pal
   photo: soumyadeep.png
@@ -82,5 +82,19 @@
 #   education:
 #     - M.M., Computer Music, The Peabody Institute of The Johns Hopkins University, United States
 #     - B.A., Music Design and Production, Zhejiang Conservatory of Music, China
+
+- name: [Changchang Sun] (Visiting)
+  photo: changchang.png
+  email: sunchan5@msu.edu
+  info: Ph.D. student, Department of Computer Science, University of Illinois Chicago
+  url: https://scholar.google.com/citations?user=bCxWjjYAAAAJ&hl=en
+
+
+- name: Hyoseo Kim (Visiting)
+  photo: hyoseo.jpg
+  email: kimhyose@msu.edu
+  info: Ph.D. student, Department of Computer Science and Engineering, Sogang University, South Korea (Oct. 2024 - Present)
+  url: https://sites.google.com/view/hyoseokim
+
 
 
