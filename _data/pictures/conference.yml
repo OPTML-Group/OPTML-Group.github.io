@@ -1,7 +1,11 @@
+- image: images/picpic/group_pics/ECCV24/img1.jpg
+  title: ECCV’24
+- image: images/picpic/group_pics/ECCV24/img2.jpg
+  title: ECCV’24
+- image: images/picpic/group_pics/ECCV24/img3.jpg
+  title: ECCV’24
 - image: images/picpic/group_pics/CVPR24/pic1.jpg
   title: CVPR’24
-# - image: images/picpic/group_pics/CVPR24/pic2.jpg
-  # title: CVPR’24
 - image: images/picpic/group_pics/ICLR24/pic1.jpg
   title: ICLR’24
 - image: images/picpic/group_pics/ICLR24/pic2.jpg
