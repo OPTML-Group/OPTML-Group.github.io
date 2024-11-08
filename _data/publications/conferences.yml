@@ -1,3 +1,15 @@
+- title: "Can Adversarial Examples Be Parsed to Reveal Victim Model Information?"
+  image: dummy.png
+  description:
+  authors: "<span style='color:blue'>Y. Yao</span>, <span style='color:blue'>J. Liu</span>, <span style='color:blue'>Y. Gong</span>, X. Liu, Y. Wang, X. Lin, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/pdf/2303.07474
+    display: WACV'24
+  highlight: 0
+  news2:
+  post:
+
+
 - title: "WAGLE: Strategic Weight Attribution for Effective and Modular Unlearning in Large Language Models"
   image: dummy.png
   description:
