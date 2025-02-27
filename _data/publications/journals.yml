@@ -1,3 +1,14 @@
+- title: "Rethinking machine unlearning for large language models"
+  image: dummy.png
+  description: ""
+  authors: <span style='color:blue'>S. Liu</span>, Y. Yao, J. Jia, S. Casper, N. Baracaldo, P. Hase, <span style='color:blue'>Y. Yao</span>, C. Y. Liu, X. Xu, H. Li, K. R. Varshney, M. Bansal, S. Koyejo, Y. Liu.
+  link:
+    url: https://doi.org/10.1038/s42256-025-00985-0
+    display: Nature Machine Intelligence (2025)
+  highlight: 0
+  news2:
+
+
 - title: "An Introduction to Bilevel Optimization: Foundations and Applications in Signal Processing and Machine Learning"
   image: dummy.png
   description: ""
