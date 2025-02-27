@@ -1,3 +1,14 @@
+- title: "When is Task Vector Provably Effective for Model Editing? A Generalization Analysis of Nonlinear Transformers"
+  image: dummy.png
+  description:
+  authors: "H. Li, <span style='color:blue'>Y. Zhang</span>, S. Zhang, M. Wang, <span style='color:blue'>S. Liu</span>, P.-Y. Chen"
+  link:
+    url: https://openreview.net/forum?id=vRvVVb0NAz
+    display: ICLR'25 (<span style='color:red'><b>Oral</b>, acceptance rate 1.8%</span>)
+  highlight: 0
+  news2:
+  post:
+
 - title: "Can Adversarial Examples Be Parsed to Reveal Victim Model Information?"
   image: dummy.png
   description:
