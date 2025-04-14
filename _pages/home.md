@@ -80,13 +80,15 @@ Authors marked in **bold** indicate our group members, and "\*" indicates equal 
 
 **Trustworthy AI: Robustness, fairness, and model explanation**
 
+* [Rethinking Machine Unlearning for Large Language Models](https://www.nature.com/articles/s42256-025-00985-0)<br>**S. Liu\***, Y. Yao, **J. Jia\***, S. Casper, N. Baracaldo, P. Hase, **Y. Yao\***, C. Y. Liu, X. Xu, H. Li, K. R. Varshney, M. Bansal, S. Koyejo, Y. Liu,<br>, Nature Machine Intelligence, 2025.
+
 * [Model sparsification can simplify machine unlearning](https://arxiv.org/abs/2304.04934)<br>
     **J. Jia\***, **J. Liu\***, P. Ram, **Y. Yao**, G. Liu, Y. Liu, P. Sharma, **S. Liu**<br>
     NeurIPS’23 **<span style="color:red">(Spotlight)</span>**
 
-* [Understanding and Improving Visual Prompting: A Label-Mapping Perspective](https://arxiv.org/abs/2209.10222)<br>
+<!-- * [Understanding and Improving Visual Prompting: A Label-Mapping Perspective](https://arxiv.org/abs/2209.10222)<br>
     **A. Chen**, **Y. Yao**, P.-Y. Chen, **Y. Zhang**, **S. Liu**<br>
-    CVPR’23
+    CVPR’23 -->
 
 * [Revisiting and advancing fast adversarial training through the lens of bi-level optimization](https://arxiv.org/abs/2112.12376)<br>
     **Y. Zhang\***, G. Zhang\*, P. Khanduri, M. Hong, S. Chang, **S. Liu**<br>
