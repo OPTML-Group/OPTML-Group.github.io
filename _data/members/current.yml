@@ -32,14 +32,6 @@
   education:
     - B.Eng., Mechanical Engineering, Huazhong University of Science and Technology, China
 
-- name: Jiancheng Liu
-  photo: jiancheng.png
-  info: Graduate Student, Computer Science, Michigan State University (Spring 2023 - current)
-  email: liujia45@msu.edu
-  url: https://ljcc0930.github.io/
-  education:
-    - B.Eng., Institute for Interdisciplinary Information Sciences, Tsinghua University, China
-
 - name: Chongyu Fan
   photo: chongyu.png
   info: Graduate Student, Computer Science, Michigan State University (Fall 2024 - current)
@@ -84,15 +76,6 @@
     - B.Eng., Software Engineering, Tongji University, China
 
 
-# - name: Zhengcheng He
-#   photo: zhengcheng.png
-#   info: Graduate Student, Music Composition, Michigan State University (Fall 2024 - Current)
-#   email: hezhengc@msu.edu
-#   url: 
-#   education:
-#     - M.M., Computer Music, The Peabody Institute of The Johns Hopkins University, United States
-#     - B.A., Music Design and Production, Zhejiang Conservatory of Music, China
-
 - name: "Changchang Sun (Visiting)"
   photo: changchang.png
   email: sunchan5@msu.edu
@@ -101,12 +84,6 @@
   education:
 
 
-- name: "Hyoseo Kim (Visiting)"
-  photo: hyoseo.jpg
-  email: kimhyose@msu.edu
-  info: Ph.D. student, Department of Computer Science and Engineering, Sogang University, South Korea (Oct. 2024 - Present)
-  url: https://sites.google.com/view/hyoseokim
-  education:
 
 
 
