@@ -6,3 +6,20 @@
   education:
     - M.S., Computer Science, Michigan State University, United States
     - B.S., Bioinformatics, Huazhong Agricultural University, China
+
+- name: Jiancheng Liu
+  photo: jiancheng.png
+  info: Graduate Student, Computer Science, Michigan State University (Spring 2023 - Spring 2025)
+  email: liujia45@msu.edu
+  url: https://ljcc0930.github.io/
+  education:
+    - M.S., Computer Science, Michigan State University, United States
+    - B.Eng., Institute for Interdisciplinary Information Sciences, Tsinghua University, China
+
+- name: Hyoseo Kim
+  photo: hyoseo.jpg
+  email: kimhyose@msu.edu
+  info: Visiting Student (Oct. 2024 - May. 2025)
+  url: https://sites.google.com/view/hyoseokim
+  education:
+    - Ph.D. student, Department of Computer Science and Engineering, Sogang University, South Korea 
