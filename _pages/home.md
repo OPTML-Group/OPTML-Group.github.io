@@ -127,7 +127,7 @@ Authors marked in **bold** indicate our group members, and "\*" indicates equal 
 
 ### Sponsors
 
-We are grateful for funding from [Michigan State University](https://msu.edu), [MIT-IBM Watson AI Lab](https://mitibmwatsonailab.mit.edu/), [DARPA](https://www.darpa.mil/), [Cisco Research](https://research.cisco.com/), [NSF](https://www.nsf.gov/), [DSO National Laboratories](https://www.dso.org.sg/), [LLNL](https://www.llnl.gov/), [ARO](https://www.arl.army.mil/who-we-are/aro/), [Amazon Research](https://www.amazon.science/).
+We are grateful for funding from [Michigan State University](https://msu.edu), [MIT-IBM Watson AI Lab](https://mitibmwatsonailab.mit.edu/), [DARPA](https://www.darpa.mil/), [Cisco Research](https://research.cisco.com/), [NSF](https://www.nsf.gov/), [DSO National Laboratories](https://www.dso.org.sg/), [LLNL](https://www.llnl.gov/), [ARO](https://www.arl.army.mil/who-we-are/aro/), [Amazon Research](https://www.amazon.science/), abd [Open Philanthropy](https://www.openphilanthropy.org/).
 
 <center>
 <figure class="fourth">
@@ -145,6 +145,7 @@ We are grateful for funding from [Michigan State University](https://msu.edu), [
 <figure class="fourth">
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ARO.png" style="width: 30%" padding="5% 5% 5% 5%">
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Amazon.png" style="width: 30%" padding="5% 5% 5% 5%">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_open_philanthropy.png" style="width: 30%" padding="5% 5% 5% 5%">
 </figure>
 
 </center>
