@@ -4,17 +4,19 @@
   email: yaoyugua@msu.edu
   url: https://www.cse.msu.edu/~yaoyugua/
   education:
+    - "Current: Research Scientist, Intuit"
     - Ph.D., Computer Science, Michigan State University, United States
-    - B.Eng., Automation, Tsinghua University, China
+    # - B.Eng., Automation, Tsinghua University, China
 
-- name: Jiancheng Liu (Now Member of Technical Staff at OpenAI)
+- name: Jiancheng Liu
   photo: jiancheng.png
   info: Graduate Student, Computer Science, Michigan State University (Spring 2023 - Spring 2025)
   email: liujia45@msu.edu
   url: https://ljcc0930.github.io/
   education:
+    - "Current: Member of Technical Staff, OpenAI"
     - M.S., Computer Science, Michigan State University, United States
-    - B.Eng., Institute for Interdisciplinary Information Sciences, Tsinghua University, China
+    # - B.Eng., Institute for Interdisciplinary Information Sciences, Tsinghua University, China
 
 - name: Yangru Zhou
   photo: yangru.png
@@ -23,12 +25,12 @@
   url: https://www.linkedin.com/in/yangru-zhou-a3223a17a/
   education:
     - M.S., Computer Science, Michigan State University, United States
-    - B.S., Bioinformatics, Huazhong Agricultural University, China
+    # - B.S., Bioinformatics, Huazhong Agricultural University, China
 
-- name: Hyoseo Kim
-  photo: hyoseo.jpg
-  email: kimhyose@msu.edu
-  info: Visiting Student (Oct. 2024 - May. 2025)
-  url: https://sites.google.com/view/hyoseokim
-  education:
-    - Ph.D. student, Department of Computer Science and Engineering, Sogang University, South Korea 
+# - name: Hyoseo Kim
+#   photo: hyoseo.jpg
+#   email: kimhyose@msu.edu
+#   info: Visiting Student (Oct. 2024 - May. 2025)
+#   url: https://sites.google.com/view/hyoseokim
+#   education:
+#     - Ph.D. student, Department of Computer Science and Engineering, Sogang University, South Korea 
