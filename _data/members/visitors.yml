@@ -1,6 +1,11 @@
+- name: Yuhao Sun (remote)
+  info: Graduate student, University of Science and Technology of China
+  visiting: May. 2024 - Feb. 2025
+  research: "<a href=''>Invisible Watermarks, Visible Gains: Steering Machine Unlearning with Bi-Level Watermarking Design</a> [Paper at <a href='https://iccv.thecvf.com/'>ICCV’25</a>]"
+
 - name: Zhuoshi Pan (remote)
   info: Graduate student, Tsinghua University, China
-  visiting: May. 2023 - Present
+  visiting: May. 2023 - Feb. 2023
   research: "<a href='https://arxiv.org/abs/2311.02373'>From Trojan Horses to Castle Walls: Unveiling Bilateral Backdoor Effects in Diffusion Models</a> [Paper at <a href='https://neurips2023-bugs.github.io/'>Backdoors in Deep Learning@NeurIPS’23</a>]"
 
 - name: "[Chongyu Fan](https://a-f1.github.io/)"
