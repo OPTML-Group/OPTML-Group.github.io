@@ -1,21 +1,21 @@
 - name: Yuguang (Tony) Yao
   photo: yuguang.png
-  info: Ph.D., Computer Science, Michigan State University (Spring 2021 - Fall 2024)
+  info: Ph.D., Computer Science, Michigan State University
   email: yaoyugua@msu.edu
   url: https://www.cse.msu.edu/~yaoyugua/
   education:
     - "Current: Research Scientist, Intuit"
-    - Ph.D., Computer Science, Michigan State University, United States
+    - Ph.D., Computer Science, Michigan State University, United States (Spring 2021 - Fall 2024)
     # - B.Eng., Automation, Tsinghua University, China
 
 - name: Jiancheng Liu
   photo: jiancheng.png
-  info: Graduate Student, Computer Science, Michigan State University (Spring 2023 - Spring 2025)
+  info: Graduate Student, Computer Science, Michigan State University
   email: liujia45@msu.edu
   url: https://ljcc0930.github.io/
   education:
     - "Current: Member of Technical Staff, OpenAI"
-    - M.S., Computer Science, Michigan State University, United States
+    - M.S., Computer Science, Michigan State University, United States (Spring 2023 - Spring 2025)
     # - B.Eng., Institute for Interdisciplinary Information Sciences, Tsinghua University, China
 
 - name: Yangru Zhou
