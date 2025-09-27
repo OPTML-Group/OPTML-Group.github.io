@@ -96,3 +96,14 @@ firstp {
     margin-right: 30px;
 }
 
+
+
+
+.about-wrap a {
+  display: inline-block;   /* 保持 a 标签不拉伸 */
+  line-height: 0;          /* 去掉可能的空白间隙 */
+}
+
+.about-wrap a img.about-photo {
+  display: block;          /* 图片按块元素显示，避免受 a 影响 */
+}
