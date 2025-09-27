@@ -8,7 +8,76 @@ permalink: /
 
 ### About Us
  
-**OP**timization and **T**rustworthy **M**achine **L**earning (OPTML) group is an active research group at [Michigan State University](https://www.msu.edu). Our research interests span the areas of machine learning (ML)/ deep learning (DL), optimization, computer vision, security, signal processing and data science, with a focus on developing learning algorithms and theory, as well as robust and explainable artificial intelligence (AI). These research themes provide a solid foundation for reaching the long-term research objective: __Making AI systems scalable and trustworthy__.
+
+
+<style>
+.about-wrap{
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+/* 文字占满剩余空间 */
+.about-wrap .about-text{
+  flex: 1;
+  min-width: 0;  /* 防止长链接撑开 */
+}
+
+/* 链接是 flex 子项：负责把图片推到最右侧 */
+.about-wrap .about-photo-link{
+  flex: 0 0 auto;
+  margin-left: auto;     /* ← 把整块推到最右 */
+  display: inline-block; /* 不要被拉伸 */
+  line-height: 0;        /* 去掉行内空白 */
+}
+
+/* 图片自身样式 + 悬停动画 */
+.about-wrap img.about-photo{
+  display: block;
+  width: 145px;          /* 想更大就改这里，比如 180px / 200px */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+}
+
+.about-wrap img.about-photo:hover{
+  transform: scale(1.05); /* 悬停时放大 5% */
+  box-shadow: 0 4px 16px rgba(0,0,0,.15);
+}
+
+/* 移动端：上下排 */
+@media (max-width: 768px){
+  .about-wrap{
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-wrap .about-photo-link{
+    margin-left: 0;
+  }
+  .about-wrap img.about-photo{
+    width: 100%;
+    max-width: 480px;
+  }
+}
+</style>
+
+<div class="about-wrap" markdown="0">
+  <div class="about-text" markdown="1">
+  **OP**timization and **T**rustworthy **M**achine **L**earning (OPTML) group is an active research group at
+  [Michigan State University](https://www.msu.edu). Our research interests span the areas of machine learning (ML)/ deep learning (DL), optimization, computer vision, security, signal processing and data science, with a focus on developing learning algorithms and theory, as well as robust and explainable artificial intelligence (AI). These research themes provide a solid foundation for reaching the long-term research objective: __Making AI systems scalable and trustworthy__.
+  </div>
+
+  <a class="about-photo-link"
+     href="{{ '/pdf/Recruitment/Welcome2OPTML.pdf' | relative_url }}"
+     target="_blank"
+     aria-label="Open Welcome2OPTML Booklet (PDF)">
+    <img class="about-photo"
+         src="{{ '/images/cover_img.png' | relative_url }}"
+         alt="OPTML @ MSU">
+  </a>
+</div>
 
 📖 **For a more detailed introduction, see our [Welcome2OPTML Booklet](/pdf/Recruitment/Welcome2OPTML.pdf).**
 
