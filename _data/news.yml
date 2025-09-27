@@ -1,5 +1,8 @@
-- date: 26 September 2025
+- pinned: true
   headline: "We released the <a href='/pdf/recruitment/Welcome2OPTML.pdf'>Welcome2OPTML Booklet</a> as a detailed introduction to our lab and an open invitation for strong prospective candidates to join us in 2026!"
+
+- date: 26 September 2025
+  headline: "Dr. Liu is named <b>Red Cedar Distinguished Professor</b>!"
 
 - date: 18 September 2025
   headline: "Congrats to OPTML on three papers accepted at NeurIPS 2025! One spotlight and two posters, covering LLM unlearning, interpretability, and security on reasoning models!"
