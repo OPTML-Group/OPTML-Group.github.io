@@ -10,6 +10,8 @@ permalink: /
  
 **OP**timization and **T**rustworthy **M**achine **L**earning (OPTML) group is an active research group at [Michigan State University](https://www.msu.edu). Our research interests span the areas of machine learning (ML)/ deep learning (DL), optimization, computer vision, security, signal processing and data science, with a focus on developing learning algorithms and theory, as well as robust and explainable artificial intelligence (AI). These research themes provide a solid foundation for reaching the long-term research objective: __Making AI systems scalable and trustworthy__.
 
+📖 For a more detailed introduction, see our [Welcome2OPTML Booklet](/pdf/Recruitment/Welcome2OPTML.pdf).
+
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
