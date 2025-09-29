@@ -17,24 +17,24 @@ permalink: /
   gap: 16px;
 }
 
-/* 文字占满剩余空间 */
+
 .about-wrap .about-text{
   flex: 1;
-  min-width: 0;  /* 防止长链接撑开 */
+  min-width: 0;  
 }
 
-/* 链接是 flex 子项：负责把图片推到最右侧 */
+
 .about-wrap .about-photo-link{
   flex: 0 0 auto;
-  margin-left: auto;     /* ← 把整块推到最右 */
-  display: inline-block; /* 不要被拉伸 */
-  line-height: 0;        /* 去掉行内空白 */
+  margin-left: auto;     
+  display: inline-block; 
+  line-height: 0;        
 }
 
-/* 图片自身样式 + 悬停动画 */
+
 .about-wrap img.about-photo{
   display: block;
-  width: 145px;          /* 想更大就改这里，比如 180px / 200px */
+  width: 145px;          
   height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,.08);
@@ -151,7 +151,7 @@ Authors marked in **bold** indicate our group members, and "\*" indicates equal 
 
 **Trustworthy AI: Robustness, fairness, and model explanation**
 
-* [Rethinking Machine Unlearning for Large Language Models](https://www.nature.com/articles/s42256-025-00985-0)<br>**S. Liu\***, Y. Yao, **J. Jia\***, S. Casper, N. Baracaldo, P. Hase, **Y. Yao\***, C. Y. Liu, X. Xu, H. Li, K. R. Varshney, M. Bansal, S. Koyejo, Y. Liu,<br>, Nature Machine Intelligence, 2025.
+* [Rethinking Machine Unlearning for Large Language Models](https://www.nature.com/articles/s42256-025-00985-0)<br>**S. Liu\***, Y. Yao, **J. Jia\***, S. Casper, N. Baracaldo, P. Hase, **Y. Yao\***, C. Y. Liu, X. Xu, H. Li, K. R. Varshney, M. Bansal, S. Koyejo, Y. Liu,<br> Nature Machine Intelligence, 2025.
 
 * [Model sparsification can simplify machine unlearning](https://arxiv.org/abs/2304.04934)<br>
     **J. Jia\***, **J. Liu\***, P. Ram, **Y. Yao**, G. Liu, Y. Liu, P. Sharma, **S. Liu**<br>
