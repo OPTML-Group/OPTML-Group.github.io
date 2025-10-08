@@ -8,7 +8,78 @@ permalink: /
 
 ### About Us
  
-**OP**timization and **T**rustworthy **M**achine **L**earning (OPTML) group is an active research group at [Michigan State University](https://www.msu.edu). Our research interests span the areas of machine learning (ML)/ deep learning (DL), optimization, computer vision, security, signal processing and data science, with a focus on developing learning algorithms and theory, as well as robust and explainable artificial intelligence (AI). These research themes provide a solid foundation for reaching the long-term research objective: __Making AI systems scalable and trustworthy__.
+
+
+<style>
+.about-wrap{
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+
+.about-wrap .about-text{
+  flex: 1;
+  min-width: 0;  
+}
+
+
+.about-wrap .about-photo-link{
+  flex: 0 0 auto;
+  margin-left: auto;     
+  display: inline-block; 
+  line-height: 0;        
+}
+
+
+.about-wrap img.about-photo{
+  display: block;
+  width: 145px;          
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+}
+
+.about-wrap img.about-photo:hover{
+  transform: scale(1.05); /* 悬停时放大 5% */
+  box-shadow: 0 4px 16px rgba(0,0,0,.15);
+}
+
+/* 移动端：上下排 */
+@media (max-width: 768px){
+  .about-wrap{
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-wrap .about-photo-link{
+    margin-left: 0;
+  }
+  .about-wrap img.about-photo{
+    width: 100%;
+    max-width: 480px;
+  }
+}
+</style>
+
+<div class="about-wrap" markdown="0">
+  <div class="about-text" markdown="1">
+  **OP**timization and **T**rustworthy **M**achine **L**earning (OPTML) group is an active research group at
+  [Michigan State University](https://www.msu.edu). Our research interests span the areas of machine learning (ML)/ deep learning (DL), optimization, computer vision, security, signal processing and data science, with a focus on developing learning algorithms and theory, as well as robust and explainable artificial intelligence (AI). These research themes provide a solid foundation for reaching the long-term research objective: __Making AI systems scalable and trustworthy__.
+  </div>
+
+  <a class="about-photo-link"
+     href="{{ '/pdf/Recruitment/Welcome2OPTML.pdf' | relative_url }}"
+     target="_blank"
+     aria-label="Open Welcome2OPTML Booklet (PDF)">
+    <img class="about-photo"
+         src="{{ '/images/cover_img.png' | relative_url }}"
+         alt="OPTML @ MSU">
+  </a>
+</div>
+
+📖 **For a more detailed introduction, see our [Welcome2OPTML Booklet](/pdf/Recruitment/Welcome2OPTML.pdf).**
 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
@@ -80,7 +151,7 @@ Authors marked in **bold** indicate our group members, and "\*" indicates equal 
 
 **Trustworthy AI: Robustness, fairness, and model explanation**
 
-* [Rethinking Machine Unlearning for Large Language Models](https://www.nature.com/articles/s42256-025-00985-0)<br>**S. Liu\***, Y. Yao, **J. Jia\***, S. Casper, N. Baracaldo, P. Hase, **Y. Yao\***, C. Y. Liu, X. Xu, H. Li, K. R. Varshney, M. Bansal, S. Koyejo, Y. Liu,<br>, Nature Machine Intelligence, 2025.
+* [Rethinking Machine Unlearning for Large Language Models](https://www.nature.com/articles/s42256-025-00985-0)<br>**S. Liu\***, Y. Yao, **J. Jia\***, S. Casper, N. Baracaldo, P. Hase, **Y. Yao\***, C. Y. Liu, X. Xu, H. Li, K. R. Varshney, M. Bansal, S. Koyejo, Y. Liu<br> Nature Machine Intelligence, 2025.
 
 * [Model sparsification can simplify machine unlearning](https://arxiv.org/abs/2304.04934)<br>
     **J. Jia\***, **J. Liu\***, P. Ram, **Y. Yao**, G. Liu, Y. Liu, P. Sharma, **S. Liu**<br>

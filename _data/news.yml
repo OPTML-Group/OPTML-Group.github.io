@@ -1,3 +1,15 @@
+- pinned: true
+  headline: "We released the <a href='/pdf/recruitment/Welcome2OPTML.pdf'>Welcome2OPTML Booklet</a> as a detailed introduction to our lab and an open invitation for strong prospective candidates to join us in 2026!"
+
+- date: 8 October 2025
+  headline: "The slides for our <i>\"Robust Machine Unlearning\"</i> tutorial at <a href='https://milcom2025.ieee-milcom.org/'>IEEE MILCOM 2025</a> are now available: <a href='/pdf/Tutorial/IEEE_MilConf_2025_Tutorial_Rob_Unlearn.pdf'>[Download PDF]</a>"
+
+- date: 5 October 2025
+  headline: "Yihua and Dr. Liu will deliver a tutorial on <i>\"Robust Machine Unlearning\"</i> at <a href='https://milcom2025.ieee-milcom.org/'>IEEE MILCOM 2025</a> (Check schedule <a href='https://milcom2025.ieee-milcom.org/program/tutorials'>here</a>)!"
+
+- date: 26 September 2025
+  headline: "Dr. Liu is named <b>Red Cedar Distinguished Professor</b>!"
+
 - date: 18 September 2025
   headline: "Congrats to OPTML on three papers accepted at NeurIPS 2025! One spotlight and two posters, covering LLM unlearning, interpretability, and security on reasoning models!"
 
