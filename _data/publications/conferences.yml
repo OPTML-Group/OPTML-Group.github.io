@@ -78,7 +78,7 @@
 - title: "Towards LLM Unlearning Resilient to Relearn- ing Attacks: A Sharpness-Aware Minimization Perspective and Beyond"
   image: dummy.png
   description:
-  authors: "<span style='color:blue'>Chongyu Fan</span>, <span style='color:blue'>Jinghan Jia</span>, <span style='color:blue'>Yihua Zhang</span>, Anil Ramakrishna, Mingyi Hong, <span style='color:blue'>Sijia Liu</span>"
+  authors: "<span style='color:blue'>C. Fan</span>, <span style='color:blue'>J. Jia</span>, <span style='color:blue'>Y. Zhang</span>, A. Ramakrishna, M. Hong, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/abs/2502.05374
     display: ICML'25
@@ -89,7 +89,7 @@
 - title: "Invariance Makes LLM Unlearning Resilient Even to Unanticipated Downstream Fine-Tuning"
   image: dummy.png
   description:
-  authors: "<span style='color:blue'>Changsheng Wang</span>, <span style='color:blue'>Yihua Zhang</span>, <span style='color:blue'>Jinghan Jia</span>, Parikshit Ram, Dennis Wei, <span style='color:blue'>Yuguang Yao</span>, <span style='color:blue'>Soumyadeep Pal</span>, Nathalie Baracaldo, <span style='color:blue'>Sijia Liu</span>"
+  authors: "<span style='color:blue'>C. Wang</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>J. Jia</span>, P. Ram, D. Wei, <span style='color:blue'>Y. Yao</span>, <span style='color:blue'>S. Pal</span>, N. Baracaldo, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://arxiv.org/abs/2502.05374
     display: ICML'25
