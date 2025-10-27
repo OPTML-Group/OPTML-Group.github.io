@@ -1,3 +1,13 @@
+- title: "Robust MRI Reconstruction by Smoothed Unrolling (SMUG)"
+  image: dummy.png
+  description: ""
+  authors: S. Liang, <span style='color:blue'>J. Jia</span>, I. Alkhouri, <span style='color:blue'>S. Liu</span>, S. Ravishankar
+  link:
+    url: https://arxiv.org/abs/2312.07784
+    display: IEEE Journal of Selected Topics in Signal Processing (2025)
+  highlight: 0
+  news2:
+
 - title: "Rethinking machine unlearning for large language models"
   image: dummy.png
   description: ""
