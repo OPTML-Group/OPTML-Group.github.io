@@ -1,10 +1,76 @@
 - title: "The Fragile Truth of Saliency: Improving LLM Input Attribution via Attention Bias Optimization"
   image: dummy.png
   description:
-  authors: "<span style='color:blue'>Yihua Zhang</span>, <span style='color:blue'>Changsheng Wang</span>, <span style='color:blue'>Yiwei Chen</span>, <span style='color:blue'>Chongyu Fan</span>, <span style='color:blue'>Jinghan Jia</span>, <span style='color:blue'>Sijia Liu</span>"
+  authors: "<span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>C. Wang</span>, <span style='color:blue'>Y. Chen</span>, <span style='color:blue'>C. Fan</span>, <span style='color:blue'>J. Jia</span>, <span style='color:blue'>S. Liu</span>" link:
   link:
     url: https://neurips.cc/virtual/2025/poster/119184
     display: NeurIPS'25 (<span style='color:red'><b>Spotlight</b>, acceptance rate 3.2%</span>)
+  highlight: 0
+  news2:
+  post:
+
+- title: "Simplicity Prevails: Rethinking Negative Preference Optimization for LLM Unlearning"
+  image: dummy.png
+  description:
+  authors: "<span style='color:blue'>C. Fan*</span>, <span style='color:blue'>J. Liu*</span>, L. Lin*, <span style='color:blue'>J. Jia</span>, S. Mei, <span style='color:blue'>S. Liu</span>"link:
+  link:
+    url: https://arxiv.org/abs/2410.07163
+    display: NeurIPS'25
+  highlight: 0
+  news2:
+  post:
+
+- title: "LLM Unlearning on Noisy Forget Sets: A Study of Incomplete, Rewritten, and Watermarked Data"
+  image: dummy.png
+  description:
+  authors: "<span style='color:blue'>C. Wang</span>, <span style='color:blue'>Y. Zhang</span>, D. Wei, <span style='color:blue'>J. Jia</span>, P.-Y. Chen, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2510.09007
+    display: CCS AISec'25
+  highlight: 0
+  news2:
+  post:
+
+- title: "One Token Embedding Is Enough to Deadlock Your Large Reasoning Model"
+  image: dummy.png
+  description:
+  authors: "M. Zhang*, <span style='color:blue'>Y. Zhang*</span>, <span style='color:blue'>J. Jia</span>, Z. Wang, <span style='color:blue'>S. Liu</span>, T. Chen"
+  link:
+    url: https://arxiv.org/abs/2510.15965
+    display: NeurIPS'25
+  highlight: 0
+  news2:
+  post:
+
+- title: "Reasoning Model Unlearning: Forgetting Traces, Not Just Answers, While Preserving Reasoning Skills"
+  image: dummy.png
+  description:
+  authors: "<span style='color:blue'>C. Wang*</span>, <span style='color:blue'>C. Fan*</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>J. Jia</span>, D. Wei, P. Ram, N. Baracaldo, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2506.12963
+    display: EMNLP'25 (Main Track)
+  highlight: 0
+  news2:
+  post:
+
+- title: "LLM Unlearning Reveals a Stronger-Than-Expected Coreset Effect in Current Benchmarks"
+  image: dummy.png
+  description:
+  authors: "<span style='color:blue'>S. Pal*</span>, <span style='color:blue'>C. Wang*</span>, J. Diffenderfer, B. Kailkhura, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2504.10185
+    display: COLM'25
+  highlight: 0
+  news2:
+  post:
+
+- title: "Invisible Watermarks, Visible Gains: Steering Machine Unlearning with Bi-Level Watermarking Design"
+  image: dummy.png
+  description:
+  authors: "<span style='color:blue'>Y. Sun*</span>, <span style='color:blue'>Y. Zhang*</span>, G. Liu, H. Xie,<span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2508.10065
+    display: ICCV'25
   highlight: 0
   news2:
   post:
