@@ -12,7 +12,7 @@
 - title: "Simplicity Prevails: Rethinking Negative Preference Optimization for LLM Unlearning"
   image: dummy.png
   description:
-  authors: "<span style='color:blue'>C. Fan*</span>, <span style='color:blue'>J. Liu*</span>, L. Lin*, <span style='color:blue'>J. Jia</span>, S. Mei, <span style='color:blue'>S. Liu</span>"
+  authors: '<span style='color:blue'>C. Fan*</span>, <span style='color:blue'>J. Liu*</span>, L. Lin*, <span style='color:blue'>J. Jia</span>, S. Mei, <span style='color:blue'>S. Liu</span>'
   link:
     url: https://arxiv.org/abs/2410.07163
     display: "NeurIPS'25"
