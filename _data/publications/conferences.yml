@@ -1,3 +1,14 @@
+- title: "The Fragile Truth of Saliency: Improving LLM Input Attribution via Attention Bias Optimization"
+  image: dummy.png
+  description:
+  authors: "<span style='color:blue'>Yihua Zhang</span>, <span style='color:blue'>Changsheng Wang</span>, <span style='color:blue'>Yiwei Chen</span>, <span style='color:blue'>Chongyu Fan</span>, <span style='color:blue'>Jinghan Jia</span>, <span style='color:blue'>Sijia Liu</span>"
+  link:
+    url: https://neurips.cc/virtual/2025/poster/119184
+    display: NeurIPS'25 (<span style='color:red'><b>Spotlight</b>, acceptance rate 3.2%</span>)
+  highlight: 0
+  news2:
+  post:
+
 - title: "Towards LLM Unlearning Resilient to Relearn- ing Attacks: A Sharpness-Aware Minimization Perspective and Beyond"
   image: dummy.png
   description:
