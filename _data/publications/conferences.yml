@@ -20,17 +20,6 @@
   news2:
   post:
 
-- title: "LLM Unlearning on Noisy Forget Sets: A Study of Incomplete, Rewritten, and Watermarked Data"
-  image: dummy.png
-  description:
-  authors: "<span style='color:blue'>C. Wang</span>, <span style='color:blue'>Y. Zhang</span>, D. Wei, <span style='color:blue'>J. Jia</span>, P.-Y. Chen, <span style='color:blue'>S. Liu</span>"
-  link:
-    url: https://arxiv.org/abs/2510.09007
-    display: "CCS AISec'25"
-  highlight: 0
-  news2:
-  post:
-
 - title: "One Token Embedding Is Enough to Deadlock Your Large Reasoning Model"
   image: dummy.png
   description:
@@ -38,6 +27,17 @@
   link:
     url: https://arxiv.org/abs/2510.15965
     display: "NeurIPS'25"
+  highlight: 0
+  news2:
+  post:
+
+- title: "LLM Unlearning on Noisy Forget Sets: A Study of Incomplete, Rewritten, and Watermarked Data"
+  image: dummy.png
+  description:
+  authors: "<span style='color:blue'>C. Wang</span>, <span style='color:blue'>Y. Zhang</span>, D. Wei, <span style='color:blue'>J. Jia</span>, P.-Y. Chen, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2510.09007
+    display: "CCS AISec'25"
   highlight: 0
   news2:
   post:
