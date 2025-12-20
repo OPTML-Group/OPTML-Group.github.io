@@ -219,19 +219,12 @@ We are grateful for funding from [Michigan State University](https://msu.edu), [
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_open_philanthropy.png" style="width: 30%" padding="5% 5% 5% 5%">
 </figure>
 
-<figure class="fourth" style="text-align:center;">
-  <span style="display:inline-block; width:30%; padding:5%; box-sizing:border-box;">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_cais.png"
-         style="height:120px; width:auto; display:block; margin:0 auto; object-fit:contain;">
-  </span>
-
-  <span style="display:inline-block; width:30%; padding:5%; box-sizing:border-box;">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_schmidt.png"
-         style="height:120px; width:auto; display:block; margin:0 auto; object-fit:contain;">
-  </span>
-
-  <!-- empty 3rd column to keep alignment -->
-  <span style="display:inline-block; width:30%; padding:5%; box-sizing:border-box;"></span>
+<figure class="fourth">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_cais.png"
+       style="height: 120px; width: auto; padding: 5%; object-fit: contain;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_schmidt.png"
+       style="height: 120px; width: auto; padding: 5%; object-fit: contain;">
+  <span style="display:inline-block; width: 30%; padding: 5%;"></span>
 </figure>
 
 </center>
