@@ -151,7 +151,11 @@ Authors marked in **bold** indicate our group members, and "\*" indicates equal 
 
 **Trustworthy AI: Robustness, fairness, and model explanation**
 
+* [The Fragile Truth of Saliency: Improving LLM Input Attribution via Attention Bias Optimization](https://openreview.net/pdf?id=DrUR87D4Hj)<br>**Y. Zhang**, **C. Wang**, **Y. Chen**, **C. Fan**, **J. Jia**, **S. Liu**, <br> NeurIPS’25 **<span style="color:red">(Spotlight)</span>**
+
 * [Rethinking Machine Unlearning for Large Language Models](https://www.nature.com/articles/s42256-025-00985-0)<br>**S. Liu**, Y. Yao, **J. Jia**, S. Casper, N. Baracaldo, P. Hase, **Y. Yao**, C. Y. Liu, X. Xu, H. Li, K. R. Varshney, M. Bansal, S. Koyejo, Y. Liu<br> Nature Machine Intelligence, 2025.
+
+* [Salun: Empowering Machine Unlearning Via Gradient-based Weight Saliency In Both Image Classification And Generation](https://arxiv.org/pdf/2310.12508)<br>**C. Fan\***, **J. Liu\***, **Y. Zhang**, E. Wong, D. Wei, **S. Liu**<br> ICLR’24 **<span style="color:red">(Spotlight)</span>**
 
 * [Model sparsification can simplify machine unlearning](https://arxiv.org/abs/2304.04934)<br>
     **J. Jia\***, **J. Liu\***, P. Ram, **Y. Yao**, G. Liu, Y. Liu, P. Sharma, **S. Liu**<br>
