@@ -221,11 +221,10 @@ We are grateful for funding from [Michigan State University](https://msu.edu), [
 
 <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_cais.png"
-       style="width: 30%; padding: 5%;">
+       style="height: 80px; width: auto; padding: 5%; object-fit: contain;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_schmidt.png"
-       style="width: 30%; padding: 5%;">
-  <!-- placeholder to keep 3-column alignment -->
-  <span style="display: inline-block; width: 30%; padding: 5%;"></span>
+       style="height: 80px; width: auto; padding: 5%; object-fit: contain;">
+  <span style="display:inline-block; width: 30%; padding: 5%;"></span>
 </figure>
 
 </center>
