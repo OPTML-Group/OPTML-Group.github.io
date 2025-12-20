@@ -169,14 +169,6 @@ Authors marked in **bold** indicate our group members, and "\*" indicates equal 
     **Y. Zhang\***, G. Zhang\*, P. Khanduri, M. Hong, S. Chang, **S. Liu**<br>
     ICML’22
 
-* [How to Robustify Black-Box ML Models? A Zeroth-Order Optimization Perspective](https://arxiv.org/abs/2203.14195)<br>
-    **Y. Zhang**, **Y. Yao**, **J. Jia**, J. Yi, M. Hong, S. Chang, **S. Liu**<br>
-    ICLR’22 **<span style="color:red">(Spotlight)</span>**
-
-* [Reverse Engineering of Imperceptible Adversarial Image Perturbations](https://arxiv.org/abs/2203.14145)<br>
-    Y. Gong\*, **Y. Yao\***, Y. Li, Y. Zhang, X. Liu, X. Lin, **S. Liu**<br>
-    ICLR’22
-
 
 **Scalable AI: Model & data compression, distributed learning, black-box optimization, and automated ML**
 
