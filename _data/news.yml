@@ -1,6 +1,9 @@
 - pinned: true
   headline: "We released the <a href='/pdf/recruitment/Welcome2OPTML.pdf'>Welcome2OPTML Booklet</a> as a detailed introduction to our lab and an open invitation for strong prospective candidates to join us in 2026!"
 
+- date: 25 January 2026
+  headline: "Congrats to OPTML on six papers accepted at ICLR 2026, covering LLM unlearning, safety, test-time compute, and gradient-free learning!"
+
 - date: 5 December 2025
   headline: "Congratulations to PI Sijia Liu on receiving a research grant from DSO National Laboratories (DSO) as the PI. This award will support OPTML’s research on backdoor attacks in foundation models and the development of robust defense strategies."
 
