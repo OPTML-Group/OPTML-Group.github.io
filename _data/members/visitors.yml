@@ -1,3 +1,8 @@
+- name: "[Yicheng Lang](https://scholar.google.com/citations?user=mmt_oj0AAAAJ&hl=en) (remote)"
+  info: Undergraduate, Automation (Honors Engineering Program), Xi’an Jiaotong University, China
+  visiting: May. 2025 - Sept. 2025
+  research: "<a href='https://arxiv.org/abs/2510.00761'>Downgrade to Upgrade: Optimizer Simplification Enhances Robustness in LLM Unlearning</a> [Paper at <a href='https://iclr.cc/'>ICLR’26</a>]"
+
 - name: "[Changchang Sun](https://scholar.google.com/citations?user=bCxWjjYAAAAJ&hl=en) (Visiting)"
   info: Ph.D., Department of Computer Science, University of Illinois Chicago 
   visiting: Aug. 2023 - May. 2025
