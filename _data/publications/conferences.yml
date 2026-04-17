@@ -1,3 +1,47 @@
+- title: "Unlearning Isn't Invisible: Detecting Unlearning Traces in LLMs from Model Outputs"
+  image: dummy.png
+  description:
+  authors: "<span style='color:blue'>Y. Chen*</span>, <span style='color:blue'>S. Pal*</span>, <span style='color:blue'>Y. Zhang</span>, Q. Qu, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://openreview.net/forum?id=bqEnnzfhBZ
+    display: "ICLR'26"
+  highlight: 0
+  news2:
+  post:
+
+- title: "Safety Mirage: How Spurious Correlations Undermine VLM Safety Fine-Tuning and Can Be Mitigated by Machine Unlearning"
+  image: dummy.png
+  description:
+  authors: "<span style='color:blue'>Y. Chen*</span>, <span style='color:blue'>Y. Yao*</span>, <span style='color:blue'>Y. Zhang</span>, B. Shen, G. Liu, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://openreview.net/forum?id=Qi1rZa4zzl
+    display: "ICLR'26"
+  highlight: 0
+  news2:
+  post:
+
+- title: "Downgrade to Upgrade: Optimizer Simplification Enhances Robustness in LLM Unlearning"
+  image: dummy.png
+  description:
+  authors: "<span style='color:blue'>Y. Lang</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>C. Fan</span>, <span style='color:blue'>C. Wang</span>, <span style='color:blue'>J. Jia, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://openreview.net/forum?id=Sswng2ToR4
+    display: "ICLR'26"
+  highlight: 0
+  news2:
+  post:
+
+- title: "CyclicReflex: Improving Reasoning Models via Cyclical Reflection Token Scheduling"
+  image: dummy.png
+  description:
+  authors: "<span style='color:blue'>C. Fan</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>J. Jia</span>, A. O. Hero, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://openreview.net/forum?id=4oOF4J2xSy
+    display: "ICLR'26"
+  highlight: 0
+  news2:
+  post:
+
 - title: "The Fragile Truth of Saliency: Improving LLM Input Attribution via Attention Bias Optimization"
   image: dummy.png
   description:
