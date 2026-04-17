@@ -23,7 +23,7 @@
 - title: "Downgrade to Upgrade: Optimizer Simplification Enhances Robustness in LLM Unlearning"
   image: dummy.png
   description:
-  authors: "<span style='color:blue'>Y. Lang</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>C. Fan</span>, <span style='color:blue'>C. Wang</span>, <span style='color:blue'>J. Jia, <span style='color:blue'>S. Liu</span>"
+  authors: "<span style='color:blue'>Y. Lang</span>, <span style='color:blue'>Y. Zhang</span>, <span style='color:blue'>C. Fan</span>, <span style='color:blue'>C. Wang</span>, <span style='color:blue'>J. Jia</span>, <span style='color:blue'>S. Liu</span>"
   link:
     url: https://openreview.net/forum?id=Sswng2ToR4
     display: "ICLR'26"
