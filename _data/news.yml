@@ -1,17 +1,26 @@
 - pinned: true
   headline: "We released the <a href='/pdf/recruitment/Welcome2OPTML.pdf'>Welcome2OPTML Booklet</a> as a detailed introduction to our lab and an open invitation for strong prospective candidates to join us in 2026!"
 
+- date: 19 April 2026
+  headline:"<span style='background-color:#fde68a; color:#92400e; padding:2px 6px; border-radius:6px; font-weight:bold;'>Honor</span> Congratulations to Jinghan Jia on receiving the 2025–2026 Fitch H. Beach Award (First Place), the highest student honor in the College of Engineering. This marks another outstanding recognition for OPTMLers, following Yihua Zhang’s first-place award in 2024–2025."
+
+- date: 4 April 2026
+  headline:"<span style='background-color:#dbeafe; color:#1e40af; padding:2px 6px; border-radius:6px; font-weight:bold;'>Papers</span> Two papers accepted at ACL 2026, including a Main Conference paper led by our (remote) summer intern, Renjie."
+
+- date: 25 March 2026
+  headline:"<span style='background-color:#dcfce7; color:#166534; padding:2px 6px; border-radius:6px; font-weight:bold;'>Grant</span>Grateful to receive a research grant from the IARPA BENGAL program and to serve as a co-PI, collaborating with IBM (lead PI institution)."
+
 - date: 25 January 2026
-  headline: "<span style='background-color:#fde68a; color:#92400e; padding:2px 6px; border-radius:6px; font-weight:bold;'>Honor</span> Congrats to OPTML on six papers accepted at ICLR 2026, covering LLM unlearning, safety, test-time compute, and gradient-free learning!"
+  headline: "<span style='background-color:#dbeafe; color:#1e40af; padding:2px 6px; border-radius:6px; font-weight:bold;'>Papers</span> Congrats to OPTML on six papers accepted at ICLR 2026, covering LLM unlearning, safety, test-time compute, and gradient-free learning!"
 
 - date: 5 December 2025
   headline: "<span style='background-color:#dcfce7; color:#166534; padding:2px 6px; border-radius:6px; font-weight:bold;'>Grant</span> Congratulations to PI Sijia Liu on receiving a research grant from DSO National Laboratories (DSO) as the PI. This award will support OPTML’s research on backdoor attacks in foundation models and the development of robust defense strategies."
 
 - date: 22 November 2025
-  headline: "<span style='background-color:#dbeafe; color:#1e40af; padding:2px 6px; border-radius:6px; font-weight:bold;'>Papers</span> Congratulations to OPTMLer Jinghan Jia for being selected for the Anthropic Fellows Program for AI Safety Research!"
+  headline: "<span style='background-color:#fde68a; color:#92400e; padding:2px 6px; border-radius:6px; font-weight:bold;'>Honor</span> Congratulations to OPTMLer Jinghan Jia for being selected for the Anthropic Fellows Program for AI Safety Research!"
 
 - date: 6 November 2025
-  headline: "PI Sijia Liu is running for the AAAI 2026 Executive Council Election, aiming to bridge the gap between foundational and applied AI research through new AAAI initiatives and community engagement. AAAI members are encouraged to cast their vote in support!"
+  headline: "<span style='background-color:#fde68a; color:#92400e; padding:2px 6px; border-radius:6px; font-weight:bold;'>Honor</span> PI Sijia Liu is running for the AAAI 2026 Executive Council Election, aiming to bridge the gap between foundational and applied AI research through new AAAI initiatives and community engagement. AAAI members are encouraged to cast their vote in support!"
 
 - date: 6 November 2025
   headline: "PI Sijia Liu is grateful to receive a gift funding from Cisco Research as the PI. This support will further advance the OPTML Lab’s ongoing research on effective and efficient training of vision-language-action models."
