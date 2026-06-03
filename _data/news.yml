@@ -5,12 +5,12 @@
   headline: "<span style='background-color:#fde68a; color:#92400e; padding:2px 6px; border-radius:6px; font-weight:bold;'>Honor</span> PI Liu has been selected to participate in the National Academy of Engineering (NAE) US Frontiers of Engineering (US FOE) 2026 Symposium, which recognizes 100 of the nation’s most outstanding early-career engineers from academia, industry, and government laboratories."
 
 - date: 15 May 2026
-  headline: "<span style='background-color:#fce7f3; color:#9d174d; padding:2px 6px; border-radius:6px; font-weight:bold;'>Workshop Organization</span> The AdvML-Frontiers × CoTMA Workshop has been accepted and will be co-located with COLM 2026 in San Francisco. Call for papers opens on June 23, 2026, and applications for the AdvML Rising Star Award are due on July 24, 2026."
+  headline: "<span style='background-color:#fce7f3; color:#9d174d; padding:2px 6px; border-radius:6px; font-weight:bold;'>Workshop Organization</span> The <a href='https://advml-frontier.github.io/'><em>AdvML-Frontiers × CoTMA Workshop</em></a> has been accepted and will be co-located with COLM 2026 in San Francisco. Call for papers opens on June 23, 2026, and applications for the AdvML Rising Star Award are due on July 24, 2026."
 
 - date: 10 May 2026
-  headline: "<span style='background-color:#dbeafe; color:#1e40af; padding:2px 6px; border-radius:6px; font-weight:bold;'>Papers</span> Our book, <em>Machine Unlearning for Governance of Foundation Models</em>, has been published by Springer Nature."
+  headline: "<span style='background-color:#dbeafe; color:#1e40af; padding:2px 6px; border-radius:6px; font-weight:bold;'>Papers</span> Our book, <a href='https://link.springer.com/book/10.1007/978-3-032-17282-2'><em>Machine Unlearning for Governance of Foundation Models</em></a>, has been published by Springer Nature."
 
-- date: 15 April 2026
+- date: 25 April 2026
   headline: "<span style='background-color:#dbeafe; color:#1e40af; padding:2px 6px; border-radius:6px; font-weight:bold;'>Papers</span> Four papers have been accepted at ICML 2026, including one spotlight paper."
 
 - date: 19 April 2026
