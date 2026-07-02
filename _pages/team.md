@@ -123,7 +123,7 @@ permalink: /team/
 {% endif %}
 
 <!-- ## Visitors -->
-## Visiting Students/Scholars
+## Summer Externs
 {% assign number_printed = 0 %}
 {% for member in site.data.members.visitors %}
 
