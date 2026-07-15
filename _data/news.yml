@@ -1,6 +1,9 @@
 - pinned: true
   headline: "We released the <a href='/pdf/recruitment/Welcome2OPTML.pdf'>Welcome2OPTML Booklet</a> as a detailed introduction to our lab and an open invitation for strong prospective candidates to join us in 2026!"
 
+- date: 11 July 2026
+  headline: "<span style='background-color:#dbeafe; color:#1e40af; padding:2px 6px; border-radius:6px; font-weight:bold;'>Papers</span> Four papers accepted at COLM 2026! Topics include backdoor machine unlearning, subspace control, LLM lineage tracing, and overcoming the memorization barrier in LLM adaptation. Congratulations to every OPTMLer involved!
+
 - date: 1 June 2026
   headline: "<span style='background-color:#fde68a; color:#92400e; padding:2px 6px; border-radius:6px; font-weight:bold;'>Honor</span> PI Liu has been selected to participate in the National Academy of Engineering (NAE) US Frontiers of Engineering (US FOE) 2026 Symposium, which recognizes 100 of the nation’s most outstanding early-career engineers from academia, industry, and government laboratories."
 
