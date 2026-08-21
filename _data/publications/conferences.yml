@@ -1,5 +1,5 @@
 - title: "Who Built This Model? Tracing LLM Lineage via Spectral Fingerprints in Weight Space"
-  image: llm_biometrics_colm26.png
+  image: backdoor_unlearn_colm26.png
   description: "Open-weight LLMs are increasingly built through complex, multi-stage pipelines, creating tangled lineage relationships that matter for provenance, ownership, and supply-chain integrity. We ask whether LLMs carry intrinsic biometrics, fingerprints in weight space alone with no access to input data, that reveal where a model came from. We formulate this as a lineage discrimination problem, distinguishing among independent-origin, same-series, and shared-base models, and propose a unified geometric fingerprinting framework built on two complementary views of the weight matrices: spectral energy, captured by singular value distributions, and subspace alignment, quantified via subspace deviations. The two views form a clear hierarchy of structural similarity: spectral energy reliably separates independently trained models and different model families, while subspace alignment resolves fine-grained differences among closely related models, including variations in dataset scale and post-training procedures. Experiments on over 110 diverse open-weight LLM pairs show that weight-space geometry provides a robust and interpretable signal for model lineage."
   authors: "<span style='color:blue'>Y. Chen*</span>, <span style='color:blue'>B. Shang*</span>, <span style='color:blue'>S. Liu</span>"
   link:
@@ -10,7 +10,7 @@
   post:
 
 - title: "Forgetting to Forget: Attention Sink as A Gateway for Backdooring LLM Unlearning"
-  image: backdoor_unlearn_colm26.png
+  image: llm_biometrics_colm26.png
   description: "LLM unlearning removes undesired data, knowledge, or behaviors from a pretrained model while retaining its general utility, but with the rise of open-weight LLMs we ask whether the unlearning process itself can be backdoored. We study backdooring unlearning, a setting in which a model forgets as intended under clean conditions yet recovers the forgotten knowledge once a hidden trigger is activated. Designing such attacks presents unique challenges that hinge on where triggers are placed and how backdoor training is reinforced, and we uncover a strong link between backdoor efficacy and the attention sink phenomenon, in which shallow input tokens consistently attract disproportionate attention. Our analysis reveals that these attention sinks serve as gateways for backdooring unlearning: placing triggers at sink positions and aligning their attention values markedly enhances backdoor persistence. Extensive experiments validate these findings, showing that attention-sink-guided backdoor unlearning restores forgotten knowledge in the presence of triggers while behaving indistinguishably from a normally unlearned model when triggers are absent."
   authors: "<span style='color:blue'>B. Shang*</span>, <span style='color:blue'>Y. Chen*</span>, <span style='color:blue'>Y. Zhang</span>, B. Shen, <span style='color:blue'>S. Liu</span>"
   link:
