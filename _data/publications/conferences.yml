@@ -1,3 +1,46 @@
+- title: "Who Built This Model? Tracing LLM Lineage via Spectral Fingerprints in Weight Space"
+  image: llm_biometrics_colm26.png
+  description: "Open-weight LLMs are increasingly built through complex, multi-stage pipelines, creating tangled lineage relationships that matter for provenance, ownership, and supply-chain integrity. We ask whether LLMs carry intrinsic biometrics, fingerprints in weight space alone with no access to input data, that reveal where a model came from. We formulate this as a lineage discrimination problem, distinguishing among independent-origin, same-series, and shared-base models, and propose a unified geometric fingerprinting framework built on two complementary views of the weight matrices: spectral energy, captured by singular value distributions, and subspace alignment, quantified via subspace deviations. The two views form a clear hierarchy of structural similarity: spectral energy reliably separates independently trained models and different model families, while subspace alignment resolves fine-grained differences among closely related models, including variations in dataset scale and post-training procedures. Experiments on over 110 diverse open-weight LLM pairs show that weight-space geometry provides a robust and interpretable signal for model lineage."
+  authors: "<span style='color:blue'>Y. Chen*</span>, <span style='color:blue'>B. Shang*</span>, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2608.07786
+    display: "COLM'26"
+  highlight: 1
+  news2: <a href="https://yiwei-chenn.github.io/llm-biometrics/">Project Page</a> | <a href="https://github.com/OPTML-Group/LLM-Biometrics">Code</a>
+  post:
+
+- title: "Forgetting to Forget: Attention Sink as A Gateway for Backdooring LLM Unlearning"
+  image: backdoor_unlearn_colm26.png
+  description: "LLM unlearning removes undesired data, knowledge, or behaviors from a pretrained model while retaining its general utility, but with the rise of open-weight LLMs we ask whether the unlearning process itself can be backdoored. We study backdooring unlearning, a setting in which a model forgets as intended under clean conditions yet recovers the forgotten knowledge once a hidden trigger is activated. Designing such attacks presents unique challenges that hinge on where triggers are placed and how backdoor training is reinforced, and we uncover a strong link between backdoor efficacy and the attention sink phenomenon, in which shallow input tokens consistently attract disproportionate attention. Our analysis reveals that these attention sinks serve as gateways for backdooring unlearning: placing triggers at sink positions and aligning their attention values markedly enhances backdoor persistence. Extensive experiments validate these findings, showing that attention-sink-guided backdoor unlearning restores forgotten knowledge in the presence of triggers while behaving indistinguishably from a normally unlearned model when triggers are absent."
+  authors: "<span style='color:blue'>B. Shang*</span>, <span style='color:blue'>Y. Chen*</span>, <span style='color:blue'>Y. Zhang</span>, B. Shen, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2510.17021
+    display: "COLM'26"
+  highlight: 1
+  news2: <a href="https://bshang17.github.io/backdoor-unlearn/">Project Page</a> | <a href="https://github.com/OPTML-Group/Unlearn-Backdoor">Code</a>
+  post:
+
+- title: "Subspace Control: Turning Constrained Model Steering into Controllable Spectral Optimization"
+  image: sift_colm26.png
+  description: "Foundation models such as large language models are powerful but usually require customization before deployment to satisfy practical constraints on safety, privacy, and task-specific requirements, which turns model steering and adaptation into a constrained optimization problem. Solving such problems remains largely underexplored and is particularly challenging because the primary objective and the constraint objectives interfere with each other during optimization. We propose a subspace control framework for constrained model training: analyzing the problem from a model merging perspective, we show how spectral cross-task interference arises and that it can be resolved by a one-shot solution that orthogonalizes the merged subspace, and we further connect this solution to gradient orthogonalization in the spectral optimizer Muon. Building on these insights, we introduce SIFT (spectral interference-free training), which leverages a localization scheme to selectively intervene during optimization, enabling controllable updates that mitigate objective-constraint conflicts. Across machine unlearning, safety alignment, text-to-speech adaptation, and hallucination mitigation, SIFT consistently achieves substantial and robust improvements over both control-based and control-free baselines."
+  authors: "<span style='color:blue'>Y. Huang*</span>, <span style='color:blue'>C. Wang*</span>, <span style='color:blue'>C. Fan</span>, <span style='color:blue'>Y. Lang</span>, <span style='color:blue'>B. Shang</span>, Y. Zhang, M. Hong, Q. Qu, A. Velasquez, <span style='color:blue'>S. Liu</span>"
+  link:
+    url: https://arxiv.org/abs/2604.04231
+    display: "COLM'26"
+  highlight: 1
+  news2: <a href="https://optml-sift.netlify.app/">Project Page</a> | <a href="https://github.com/OPTML-Group/SIFT">Code</a>
+  post:
+
+- title: "Breaking Memorization Barriers in LLM Code Fine-Tuning via Information Bottleneck for Improved Generalization"
+  image: ib_ft_colm26.png
+  description: "Adapting pretrained large language models to code domains via supervised fine-tuning (FT) is the standard recipe for code generation, but we identify a previously underappreciated failure mode that we call the memorization barrier: strong memorization of the downstream code data already present in the base model can trap optimization and prevent standard FT from effectively acquiring new, generalizable code knowledge. To overcome this barrier, we propose IB-FT, an information bottleneck (IB)-guided fine-tuning method that applies an IB penalty on the hidden representations of the code data, compressing spurious, memorized features while preserving task-relevant information. Extensive experiments on two code benchmarks, OriGen and Evol-CodeAlpaca-V1, show that IB-FT substantially alleviates the memorization barrier and improves top-1 performance (Pass@1). The gains are far more stable under the stricter multi-sample metric Pass@k(m), where a problem counts as solved only if at least m of k samples pass the unit tests, indicating genuinely better generalization rather than lucky single-sample decoding."
+  authors: "<span style='color:blue'>C. Wang</span>, X. Chen, <span style='color:blue'>S. Liu</span>, K. Ding"
+  link:
+    url: https://arxiv.org/abs/2510.16022
+    display: "COLM'26"
+  highlight: 1
+  news2: <a href="https://wangc168.github.io/mem-barrier-page/">Project Page</a> | <a href="https://github.com/OPTML-Group/MemorizationBarrier">Code</a>
+  post:
 - title: "Unlearning Isn't Invisible: Detecting Unlearning Traces in LLMs from Model Outputs"
   image: dummy.png
   description:
